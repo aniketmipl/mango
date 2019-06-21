@@ -1,4 +1,4 @@
-    <!-- Strat Footer Section -->
+ <!-- Strat Footer Section -->
     <footer class="fot-style-2">
         <div class="top-footer">
             <div class="container container-big">
@@ -92,28 +92,26 @@
                                         <div class="small-border"></div>
                                     </div>
                             </div>
-                            <div class="accordion-style-one">
-                                    
-                                            <div class="scolumn-margin">
-                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                                    <div class="panel panel-default">
-                                                        <div class="panel-heading" role="tab" id="headingOne">
-                                                            <h5 class="panel-title">
-                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                        Pune Office
-                                                                </a>
-                                                            </h5>
-                                                        </div>
-                                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                                            <div class="panel-body">
+                            <div class="tabs-style-four">
+                                    <div>
+                                                    <!-- Nav tabs -->
+                                                        <ul class="nav nav-tabs" role="tablist">
+                                                            <li role="presentation" class="active"><a href="#one-item" aria-controls="one-item" role="tab" data-toggle="tab">PUNE</a></li>
+                                                            <li role="presentation"><a href="#two-item" aria-controls="two-item" role="tab" data-toggle="tab">DADAR</a></li>
+                                                            <li role="presentation"><a href="#three-item" aria-controls="three-item" role="tab" data-toggle="tab">THANE</a></li>
+                                                            <li role="presentation"><a href="#four-item" aria-controls="four-item" role="tab" data-toggle="tab">NAGPUR</a></li>
+                                                        </ul>
+                                                    <!-- Tab panes -->
+                                                       <div class="tab-content">
+                                                            <div role="tabpanel" class="tab-pane fade in active" id="one-item">
                                                                     <div class="contact-info team-details">
-                                                                          
+                                                                            <h4>Pune Office</h4>
                                                                             <address>
                                                                                 <ul class="list-unstyled mar-tp-10">
                                                                                     <li><span class="fa fa-map-marker"></span><b>Address :</b> 302, Swojas Capital, Above Tata Motors, 
-                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                                         Opp. Film Institute,  Law College Road, 
-                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                                         Pune. Maharashtra 411004
                                                                                     </li>
                                                                                     <li><span class="fa fa-phone"></span> <b>Phone :</b> + 020 2544 4415</li> 
@@ -127,111 +125,74 @@
                                                                             
                                                                         </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="panel panel-default">
-                                                        <div class="panel-heading" role="tab" id="headingTwo">
-                                                            <h4 class="panel-title">
-                                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                                  Dadar Office
-                                                                </a>
-                                                            </h4>
-                                                        </div>
-                                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                                            <div class="panel-body">
+                                                            <div role="tabpanel" class="tab-pane fade" id="two-item">
                                                                     <div class="contact-info team-details">
-                                                                          
-                                                                            <address>
-                                                                                <ul class="list-unstyled mar-tp-10">
-                                                                                    <li><span class="fa fa-map-marker"></span><b>Address :</b> 302, Swojas Capital, Above Tata Motors, 
-                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                                        Opp. Film Institute,  Law College Road, 
-                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                                        Pune. Maharashtra 411004
-                                                                                    </li>
-                                                                                    <li><span class="fa fa-phone"></span> <b>Phone :</b> + 020 2544 4415</li> 
-                                                                                    <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
-                                                                                    <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
-                                                                                    
-                                                                                    
-                                                                                </ul>
-                                                                            </address>
-                                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15133.545380459358!2d73.8294538!3d18.5114354!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3debf28396a0b78!2sMango+Holidays+India+Pvt.+Ltd.!5e0!3m2!1sen!2sin!4v1523531724596" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                                                                            
-                                                                        </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="panel panel-default">
-                                                        <div class="panel-heading" role="tab" id="headingThree">
-                                                            <h4 class="panel-title">
-                                                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                                  Thane Office
-                                                                </a>
-                                                            </h4>
-                                                        </div>
-                                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                                            <div class="panel-body">
-                                                                    <div class="contact-info team-details">
-                                                                          
-                                                                            <address>
-                                                                                <ul class="list-unstyled mar-tp-10">
-                                                                                    <li><span class="fa fa-map-marker"></span><b>Address :</b> 302, Swojas Capital, Above Tata Motors, 
-                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                                        Opp. Film Institute,  Law College Road, 
-                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                                        Pune. Maharashtra 411004
-                                                                                    </li>
-                                                                                    <li><span class="fa fa-phone"></span> <b>Phone :</b> + 020 2544 4415</li> 
-                                                                                    <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
-                                                                                    <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
-                                                                                    
-                                                                                    
-                                                                                </ul>
-                                                                            </address>
-                                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15133.545380459358!2d73.8294538!3d18.5114354!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3debf28396a0b78!2sMango+Holidays+India+Pvt.+Ltd.!5e0!3m2!1sen!2sin!4v1523531724596" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                                                                            
-                                                                        </div>    
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="panel panel-default">
-                                                            <div class="panel-heading" role="tab" id="headingFour">
-                                                                <h4 class="panel-title">
-                                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                                                                      Nagpur Office
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                                                                <div class="panel-body">
-                                                                        <div class="contact-info team-details">
-                                                                          
-                                                                                <address>
-                                                                                    <ul class="list-unstyled mar-tp-10">
-                                                                                        <li><span class="fa fa-map-marker"></span><b>Address :</b> 302, Swojas Capital, Above Tata Motors, 
-                                                                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                                            Opp. Film Institute,  Law College Road, 
-                                                                                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                                            Pune. Maharashtra 411004
-                                                                                        </li>
-                                                                                        <li><span class="fa fa-phone"></span> <b>Phone :</b> + 020 2544 4415</li> 
-                                                                                        <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
-                                                                                        <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
-                                                                                        
-                                                                                        
-                                                                                    </ul>
-                                                                                </address>
-                                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15133.545380459358!2d73.8294538!3d18.5114354!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3debf28396a0b78!2sMango+Holidays+India+Pvt.+Ltd.!5e0!3m2!1sen!2sin!4v1523531724596" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                                                                    <h4>Dadar Office</h4>
+                                                                   <address>
+                                                                            <ul class="list-unstyled mar-tp-10">
+                                                                                <li><span class="fa fa-map-marker"></span><b>Address :</b> 5, Adi House, Gokhale Road North, 
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    Near Portuguese Church,
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    Dadar (W) –400 028, Maharashtra. 
+                                                                                </li>
+                                                                                <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 22 24335500 / 11 / 22</li> 
+                                                                                <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
+                                                                                <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
                                                                                 
-                                                                            </div> 
-                                                                </div>
+                                                                                
+                                                                            </ul>
+                                                                        </address>
+                                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15087.995730531897!2d72.8360824!3d19.0197687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb9fb984ed8286f5!2sMango+Holidays!5e0!3m2!1sen!2sin!4v1523531970678" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                                                                     </div>   
                                                             </div>
-                                                        </div>
-                                                </div>
-                                           
+                                                            <div role="tabpanel" class="tab-pane fade" id="three-item"> 
+                                                                    <div class="contact-info team-details">
+                                                                    <h4>Thane Office</h4>
+                                                                    <address>
+                                                                            <ul class="list-unstyled mar-tp-10">
+                                                                                <li><span class="fa fa-map-marker"></span><b>Address :</b> 702, 7th Floor, Tulsee Chambers,
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    Pachpakhadi, Opp. Teen Petrol Pump,
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    Thane (W) – 400 602, Maharashtra
+                                                                                </li>
+                                                                                <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 22- 25450017 / 18 / 19 / 20</li> 
+                                                                                <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
+                                                                                <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
+                                                                                
+                                                                                
+                                                                            </ul>
+                                                                        </address>
+                                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d15072.38272910168!2d72.96323074788283!3d19.191022784701836!3m2!1i1024!2i768!4f13.1!2m1!1smango+holidays!5e0!3m2!1sen!2sin!4v1523531039865" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                                                                       </div> 
+                                                            </div>
+                                                            <div role="tabpanel" class="tab-pane fade" id="four-item">
+                                                                    <div class="contact-info team-details">
+                                                                    <h4>Nagpur Office</h4>
+                                                                    <address>
+                                                                            <ul class="list-unstyled mar-tp-10">
+                                                                                <li><span class="fa fa-map-marker"></span><b>Address :</b>    302, 3rd Floor, Pathak House, 
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    Near VNIT College, Abhyankar Nagar,
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    Nagpur – 440010, Maharashtra.
+                                                                                </li>
+                                                                                <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 712 – 2244557 / 8 / 9</li> 
+                                                                                <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
+                                                                                <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
+                                                                                
+                                                                                
+                                                                            </ul>
+                                                                        </address>
+                                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                                                                 </div>       
+                                                            </div>
+                                                       </div>
+                                                    </div>
+                                                
+                                               
                                     </div>
-                                </div>
                     
                 </div>
             </div>
@@ -249,6 +210,7 @@
         </div>
     </footer>
     <!-- End Footer Section -->
+
 
     <a href="#" class="scrollup">
         <i class="fa fa-long-arrow-up" aria-hidden="true"></i>

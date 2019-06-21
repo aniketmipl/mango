@@ -52,6 +52,11 @@ height: 400px;
     font-size:1.05em;
 letter-spacing: 0.3px;
 }
+
+.tour-table table{
+    font-size: inherit;
+}
+
 .hlights{
     font-weight: bolder;
     color: #000000;
