@@ -119,7 +119,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                     <div class="sec-title text-center mb-5">
-                        <h2><b>Upcoming</b> Tourss</h2>
+                        <h2><b>Upcoming</b> Tours</h2>
                         <!-- <p>WE SHARE SOMETHING IN COMMON, A PASSION FOR TRAVEL.<br/>
                             BOOK YOUR HOLIDAYS & TOUR PACKAGES WITH MANGO HOLIDAYS FOR AN EXPERIENCE OF A LIFETIME!
                         </p> -->
