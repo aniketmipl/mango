@@ -1,0 +1,129 @@
+
+@media only screen and (min-width: 768px){
+    .verticle-tab .nav-tabs{
+        width: 20%;
+        float: left;
+        border: 1px solid #dddddd;
+        
+    }
+    .verticle-tab .tab-content{
+        width: 80%;
+    float: left;
+    border: 1px solid #dddddd;
+   
+    }
+    
+    .verticle-tab .nav-tabs>li{
+        width:100%;
+        border: 1px solid #dddddd;
+        border-right:0;
+    }
+    .verticle-tab .nav-tabs>li.active{
+        border-right: 0;
+    }
+    .verticle-tab .nav-tabs>li>a{
+        margin-right: 0;
+    }
+
+}
+.tour-table{
+height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+}
+.verticle-tab .nav-tabs>li>a{
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #555;
+}
+.verticle-tab .nav-tabs>li.active>a, 
+.verticle-tab .nav-tabs>li.active>a:focus, 
+.verticle-tab .nav-tabs>li.active>a:hover {
+    border: none;
+    background: #f60;
+    color: #fff;
+    
+}
+
+.tabs-style-five.verticle-tab  ul li i{
+    width: 20px !important;
+}
+
+.tab-content{
+   
+height: 500px;
+overflow: hidden;
+overflow-y: scroll;
+}
+
+.services-features .day-info {
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    margin-top: 0px;
+    color: #111111;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    line-height: 12px;
+    background: #f9f9f9;
+    color: #000000;
+    padding: 0;
+    box-shadow: 3px 5px 3px 0px #cccc;
+}
+
+.services-features{
+    padding-left: 80px;
+    margin-bottom:15px;
+}
+.services-features .back-color{
+    background: #fff;
+    padding-top: 10px;
+}
+.day-info .small{
+    margin: 0 !important;
+    padding: 5px 0;
+    background: #ff6600;
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.day-info .big{
+    margin: 0 !important;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+.back-color p{
+margin-top: 10px !important;
+margin-bottom: 10px !important;
+color: #000;
+}
+
+.back-color h5{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 767px){
+    .services-features{
+        padding-left: 0;
+    }
+    .services-features .day-info{
+        position: relative;
+    }
+    .services-features .back-color{
+        padding:20px 0;
+    }
+    .verticle-tab .nav-tabs>li.active>a, 
+    .verticle-tab .nav-tabs>li.active>a:focus, 
+    .verticle-tab .nav-tabs>li.active>a:hover{
+        border:1px solid;
+    }
+    .verticle-tab .nav-tabs>li>a{
+        border:1px solid;
+    }
+}

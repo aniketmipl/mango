@@ -1,0 +1,67 @@
+.attr-nav {
+	float: left;
+}
+
+.navbar-right {
+	float: left !important;
+}
+
+.carousel-control.left {
+    left: 0;
+    right: auto;
+}
+
+.carousel-control.right {
+    left: auto;
+    right: 0;
+}
+
+.testimonial-carousel .item blockquote i.fa-quote-left {
+    left: 0;
+}
+
+.testimonial-carousel .item blockquote i.fa-quote-right {
+    right: 0;
+}
+
+.blog-details,
+.hotel-item .blog-details {
+    text-align: right;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .row {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }    
+
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
