@@ -757,12 +757,21 @@ nav.bootsnav .megamenu-content .col-menu {
     background: #FF6600;
     color:#fff;
 }
+.modal-body table {
+    font-size: inherit;
+    line-height: inherit;
+}
 .modal-body td, .modal-body th{
     padding:1%;
+    display: table-cell;
 }
 .modal p{
     font-size: 1.1em;
     letter-spacing: 0.3px;
+}
+.modal-header .close{
+ color:#fff;
+ opacity:1;
 }
 
 /*For mango moments */
