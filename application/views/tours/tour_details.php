@@ -50,15 +50,16 @@ function headerFooterFormatting(doc, totalPages)
 
 function header(doc)
 {
-    doc.setFontSize(30);
+    doc.setFontSize(20);
     doc.setTextColor(40);
-    doc.setFontStyle('normal');
+    doc.setFontStyle('bold');
     
     if (base64Img) {
-       doc.addImage(base64Img, 'PNG', margins.left, 10, 40,40);        
+       //doc.addImage(base64Img, 'PNG', margins.left, 10, 100,50);        
+       doc.addImage(base64Img, 'PNG', 0, 10, 100, 50);        
     }
         
-    doc.text("Mango Holidays Tour Itenary", margins.left + 50, 40 );
+    doc.text("Mango Holidays Tour Itenary", margins.left + 60, 40 );
     doc.setLineCap(2);
     doc.line(3, 70, margins.width + 43,70); // horizontal line
 };
