@@ -419,10 +419,11 @@ pdfdoc.save('First.pdf');
                         **Prices increase as seats get filled.**
                         <br/>
                     </p>
-              <div class="modal-footer">
+              
+          </div>
+          <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
-          </div>
         </div>
       </div>
     </div>
@@ -452,10 +453,66 @@ pdfdoc.save('First.pdf');
           success:function(res){
           var result = JSON.parse(JSON.stringify(res));
                 console.log(result);
-                var main_body = 'TOUR PRICE & DATES AVAILABLITY<br><h4 style="color:#FF6600;">Tour Code:'+res.TourCode+'</h4>';
-                var body_content = '<div id="tablepress-361-scroll-wrapper" class="tablepress-scroll-wrapper" style="overflow-x:scroll;"><div id="tablepress-361_wrapper" class="dataTables_wrapper no-footer"><table id="tablepress-361" class="table-striped table-bordered" role="grid"><thead><tr class="row-1 odd" role="row"><th class="column-1 sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">CURRENCY</th><th class="column-2 sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">TWIN SHARING</th><th class="column-3 sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">TRIPLE SHARING</th><th class="column-4 sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">SINGLE OCCUPANCY</th><th class="column-5 sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">CHILD WITH BED</th><th class="column-6 sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">CHILD NO BED</th><th class="column-7 sorting_disabled" rowspan="1" colspan="1" style="width: 0px;">INFANT</th></tr></thead><tbody class="row-hover"><tr class="row-2 even" role="row"><td class="column-1"></td><td class="column-2">(12 yrs &amp; above)</td><td class="column-3">(12 yrs &amp; above)</td><td class="column-4">(12 yrs &amp; above)</td><td class="column-5">(2 to 11 yrs)</td><td class="column-6">(2 to 11 yrs)</td><td class="column-7">(0 to 2 yrs)</td></tr><tr class="row-3 odd" role="row"><td class="column-1">INR</td><td class="column-2">'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount1+'</td><td class="column-3">'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount1+'</td><td class="column-4">'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount1+'</td><td class="column-5">'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount1+'</td><td class="column-6">'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount1+'</td><td class="column-7">'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount1+'</td></tr><tr class="row-4 even" role="row"><td class="column-1">EURO</td><td class="column-2">'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount2+'</td><td class="column-3">'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount2+'</td><td class="column-4">'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount2+'</td><td class="column-5">'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount2+'</td><td class="column-6">'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount2+'</td><td class="column-7">'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount2+'</td></tr><tr class="row-5 odd" role="row"><td class="column-1">TOTAL IN INR</td><td class="column-2">'+result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue+'</td><td class="column-3">'+result.TourPricingHeaders[0].TourPricingDetails[1].TotalINRValue+'</td><td class="column-4">'+result.TourPricingHeaders[0].TourPricingDetails[2].TotalINRValue+'</td><td class="column-5">'+result.TourPricingHeaders[0].TourPricingDetails[3].TotalINRValue+'</td><td class="column-6">'+result.TourPricingHeaders[0].TourPricingDetails[4].TotalINRValue+'</td><td class="column-7">'+result.TourPricingHeaders[0].TourPricingDetails[5].TotalINRValue+'</td></tr></tbody></table></div><span class="tablepress-table-description tablepress-table-description-id-361"><p>Tour price is calculated at '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1SellingRate+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'='+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2SellingRate+'/-.</p><h6>**Prices increase as seats get filled.**</h6></span></div>';
+                var main_body = '<h4 style="text-align: center; text-transform: none;">Tour Price & Dates Availablity</h4><h3 style="color:#FF6600;">Tour Code: '+res.TourCode+'</h3>';
+                var body_content = '<table class="table-striped table-bordered">'+
+                '<thead>'+
+                '<tr>'+
+                '<th rowspan="1" colspan="1" style="width: 120px;">CURRENCY</th>'+
+                '<th rowspan="1" colspan="1" style="width: 120px;">TWIN SHARING</th>'+
+                '<th rowspan="1" colspan="1" style="width: 120px;">TRIPLE SHARING</th>'+
+                '<th rowspan="1" colspan="1" style="width: 150px;">SINGLE OCCUPANCY</th>'+
+                '<th rowspan="1" colspan="1" style="width: 120px;">CHILD WITH BED</th>'+
+                '<th rowspan="1" colspan="1" style="width: 120px;">CHILD NO BED</th>'+
+                '<th rowspan="1" colspan="1" style="width: 120px;">INFANT</th>'+
+                '</tr>'+
+                '</thead>'+
+                '<tbody>'+
+                '<tr>'+
+                '<td>'+
+                '</td>'+
+                '<td>(12 yrs &amp; above)</td>'+
+                '<td>(12 yrs &amp; above)</td>'+
+                '<td>(12 yrs &amp; above)</td>'+
+                '<td>(2 to 11 yrs)</td>'+
+                '<td>(2 to 11 yrs)</td>'+
+                '<td>(0 to 2 yrs)</td>'+
+                '</tr>'+
+                '<tr>'+
+                '<td>INR</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount1+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount1+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount1+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount1+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount1+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount1+'</td>'+
+                '</tr>'+
+                '<tr>'+
+                '<td>EURO</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount2+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount2+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount2+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount2+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount2+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount2+'</td>'+
+                '</tr>'+
+                '<tr>'+
+                '<td>TOTAL IN INR</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].TotalINRValue+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].TotalINRValue+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].TotalINRValue+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].TotalINRValue+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].TotalINRValue+'</td>'+
+                '</tr>'+
+                '</tbody>'+
+                '</table>'+
+                '<br/>'+
+                '<p>Tour price is calculated at '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1SellingRate+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'='+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2SellingRate+'/-.</p>'+
+                '<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in Euros to be calculated on the prevailing rate of exchange of Euros -> INR on the day of actual payment to Mango Holidays.</p>'+
+                '<p>Tour Price STARTING FROM: Rs.2,95,721/-* per adult on twin sharing basis!</p>'+
+                '<p><b>**Prices increase as seats get filled.**</b></p>';
                 $(".modal-body").html("");
-                $(".modal-body").html(main_body+"<br><br>"+body_content);
+                $(".modal-body").html(main_body+body_content);
                 $("#myModal").modal('show');
 
           }
