@@ -14,10 +14,10 @@ margins = {
 
 generate = function()
 {
-    var content = document.getElementById('PDFcontent');
+    var content =  document.getElementById('PDFcontent');
     var pdf = new jsPDF('p', 'pt', 'a4');
     pdf.setFontSize(18);
-    pdf.fromHTML(document.getElementById('PDFcontent'), 
+    pdf.fromHTML(content, 
         margins.left, // x coord
         margins.top,
         {
@@ -130,7 +130,7 @@ $('#submit').click(function () {
         ?>
 <div id='PDFcontent'>
 
-    <p><?php echo $itenary_program;?></p>
+    <p><?php echo str_replace('"'," ",$itenary_program);?></p>
 
 </div>
 
@@ -386,45 +386,10 @@ pdfdoc.save('First.pdf');
             <!--<div class="modal-body">
               <p>This is a large modal.</p>
             </div>-->
-          <div class="modal-body">
-                <h5 style="text-align: center">Tour Price & Dates Availablity</h5>
-                <h4 style="color:#FF6600;">Tour Code: E1020419</h4>
-                <table class="table-striped table-bordered">
-                    <thead>
-                    <tr class="row-1 odd" role="row"><th class="column-1 sorting_disabled" rowspan="1" colspan="1" style="width: 116px;">CURRENCY</th><th class="column-2 sorting_disabled" rowspan="1" colspan="1" style="width: 119px;">TWIN SHARING</th><th class="column-3 sorting_disabled" rowspan="1" colspan="1" style="width: 129px;">TRIPLE SHARING</th><th class="column-4 sorting_disabled" rowspan="1" colspan="1" style="width: 153px;">SINGLE OCCUPANCY</th><th class="column-5 sorting_disabled" rowspan="1" colspan="1" style="width: 130px;">CHILD WITH BED</th><th class="column-6 sorting_disabled" rowspan="1" colspan="1" style="width: 110px;">CHILD NO BED</th><th class="column-7 sorting_disabled" rowspan="1" colspan="1" style="width: 84px;">INFANT</th></tr>
-                    </thead>
-                    <tbody class="row-hover">
-                    
-                    
-                    
-                    
-                    <tr>
-                    <td>FIRST 10 SEATS</td>
-                    <td>(12 yrs &amp; above)</td>
-                    <td>(12 yrs &amp; above)</td>
-                    <td class="column-4">(12 yrs &amp; above)</td>
-                    <td class="column-5">(2 to 11 yrs)</td><td class="column-6">(2 to 11 yrs)</td><td class="column-7">(0 to 2 yrs)</td>
-                    </tr><tr class="row-3 odd" role="row">
-                    <td class="column-1">INR</td><td class="column-2">75000</td><td class="column-3">75000</td><td class="column-4">75000</td><td class="column-5">71250</td><td class="column-6">71250</td><td class="column-7">22500</td>
-                    </tr><tr class="row-4 even" role="row">
-                    <td class="column-1">EURO</td><td class="column-2">2678</td><td class="column-3">2658</td><td class="column-4">3733</td><td class="column-5">2150</td><td class="column-6">1755</td><td class="column-7">436</td>
-                    </tr><tr class="row-5 odd" role="row">
-                    <td class="column-1">TOTAL IN INR</td><td class="column-2">295721</td><td class="column-3">294072</td><td class="column-4">382674</td><td class="column-5">248453</td><td class="column-6">215897</td><td class="column-7">58435</td>
-                    </tr></tbody>
-                    </table>
-                    <br/>
-                    <p>
-                        Tour price is calculated at 1 Euro = INR 82.42/-. Tour price variations are expected depending on the prevailing conversion rate. Payment in Euros to be calculated on the prevailing rate of exchange of Euros -> INR on the day of actual payment to Mango Holidays.<br/>
-                        Tour Price STARTING FROM: Rs.2,95,721/-* per adult on twin sharing basis!<br/>
-                        <br/>
-                        **Prices increase as seats get filled.**
-                        <br/>
-                    </p>
-              
-          </div>
-          <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+            <div class="modal-body">
+                <!-- Dynamic content goes here -->
+            </div>
+
         </div>
       </div>
     </div>
@@ -510,7 +475,7 @@ pdfdoc.save('First.pdf');
                 '<br/>'+
                 '<p>Tour price is calculated at '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1SellingRate+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'='+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2SellingRate+'/-.</p>'+
                 '<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in Euros to be calculated on the prevailing rate of exchange of Euros -> INR on the day of actual payment to Mango Holidays.</p>'+
-                '<p>Tour Price STARTING FROM: Rs.2,95,721/-* per adult on twin sharing basis!</p>'+
+                '<p>Tour Price STARTING FROM: '+result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue+' per adult on twin sharing basis!</p>'+
                 '<p><b>**Prices increase as seats get filled.**</b></p>';
                 $(".modal-body").html("");
                 $(".modal-body").html(main_body+body_content);
