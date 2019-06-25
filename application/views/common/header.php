@@ -201,12 +201,13 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Group Tours </a>
                             <ul class="dropdown-menu">
-                                <li><a href="tour-main.html">Africa</a></li>
-                                <li><a href="tour-main.html">Australia & New Zealand</a></li>
-                                <li><a href="tour-main.html">Dubai</a></li>
-                                <li><a href="<?php echo base_url()?>MultipleTours/group_europe">Europe</a></li>
-                                <li><a href="tour-main.html">Japan</a></li>
-                                <li><a href="tour-main.html">Mauritius</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_africa">Africa</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_america">America</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_australiaandnewzealand">Australia & New Zealand</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_dubai">Dubai</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_europe">Europe</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_japan">Japan</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_mauritius">Mauritius</a></li>
                                 <li><a href="tour-main.html">Scandinavia</a></li>
                             </ul>
                         </li>    

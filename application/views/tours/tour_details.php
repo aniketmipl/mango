@@ -1,4 +1,5 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.debug.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
 <script>
 var base64Img = null;
 imgToBase64('../assets/images/Mango-Holidays.png', function(base64) {
@@ -28,11 +29,12 @@ generate = function()
         }, 
         margins);
         
-    var iframe = document.createElement('iframe');
-    iframe.setAttribute('style','position:absolute;right:0; top:0; bottom:0; height:100%; width:650px; padding:20px;');
+    // var iframe = document.createElement('iframe');
+    // iframe.setAttribute('style','position:absolute;right:0; top:0; bottom:0; height:100%; width:650px; padding:20px;');
     // document.body.appendChild(iframe);
     
-    iframe.src = pdf.output('save', 'filename.pdf');
+    // iframe.src = 
+    pdf.output('save', 'filename.pdf');
 };
 
 function headerFooterFormatting(doc, totalPages)
@@ -97,27 +99,33 @@ function footer(doc, pageNumber, totalPages){
 
  </script>
 
-  <script>
 
- var doc = new jsPDF(); 
-var specialElementHandlers = { 
-    '#editor': function (element, renderer) { 
-        return true; 
-    } 
-};
-$('#submit').click(function () { 
-    doc.fromHTML($('#html-2-pdfwrapper').html(), 15, 15, { 
-        'width': 190, 
-            'elementHandlers': specialElementHandlers 
-    }); 
-    doc.save('sample-page.pdf'); 
-});
+ <script type="text/javascript">
+     
+     $(document).ready(function(){
 
-</script>
+    //pdf 다운로드  
+    $("#pdfDownloader").click(function(){
+    
+        html2canvas(document.getElementById("PDFcontent"), {
+            onrendered: function(canvas) {
 
+                var imgData = canvas.toDataURL('image/png');
+                var doc = new jsPDF('p', 'mm', [500, 500]); //210mm wide and 297mm high
+                
+                doc.addImage(imgData, 'PNG', 10, 10);
+                doc.save('sample.pdf');
+            }
+        });
 
-  <?php 
+    });
+    
+    
+})
+ </script>
+<?php 
         
+<<<<<<< HEAD
             if(isset($itenary)){
                 $itenary_program='<div style="border: 1px solid #ccc;margin: 2%;padding: 2%;">';
                 foreach($itenary as $itenary_key){
@@ -127,10 +135,27 @@ $('#submit').click(function () {
 						
             }}
                 $itenary_program .='</div>';
-                
-        ?>
-<div id='PDFcontent'>
+=======
+    if(isset($itenary)){
+        $itenary_program='<div style="border: 1px solid #ccc;margin: 2%;padding: 2%;">';
+        foreach($itenary as $itenary_key){
 
+                $itenary_program .="<h3 style='font-size:20px'> Day  ".$itenary_key->DayNo." : ".$itenary_key->DayTitle."</h3>";
+                $itenary_program .="<p>".mb_convert_encoding($itenary_key->DayProgram,'UTF-8')."</p>";
+    }}
+        $itenary_program .='</div>';
+>>>>>>> 780a2560a6e9a495aa611b1c080d638dc143c33d
+                
+?>
+<div id="tour_heading">
+    <?php echo $ProductTitle;?>
+</div>
+<div id="tour_duration">
+     Days <?php  echo $Days; ?> / Night <?php echo $Nights; ?>
+</div>
+<div id='PDFcontent'>
+    <p align="center" style="font-weight: bold"><?php echo $ProductTitle;?></p>
+    <p align="center"> Days <?php  echo $Days; ?> / Night <?php echo $Nights; ?></p>
     <p><?php echo str_replace('"'," ",$itenary_program);?></p>
 	
 
@@ -142,7 +167,7 @@ $('#submit').click(function () {
 
 </div>
 
-<button id='gpdf'>Generate PDF</button>
+<button id='pdfDownloader'>Generate PDF</button>
 <script type="text/javascript">
     
     var pdfdoc = new jsPDF();
@@ -391,7 +416,9 @@ pdfdoc.save('First.pdf');
             <div class="modal-body">
                 <!-- Dynamic content goes here -->
             </div>
-
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
         </div>
       </div>
     </div>
