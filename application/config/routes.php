@@ -59,5 +59,14 @@ $route['tours/glimpses-of-europe'] ='tours/glimpses_of_europe';
 $route['tours/classic-europe'] ='tours/classical_europe';
 $route['tours/grand-europe'] ='tours/grand_europe';
 $route['tours/best-of-europe'] ='tours/best_of_europe';
+$route['tours/incredible-america'] ='tours/incredible_america';
+$route['tours/east-coast-of-america'] ='tours/east_coast_of_america';
+$route['tours/east-coast-of-america-with-orlando'] ='tours/east_coast_of_america_with_orlando';
+$route['tours/south-african-safari'] ='tours/south_african_safari';
+$route['tours/west-coast-of-america'] ='tours/west_coast_of_america';
+$route['tours/dazzling-dubai'] ='tours/dazzling_dubai';
+$route['tours/mauritius-masti'] ='tours/mauritius_masti';
+
+
 
 // $route['tours/classic-europe'] ='tours/classical_europe';

@@ -68,7 +68,7 @@ class GroupTours extends CI_Controller {
 	}
 	
 
-public function group_australiaandnewzealand()
+	public function group_australiaandnewzealand()
 	{
 		$sector ='Australia and New Zealand';
 
@@ -77,6 +77,16 @@ public function group_australiaandnewzealand()
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
+
+	// public function group_australiaandnewzealand()
+	// {
+	// 	$sector ='Australia and New Zealand';
+
+	// 	$data['api_result']=$this->call_api($sector);
+	// 	$this->load->view('common/header');
+	// 	$this->load->view('group_tours/view',$data);
+	// 	$this->load->view('common/footer');
+	// }
 
 	public function call_api($sector){
 		$api_url ='http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName='.$sector;

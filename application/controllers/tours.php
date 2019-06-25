@@ -101,7 +101,7 @@ class tours extends CI_Controller {
 		$product_id ='8';
 		$product_code='E4';
 		
-		$data['api_result']=$this->call_api($product_id,'$product_code');
+		$data['api_result']=$this->call_api($product_id,$product_code);
 		
 
 		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
@@ -120,6 +120,170 @@ class tours extends CI_Controller {
 		}
 		$this->load->view('common/footer');
 	}
+
+	public function incredible_america()
+	{
+		$product_id ='18';
+		$product_code='U1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);		
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
+		$this->load->view('common/header');
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function east_coast_of_america()
+	{
+		$product_id ='19';
+		$product_code='U2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);		
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
+		$this->load->view('common/header');
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function east_coast_of_america_with_orlando()
+	{
+		$product_id ='21';
+		$product_code='U3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);		
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
+		$this->load->view('common/header');
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function south_african_safari()
+	{
+		$product_id ='17';
+		$product_code='S1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
+		$this->load->view('common/header');
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	
+	public function west_coast_of_america()
+	{
+		$product_id ='22';
+		$product_code='U4';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);		
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
+		$this->load->view('common/header');
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	
+	public function dazzling_dubai()
+	{
+		$product_id ='11';
+		$product_code='D1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);		
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
+		$this->load->view('common/header');
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+
+	public function japan()
+	{
+		$product_id ='27';
+		$product_code='J1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);		
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
+		$this->load->view('common/header');
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+
+	public function mauritius_masti()
+	{
+		$product_id ='14';
+		$product_code='M1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+
+
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
+		$this->load->view('common/header');
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
 
 
 	public function create_pdf($filename,$data){
