@@ -16,7 +16,7 @@ generate = function()
 {
     var content =  document.getElementById('PDFcontent');
     var pdf = new jsPDF('p', 'pt', 'a4');
-    pdf.setFontSize(18);
+	pdf.setFontSize(18);
     pdf.fromHTML(content, 
         margins.left, // x coord
         margins.top,
@@ -124,6 +124,7 @@ $('#submit').click(function () {
 
                         $itenary_program .="<h3 style='font-size:20px'> Day  ".$itenary_key->DayNo." : ".$itenary_key->DayTitle."</h3>";
                         $itenary_program .="<p>".mb_convert_encoding($itenary_key->DayProgram,'UTF-8')."</p>";
+						
             }}
                 $itenary_program .='</div>';
                 
@@ -131,6 +132,7 @@ $('#submit').click(function () {
 <div id='PDFcontent'>
 
     <p><?php echo str_replace('"'," ",$itenary_program);?></p>
+	
 
 </div>
 
