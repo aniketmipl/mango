@@ -23,7 +23,9 @@ class tours extends CI_Controller {
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 
-		$this->load->view('common/header');
+		$head_data['title'] = "Europe Group Tour Package from India Exotic Europe | Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
@@ -44,7 +46,9 @@ class tours extends CI_Controller {
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 
-		$this->load->view('common/header');
+		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
+
+		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
@@ -65,7 +69,10 @@ class tours extends CI_Controller {
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 
-		$this->load->view('common/header');
+		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
+
+
+		$this->load->view('common/header',$head_data);
 		if(isset($filter_data)){
 			$this->load->view('tours/tour_details',$filter_data);
 		}
@@ -88,6 +95,8 @@ class tours extends CI_Controller {
 		$filter_data['slider_image'] = 'images/portfolio/2.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
+
+		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
 
 		$this->load->view('common/header');
 		if(isset($filter_data)){
@@ -113,8 +122,9 @@ class tours extends CI_Controller {
 		$filter_data['slider_image'] = 'images/portfolio/2.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
+		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
 
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		if(isset($filter_data)){
 			$this->load->view('tours/tour_details',$filter_data);
 		}
@@ -136,7 +146,9 @@ class tours extends CI_Controller {
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 
-		$this->load->view('common/header');
+		$head_data['title'] = "Incredible America |Tour Package from Pune  Mumbai | Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
@@ -156,7 +168,9 @@ class tours extends CI_Controller {
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 
-		$this->load->view('common/header');
+		$head_data['title'] = "East Coast America Tour - Mango Holidays- call 8380039503";
+
+		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
@@ -176,26 +190,9 @@ class tours extends CI_Controller {
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 
-		$this->load->view('common/header');
-		$this->load->view('tours/tour_details',$filter_data);
-		$this->load->view('common/footer');
-	}
-	public function south_african_safari()
-	{
-		$product_id ='17';
-		$product_code='S1';
-		
-		$data['api_result']=$this->call_api($product_id,$product_code);	
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
-		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		$head_data['title'] = "East Coast America Tour - Mango Holidays- call 8380039503";
 
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
@@ -214,6 +211,30 @@ class tours extends CI_Controller {
 		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		$head_data['title'] = "West Coast America - Mango Holidays - Best Group Tour - call 838003503";
+		
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function south_african_safari()
+	{
+		$product_id ='17';
+		$product_code='S1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/portfolio/1.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
+		$head_data['title'] = "South Africa Tour Holiday Packages from Mumbai Pune Mango Holidays";
 
 		$this->load->view('common/header');
 		$this->load->view('tours/tour_details',$filter_data);
@@ -235,7 +256,9 @@ class tours extends CI_Controller {
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 
-		$this->load->view('common/header');
+		$head_data['title'] = "Dubai Group Tour with Abu Dhabi - Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
@@ -256,7 +279,9 @@ class tours extends CI_Controller {
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 
-		$this->load->view('common/header');
+		$head_data['title'] = "Japan Group Tour - Japanese Discovery - 5 N / 6 D Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
@@ -279,7 +304,9 @@ class tours extends CI_Controller {
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 
-		$this->load->view('common/header');
+		$head_data['title'] = "Mauritius Group Tour - Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}

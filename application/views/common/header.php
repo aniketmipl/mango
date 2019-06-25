@@ -2,10 +2,16 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <?php
+    if(isset($title)){?>
+        <title><?php echo @$title;?></title>
+    <?php } else { ?>
+        <title>Mango Holidays | Experience of a lifetime</title>
+    <?php } ?>
     <script type="application/ld+json">
 {
   "@context": "http://schema.org/",
@@ -100,7 +106,6 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url();?>assets/images/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <title>Mango Holidays</title>
     <!-- Import Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
 
@@ -133,16 +138,6 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- <div class="">
-                        <div class="header-topbar-col center767">
-                            <ul class="list-inline">
-                                <li><i class="fa fa-envelope-o"></i></li>
-                                <li><a href="#">info@mangoholidays.in</a></li>
-                            </ul>
-                            <p class="res-mb-10">
-                            </p>
-                        </div>
-                    </div> -->
                    
                     <div class="pull-right">
                         <div class="header-topbar-col">

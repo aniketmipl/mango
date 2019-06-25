@@ -21,7 +21,9 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		// $this->load->view('welcome_message');
-		$this->load->view('common/header');
+		$head_data['title'] = "Mango Holidays | Experience of a lifetime";
+
+		$this->load->view('common/header',$head_data);
 		$this->load->view('homepage/view');
 		$this->load->view('common/footer');
 	}
