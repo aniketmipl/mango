@@ -127,22 +127,22 @@ function footer(doc, pageNumber, totalPages){
         
 
     if(isset($itenary)){
-        $itenary_program='<div style="border: 1px solid #ccc;margin: 2%;padding: 2%;">';
+        @$itenary_program='<div style="border: 1px solid #ccc;margin: 2%;padding: 2%;">';
         foreach($itenary as $itenary_key){
 
-                $itenary_program .="<h3 style='font-size:20px'> Day  ".$itenary_key->DayNo." : ".$itenary_key->DayTitle."</h3>";
-                $itenary_program .="<p>".mb_convert_encoding($itenary_key->DayProgram,'UTF-8')."</p>";
+                $itenary_program .="<h3 style='font-size:20px'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
+                $itenary_program .="<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
     }}
-        $itenary_program .='</div>';
-
+        @$itenary_program .='</div>';
+                
 ?>
-<div id="tour_heading">
+<div id="tour_heading" style="display: none">
     <?php echo $ProductTitle;?>
 </div>
-<div id="tour_duration">
+<div id="tour_duration" style="display: none">
      Days <?php  echo $Days; ?> / Night <?php echo $Nights; ?>
 </div>
-<div id='PDFcontent'>
+<div id='PDFcontent' style="display: none">
     <p align="center" style="font-weight: bold"><?php echo $ProductTitle;?></p>
     <p align="center"> Days <?php  echo $Days; ?> / Night <?php echo $Nights; ?></p>
     <p><?php echo str_replace('"'," ",$itenary_program);?></p>
@@ -198,8 +198,8 @@ pdfdoc.save('First.pdf');
         </div>
         <!-- <ul class="breadcrumbs pull-right">
             <li><a href="#">Group Tour</a></li>
-            <li><a href="tour-main.html">Europe</a></li>
-            <li class="active">Exotic Europe</li>
+            <li><a href="tour-main.html"><?php echo $sector;?></a></li>
+            <li class="active"><?php echo @$ProductTitle;?></li>
         </ul> -->
     </div>
 </div>

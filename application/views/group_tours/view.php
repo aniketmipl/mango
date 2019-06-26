@@ -1,3 +1,16 @@
+
+<div class="page-title-container">
+    <div class="container-tour-heading">
+        <div class="page-title pull-left">
+            <h2 class="entry-title">Europe Tour</h2>
+        </div>
+        <ul class="breadcrumbs pull-right">
+            <li><a href="#">Group Tour</a></li>
+            <li class="active">Europe</li>
+        </ul>
+    </div>
+</div>
+
 <section class="hotel-offer tour-category">
         <div class="container">
             <div class="row">
@@ -9,7 +22,7 @@
                     <div class="col-md-4 col-sm-6 mb-20">
                         <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                        <img src="<?php echo base_url();?>assets/img/tours/exotic-eurpoe.jpg" alt="">
+                                        <img src="<?php echo base_url();?>assets/images/tours/europe/exotic-eurpoe.jpg" alt="">
                                         <div class="over-layer">
                                             <div class="links">
                                                 <ul class="list-inline">

@@ -59,21 +59,21 @@
         margin-top: 10px;
     }
     .slide-1{
-    background: url(../img/sliders/Europe-banner.jpg);
+    background: url(../images/sliders/Europe-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
     }
     .slide-2{
-        background: url(../img/sliders/southeast-asia-1.jpg);
+        background: url(../images/sliders/southeast-asia-1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: relative;
     }
     .slide-3{
-        background: url(../img/sliders/dubai1.jpg);
+        background: url(../images/sliders/dubai1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -96,7 +96,7 @@
         background: rgba(8, 74, 32, 0.81);
     }
     .tour-video {
-        background: url(../img/P1000946-1.jpg);
+        background: url(../images/P1000946-1.jpg);
         display: block;
     }
     .tour-video .container {
@@ -146,7 +146,7 @@
     .promo-box-style-one {
         padding:20px 0;
         margin: 0;
-        background: url(../img/newspapertrends-home1.jpg);
+        background: url(../images/newspapertrends-home1.jpg);
         background-attachment: fixed;
         background-size: cover; 
     }
@@ -616,7 +616,7 @@
 
 
     .testimonal-area {
-        background: url(../img/bg/3.jpg);
+        background: url(../images/bg/3.jpg);
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
@@ -624,14 +624,14 @@
         display: block;
     }
     .counter-area {
-        background: url(../img/bg/2.jpg);
+        background: url(../images/bg/2.jpg);
         display: block;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom;
     }
     .photo-area {
-        background: url(../img/bg/4.jpg);
+        background: url(../images/bg/4.jpg);
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
@@ -639,7 +639,7 @@
         display: block;
     }
     .service-item .icon {
-        background-image: url(../img/tr.png);
+        background-image: url(../images/tr.png);
     }
 
 

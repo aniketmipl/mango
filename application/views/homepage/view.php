@@ -136,7 +136,7 @@
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/img/tours/incredible-america.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/tours/incredible-america.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
@@ -165,7 +165,7 @@
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/img/tours/aus-nz.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/tours/aus-nz.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
@@ -194,7 +194,7 @@
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/img/tours/exotic-eurpoe.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/tours/exotic-eurpoe.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
@@ -223,7 +223,7 @@
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/img/tours/SCANDINAVIA-560x450.png" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/tours/SCANDINAVIA-560x450.png" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
@@ -252,7 +252,7 @@
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/img/tours/classic-europe.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/tours/classic-europe.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
@@ -281,7 +281,7 @@
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/img/tours/central-eastern-europe3.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/tours/central-eastern-europe3.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
@@ -480,7 +480,7 @@
 
 
 <!-- Streat Counter Section -->
-<section class="counter-area parallax" data-parallax-bg-image="img/bg/2.jpg">
+<section class="counter-area parallax" data-parallax-bg-image="images/bg/2.jpg">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6">
@@ -542,7 +542,7 @@
                         <div class="item">
                         <div class="hover-box tour-blog-box">
                             <div class="tour-img image">
-                                <img src="<?php echo base_url();?>assets/img/blog/lokrang-9-12-18.jpg" alt="">
+                                <img src="<?php echo base_url();?>assets/images/blog/lokrang-9-12-18.jpg" alt="">
                                 <div class="over-layer">
                                     <div class="links">
                                         <ul class="list-inline">
@@ -568,7 +568,7 @@
                     <div class="item">
                         <div class="hover-box tour-blog-box">
                             <div class="tour-img image">
-                                <img src="<?php echo base_url();?>assets/img/blog/europe-3.jpg" alt="">
+                                <img src="<?php echo base_url();?>assets/images/blog/europe-3.jpg" alt="">
                                 <div class="over-layer">
                                     <div class="links">
                                         <ul class="list-inline">
@@ -594,7 +594,7 @@
                     <div class="item">
                         <div class="hover-box tour-blog-box">
                             <div class="tour-img image">
-                                <img src="<?php echo base_url();?>assets/img/blog/europe-4.jpg" alt="">
+                                <img src="<?php echo base_url();?>assets/images/blog/europe-4.jpg" alt="">
                                 <div class="over-layer">
                                     <div class="links">
                                         <ul class="list-inline">
@@ -619,7 +619,7 @@
                     <div class="item">
                             <div class="hover-box tour-blog-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/img/blog/europe-5.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/blog/europe-5.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
@@ -673,12 +673,12 @@
                         <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1, 3" data-sort="value">
                             <div class="portfolio-box">
                                 <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/photo1.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/gallery/photo1.jpg" alt="">
 
                                     <div class="overlay"></div>
                                     <div class="overlay-content">
                                         <div class="overlay-icon">
-                                            <a href="img/gallery/photo1.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
+                                            <a href="<?php echo base_url();?>assets/images/gallery/photo1.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
                                         </div>
                                     </div>
                                 </figure>
@@ -687,12 +687,12 @@
                         <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="2, 3" data-sort="value">
                             <div class="portfolio-box">
                                 <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/photo2.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/gallery/photo2.jpg" alt="">
 
                                     <div class="overlay"></div>
                                     <div class="overlay-content">
                                         <div class="overlay-icon">
-                                            <a href="img/gallery/photo2.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
+                                            <a href="<?php echo base_url();?>assets/images/gallery/photo2.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
                                         </div>
                                     </div>
                                 </figure>
@@ -701,12 +701,12 @@
                         <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="4, 1" data-sort="value">
                             <div class="portfolio-box">
                                 <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/photo3.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/gallery/photo3.jpg" alt="">
 
                                     <div class="overlay"></div>
                                     <div class="overlay-content">
                                         <div class="overlay-icon">
-                                            <a href="img/gallery/photo3.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
+                                            <a href="<?php echo base_url();?>assets/images/gallery/photo3.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
                                         </div>
                                     </div>
                                 </figure>
@@ -715,12 +715,12 @@
                         <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="3, 2" data-sort="value">
                             <div class="portfolio-box">
                                 <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/photo4.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/gallery/photo4.jpg" alt="">
 
                                     <div class="overlay"></div>
                                     <div class="overlay-content">
                                         <div class="overlay-icon">
-                                            <a href="img/gallery/photo4.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
+                                            <a href="<?php echo base_url();?>assets/images/gallery/photo4.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
                                         </div>
                                     </div>
                                 </figure>
@@ -729,12 +729,12 @@
                         <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1, 3" data-sort="value">
                             <div class="portfolio-box">
                                 <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/photo5.jpeg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/gallery/photo5.jpeg" alt="">
 
                                     <div class="overlay"></div>
                                     <div class="overlay-content">
                                         <div class="overlay-icon">
-                                            <a href="img/gallery/photo5.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
+                                            <a href="<?php echo base_url();?>assets/images/gallery/photo5.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
                                         </div>
                                     </div>
                                 </figure>
@@ -743,12 +743,12 @@
                         <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="4, 1" data-sort="value">
                             <div class="portfolio-box">
                                 <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/photo6.jpeg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/gallery/photo6.jpeg" alt="">
 
                                     <div class="overlay"></div>
                                     <div class="overlay-content">
                                         <div class="overlay-icon">
-                                            <a href="img/gallery/photo6.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
+                                            <a href="<?php echo base_url();?>assets/images/gallery/photo6.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
                                         </div>
                                     </div>
                                 </figure>
@@ -757,12 +757,12 @@
                         <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1, 3" data-sort="value">
                             <div class="portfolio-box">
                                 <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/photo7.jpeg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/gallery/photo7.jpeg" alt="">
 
                                     <div class="overlay"></div>
                                     <div class="overlay-content">
                                         <div class="overlay-icon">
-                                            <a href="img/gallery/photo7.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
+                                            <a href="<?php echo base_url();?>assets/images/gallery/photo7.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
                                         </div>
                                     </div>
                                 </figure>
@@ -771,12 +771,12 @@
                         <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="3, 2" data-sort="value">
                             <div class="portfolio-box">
                                 <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/photo8.jpeg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/gallery/photo8.jpeg" alt="">
 
                                     <div class="overlay"></div>
                                     <div class="overlay-content">
                                         <div class="overlay-icon">
-                                            <a href="img/gallery/photo8.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
+                                            <a href="<?php echo base_url();?>assets/images/gallery/photo8.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
                                         </div>
                                     </div>
                                 </figure>
@@ -785,12 +785,12 @@
                         <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="4, 1" data-sort="value">
                             <div class="portfolio-box">
                                 <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/img/gallery/photo9-small.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/gallery/photo9-small.jpg" alt="">
 
                                     <div class="overlay"></div>
                                     <div class="overlay-content">
                                         <div class="overlay-icon">
-                                            <a href="img/gallery/photo9.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
+                                            <a href="<?php echo base_url();?>assets/images/gallery/photo9.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
                                         </div>
                                     </div>
                                 </figure>
