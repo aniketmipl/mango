@@ -198,7 +198,7 @@ pdfdoc.save('First.pdf');
         </div>
         <ul class="breadcrumbs pull-right">
             <li><a href="#">Group Tour</a></li>
-            <li><a href="tour-main.html"><?php echo @$sector;?></a></li>
+            <li><a href="<?php echo base_url().$sector_path;?>"><?php echo @$sector;?></a></li>
             <li class="active"><?php echo @$ProductTitle;?></li>
         </ul>
     </div>

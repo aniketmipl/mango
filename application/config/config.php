@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8081/MangoHolidaysNew/';
-// $config['base_url'] = 'http://localhost:808/MangoHolidaysNew/mango';
+// $config['base_url'] = 'http://localhost:8081/MangoHolidaysNew/';
+ $config['base_url'] = 'http://localhost/MangoHolidaysNew/mango';
 /*
 |--------------------------------------------------------------------------
 | Index File
