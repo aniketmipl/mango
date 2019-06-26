@@ -196,11 +196,11 @@ pdfdoc.save('First.pdf');
         <div class="page-title pull-left">
           <h2 class="entry-title"><?php echo @$ProductTitle;?></h2>
         </div>
-        <!-- <ul class="breadcrumbs pull-right">
+        <ul class="breadcrumbs pull-right">
             <li><a href="#">Group Tour</a></li>
-            <li><a href="tour-main.html"><?php echo $sector;?></a></li>
+            <li><a href="tour-main.html"><?php echo @$sector;?></a></li>
             <li class="active"><?php echo @$ProductTitle;?></li>
-        </ul> -->
+        </ul>
     </div>
 </div>
 <!-- Start BLog Section -->

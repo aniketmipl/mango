@@ -10,11 +10,14 @@ class GroupTours extends CI_Controller {
 
 	public function group_africa()
 	{
-		$sector ='Africa';
+		$sector ='Africa'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Africa Group Tour| Mango Holidays";
-
+		$data['group_images'] = array(  'group1' =>'images/tours/europe/best-of-europe.jpg',
+										'group2' =>'images/tours/europe/classic-europe.jpg',
+										'group3' =>'images/tours/europe/exotic-eurpoe.jpg');
+		$data['sector_name']=$sector;
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
@@ -24,6 +27,8 @@ class GroupTours extends CI_Controller {
 		$sector ='America';
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "America Group Tour | Mango Holidays";
+		$data['sector_name']=$sector;
+
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
@@ -35,6 +40,8 @@ class GroupTours extends CI_Controller {
 		$sector ='Dubai';
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Dubai Group Tour | Mango Holidays";
+		$data['sector_name']=$sector;
+
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
@@ -47,6 +54,8 @@ class GroupTours extends CI_Controller {
 		$sector ='Europe';
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Europe  Group Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
@@ -58,6 +67,8 @@ class GroupTours extends CI_Controller {
 		$sector ='Japan';
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Japan Group Tour | Mango Holidays";
+		$data['sector_name']=$sector;
+
 
 		$this->load->view('common/header');
 		$this->load->view('group_tours/view',$data);
@@ -69,7 +80,7 @@ class GroupTours extends CI_Controller {
 		$sector ='Mauritius';
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Mauritius Group Tour | Mango Holidays";
-
+		$data['sector_name']=$sector;
 
 		$this->load->view('common/header');
 		$this->load->view('group_tours/view',$data);
@@ -81,7 +92,8 @@ class GroupTours extends CI_Controller {
 	{
 		$sector ='Australia and New Zealand';
 		$data['api_result']=$this->call_api($sector);
-
+		$data['sector_name']=$sector;
+		
 		$this->load->view('common/header');
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');

@@ -13,96 +13,96 @@
         <title>Mango Holidays | Experience of a lifetime</title>
     <?php } ?>
     <script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Service",
-  "serviceType": "",
-  "provider": {
-    "@type": "LocalBusiness",
-    "name": "Mango Holiday's Tour and Travel",
-    "image": "https://mangoholidays.in/wp-content/uploads/2017/07/Mango-Holidays.png",
-   "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "5, Adi House, Gokhale Road North, Near Portuguese Church, Dadar",
-    "addressRegion": "Mumbai, Maharashtra",
-    "postalCode": "400028"
-  },
-    
-    "telephone":"+91 8380039503"
-  },
-  "aggregateRating":{
-"@type":"AggregateRating",
-"ratingValue":"4.9",
-"reviewCount":"3792"}
-},
-   
-  "areaServed": {
-    "@type": "State",
-    "name": "Maharashtra"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "",
-    "itemListElement": [
-      {
+    {
+      "@context": "http://schema.org/",
+      "@type": "Service",
+      "serviceType": "",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Mango Holiday's Tour and Travel",
+        "image": "https://mangoholidays.in/wp-content/uploads/2017/07/Mango-Holidays.png",
+       "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "5, Adi House, Gokhale Road North, Near Portuguese Church, Dadar",
+        "addressRegion": "Mumbai, Maharashtra",
+        "postalCode": "400028"
+      },
+        
+        "telephone":"+91 8380039503"
+      },
+      "aggregateRating":{
+    "@type":"AggregateRating",
+    "ratingValue":"4.9",
+    "reviewCount":"3792"}
+    },
+       
+      "areaServed": {
+        "@type": "State",
+        "name": "Maharashtra"
+      },
+      "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Tour and Travel Agency",
+        "name": "",
         "itemListElement": [
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Europe Group Tour"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Tour Operator"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Mauritius International Tour"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "International Honeymoon Tour"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Domestic Tour operator"
-            }
-          },
-                    }
+            "@type": "OfferCatalog",
+            "name": "Tour and Travel Agency",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Europe Group Tour"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Tour Operator"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Mauritius International Tour"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "International Honeymoon Tour"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Domestic Tour operator"
+                }
+              },
+                        }
+            ]
+          }
+          
         ]
       }
-      
-    ]
-  }
-}
-</script>
+    }
+    </script>
 
 
 
-<meta property="og:type" content="business.business" />
-<meta property="og:title" content="Mango Holiday's Tour and Travel" />
-<meta property="og:url" content="https://mangoholidays.in" />
-<meta property="og:image" content="https://mangoholidays.in/wp-content/uploads/2017/07/Mango-Holidays.png" />
-<meta property="business:contact_data:street_address" content="5, Adi House, Gokhale Road North, Near Portuguese Church, Dadar" />
-<meta property="business:contact_data:locality" content="Mumbai" />
-<meta property="business:contact_data:region" content="Maharashtra" />
-<meta property="business:contact_data:postal_code" content="400028" />
-<meta property="business:contact_data:country_name" content="India" /> 
+    <meta property="og:type" content="business.business" />
+    <meta property="og:title" content="Mango Holiday's Tour and Travel" />
+    <meta property="og:url" content="https://mangoholidays.in" />
+    <meta property="og:image" content="https://mangoholidays.in/wp-content/uploads/2017/07/Mango-Holidays.png" />
+    <meta property="business:contact_data:street_address" content="5, Adi House, Gokhale Road North, Near Portuguese Church, Dadar" />
+    <meta property="business:contact_data:locality" content="Mumbai" />
+    <meta property="business:contact_data:region" content="Maharashtra" />
+    <meta property="business:contact_data:postal_code" content="400028" />
+    <meta property="business:contact_data:country_name" content="India" /> 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url();?>assets/images/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -122,7 +122,7 @@
 
 </head>
 
-<!-- Start Main Header -->
+    <!-- Start Main Header -->
      <header class="main-herader">
 
         <!-- Header top start -->
@@ -248,7 +248,7 @@
                                         <!-- end row -->
                                     </li>
                                 </ul>
-                            </li>
+                        </li>
                         
                         <li>
                             <a href="tour-details.html">Corporate Tours</a>
@@ -276,7 +276,7 @@
                                 </ul>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="<?php echo base_url()?>Pages/contact_us">Contact</a>
                         </li>
                     </ul>
                 </div>

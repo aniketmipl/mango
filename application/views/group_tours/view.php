@@ -2,11 +2,11 @@
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
-            <h2 class="entry-title">Europe Tour</h2>
+            <h2 class="entry-title"><?php echo $sector_name;?> Tour</h2>
         </div>
         <ul class="breadcrumbs pull-right">
             <li><a href="#">Group Tour</a></li>
-            <li class="active">Europe</li>
+            <li class="active"><?php echo $sector_name;?></li>
         </ul>
     </div>
 </div>
