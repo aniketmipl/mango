@@ -125,17 +125,7 @@ function footer(doc, pageNumber, totalPages){
  </script>
 <?php 
         
-<<<<<<< HEAD
-            if(isset($itenary)){
-                $itenary_program='<div style="border: 1px solid #ccc;margin: 2%;padding: 2%;">';
-                foreach($itenary as $itenary_key){
 
-                        $itenary_program .="<h3 style='font-size:20px'> Day  ".$itenary_key->DayNo." : ".$itenary_key->DayTitle."</h3>";
-                        $itenary_program .="<p>".mb_convert_encoding($itenary_key->DayProgram,'UTF-8')."</p>";
-						
-            }}
-                $itenary_program .='</div>';
-=======
     if(isset($itenary)){
         $itenary_program='<div style="border: 1px solid #ccc;margin: 2%;padding: 2%;">';
         foreach($itenary as $itenary_key){
@@ -144,8 +134,7 @@ function footer(doc, pageNumber, totalPages){
                 $itenary_program .="<p>".mb_convert_encoding($itenary_key->DayProgram,'UTF-8')."</p>";
     }}
         $itenary_program .='</div>';
->>>>>>> 780a2560a6e9a495aa611b1c080d638dc143c33d
-                
+
 ?>
 <div id="tour_heading">
     <?php echo $ProductTitle;?>
