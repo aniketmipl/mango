@@ -203,7 +203,7 @@
 .page-title-container .entry-title {
     font-size: 2em;
     font-weight: 600;
-    text-transform: none;
+    text-transform: uppercase;
 }
 .page-header-container{
     position: relative;

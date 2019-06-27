@@ -14,7 +14,7 @@
 <section class="hotel-offer tour-category">
         <div class="container">
             <div class="row">
-                <div class="hottel-grid-offer">
+                <div class="hottel-grid-offer" style="justify-content: left;">
                     <?php foreach ($api_result as $key => $value) { 
                         if($value->TravelType == 'GIT'){
                         $page_name=strtolower(trim($value->ProductTitle));
