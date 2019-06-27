@@ -348,9 +348,8 @@ class tours extends CI_Controller {
 		// $html=$this->load->view('pdf_output',$this->data, true); //load the pdf_output.php by passing our data and get all data in $html varriable.
  	 
 		//this the the PDF filename that user will get to download
-		$pdfFilePath ="download/mypdfName-".time()."-download.pdf";
+		$pdfFilePath ="download/MangoHolidays-".date('d-m-Y').".pdf";
 
-		
 		//actually, you can pass mPDF parameter on this load() function
 		@$pdf = $this->m_pdf->load();
 		//generate the PDF!

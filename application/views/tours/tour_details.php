@@ -1,128 +1,3 @@
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.debug.js'></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
-<script>
-var base64Img = null;
-imgToBase64('../assets/images/Mango-Holidays.png', function(base64) {
-    base64Img = base64; 
-});
-
-margins = {
-  top: 70,
-  bottom: 40,
-  left: 30,
-  width: 550
-};
-
-generate = function()
-{
-    var content =  document.getElementById('PDFcontent');
-    var pdf = new jsPDF('p', 'pt', 'a4');
-	pdf.setFontSize(18);
-    pdf.fromHTML(content, 
-        margins.left, // x coord
-        margins.top,
-        {
-            // y coord
-            width: margins.width// max width of content on PDF
-        },function(dispose) {
-            headerFooterFormatting(pdf, pdf.internal.getNumberOfPages());
-        }, 
-        margins);
-        
-    // var iframe = document.createElement('iframe');
-    // iframe.setAttribute('style','position:absolute;right:0; top:0; bottom:0; height:100%; width:650px; padding:20px;');
-    // document.body.appendChild(iframe);
-    
-    // iframe.src = 
-    pdf.output('save', 'filename.pdf');
-};
-
-function headerFooterFormatting(doc, totalPages)
-{
-    for(var i = totalPages; i >= 1; i--)
-    {
-        doc.setPage(i);                            
-        //header
-        header(doc);
-        
-        footer(doc, i, totalPages);
-        doc.page++;
-    }
-};
-
-function header(doc)
-{
-    doc.setFontSize(20);
-    doc.setTextColor(40);
-    doc.setFontStyle('bold');
-    
-    if (base64Img) {
-       //doc.addImage(base64Img, 'PNG', margins.left, 10, 100,50);        
-       doc.addImage(base64Img, 'PNG', 0, 10, 100, 50);        
-    }
-        
-    doc.text("Mango Holidays Tour Itenary", margins.left + 60, 40 );
-    doc.setLineCap(2);
-    doc.line(3, 70, margins.width + 43,70); // horizontal line
-};
-
-// You could either use a function similar to this or pre convert an image with for example http://dopiaza.org/tools/datauri
-// http://stackoverflow.com/questions/6150289/how-to-convert-image-into-base64-string-using-javascript
-function imgToBase64(url, callback, imgVariable) {
- 
-    if (!window.FileReader) {
-        callback(null);
-        return;
-    }
-    var xhr = new XMLHttpRequest();
-    xhr.responseType = 'blob';
-    xhr.onload = function() {
-        var reader = new FileReader();
-        reader.onloadend = function() {
-            imgVariable = reader.result.replace('text/xml', 'image/jpeg');
-            callback(imgVariable);
-        };
-        reader.readAsDataURL(xhr.response);
-    };
-    xhr.open('GET', url);
-    xhr.send();
-};
-
-function footer(doc, pageNumber, totalPages){
-
-    var str = "Page " + pageNumber + " of " + totalPages
-   
-    doc.setFontSize(10);
-    doc.text(str, margins.left, doc.internal.pageSize.height - 20);
-    
-};
-
- </script>
-
-
- <script type="text/javascript">
-     
-     $(document).ready(function(){
-
-    //pdf 다운로드  
-    $("#pdfDownloader").click(function(){
-    
-        html2canvas(document.getElementById("PDFcontent"), {
-            onrendered: function(canvas) {
-
-                var imgData = canvas.toDataURL('image/png');
-                var doc = new jsPDF('p', 'mm', [500, 500]); //210mm wide and 297mm high
-                
-                doc.addImage(imgData, 'PNG', 10, 10);
-                doc.save('sample.pdf');
-            }
-        });
-
-    });
-    
-    
-})
- </script>
 <?php 
         
 
@@ -142,7 +17,12 @@ function footer(doc, pageNumber, totalPages){
 <div id="tour_duration" style="display: none">
      Days <?php  echo $Days; ?> / Night <?php echo $Nights; ?>
 </div>
-<div id='PDFcontent' style="display: none">
+<div id='PDFcontent' >
+    <p>
+        <img src="<?php echo base_url();?>assets/images/Mango-Holidays-logo.png">
+        <lable>Mango Holidays Itenary</lable>
+
+    </p>
     <p align="center" style="font-weight: bold"><?php echo $ProductTitle;?></p>
     <p align="center"> Days <?php  echo $Days; ?> / Night <?php echo $Nights; ?></p>
     <p><?php echo str_replace('"'," ",$itenary_program);?></p>
@@ -155,42 +35,6 @@ function footer(doc, pageNumber, totalPages){
 <p>Only for display and not in pdf</p>
 
 </div>
-
-<!-- <button id='pdfDownloader'>Generate PDF</button> -->
-<script type="text/javascript">
-    
-    var pdfdoc = new jsPDF();
-var specialElementHandlers = {
-
-'#ignoreContent': function (element, renderer) {
-
-return true;
-
-}
-
-};
-
- 
-
-$(document).ready(function(){
-
-$('#gpdf').click(function(){
-
-pdfdoc.fromHTML($('#PDFcontent').html(), 10, 10, {
-
-'width': 150,
-
-'elementHandlers': specialElementHandlers
-
-});
-
-pdfdoc.save('First.pdf');
-
-});});
-
- 
-</script>
-<!-- <button onclick="generate()">Generate PDF</button> -->
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
@@ -508,14 +352,13 @@ pdfdoc.save('First.pdf');
     $("#pdf_download").click(function(){
         var pdf_download = "<?php echo base_url()?>tours/mpdf";
         var content = $('#PDFcontent').html();
+        var filename ="<?php echo @$ProductTitle ;?>";
 
         $.ajax({    
                 url:pdf_download,
                 type:'POST',
-                data : {'data':content},
-                success:function(res){
-
-                   
+                data : {'data':content,'filename':filename},
+                success:function(res){                   
                    // window.location.href="<?php echo base_url()?>"+res;
                    window.open("<?php echo base_url()?>"+res,
                           '_blank' // <- This is what makes it open in a new window.
