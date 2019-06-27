@@ -18,6 +18,8 @@ class GroupTours extends CI_Controller {
 										'group2' =>'images/tours/europe/classic-europe.jpg',
 										'group3' =>'images/tours/europe/exotic-eurpoe.jpg');
 		$data['sector_name']=$sector;
+		$data['gt_image'] = 'images/tours/africa/main.jpg';
+
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
@@ -28,7 +30,7 @@ class GroupTours extends CI_Controller {
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "America Group Tour | Mango Holidays";
 		$data['sector_name']=$sector;
-
+		$data['gt_image'] = 'images/tours/america/main.jpg';
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
@@ -41,7 +43,7 @@ class GroupTours extends CI_Controller {
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Dubai Group Tour | Mango Holidays";
 		$data['sector_name']=$sector;
-
+		$data['gt_image'] = 'images/tours/dubai/main.jpg';
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
@@ -55,7 +57,7 @@ class GroupTours extends CI_Controller {
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Europe  Group Tour| Mango Holidays";
 		$data['sector_name']=$sector;
-
+		$data['gt_image'] = 'images/tours/europe/main.jpg';
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
@@ -68,7 +70,7 @@ class GroupTours extends CI_Controller {
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Japan Group Tour | Mango Holidays";
 		$data['sector_name']=$sector;
-
+		$data['gt_image'] = 'images/tours/japan/main.jpg';
 
 		$this->load->view('common/header');
 		$this->load->view('group_tours/view',$data);
@@ -81,6 +83,7 @@ class GroupTours extends CI_Controller {
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Mauritius Group Tour | Mango Holidays";
 		$data['sector_name']=$sector;
+		$data['gt_image'] = 'images/tours/mauritius/main.jpg';
 
 		$this->load->view('common/header');
 		$this->load->view('group_tours/view',$data);
