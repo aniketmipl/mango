@@ -333,18 +333,33 @@ class tours extends CI_Controller {
 		// $html=$this->load->view('pdf_output',$this->data, true); //load the pdf_output.php by passing our data and get all data in $html varriable.
  	 
 		//this the the PDF filename that user will get to download
-		$pdfFilePath ="download/MangoHolidays-".date('d-m-Y').".pdf";
+		$pdfFilePath ="download/MangoHolidays-".date('d-m-Y')."-".time().".pdf";
 
 		//actually, you can pass mPDF parameter on this load() function
 		@$pdf = $this->m_pdf->load();
+		$header = "<div align='right'><p align='center' style='padding-top:15px'>".$_POST['sector']."</p><img src='".base_url()."assets/images/Mango-Holidays-logo.png'></div>";
+
+		@$pdf->SetHTMLHeader($header); //Add header
+		@$pdf->SetHTMLFooter('<p align="center" style="font">Experience of a Lifetime!</p>');
+		 $pdf->AddPage('P', // L - landscape, P - portrait 
+        '', '', '', '',
+        5, // margin_left
+        5, // margin right
+       45, // margin top
+       30, // margin bottom
+        0, // margin header
+        0); // margin footer
+		
 		//generate the PDF!
+
 		@$pdf->WriteHTML($_POST['data'],2);
 		//offer it to user via browser download! (The PDF won't be saved on your server HDD)
 		@$pdf->Output($pdfFilePath, "F");
 		
 		echo  $pdfFilePath;
 	}
-public function call_api($product_id,$product_code){
+
+	public function call_api($product_id,$product_code){
 		$api_url ="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductForWebsite?ProductID=".$product_id."&ProductCode=".$product_code;
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
