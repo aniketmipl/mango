@@ -324,34 +324,13 @@ class tours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
-
-
-	public function create_pdf($filename,$data){
-		$this->load->library('fpdf_master');
-		
-		$this->fpdf->SetFont('Arial','B',18);
-		
-		$this->fpdf->Cell(50,10,$data);
-		//All text which have to print should be goes here
-		//also you can go for calling view over here and put the same type of code inside the view
-		
-		echo $this->fpdf->Output($filename,'D');// Name of PDF file
-		//Can change the type from D=Download the file		
-	}
-
 	public function mpdf(){
 		//load mPDF library
 		$this->load->library('m_pdf');
+
 		//load mPDF library
-		
-
-		//now pass the data//
-		 $this->data['title']="MY PDF TITLE 1.";
-		 $this->data['description']="";
-		 // $this->data['description']=$this->official_copies;
+		// $this->data['description']=$this->official_copies;
 		 //now pass the data //
-
-		
 		// $html=$this->load->view('pdf_output',$this->data, true); //load the pdf_output.php by passing our data and get all data in $html varriable.
  	 
 		//this the the PDF filename that user will get to download
@@ -367,23 +346,7 @@ class tours extends CI_Controller {
 		
 		echo  $pdfFilePath;
 	}
-
-
-	public function pfd_create(){
-		$this->load->library('Pdf');
-    $pdf = new Pdf('P', 'mM', 'A4', true, 'UTF-8', false);
-    $pdf->SetTitle('Pdf Example');
-    $pdf->SetHeaderMargin(30);
-    $pdf->SetTopMargin(20);
-    $pdf->setFooterMargin(20);
-    $pdf->SetAutoPageBreak(true);
-    $pdf->SetAuthor('Author');
-    $pdf->SetDisplayMode('real', 'default');
-    $pdf->Write(3, 'CodeIgniter TCPDF Integration');
-    $pdf->Output('pdfexample.pdf', 'I'); 
-
-}
-
+	
 
 	public function call_api($product_id,$product_code){
 		$api_url ="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductForWebsite?ProductID=".$product_id."&ProductCode=".$product_code;
