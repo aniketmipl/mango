@@ -508,14 +508,18 @@ pdfdoc.save('First.pdf');
     $("#pdf_download").click(function(){
         var pdf_download = "<?php echo base_url()?>tours/mpdf";
         var content = $('#PDFcontent').html();
-
+       
         $.ajax({    
                 url:pdf_download,
                 type:'POST',
-                data : {'data':content},
+                data : {'data':content,'filename'},
                 success:function(res){
-                   window.location.href="<?php echo base_url()?>"+res;
+
                    
+                   // window.location.href="<?php echo base_url()?>"+res;
+                   window.open("<?php echo base_url()?>"+res,
+                          '_blank' // <- This is what makes it open in a new window.
+                        );
                 }
         })
     })

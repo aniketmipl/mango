@@ -326,8 +326,7 @@ class tours extends CI_Controller {
 
 	public function mpdf(){
 		//load mPDF library
-		$this->load->library('m_pdf');
-
+		@$this->load->library('m_pdf');
 		//load mPDF library
 		// $this->data['description']=$this->official_copies;
 		 //now pass the data //
@@ -338,17 +337,15 @@ class tours extends CI_Controller {
 
 		
 		//actually, you can pass mPDF parameter on this load() function
-		$pdf = $this->m_pdf->load();
+		@$pdf = $this->m_pdf->load();
 		//generate the PDF!
-		$pdf->WriteHTML($_POST['data'],2);
+		@$pdf->WriteHTML($_POST['data'],2);
 		//offer it to user via browser download! (The PDF won't be saved on your server HDD)
-		$pdf->Output($pdfFilePath, "F");
+		@$pdf->Output($pdfFilePath, "F");
 		
 		echo  $pdfFilePath;
 	}
-	
-
-	public function call_api($product_id,$product_code){
+public function call_api($product_id,$product_code){
 		$api_url ="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductForWebsite?ProductID=".$product_id."&ProductCode=".$product_code;
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
