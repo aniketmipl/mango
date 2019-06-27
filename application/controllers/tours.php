@@ -341,17 +341,10 @@ class tours extends CI_Controller {
 
 	public function mpdf(){
 		//load mPDF library
-		$this->load->library('m_pdf');
+		@$this->load->library('m_pdf');
 		//load mPDF library
-		
-
-		//now pass the data//
-		 $this->data['title']="MY PDF TITLE 1.";
-		 $this->data['description']="";
-		 // $this->data['description']=$this->official_copies;
+		// $this->data['description']=$this->official_copies;
 		 //now pass the data //
-
-		
 		// $html=$this->load->view('pdf_output',$this->data, true); //load the pdf_output.php by passing our data and get all data in $html varriable.
  	 
 		//this the the PDF filename that user will get to download
@@ -359,33 +352,15 @@ class tours extends CI_Controller {
 
 		
 		//actually, you can pass mPDF parameter on this load() function
-		$pdf = $this->m_pdf->load();
+		@$pdf = $this->m_pdf->load();
 		//generate the PDF!
-		$pdf->WriteHTML($_POST['data'],2);
+		@$pdf->WriteHTML($_POST['data'],2);
 		//offer it to user via browser download! (The PDF won't be saved on your server HDD)
-		$pdf->Output($pdfFilePath, "F");
+		@$pdf->Output($pdfFilePath, "F");
 		
 		echo  $pdfFilePath;
 	}
-
-
-	public function pfd_create(){
-		$this->load->library('Pdf');
-    $pdf = new Pdf('P', 'mM', 'A4', true, 'UTF-8', false);
-    $pdf->SetTitle('Pdf Example');
-    $pdf->SetHeaderMargin(30);
-    $pdf->SetTopMargin(20);
-    $pdf->setFooterMargin(20);
-    $pdf->SetAutoPageBreak(true);
-    $pdf->SetAuthor('Author');
-    $pdf->SetDisplayMode('real', 'default');
-    $pdf->Write(3, 'CodeIgniter TCPDF Integration');
-    $pdf->Output('pdfexample.pdf', 'I'); 
-
-}
-
-
-	public function call_api($product_id,$product_code){
+public function call_api($product_id,$product_code){
 		$api_url ="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductForWebsite?ProductID=".$product_id."&ProductCode=".$product_code;
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";

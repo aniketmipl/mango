@@ -514,8 +514,12 @@ pdfdoc.save('First.pdf');
                 type:'POST',
                 data : {'data':content},
                 success:function(res){
-                   window.location.href="<?php echo base_url()?>"+res;
+
                    
+                   // window.location.href="<?php echo base_url()?>"+res;
+                   window.open("<?php echo base_url()?>"+res,
+                          '_blank' // <- This is what makes it open in a new window.
+                        );
                 }
         })
     })
