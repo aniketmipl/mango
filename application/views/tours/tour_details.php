@@ -127,13 +127,13 @@ function footer(doc, pageNumber, totalPages){
         
 
     if(isset($itenary)){
-        @$itenary_program='<div style="border: 1px solid #ccc;margin: 2%;padding: 2%;">';
+        @$itenary_program ="<div style='border: 1px solid #ccc;margin: 2%;padding: 2%;'>";
         foreach($itenary as $itenary_key){
 
-                $itenary_program .="<h3 style='font-size:20px'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
-                $itenary_program .="<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
+                $itenary_program .= "<h3 style='font-size:20px'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
+                $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
     }}
-        @$itenary_program .='</div>';
+        @$itenary_program .="</div>";
                 
 ?>
 <div id="tour_heading" style="display: none">
@@ -156,7 +156,7 @@ function footer(doc, pageNumber, totalPages){
 
 </div>
 
-<button id='pdfDownloader'>Generate PDF</button>
+<!-- <button id='pdfDownloader'>Generate PDF</button> -->
 <script type="text/javascript">
     
     var pdfdoc = new jsPDF();
@@ -190,7 +190,7 @@ pdfdoc.save('First.pdf');
 
  
 </script>
-<button onclick="generate()">Generate PDF</button>
+<!-- <button onclick="generate()">Generate PDF</button> -->
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
@@ -235,7 +235,8 @@ pdfdoc.save('First.pdf');
                                                             ?>
                                                                 <li><i class="fa fa-envelope-o"></i> <a href="#"> Send Enquiry</a> &nbsp;| </li>
                                                                 <li><i class="fa fa-print" aria-hidden="true"></i> <a href="#"> Print</a>&nbsp; | </li>
-                                                                <li><button onclick="generate()"><i class="fa fa-download" aria-hidden="true"></i>Download</button></li>
+                                                                <!-- <li><button onclick="generate()"><i class="fa fa-download" aria-hidden="true"></i>Download</button></li> -->
+                                                                <li><i class="fa fa-download" aria-hidden="true"></i><a id="pdf_download">Download now </a></li>
                                                             </ul>  
                                                 </div> 
                                                 </div>
@@ -502,6 +503,24 @@ pdfdoc.save('First.pdf');
           }
       });
     });
+    
+
+    $("#pdf_download").click(function(){
+        var pdf_download = "<?php echo base_url()?>tours/mpdf";
+        var content = $('#PDFcontent').html();
+
+        $.ajax({    
+                url:pdf_download,
+                type:'POST',
+                data : {'data':content},
+                success:function(res){
+                   window.location.href="<?php echo base_url()?>"+res;
+                   
+                }
+        })
+    })
+
+    
 
   });
  </script>
