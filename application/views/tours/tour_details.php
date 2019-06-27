@@ -1,3 +1,9 @@
+<style type="text/css">
+        .footer_contact{
+            line-height: 0.8;
+        }
+
+</style>
 <?php 
         
 
@@ -9,22 +15,21 @@
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
     }}
         @$itenary_program .="</div>";
+       
+      
+
                 
 ?>
 <div id="tour_heading" style="display: none">
     <?php echo $ProductTitle;?>
 </div>
 <div id="tour_duration" style="display: none">
-     Days <?php  echo $Days; ?> / Night <?php echo $Nights; ?>
+     <?php  echo $Days; ?> Days  / <?php echo $Nights; ?> Night 
 </div>
-<div id='PDFcontent' >
-    <p>
-        <img src="<?php echo base_url();?>assets/images/Mango-Holidays-logo.png">
-        <lable>Mango Holidays Itenary</lable>
+<div id='PDFcontent' style="display: none">
 
-    </p>
-    <p align="center" style="font-weight: bold"><?php echo $ProductTitle;?></p>
-    <p align="center"> Days <?php  echo $Days; ?> / Night <?php echo $Nights; ?></p>
+    <p align="center" style="font-weight: bold;font-family: cursive;"><?php echo $ProductTitle;?></p>
+    <p align="center">  <?php  echo $Days; ?> Days / <?php echo $Nights; ?> Night </p>
     <p><?php echo str_replace('"'," ",$itenary_program);?></p>
 	
 
@@ -352,12 +357,12 @@
     $("#pdf_download").click(function(){
         var pdf_download = "<?php echo base_url()?>tours/mpdf";
         var content = $('#PDFcontent').html();
-        var filename ="<?php echo @$ProductTitle ;?>";
+        var sector ="<?php echo @$sector ;?>";
 
         $.ajax({    
                 url:pdf_download,
                 type:'POST',
-                data : {'data':content,'filename':filename},
+                data : {'data':content,'sector':sector},
                 success:function(res){                   
                    // window.location.href="<?php echo base_url()?>"+res;
                    window.open("<?php echo base_url()?>"+res,
