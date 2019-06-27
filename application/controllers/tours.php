@@ -239,7 +239,7 @@ class tours extends CI_Controller {
 		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
-		$filter_data['slider_image'] = 'images/tours/europe/exotic-eurpoe-banner.jpg';
+		$filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Africa";
@@ -324,21 +324,6 @@ class tours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
-
-
-	public function create_pdf($filename,$data){
-		$this->load->library('fpdf_master');
-		
-		$this->fpdf->SetFont('Arial','B',18);
-		
-		$this->fpdf->Cell(50,10,$data);
-		//All text which have to print should be goes here
-		//also you can go for calling view over here and put the same type of code inside the view
-		
-		echo $this->fpdf->Output($filename,'D');// Name of PDF file
-		//Can change the type from D=Download the file		
-	}
-
 	public function mpdf(){
 		//load mPDF library
 		@$this->load->library('m_pdf');
@@ -352,10 +337,10 @@ class tours extends CI_Controller {
 
 		//actually, you can pass mPDF parameter on this load() function
 		@$pdf = $this->m_pdf->load();
-		$header = "<div align='right'><p align='center' style='padding-top:15px'>".$_POST['sector']."</p><img src='".base_url()."assets/images/Mango-Holidays-logo.png'></div>";
+		$header = "<div align='right'><h2 style='display:inline-block; vertical-align:middle; text-align:left; padding-left:30px;'><b style='margin-top:50px'><br/>".$_POST['sector']."</b><img style='display:inline-block; float:right; width:150px;' src='".base_url()."assets/images/Mango-Holidays-logo.png'></h2><hr style='color:#ccc;'/></div>";
 
 		@$pdf->SetHTMLHeader($header); //Add header
-		@$pdf->SetHTMLFooter('<p align="center" style="font">Experience of a Lifetime!</p>');
+		@$pdf->SetHTMLFooter('<hr style="color:#ccc;"/><p align="center" style="padding-bottom:10%;">Experience of a Lifetime!</p>');
 		 $pdf->AddPage('P', // L - landscape, P - portrait 
         '', '', '', '',
         5, // margin_left

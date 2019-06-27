@@ -8,10 +8,10 @@
         
 
     if(isset($itenary)){
-        @$itenary_program ="<div style='border: 1px solid #ccc;margin: 2%;padding: 2%;'>";
+        @$itenary_program ="<div style='margin: 2%;padding: 2%;'>";
         foreach($itenary as $itenary_key){
 
-                $itenary_program .= "<h3 style='font-size:20px'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
+                $itenary_program .= "<h3 style='font-size:18px; font-weight:600'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
     }}
         @$itenary_program .="</div>";
@@ -82,7 +82,7 @@
                                                                 <li><i class="fa fa-envelope-o"></i> <a href="#"> Send Enquiry</a> &nbsp;| </li>
                                                                 <li><i class="fa fa-print" aria-hidden="true"></i> <a href="#"> Print</a>&nbsp; | </li>
                                                                 <!-- <li><button onclick="generate()"><i class="fa fa-download" aria-hidden="true"></i>Download</button></li> -->
-                                                                <li><i class="fa fa-download" aria-hidden="true"></i><a id="pdf_download">Download now </a></li>
+                                                                <li><i class="fa fa-download" aria-hidden="true"></i><a style="cursor:pointer;" id="pdf_download">Download now </a></li>
                                                             </ul>  
                                                 </div> 
                                                 </div>
