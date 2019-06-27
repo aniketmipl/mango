@@ -8,7 +8,7 @@
         
 
     if(isset($itenary)){
-        @$itenary_program ="<div style='border: 1px solid #ccc;margin: 2%;padding: 2%;'>";
+        @$itenary_program ="<div style='margin: 2%;padding: 2%;'>";
         foreach($itenary as $itenary_key){
 
                 $itenary_program .= "<h3 style='font-size:18px; font-weight:600'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
