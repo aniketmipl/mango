@@ -340,7 +340,7 @@ class tours extends CI_Controller {
 		$header = "<div align='right'><h2 style='display:inline-block; vertical-align:middle; text-align:left; padding-left:30px;'><b style='margin-top:50px'><br/>".$_POST['sector']."</b><img style='display:inline-block; float:right; width:150px;' src='".base_url()."assets/images/Mango-Holidays-logo.png'></h2><hr style='color:#ccc;'/></div>";
 
 		@$pdf->SetHTMLHeader($header); //Add header
-		@$pdf->SetHTMLFooter('<hr style="color:#ccc;"/><p align="center" style="padding-bottom:10%;">Experience of a Lifetime!</p>');
+		@$pdf->SetHTMLFooter('<hr style="color:#ccc;"/><p align="center" style="padding-bottom:5%;">Experience of a Lifetime!</p>');
 		 $pdf->AddPage('P', // L - landscape, P - portrait 
         '', '', '', '',
         5, // margin_left
