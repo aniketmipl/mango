@@ -28,8 +28,8 @@
 </div>
 <div id='PDFcontent' style="display: none">
 
-    <p align="center" style="font-weight: bold;font-family: cursive;"><?php echo $ProductTitle;?></p>
-    <p align="center">  <?php  echo $Days; ?> Days / <?php echo $Nights; ?> Night </p>
+    <h2 align="center" style="font-weight: bold;font-family: cursive;"><?php echo $ProductTitle;?></h2>
+    <h4 align="center">  <?php  echo $Days; ?> Days / <?php echo $Nights; ?> Night </h4>
     <p><?php echo str_replace('"'," ",$itenary_program);?></p>
 	
 
@@ -83,7 +83,7 @@
                                                             $data ="tt";
                                                             ?>
                                                                 <li><i class="fa fa-envelope-o"></i> <a href="#"> Send Enquiry</a> &nbsp;| </li>
-                                                                <li><i class="fa fa-print" aria-hidden="true"></i> <a href="#"> Print</a>&nbsp; | </li>
+                                                                <li><i class="fa fa-print" aria-hidden="true"></i> <a style="cursor:pointer;" id="pdf_print"> Print</a>&nbsp; | </li>
                                                                 <!-- <li><button onclick="generate()"><i class="fa fa-download" aria-hidden="true"></i>Download</button></li> -->
                                                                 <li><i class="fa fa-download" aria-hidden="true"></i><a style="cursor:pointer;" id="pdf_download">Download now </a></li>
                                                             </ul>  
@@ -368,6 +368,25 @@
                    window.open("<?php echo base_url()?>"+res,
                           '_blank' // <- This is what makes it open in a new window.
                         );
+                }
+        })
+    })
+
+    $("#pdf_print").click(function(){
+        var pdf_download = "<?php echo base_url()?>tours/mpdf";
+        var content = $('#PDFcontent').html();
+        var sector ="<?php echo @$sector ;?>";
+
+        $.ajax({    
+                url:pdf_download,
+                type:'POST',
+                data : {'data':content,'sector':sector},
+                success:function(res){                   
+                   // window.location.href="<?php echo base_url()?>"+res;
+                   window.open("<?php echo base_url()?>"+res,
+                          '_blank' // <- This is what makes it open in a new window.
+                        ).print();
+                  
                 }
         })
     })
