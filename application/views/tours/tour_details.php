@@ -27,12 +27,11 @@
      <?php  echo $Days; ?> Days  / <?php echo $Nights; ?> Night 
 </div>
 <div id='PDFcontent' style="display: none">
+    <p align="center" style="font-weight: bold;font-family: cursive;"><?php echo $ProductTitle;?></p>
+    <p align="center">  <?php  echo $Days; ?> Days / <?php echo $Nights; ?> Night </p>
+    <p align="center" style="font-weight: bold">TOUR ITENARY</p>
 
-    <h2 align="center" style="font-weight: bold;font-family: cursive;"><?php echo $ProductTitle;?></h2>
-    <h4 align="center">  <?php  echo $Days; ?> Days / <?php echo $Nights; ?> Night </h4>
     <p><?php echo str_replace('"'," ",$itenary_program);?></p>
-	
-
 </div>
 
 <div id='ignoreContent'  style="display: none">
