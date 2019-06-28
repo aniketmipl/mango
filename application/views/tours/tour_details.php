@@ -29,7 +29,7 @@
 <div id='PDFcontent' style="display: none">
     <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $ProductTitle;?></h2>
     <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $Days; ?> Days / <?php echo $Nights; ?> Night </h3>
-    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">TOUR ITENARY</h3>
+    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">TOUR ITINERARY</h3>
 
     <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p>
 </div>
@@ -311,7 +311,7 @@
                 '<td>(0 to 2 yrs)</td>'+
                 '</tr>'+
                 '<tr>'+
-                '<td>INR</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount1+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount1+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount1+'</td>'+
@@ -320,7 +320,7 @@
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount1+'</td>'+
                 '</tr>'+
                 '<tr>'+
-                '<td>EURO</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount2+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount2+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount2+'</td>'+
