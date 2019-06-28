@@ -182,7 +182,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="<?php echo base_url();?>assets/images/Mango-Holidays-logo.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/images/Mango-Holidays-logo.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
 
