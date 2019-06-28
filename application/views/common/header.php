@@ -152,7 +152,7 @@
                     </div>
                     <div class="pull-right" style="margin-right:12px;">
                             <ul>
-                                <li><a href="asset/E-brochure.pdf" target="_blank" class="e-brochure"><i class="fa fa-download" aria-hidden="true"></i> &nbsp;E-Brochure</a></li>
+                                <li><a href="assets/E-brochure.pdf" target="_blank" class="e-brochure"><i class="fa fa-download" aria-hidden="true"></i> &nbsp;E-Brochure</a></li>
                             </ul>
                     </div>
                     
