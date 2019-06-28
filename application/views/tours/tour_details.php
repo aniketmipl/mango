@@ -8,7 +8,7 @@
         
 
     if(isset($itenary)){
-        @$itenary_program ="<div style='margin: 2%;padding: 2%;'>";
+        @$itenary_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
         foreach($itenary as $itenary_key){
 
                 $itenary_program .= "<h3 style='font-size:18px; font-weight:600'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
@@ -27,11 +27,11 @@
      <?php  echo $Days; ?> Days  / <?php echo $Nights; ?> Night 
 </div>
 <div id='PDFcontent' style="display: none">
-    <p align="center" style="font-weight: bold;font-family: cursive;"><?php echo $ProductTitle;?></p>
-    <p align="center">  <?php  echo $Days; ?> Days / <?php echo $Nights; ?> Night </p>
-    <p align="center" style="font-weight: bold">TOUR ITENARY</p>
+    <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $ProductTitle;?></h2>
+    <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $Days; ?> Days / <?php echo $Nights; ?> Night </h3>
+    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">TOUR ITENARY</h3>
 
-    <p><?php echo str_replace('"'," ",$itenary_program);?></p>
+    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p>
 </div>
 
 <div id='ignoreContent'  style="display: none">
@@ -84,7 +84,7 @@
                                                                 <li><i class="fa fa-envelope-o"></i> <a href="#"> Send Enquiry</a> &nbsp;| </li>
                                                                <!--  <li><i class="fa fa-print" aria-hidden="true"></i> <a style="cursor:pointer;" id="pdf_print"> Print</a>&nbsp; | </li> -->
                                                                 <!-- <li><button onclick="generate()"><i class="fa fa-download" aria-hidden="true"></i>Download</button></li> -->
-                                                                <li><i class="fa fa-download" aria-hidden="true"></i><a style="cursor:pointer;" id="pdf_download">Download Now </a></li>
+                                                                <li><i class="fa fa-download" aria-hidden="true"></i><a style="cursor:pointer;" id="pdf_download">Download / Print Itinerary  </a></li>
                                                             </ul>  
                                                 </div> 
                                                 </div>
