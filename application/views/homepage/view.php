@@ -120,9 +120,6 @@
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                     <div class="sec-title text-center mb-5">
                         <h2><b>Upcoming</b> Tours</h2>
-                        <!-- <p>WE SHARE SOMETHING IN COMMON, A PASSION FOR TRAVEL.<br/>
-                            BOOK YOUR HOLIDAYS & TOUR PACKAGES WITH MANGO HOLIDAYS FOR AN EXPERIENCE OF A LIFETIME!
-                        </p> -->
                         <p>
                             We share something in common, A passion for travel.<br/>  
                             Book your holidays & tour packages with Mango Holidays for an experienc of a lifetime!
@@ -140,7 +137,7 @@
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-                                                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>tours/incredible-america"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -157,12 +154,12 @@
                                         </ul>
                                         <!-- <h4><b>INR 3,47,205 /</b>  <small> 13 NIGHTS / 14 DAYS</small></h4> -->
                                        
-                                        <a class="read-btn" href="#">Read More </a>
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/incredible-america">Read More </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                       <!--  <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                     <img src="<?php echo base_url();?>assets/images/tours/aus-nz.jpg" alt="">
@@ -184,13 +181,12 @@
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
                                         </ul>
-                                        <!-- <h4><b>INR 3,45,390 /</b>  <small> 14 NIGHTS / 15 DAYS</small></h4> -->
                                        
                                         <a class="read-btn" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
@@ -198,14 +194,14 @@
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-                                                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>tours/exotic-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tour-item hotel-item">
                                     <div class="blog-details">
-                                        <h3><a href="<?php echo base_url();?>tours/exotic_europe">Exotic Europe</a></h3>
+                                        <h3><a href="<?php echo base_url();?>tours/exotic-europe">Exotic Europe</a></h3>
                                         <ul class="list-inline">
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
@@ -215,12 +211,12 @@
                                         </ul>
                                         <!-- <h4><b>INR 2,95,721 /</b>  <small> 17 NIGHTS / 18 DAYS</small></h4> -->
                                        
-                                        <a class="read-btn" href="#">Read More </a>
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/exotic-europe">Read More </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <!-- <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                     <img src="<?php echo base_url();?>assets/images/tours/SCANDINAVIA-560x450.png" alt="">
@@ -242,13 +238,13 @@
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
                                         </ul>
-                                        <!-- <h4><b>INR 2,06,902 /</b>  <small> 8 NIGHTS / 9 DAYS</small></h4> -->
                                        
                                         <a class="read-btn" href="#">Read More </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
@@ -278,7 +274,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <!-- <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                     <img src="<?php echo base_url();?>assets/images/tours/central-eastern-europe3.jpg" alt="">
@@ -300,13 +296,73 @@
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
                                         </ul>
-                                        <!-- <h4><b>INR 2,31,301 /</b>  <small> 15 NIGHTS / 16 DAYS</small></h4> -->
                                        
                                         <a class="read-btn" href="#">Read More </a>
                                     </div>
                                 </div>
                             </div>
+                        </div> -->
+
+                        <div class="item">
+                            <div class="hover-box tour-hotel-box">
+                                <div class="tour-img image">
+                                    <img src="<?php echo base_url();?>assets/images/tours/Dubai.jpg" alt="">
+                                    <div class="over-layer">
+                                        <div class="links">
+                                            <ul class="list-inline">
+                                                <li><a href="<?php echo base_url();?>tours/dazzling-dubai"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour-item hotel-item">
+                                    <div class="blog-details">
+                                        <h3><a href="#">Dazzling Dubai</a></h3>
+                                        <ul class="list-inline">
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                        </ul>
+                                        <!-- <h4><b>INR 3,47,205 /</b>  <small> 13 NIGHTS / 14 DAYS</small></h4> -->
+                                       
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/dazzling-dubai">Read More </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="item">
+                            <div class="hover-box tour-hotel-box">
+                                <div class="tour-img image">
+                                    <img src="<?php echo base_url();?>assets/images/tours/Mauritius.jpg" alt="">
+                                    <div class="over-layer">
+                                        <div class="links">
+                                            <ul class="list-inline">
+                                                <li><a href="<?php echo base_url();?>tours/mauritius-masti"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour-item hotel-item">
+                                    <div class="blog-details">
+                                        <h3><a href="#">Mauritius Masti</a></h3>
+                                        <ul class="list-inline">
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                        </ul>
+                                        <!-- <h4><b>INR 3,47,205 /</b>  <small> 13 NIGHTS / 14 DAYS</small></h4> -->
+                                       
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/mauritius-masti">Read More </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
