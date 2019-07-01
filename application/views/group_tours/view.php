@@ -26,7 +26,7 @@
                                         <div class="over-layer">
                                             <div class="links">
                                                 <ul class="list-inline">
-                                                    <li><a href="tour-details.html"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                    <li><a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                                                 </ul>
                                             </div>
                                         </div>

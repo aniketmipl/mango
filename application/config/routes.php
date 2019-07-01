@@ -68,7 +68,6 @@ $route['tours/south-african-safari'] ='tours/south_african_safari';
 $route['tours/west-coast-of-america'] ='tours/west_coast_of_america';
 $route['tours/dazzling-dubai'] ='tours/dazzling_dubai';
 $route['tours/mauritius-masti'] ='tours/mauritius_masti';
-
-
-
-// $route['tours/classic-europe'] ='tours/classical_europe';
+$route['tours/new-zealand-&-australia'] = 'tours/Australia_and_New_Zealand';
+$route['tours/central-eastern-europe'] = 'tours/central_eastern_europe';
+$route['tours/scenic-scandinavia'] = 'tours/scenic_scandinavia';

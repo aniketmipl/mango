@@ -9,7 +9,7 @@
                                 <h4>Quick Links</h4>
                                 <div class="small-border"></div>
                                 <ul class="widget-list list-unstyled mb-20">
-                                    <li><a href="https://mangoholidays.in/"><i class="fa fa-caret-right"></i>Home</a></li>
+                                    <li><a href="<?php echo base_url();?>"><i class="fa fa-caret-right"></i>Home</a></li>
                                     <li><a href="https://mangoholidays.in/about-us/"><i class="fa fa-caret-right"></i>About Us</a></li>
                                     <li><a href="https://mangoholidays.in/contact-us/"><i class="fa fa-caret-right"></i>Contact Us</a></li>
                                     <li><a href="https://mangoholidays.in/contact-us/"><i class="fa fa-caret-right"></i>Enquiry</a></li>
@@ -32,26 +32,17 @@
                         <div class="widget">
                             <h4>GROUP TOUR</h4>
                             <div class="small-border"></div>
-                            <h5>INDIA</h5>
-                            <ul class="widget-list list-unstyled mb-20">
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Andaman</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Gujarat</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Gujarat</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Hyderabad</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Kashmir</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Kerala</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Madhya Pradesh</a></li>
-                            </ul>
                             
-                            <h5>INTERNATIONAL</h5>
+                            
                             <ul class="widget-list list-unstyled mb-20">
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Africa</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Australia & New Zealand</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Dubai</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Europe</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Japan</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Mauritius</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Scandinavia</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_africa"><i class="fa fa-caret-right"></i>Africa</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_america"><i class="fa fa-caret-right"></i>America</a></li>
+                                <li><a href="<?php echo base_url();?>"><i class="fa fa-caret-right"></i>Australia & New Zealand</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_dubai"><i class="fa fa-caret-right"></i>Dubai</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_europe"><i class="fa fa-caret-right"></i>Europe</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_japan"><i class="fa fa-caret-right"></i>Japan</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_mauritius"><i class="fa fa-caret-right"></i>Mauritius</a></li>
+                                <li><a href="<?php echo base_url();?>"><i class="fa fa-caret-right"></i>Rest of Europe</a></li>
                             </ul>
                         </div>
                         </div>

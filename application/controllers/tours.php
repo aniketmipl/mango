@@ -324,6 +324,82 @@ class tours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
+	public function Australia_and_New_Zealand()
+	{
+		$product_id ='16';
+		$product_code='A1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+
+
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		$filter_data['sector']="Australia and New Zeeland";
+		$filter_data['sector_path']="GroupTours/group_mauritius";
+		$head_data['title'] = "Australia and New Zeeland Group Tour - Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+
+	public function central_eastern_europe()
+	{
+		$product_id ='9';
+		$product_code='E6';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+
+
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		$filter_data['sector']="Central Eastern Europe";
+		$filter_data['sector_path']="GroupTours/group_mauritius";
+		$head_data['title'] = "Rest Of Europe Group Tour - Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function scenic_scandinavia()
+	{
+		$product_id ='10';
+		$product_code='E7';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+
+
+		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		$filter_data['Days']= $data['api_result']['Days'];
+		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
+		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		$filter_data['sector']="Scenic Scandinavia ";
+		$filter_data['sector_path']="GroupTours/group_mauritius";
+		$head_data['title'] = "Scenic Scandinavia Group Tour - Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
 	public function mpdf(){
 		//load mPDF library
 		@$this->load->library('m_pdf');
