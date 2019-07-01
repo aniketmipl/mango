@@ -96,25 +96,29 @@ class GroupTours extends CI_Controller {
 		$sector ='Australia and New Zealand';
 		$data['api_result']=$this->call_api($sector);
 		$data['sector_name']=$sector;
+		$data['gt_image'] = 'images/tours/mauritius/main.jpg';
+
+		$this->load->view('common/header');
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+
+	public function group_rest_of_europe()
+	{
+		$sector ='Rest of Europe';
+		$data['api_result']=$this->call_api($sector);
+		$data['sector_name']=$sector;
+		$data['gt_image'] = 'images/tours/mauritius/main.jpg';
 		
 		$this->load->view('common/header');
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
 
-	// public function group_australiaandnewzealand()
-	// {
-	// 	$sector ='Australia and New Zealand';
-
-	// 	$data['api_result']=$this->call_api($sector);
-	// 	$this->load->view('common/header');
-	// 	$this->load->view('group_tours/view',$data);
-	// 	$this->load->view('common/footer');
-	// }
-
 	public function call_api($sector){
-		$api_url ='http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName='.$sector;
 
+		$sector= str_replace ( ' ', '%20', $sector);
+		$api_url ="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName=$sector";
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
 		$password = "mango";

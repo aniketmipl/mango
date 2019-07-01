@@ -316,8 +316,8 @@
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount1+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount1+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount1+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount1+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount1+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount1+'</td>'+
                 '</tr>'+
                 '<tr>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'</td>'+
@@ -325,8 +325,8 @@
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount2+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount2+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount2+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount2+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount2+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount2+'</td>'+
                 '</tr>'+
                 '<tr>'+
                 '<td>TOTAL IN INR</td>'+
@@ -334,8 +334,8 @@
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].TotalINRValue+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].TotalINRValue+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].TotalINRValue+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].TotalINRValue+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].TotalINRValue+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].TotalINRValue+'</td>'+
                 '</tr>'+
                 '</tbody>'+
                 '</table>'+
