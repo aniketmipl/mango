@@ -337,11 +337,11 @@ class tours extends CI_Controller {
 		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
-		$filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
+		$filter_data['slider_image'] = 'images/tours/aus-nz/aus-nz-banner.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Australia and New Zeeland";
-		$filter_data['sector_path']="GroupTours/group_mauritius";
+		$filter_data['sector_path']="GroupTours/group_australiaandnewzealand";
 		$head_data['title'] = "Australia and New Zeeland Group Tour - Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
@@ -363,11 +363,11 @@ class tours extends CI_Controller {
 		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
-		$filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
+		$filter_data['slider_image'] = 'images/tours/rest-of-europe/central-eastern-europe-banner.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
-		$filter_data['sector']="Central Eastern Europe";
-		$filter_data['sector_path']="GroupTours/group_mauritius";
+		$filter_data['sector']="Rest Of Europe";
+		$filter_data['sector_path']="GroupTours/group_rest_of_europe";
 		$head_data['title'] = "Rest Of Europe Group Tour - Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
@@ -388,11 +388,11 @@ class tours extends CI_Controller {
 		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
-		$filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
+		$filter_data['slider_image'] = 'images/tours/rest-of-europe/scandivia-banner.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
-		$filter_data['sector']="Scenic Scandinavia ";
-		$filter_data['sector_path']="GroupTours/group_mauritius";
+		$filter_data['sector']="Rest Of Europe ";
+		$filter_data['sector_path']="GroupTours/group_rest_of_europe";
 		$head_data['title'] = "Scenic Scandinavia Group Tour - Mango Holidays";
 
 		$this->load->view('common/header',$head_data);

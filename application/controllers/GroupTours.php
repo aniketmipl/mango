@@ -96,7 +96,7 @@ class GroupTours extends CI_Controller {
 		$sector ='Australia and New Zealand';
 		$data['api_result']=$this->call_api($sector);
 		$data['sector_name']=$sector;
-		$data['gt_image'] = 'images/tours/mauritius/main.jpg';
+		$data['gt_image'] = 'images/tours/aus-nz/main.jpg';
 
 		$this->load->view('common/header');
 		$this->load->view('group_tours/view',$data);
@@ -108,7 +108,7 @@ class GroupTours extends CI_Controller {
 		$sector ='Rest of Europe';
 		$data['api_result']=$this->call_api($sector);
 		$data['sector_name']=$sector;
-		$data['gt_image'] = 'images/tours/mauritius/main.jpg';
+		$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
 		
 		$this->load->view('common/header');
 		$this->load->view('group_tours/view',$data);
