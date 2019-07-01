@@ -21,7 +21,7 @@
                                 <h5>Special Tours</h5>
                                
                                 <ul class="widget-list list-unstyled mb-20">
-                                    <li><a href="#"><i class="fa fa-caret-right"></i>Weekend Gateways</a></li>
+                                    <!-- <li><a href="#"><i class="fa fa-caret-right"></i>Weekend Gateways</a></li> -->
                                     <li><a href="#"><i class="fa fa-caret-right"></i>Corporate Tours</a></li>
                                 </ul>
                             </div>
@@ -37,12 +37,12 @@
                             <ul class="widget-list list-unstyled mb-20">
                                 <li><a href="<?php echo base_url();?>GroupTours/group_africa"><i class="fa fa-caret-right"></i>Africa</a></li>
                                 <li><a href="<?php echo base_url();?>GroupTours/group_america"><i class="fa fa-caret-right"></i>America</a></li>
-                                <li><a href="<?php echo base_url();?>"><i class="fa fa-caret-right"></i>Australia & New Zealand</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_australiaandnewzealand"><i class="fa fa-caret-right"></i>Australia & New Zealand</a></li>
                                 <li><a href="<?php echo base_url();?>GroupTours/group_dubai"><i class="fa fa-caret-right"></i>Dubai</a></li>
                                 <li><a href="<?php echo base_url();?>GroupTours/group_europe"><i class="fa fa-caret-right"></i>Europe</a></li>
                                 <li><a href="<?php echo base_url();?>GroupTours/group_japan"><i class="fa fa-caret-right"></i>Japan</a></li>
                                 <li><a href="<?php echo base_url();?>GroupTours/group_mauritius"><i class="fa fa-caret-right"></i>Mauritius</a></li>
-                                <li><a href="<?php echo base_url();?>"><i class="fa fa-caret-right"></i>Rest of Europe</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_rest_of_europe"><i class="fa fa-caret-right"></i>Rest of Europe</a></li>
                             </ul>
                         </div>
                         </div>
