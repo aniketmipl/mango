@@ -94,7 +94,7 @@
                                                         <ul class="nav nav-tabs" role="tablist">
                                                             <li role="presentation" class="active"><a href="#tab-item-one" aria-controls="tab-item-one" role="tab" data-toggle="tab"><i class="fa fa-anchor" aria-hidden="true"></i>Itinerary</a></li>
                                                             <li role="presentation"><a href="#tab-item-two" aria-controls="tab-item-two" role="tab" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i>Highlights</a></li>
-                                                            <li role="presentation"><a href="#tab-item-three" aria-controls="tab-item-three" role="tab" data-toggle="tab"><i class="fa fa-suitcase" aria-hidden="true"></i>Inclusion / Exclusion</a></li>
+                                                            <li role="presentation"><a href="#tab-item-three" aria-controls="tab-item-three" role="tab" data-toggle="tab"><i class="fa fa-suitcase" aria-hidden="true"></i>Inclusions / Exclusions</a></li>
                                                             
                                                         </ul>
                                                     <!-- Tab panes -->
@@ -139,7 +139,7 @@
                                                             </div>
                                                             <div role="tabpanel" class="tab-pane fade" id="tab-item-three">
                                                                     <div class="tab-tour-info">
-                                                                            <h4><b>Inclusion :</b></h4>
+                                                                            <h4><b>Inclusions :</b></h4>
                                                                             <div class="small-border"></div>
                                                                             <ul>
                                                                               <?php 
@@ -152,7 +152,7 @@
                                                                                 </li>
                                                                             </ul> 
                                                                                     
-                                                                                    <h4><b>Exclusion :</b></h4>
+                                                                                    <h4><b>Exclusions :</b></h4>
                                                                                     <div class="small-border"></div>
                                                                                     <ul>
                                                                                       <?php 
@@ -266,11 +266,15 @@
  <script type="text/javascript">
    
   $(function(){
-      
+
+    var curent_sector = "<?php echo $sector; ?>";
+    var relative_tours="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName="+curent_sector;
+    var current_tour = "<?php echo @$ProductTitle;?>";
+
     $(".tour_info").click(function(){
       var tour_code = $(this).attr('data-tourcode');
 
-
+      
       var url= "http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/GetTourPricingDetailForWebsite?TourCode="+tour_code;
 
       $.ajax({
@@ -284,8 +288,7 @@
           username:'mhwebsite',
           password:'mango',
           success:function(res){
-          var result = JSON.parse(JSON.stringify(res));
-                console.log(result);
+                var result = JSON.parse(JSON.stringify(res));
                 var main_body = '<h4 style="text-align: center; text-transform: none;">Tour Price & Dates Availablity</h4><h3 style="color:#FF6600;">Tour Code: '+res.TourCode+'</h3>';
                 var body_content = '<table class="table-striped table-bordered">'+
                 '<thead>'+
@@ -390,7 +393,37 @@
         })
     })
 
-    
+     $.ajax({
+          url:relative_tours,
+          type:'GET',
+          headers:
+          {
+            'UserName':'mhwebsite',
+            'Password':'mango'
+          },
+          username:'mhwebsite',
+          password:'mango',
+          success:function(res){
+            var rtr = JSON.parse(JSON.stringify(res));
+            var related_tours_array = rtr.ProductList;
+            console.log(related_tours_array);
+
+            var array_length = related_tours_array.length;
+            console.log(array_length);
+
+            if(array_length > 1){
+                
+                var i;
+                for (i = 0; i < array_length; i++) { 
+                    if(related_tours_array[i].ProductTitle != current_tour){
+                        console.log("Tour Title "+related_tours_array[i].ProductTitle);
+
+                    }
+                }
+            }
+          }
+      })
+
 
   });
  </script>
