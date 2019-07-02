@@ -485,6 +485,7 @@
     .tour-item .tour-details p
     {
         font-size:15px;
+        direction: ltr;
     }
     .sidber .widget .content-text p{
         font-weight: 500;
@@ -495,6 +496,21 @@
         line-height: 1.25em;
         margin: 10px 0 10px;
     }
+    .hover-box .image .over-layer .links{
+        direction: ltr;
+    }
+
+    .related-tours .tour-item .tour-details p{
+        margin-bottom:0;
+    }
+    .related-tours .tour-item .tour-details{
+        padding: 20px 0 20px;
+    }
+    .related-tours h3{
+    font-size: 2.5em;
+    font-weight: bold;
+    }
+  
     @media (min-width:1440px){
     .page-header-container img {
         width: 100% !important;

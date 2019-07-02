@@ -238,6 +238,183 @@
                         
                 
             </div>
+
+             <!--related tours started-->  
+             <div class="row">
+                <div class="spacial-place related-tours">
+                    <div class="col-md-12">
+                            <h3 class="mb-20"><a href="#">You may also like</a></h3>
+                        <div id="tour-carousel" class="tour-carousel owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/classic-europe.jpg" alt="">
+                                        <div class="over-layer">
+                                            <div class="links">
+                                                <h4><a href="#">Classic Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/> 
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Classic Europe</p>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/glimpses-of-europe.jpg" alt="">
+                                        <div class="over-layer">
+                                            <div class="links">
+                                                <h4><a href="#">Glimpses of Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/>
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Glimpses of Europe</p>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/best-of-europe.jpg" alt="">
+                                        <div class="over-layer">
+                                            <div class="links">
+                                                <h4><a href="#">Best Of Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/>
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Best Of Europe</p>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/grand-europe.jpg" alt="">
+                                        <div class="over-layer">
+                                            <div class="links">
+                                                <h4><a href="#">Grand Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/>
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Grand Europe</p>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/exotic-eurpoe.jpg" alt="">
+                                        <div class="over-layer">
+                                            <div class="links">
+                                                <h4><a href="#">Exotic Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/>
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Exotic Europe</p>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <!--related tours ended-->   
             
         </div>
     </section>
