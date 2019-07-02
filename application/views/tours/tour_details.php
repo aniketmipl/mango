@@ -261,7 +261,7 @@
                                                         <li><a href="#"><i class="ion-ios-star"></i></a></li>
                                                         <li><a href="#"><i class="ion-ios-star"></i></a></li>
                                                     </ul>
-                                                    <br/>
+                                                    <br/> 
                                                     <a class="view-btn" href="tour-details.html">view more</a>
                                                 </div>
                                             </div>
