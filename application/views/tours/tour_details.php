@@ -243,77 +243,12 @@
              <div class="row">
                 <div class="spacial-place related-tours">
                     <div class="col-md-12">
-                            <h3 class="mb-20"><a href="#">You may also like</a></h3>
+                            <h3 class="mb-20"><a>You may also like</a></h3>
                         <div id="tour-carousel" class="tour-carousel owl-carousel owl-theme">
                             <div class="item">
                                 <div class="hover-box">
                                     <div class="tour-img image">
-                                        <img src="<?php echo base_url()?>assets/images/tours/europe/classic-europe.jpg" alt="">
-                                        <div class="over-layer">
-                                            <div class="links">
-                                                <h4><a href="#">Classic Europe</a></h4>
-                                                <h6>15 Days / 14 Nights</h6>
-                                                <div class="rating">
-                                                    <ul class="rating-btn">
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                    </ul>
-                                                    <br/> 
-                                                    <a class="view-btn" href="tour-details.html">view more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tour-item">
-                                        <div class="tour-details">
-                                        <a href="tour-details.html">
-                                            <p> 15 Days / 14 Nights </p>
-                                            <p class="price">Classic Europe</p>
-                                        </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="hover-box">
-                                    <div class="tour-img image">
-                                        <img src="<?php echo base_url()?>assets/images/tours/europe/glimpses-of-europe.jpg" alt="">
-                                        <div class="over-layer">
-                                            <div class="links">
-                                                <h4><a href="#">Glimpses of Europe</a></h4>
-                                                <h6>15 Days / 14 Nights</h6>
-                                                
-                                                <div class="rating">
-                                                    <ul class="rating-btn">
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                    </ul>
-                                                    <br/>
-                                                    <a class="view-btn" href="tour-details.html">view more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tour-item">
-                                        <div class="tour-details">
-                                        <a href="tour-details.html">
-                                            <p> 15 Days / 14 Nights </p>
-                                            <p class="price">Glimpses of Europe</p>
-                                        </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="hover-box">
-                                    <div class="tour-img image">
-                                        <img src="<?php echo base_url()?>assets/images/tours/europe/best-of-europe.jpg" alt="">
+                                        <img src="http://localhost:8081/MangoHolidaysNew/assets/images/tours/europe/best-of-europe.jpg" alt="">
                                         <div class="over-layer">
                                             <div class="links">
                                                 <h4><a href="#">Best Of Europe</a></h4>
@@ -327,7 +262,7 @@
                                                         <li><a href="#"><i class="ion-ios-star"></i></a></li>
                                                         <li><a href="#"><i class="ion-ios-star"></i></a></li>
                                                     </ul>
-                                                    <br/>
+                                                    <br>
                                                     <a class="view-btn" href="tour-details.html">view more</a>
                                                 </div>
                                             </div>
@@ -342,77 +277,11 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <div class="hover-box">
-                                    <div class="tour-img image">
-                                        <img src="<?php echo base_url()?>assets/images/tours/europe/grand-europe.jpg" alt="">
-                                        <div class="over-layer">
-                                            <div class="links">
-                                                <h4><a href="#">Grand Europe</a></h4>
-                                                <h6>15 Days / 14 Nights</h6>
-                                                
-                                                <div class="rating">
-                                                    <ul class="rating-btn">
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                    </ul>
-                                                    <br/>
-                                                    <a class="view-btn" href="tour-details.html">view more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tour-item">
-                                        <div class="tour-details">
-                                        <a href="tour-details.html">
-                                            <p> 15 Days / 14 Nights </p>
-                                            <p class="price">Grand Europe</p>
-                                        </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="hover-box">
-                                    <div class="tour-img image">
-                                        <img src="<?php echo base_url()?>assets/images/tours/europe/exotic-eurpoe.jpg" alt="">
-                                        <div class="over-layer">
-                                            <div class="links">
-                                                <h4><a href="#">Exotic Europe</a></h4>
-                                                <h6>15 Days / 14 Nights</h6>
-                                                
-                                                <div class="rating">
-                                                    <ul class="rating-btn">
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
-                                                    </ul>
-                                                    <br/>
-                                                    <a class="view-btn" href="tour-details.html">view more</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tour-item">
-                                        <div class="tour-details">
-                                        <a href="tour-details.html">
-                                            <p> 15 Days / 14 Nights </p>
-                                            <p class="price">Exotic Europe</p>
-                                        </a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             
                         </div>
                     </div>
-                </div>
             </div>
               <!--related tours ended-->   
             
@@ -441,13 +310,59 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
  <script type="text/javascript">
+
+
    
   $(function(){
 
-    var curent_sector = "<?php echo $sector; ?>";
-    var relative_tours="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName="+curent_sector;
-    var current_tour = "<?php echo @$ProductTitle;?>";
+ related_tour();
 
+
+
+    function related_tour(){
+        var curent_sector = "<?php echo $sector; ?>";
+        var relative_tours="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName="+curent_sector;
+        var current_tour = "<?php echo @$ProductTitle;?>";
+
+        $.ajax({
+          url:relative_tours,
+          type:'GET',
+          headers:
+          {
+            'UserName':'mhwebsite',
+            'Password':'mango'
+          },
+          username:'mhwebsite',
+          password:'mango',
+          success:function(res){
+            var rtr = JSON.parse(JSON.stringify(res));
+            var related_tours_array = rtr.ProductList;
+            console.log(related_tours_array);
+
+            var array_length = related_tours_array.length;
+            console.log(array_length);
+            var related_tour_div='';
+            if(array_length > 1){
+                
+                var i;
+                for (i = 0; i < array_length; i++) { 
+                    if(related_tours_array[i].ProductTitle != current_tour){
+                        var related_tour_view ='<div class="owl-item"><div class="item"><div class="hover-box"><div class="tour-img image"><img src="http://localhost:8081/MangoHolidaysNew/assets/images/tours/europe/best-of-europe.jpg" alt=""><div class="over-layer"><div class="links"><h4><a href="#">Best Of Europe</a></h4><h6>15 Days / 14 Nights</h6><div class="rating"><ul class="rating-btn"><li><a href="#"><i class="ion-ios-star"></i></a></li><li><a href="#"><i class="ion-ios-star"></i></a></li><li><a href="#"><i class="ion-ios-star"></i></a></li><li><a href="#"><i class="ion-ios-star"></i></a></li><li><a href="#"><i class="ion-ios-star"></i></a></li></ul><br><a class="view-btn" href="tour-details.html">view more</a></div></div></div></div><div class="tour-item"><div class="tour-details"><a href="tour-details.html"><p> 15 Days / 14 Nights </p><p class="price">Best Of Europe</p></a></div></div></div></div></div>';
+                            related_tour_div +=related_tour_view;
+                    }
+                }
+
+                        console.log(related_tour_div);
+                        $(".owl-stage").append(related_tour_div);
+
+                        // console.log("Tour Title "+related_tours_array[i].ProductTitle);
+            }
+          }
+      });
+    }
+
+   
+    
     $(".tour_info").click(function(){
       var tour_code = $(this).attr('data-tourcode');
 
@@ -531,7 +446,6 @@
           }
       });
     });
-    
 
     $("#pdf_download").click(function(){
         var pdf_download = "<?php echo base_url()?>tours/mpdf";
@@ -570,37 +484,7 @@
         })
     })
 
-     $.ajax({
-          url:relative_tours,
-          type:'GET',
-          headers:
-          {
-            'UserName':'mhwebsite',
-            'Password':'mango'
-          },
-          username:'mhwebsite',
-          password:'mango',
-          success:function(res){
-            var rtr = JSON.parse(JSON.stringify(res));
-            var related_tours_array = rtr.ProductList;
-            console.log(related_tours_array);
-
-            var array_length = related_tours_array.length;
-            console.log(array_length);
-
-            if(array_length > 1){
-                
-                var i;
-                for (i = 0; i < array_length; i++) { 
-                    if(related_tours_array[i].ProductTitle != current_tour){
-                        console.log("Tour Title "+related_tours_array[i].ProductTitle);
-
-                    }
-                }
-            }
-          }
-      })
-
 
   });
+
  </script>
