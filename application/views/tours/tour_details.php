@@ -51,6 +51,7 @@
         </ul>
     </div>
 </div>
+<div class="clearfix"></div>
 <!-- Start BLog Section -->
 <section class="blog-single-pages portfolio tour-content">
         <div class="page-header-container">

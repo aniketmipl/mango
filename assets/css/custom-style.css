@@ -17,6 +17,11 @@
         margin-bottom: 15px;
         letter-spacing: 0.2px;
     }
+    section, .section {
+        display: block;
+        overflow: visible;
+     
+    }
     .sec-title h2, .tour-video h2{
         font-family: inherit;
     }
@@ -168,8 +173,10 @@
         
 .page-title-container {
     width:100%;
-    height: 56px;
+    /* height: 56px; */
     background: #2d3e52;
+    display: block;
+    float: left;
 }
 .page-title-container .page-title .entry-title {
     line-height: 56px;
@@ -177,7 +184,8 @@
     margin: 0;
 }
 .page-title-container .breadcrumbs {
-    height: 100%;
+    /* height: 100%; */
+    height:auto;
 }
 .page-title-container .breadcrumbs li a {
     padding-right: 5px;
