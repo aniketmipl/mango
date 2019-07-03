@@ -510,7 +510,22 @@
     font-size: 2.5em;
     font-weight: bold;
     }
+
+    .related-tours h4{
+        font-size: 15px;
+        font-weight: 600;
+        color: #366547;
+        margin-bottom: 5px;
+    }
+    .related-tours p{
+        margin-bottom: 0;
+    }
   
+    .related-tours .hotel-item .blog-details{
+        padding:10px !important;
+        text-align: center;
+    }
+
     @media (min-width:1440px){
     .page-header-container img {
         width: 100% !important;

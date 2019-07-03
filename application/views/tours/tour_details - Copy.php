@@ -94,7 +94,7 @@
                                                         <ul class="nav nav-tabs" role="tablist">
                                                             <li role="presentation" class="active"><a href="#tab-item-one" aria-controls="tab-item-one" role="tab" data-toggle="tab"><i class="fa fa-anchor" aria-hidden="true"></i>Itinerary</a></li>
                                                             <li role="presentation"><a href="#tab-item-two" aria-controls="tab-item-two" role="tab" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i>Highlights</a></li>
-                                                            <li role="presentation"><a href="#tab-item-three" aria-controls="tab-item-three" role="tab" data-toggle="tab"><i class="fa fa-suitcase" aria-hidden="true"></i>Inclusions / Exclusions</a></li>
+                                                            <li role="presentation"><a href="#tab-item-three" aria-controls="tab-item-three" role="tab" data-toggle="tab"><i class="fa fa-suitcase" aria-hidden="true"></i>Inclusion / Exclusion</a></li>
                                                             
                                                         </ul>
                                                     <!-- Tab panes -->
@@ -139,7 +139,7 @@
                                                             </div>
                                                             <div role="tabpanel" class="tab-pane fade" id="tab-item-three">
                                                                     <div class="tab-tour-info">
-                                                                            <h4><b>Inclusions :</b></h4>
+                                                                            <h4><b>Inclusion :</b></h4>
                                                                             <div class="small-border"></div>
                                                                             <ul>
                                                                               <?php 
@@ -152,7 +152,7 @@
                                                                                 </li>
                                                                             </ul> 
                                                                                     
-                                                                                    <h4><b>Exclusions :</b></h4>
+                                                                                    <h4><b>Exclusion :</b></h4>
                                                                                     <div class="small-border"></div>
                                                                                     <ul>
                                                                                       <?php 
@@ -240,156 +240,180 @@
             </div>
 
              <!--related tours started-->  
-            
-        <section class="hotel-offer tour-category">
-        <div class="container">
-            <div class="row">
-                <div class="hottel-grid-offer related-tours" style="justify-content: left;">
-                <div class="col-md-12">
-                        <h3 class="mb-20"><a>You may also like</a></h3>
-                    </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
-                        <div class="hover-box tour-hotel-box">
-                                <div class="tour-img image">
-                                        <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
+             <div class="row">
+                <div class="spacial-place related-tours">
+                    <div class="col-md-12">
+                            <h3 class="mb-20"><a href="#">You may also like</a></h3>
+                        <div id="tour-carousel" class="tour-carousel owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/classic-europe.jpg" alt="">
                                         <div class="over-layer">
                                             <div class="links">
-                                                <ul class="list-inline">
-                                                    <li><a href="http://localhost/MangoHolidaysNew/tours/glimpses-of-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                                </ul>
+                                                <h4><a href="#">Classic Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/> 
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                            <div class="tour-item hotel-item">
-                                <div class="blog-details">
-                                <a href="http://localhost/MangoHolidaysNew/tours/glimpses-of-europe">
-                                    <h4>GLIMPSES OF EUROPE</h4>
-                                    <p>15 Days / 14 Nights</p>   
-                                </a>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Classic Europe</p>
+                                        </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
-                        <div class="hover-box tour-hotel-box">
-                                <div class="tour-img image">
-                                        <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/glimpses-of-europe.jpg" alt="">
                                         <div class="over-layer">
                                             <div class="links">
-                                                <ul class="list-inline">
-                                                    <li><a href="http://localhost/MangoHolidaysNew/tours/exotic-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                                </ul>
+                                                <h4><a href="#">Glimpses of Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/>
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                            <div class="tour-item hotel-item">
-                            <div class="blog-details">
-                                <a href="http://localhost/MangoHolidaysNew/tours/exotic-europe">
-                                    <h4>EXOTIC EUROPE</h4>
-                                    <p>15 Days / 14 Nights</p>   
-                                </a>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Glimpses of Europe</p>
+                                        </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
-                        <div class="hover-box tour-hotel-box">
-                                <div class="tour-img image">
-                                        <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/best-of-europe.jpg" alt="">
                                         <div class="over-layer">
                                             <div class="links">
-                                                <ul class="list-inline">
-                                                    <li><a href="http://localhost/MangoHolidaysNew/tours/classic-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                                </ul>
+                                                <h4><a href="#">Best Of Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/>
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    
-                            <div class="tour-item hotel-item">
-                            <div class="blog-details">
-                                <a href="http://localhost/MangoHolidaysNew/tours/classic-europe">
-                                    <h4>CLASSIC EUROPE</h4>
-                                    <p>15 Days / 14 Nights</p>   
-                                </a>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Best Of Europe</p>
+                                        </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
-                        <div class="hover-box tour-hotel-box">
-                                <div class="tour-img image">
-                                        <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/grand-europe.jpg" alt="">
                                         <div class="over-layer">
                                             <div class="links">
-                                                <ul class="list-inline">
-                                                    <li><a href="http://localhost/MangoHolidaysNew/tours/grand-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                                </ul>
+                                                <h4><a href="#">Grand Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/>
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                            <div class="tour-item hotel-item">
-                            <div class="blog-details">
-                                <a href="http://localhost/MangoHolidaysNew/tours/grand-europe">
-                                    <h4>GRAND EUROPE</h4>
-                                    <p>15 Days / 14 Nights</p>   
-                                </a>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Grand Europe</p>
+                                        </a>
+                                        </div>
+                                    </div>
                                 </div>
-                              
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
-                        <div class="hover-box tour-hotel-box">
-                                <div class="tour-img image">
-                                        <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url()?>assets/images/tours/europe/exotic-eurpoe.jpg" alt="">
                                         <div class="over-layer">
                                             <div class="links">
-                                                <ul class="list-inline">
-                                                    <li><a href="http://localhost/MangoHolidaysNew/tours/best-of-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                                </ul>
+                                                <h4><a href="#">Exotic Europe</a></h4>
+                                                <h6>15 Days / 14 Nights</h6>
+                                                
+                                                <div class="rating">
+                                                    <ul class="rating-btn">
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                        <li><a href="#"><i class="ion-ios-star"></i></a></li>
+                                                    </ul>
+                                                    <br/>
+                                                    <a class="view-btn" href="tour-details.html">view more</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                            <div class="tour-item hotel-item">
-                            <div class="blog-details">
-                                <a href="http://localhost/MangoHolidaysNew/tours/best-of-europe">
-                                    <h4>BEST OF EUROPE</h4>
-                                    <p>15 Days / 14 Nights</p>   
-                                </a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
-                        <div class="hover-box tour-hotel-box">
-                                <div class="tour-img image">
-                                        <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
-                                        <div class="over-layer">
-                                            <div class="links">
-                                                <ul class="list-inline">
-                                                    <li><a href="http://localhost/MangoHolidaysNew/tours/grand-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                                </ul>
-                                            </div>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <a href="tour-details.html">
+                                            <p> 15 Days / 14 Nights </p>
+                                            <p class="price">Exotic Europe</p>
+                                        </a>
                                         </div>
                                     </div>
-                            <div class="tour-item hotel-item">
-                            <div class="blog-details">
-                                <a href="http://localhost/MangoHolidaysNew/tours/grand-europe">
-                                    <h4>GRAND EUROPE</h4>
-                                    <p>15 Days / 14 Nights</p>   
-                                </a>
                                 </div>
-                                
                             </div>
+                            
                         </div>
                     </div>
-                                </div>
+                </div>
             </div>
-            
-        </div>
-    </section>
               <!--related tours ended-->   
             
         </div>
@@ -415,68 +439,15 @@
     </div>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    
+
  <script type="text/javascript">
-
-
    
   $(function(){
-
- related_tour();
-
-
-
-    function related_tour(){
-        var curent_sector = "<?php echo $sector; ?>";
-        var relative_tours="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName="+curent_sector;
-        var current_tour = "<?php echo @$ProductTitle;?>";
-
-        $.ajax({
-          url:relative_tours,
-          type:'GET',
-          headers:
-          {
-            'UserName':'mhwebsite',
-            'Password':'mango'
-          },
-          username:'mhwebsite',
-          password:'mango',
-          success:function(res){
-            var rtr = JSON.parse(JSON.stringify(res));
-            var related_tours_array = rtr.ProductList;
-            console.log(related_tours_array);
-
-            var array_length = related_tours_array.length;
-            console.log(array_length);
-            var related_tour_div='';
-            if(array_length > 1){
-                
-                var i;
-                for (i = 0; i < array_length; i++) { 
-                    if(related_tours_array[i].ProductTitle != current_tour){
-                        var related_tour_view ='<div class="owl-item"><div class="item"><div class="hover-box"><div class="tour-img image"><img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/best-of-europe.jpg" alt=""><div class="over-layer"><div class="links"><h4><a href="#">Best Of Europe</a></h4><h6>15 Days / 14 Nights</h6><div class="rating"><ul class="rating-btn"><li><a href="#"><i class="ion-ios-star"></i></a></li><li><a href="#"><i class="ion-ios-star"></i></a></li><li><a href="#"><i class="ion-ios-star"></i></a></li><li><a href="#"><i class="ion-ios-star"></i></a></li><li><a href="#"><i class="ion-ios-star"></i></a></li></ul><br><a class="view-btn" href="tour-details.html">view more</a></div></div></div></div><div class="tour-item"><div class="tour-details"><a href="tour-details.html"><p> 15 Days / 14 Nights </p><p class="price">Best Of Europe</p></a></div></div></div></div></div>';
-                            related_tour_div +=related_tour_view;
-                    }
-                }
-
-                        console.log(related_tour_div);
-                        $('#tour-carousel').trigger('destroy.owl.carousel');
-                        $(".owl-stage").append(related_tour_div);
-                        $("#tour-carousel").owlCarousel();
-                        
-
-                        // console.log("Tour Title "+related_tours_array[i].ProductTitle);
-            }
-          }
-      });
-    }
-
-   
-    
+      
     $(".tour_info").click(function(){
       var tour_code = $(this).attr('data-tourcode');
 
-      
+
       var url= "http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/GetTourPricingDetailForWebsite?TourCode="+tour_code;
 
       $.ajax({
@@ -490,7 +461,8 @@
           username:'mhwebsite',
           password:'mango',
           success:function(res){
-                var result = JSON.parse(JSON.stringify(res));
+          var result = JSON.parse(JSON.stringify(res));
+                console.log(result);
                 var main_body = '<h4 style="text-align: center; text-transform: none;">Tour Price & Dates Availablity</h4><h3 style="color:#FF6600;">Tour Code: '+res.TourCode+'</h3>';
                 var body_content = '<table class="table-striped table-bordered">'+
                 '<thead>'+
@@ -546,8 +518,8 @@
                 '</table>'+
                 '<br/>'+
                 '<p>Tour price is calculated at '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1SellingRate+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'='+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2SellingRate+'/-.</p>'+
-                '<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' to be calculated on the prevailing rate of exchange of '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' -> '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' on the day of actual payment to Mango Holidays.</p>'+
-                '<p>Tour Price Starting From : '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+ result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue+'/- per adult on twin sharing basis!</p>'+
+                '<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in Euros to be calculated on the prevailing rate of exchange of Euros -> INR on the day of actual payment to Mango Holidays.</p>'+
+                '<p>Tour Price STARTING FROM: '+result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue+' per adult on twin sharing basis!</p>'+
                 '<p><b>**Prices increase as seats get filled.**</b></p>';
                 $(".modal-body").html("");
                 $(".modal-body").html(main_body+body_content);
@@ -556,6 +528,7 @@
           }
       });
     });
+    
 
     $("#pdf_download").click(function(){
         var pdf_download = "<?php echo base_url()?>tours/mpdf";
@@ -594,7 +567,7 @@
         })
     })
 
+    
 
   });
-
  </script>
