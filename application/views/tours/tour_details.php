@@ -353,7 +353,10 @@
                 }
 
                         console.log(related_tour_div);
+                        $('#tour-carousel').trigger('destroy.owl.carousel');
                         $(".owl-stage").append(related_tour_div);
+                        $("#tour-carousel").owlCarousel();
+                        
 
                         // console.log("Tour Title "+related_tours_array[i].ProductTitle);
             }
