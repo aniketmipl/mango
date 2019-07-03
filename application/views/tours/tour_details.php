@@ -55,7 +55,8 @@
 <!-- Start BLog Section -->
 <section class="blog-single-pages portfolio tour-content">
         <div class="page-header-container">
-            <img src="<?php echo base_url().'assets/'.$slider_image; ?>"  alt="slider_image">
+            <img src="<?php echo base_url().'assets/'.$slider_image; ?>" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url().'assets/images/tours/europe/exotic-europe.jpg'?>" class="mobile-image" alt="slider_image">
           <div class="post-blog-item">
 
             <div class="date-mate">
@@ -313,7 +314,7 @@
             var rtr = JSON.parse(JSON.stringify(res));
             var related_tours_array = rtr.ProductList;
             console.log(related_tours_array);
-
+            
             var array_length = related_tours_array.length;
             console.log(array_length);
             var related_tour_div='';
@@ -325,7 +326,7 @@
                         var related_tour_view ='<div class="col-md-3 col-sm-4 mb-20">'+
                         '<div class="hover-box tour-hotel-box">'+
                                 '<div class="tour-img image">'+
-                                        '<img src="<?php echo base_url();?>assets/images/tours/'+curent_sector.toLowerCase()+'/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'.jpg" alt="">'+
+                                '<img src="<?php echo base_url();?>assets/images/tours/'+curent_sector.replace(new RegExp(" ","g"),"-").toLowerCase()+'/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'.jpg" alt="">'+
                                         '<div class="over-layer">'+
                                             '<div class="links">'+
                                                 '<ul class="list-inline">'+

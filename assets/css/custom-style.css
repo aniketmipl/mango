@@ -1078,4 +1078,21 @@ background: #e8e6e6;
     width:98%;
 }
 
+.desktop-image{
+    display:block;
+}
+
+.mobile-image{
+    display:none;
+}
+
+@media only screen and (max-width: 600px){
+    .desktop-image{
+        display:none !important;
+    }
+
+    .mobile-image{
+        display:block !important;
+    }
+}
 
