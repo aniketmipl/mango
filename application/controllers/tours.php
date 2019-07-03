@@ -337,7 +337,7 @@ class tours extends CI_Controller {
 		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
-		$filter_data['slider_image'] = 'images/tours/aus-nz/aus-nz-banner.jpg';
+		$filter_data['slider_image'] = 'images/tours/australia-and-new-zeeland/aus-nz-banner.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Australia and New Zeeland";
