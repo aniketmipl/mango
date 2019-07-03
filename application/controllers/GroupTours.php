@@ -96,7 +96,7 @@ class GroupTours extends CI_Controller {
 		$sector ='Australia and New Zealand';
 		$data['api_result']=$this->call_api($sector);
 		$data['sector_name']=$sector;
-		$data['gt_image'] = 'images/tours/aus-nz/main.jpg';
+		$data['gt_image'] = 'images/tours/australia-and-new-zeeland/main.jpg';
 
 		$this->load->view('common/header');
 		$this->load->view('group_tours/view',$data);

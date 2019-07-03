@@ -242,11 +242,12 @@
              <!--related tours started-->  
             
         <section class="hotel-offer tour-category">
-        <div class="container">
+        <div class="container" style="padding:0">
             <div class="row">
                 <div class="hottel-grid-offer related-tours" style="justify-content: left;">
                     <div class="col-md-12">
                         <h3 class="mb-20"><a>You may also like</a></h3>
+                        <div class="small-border"></div>
                     </div>
                     <div class="related_tours col-md-12"> 
                        
@@ -324,6 +325,7 @@
                         '<div class="hover-box tour-hotel-box">'+
                                 '<div class="tour-img image">'+
                                         '<img src="<?php echo base_url();?>assets/images/tours/'+curent_sector.replace(new RegExp(" ","g"),"-").toLowerCase()+'/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'.jpg" alt="">'+
+
                                         '<div class="over-layer">'+
                                             '<div class="links">'+
                                                 '<ul class="list-inline">'+
