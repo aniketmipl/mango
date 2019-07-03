@@ -248,7 +248,7 @@
                 <div class="col-md-12">
                         <h3 class="mb-20"><a>You may also like</a></h3>
                     </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
+                    <div class="col-md-3 col-sm-4 col-xs-6 mb-20">
                         <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                         <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
@@ -270,7 +270,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
+                    <div class="col-md-3 col-sm-4 col-xs-6  mb-20">
                         <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                         <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
@@ -292,7 +292,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
+                    <div class="col-md-3 col-sm-4 col-xs-6  mb-20">
                         <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                         <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
@@ -316,7 +316,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
+                    <div class="col-md-3 col-sm-4 col-xs-6  mb-20">
                         <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                         <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
@@ -339,7 +339,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
+                    <div class="col-md-3 col-sm-4 col-xs-6  mb-20">
                         <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                         <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">
@@ -362,7 +362,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4 mb-20">
+                    <div class="col-md-3 col-sm-4 col-xs-6  mb-20">
                         <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                         <img src="http://localhost/MangoHolidaysNew/assets/images/tours/europe/main.jpg" alt="">

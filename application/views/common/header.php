@@ -222,7 +222,6 @@
                                                         <li><a href="#">Kashmir</a></li>
                                                         <li><a href="#">Kerala</a></li>
                                                         <li><a href="#">Madhya Pradesh</a></li>
-                                                        
                                                     </ul>
                                                 </div>
                                             </div>

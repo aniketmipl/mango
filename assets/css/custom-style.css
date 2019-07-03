@@ -732,8 +732,8 @@ nav.bootsnav .megamenu-content .col-menu {
     }
     .header-topbar-col .social-icon li a {
        
-        width: 20px;
-        height: 20px;
+        width: 23px;
+        height: 23px;
         font-size: 11px;
         line-height: 21px;
     }
@@ -746,6 +746,18 @@ nav.bootsnav .megamenu-content .col-menu {
     font-size: 11px;
     line-height: 25px;
     padding: 0 10px;
+    }
+    .header-topbar-col ul{
+        margin-bottom:5px;
+    }
+    .header-topbar-col .social-icon li a i{
+        margin-top: 7px;
+    }
+    .header-topbar-col .social-icon{
+        margin-right: 5px;
+    }
+    .related-tours .tour-item.hotel-item{
+        padding:0;
     }
 }
 @media only screen and (max-width: 479px){

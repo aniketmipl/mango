@@ -235,7 +235,10 @@ color: #000;
 .verticle-tab .nav-tabs>li>a{
     height:auto;
     padding: 10px 15px;
-
+    text-align: left;
+}
+.verticle-tab .nav-tabs>li{
+    width:100%;
 }
 }
 
