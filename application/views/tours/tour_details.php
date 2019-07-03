@@ -323,7 +323,7 @@
                         var related_tour_view ='<div class="col-md-3 col-sm-4 mb-20">'+
                         '<div class="hover-box tour-hotel-box">'+
                                 '<div class="tour-img image">'+
-                                        '<img src="<?php echo base_url();?>assets/images/tours/'+curent_sector+'/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'.jpg" alt="">'+
+                                        '<img src="<?php echo base_url();?>assets/images/tours/'+curent_sector.replace(new RegExp(" ","g"),"-").toLowerCase()+'/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'.jpg" alt="">'+
                                         '<div class="over-layer">'+
                                             '<div class="links">'+
                                                 '<ul class="list-inline">'+
