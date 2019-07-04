@@ -311,50 +311,57 @@
           username:'mhwebsite',
           password:'mango',
           success:function(res){
+
             var rtr = JSON.parse(JSON.stringify(res));
+
             var related_tours_array = rtr.ProductList;
             console.log(related_tours_array);
-            
-            var array_length = related_tours_array.length;
-            console.log(array_length);
-            var related_tour_div='';
-            if(array_length > 1){
-                var i;
-                for (i = 0; i < array_length; i++) { 
-                    if(related_tours_array[i].ProductTitle != current_tour){
-                        var ProductTitle = related_tours_array[i].ProductTitle;
-                        var related_tour_view ='<div class="col-md-3 col-sm-4 mb-20">'+
-                        '<div class="hover-box tour-hotel-box">'+
-                                '<div class="tour-img image">'+
-                                '<img src="<?php echo base_url();?>assets/images/tours/'+curent_sector.replace(new RegExp(" ","g"),"-").toLowerCase()+'/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'.jpg" alt="">'+
-                                        '<div class="over-layer">'+
-                                            '<div class="links">'+
-                                                '<ul class="list-inline">'+
-                                                    '<li><a href="<?php echo base_url();?>tours/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'"><i class="fa fa-link" aria-hidden="true"></i></a></li>'+
-                                                '</ul>'+
+            if(related_tours_array !=  null){
+                var array_length = related_tours_array.length;
+                console.log(array_length);
+                var related_tour_div='';
+                if(array_length > 1){
+                    var i;
+                    for (i = 0; i < array_length; i++) { 
+                        if(related_tours_array[i].ProductTitle != current_tour){
+                            var ProductTitle = related_tours_array[i].ProductTitle;
+                            var related_tour_view ='<div class="col-md-3 col-sm-4 mb-20">'+
+                            '<div class="hover-box tour-hotel-box">'+
+                                    '<div class="tour-img image">'+
+                                            '<img src="<?php echo base_url();?>assets/images/tours/'+curent_sector.replace(new RegExp(" ","g"),"-").toLowerCase()+'/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'.jpg" alt="">'+
+
+                                            '<div class="over-layer">'+
+                                                '<div class="links">'+
+                                                    '<ul class="list-inline">'+
+                                                        '<li><a href="<?php echo base_url();?>tours/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'"><i class="fa fa-link" aria-hidden="true"></i></a></li>'+
+                                                    '</ul>'+
+                                                '</div>'+
                                             '</div>'+
                                         '</div>'+
+                                '<div class="tour-item hotel-item">'+
+                                '<div class="blog-details">'+
+                                    '<a href="<?php echo base_url();?>tours/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'">'+
+                                        '<h4>'+related_tours_array[i].ProductTitle+'</h4>'+
+                                        '<p>'+related_tours_array[i].Days+' Days / '+related_tours_array[i].Nights+' Nights</p>'+
+                                    '</a>'+
                                     '</div>'+
-                            '<div class="tour-item hotel-item">'+
-                            '<div class="blog-details">'+
-                                '<a href="<?php echo base_url();?>tours/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'">'+
-                                    '<h4>'+related_tours_array[i].ProductTitle+'</h4>'+
-                                    '<p>'+related_tours_array[i].Days+' Days / '+related_tours_array[i].Nights+' Nights</p>'+
-                                '</a>'+
                                 '</div>'+
                             '</div>'+
-                        '</div>'+
-                    '</div>';
-                            related_tour_div +=related_tour_view;
+                        '</div>';
+                                related_tour_div +=related_tour_view;
+                        }
                     }
-                }
-                        $(".related_tours").append(related_tour_div);
-                        
+                            $(".related_tours").append(related_tour_div);
+                            
 
-                        // console.log("Tour Title "+related_tours_array[i].ProductTitle);
+                            // console.log("Tour Title "+related_tours_array[i].ProductTitle);
+                }else{
+                    $(".tour-category").css('display','none');
+                }
             }else{
                 $(".tour-category").css('display','none');
             }
+            
           }
       });
     }
@@ -380,6 +387,7 @@
           success:function(res){
                 var result = JSON.parse(JSON.stringify(res));
                 var main_body = '<h4 style="text-align: center; text-transform: none;">Tour Price & Dates Availablity</h4><h3 style="color:#FF6600;">Tour Code: '+res.TourCode+'</h3>';
+                console.log(result.TourPricingHeaders[0].TourPricingDetails.length);
                 var body_content = '<table class="table-striped table-bordered">'+
                 '<thead>'+
                 '<tr>'+
