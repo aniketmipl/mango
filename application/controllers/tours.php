@@ -19,8 +19,8 @@ class tours extends CI_Controller {
 		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
-		$filter_data['slider_image'] = 'images/tours/europe/exotic-eurpoe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/exotic-eurpoe-banner.jpg';
+		$filter_data['slider_image'] = 'images/tours/europe/exotic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/exotic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 
@@ -46,7 +46,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/europe/classic-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 		$filter_data['sector']="Europe";
@@ -71,7 +71,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/europe/glimpses-of-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/glimpses-of-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/glimpses-of-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 		$filter_data['sector']="Europe";
@@ -101,7 +101,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/europe/grand-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/grand-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 		$filter_data['sector']="Europe";
@@ -130,7 +130,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/europe/best-of-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/best-of-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
@@ -155,7 +155,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/incredible-america-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="America";
@@ -179,7 +179,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/east-cost-america-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="America";
@@ -203,7 +203,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/orlando-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="America";
@@ -227,7 +227,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/west-cost-america-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$head_data['title'] = "West Coast America - Mango Holidays - Best Group Tour - call 838003503";
@@ -251,7 +251,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Africa";
@@ -275,7 +275,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/dubai/dazzling-dubai-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Dubai";
@@ -300,7 +300,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/japan/japanese-discovery-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Japan";
@@ -327,7 +327,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Mauritius";
@@ -353,7 +353,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/australia-and-new-zeeland/aus-nz-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Australia and New Zeeland";
@@ -380,7 +380,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/rest-of-europe/central-eastern-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Rest Of Europe";
@@ -406,7 +406,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/rest-of-europe/scandivia-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/mobile/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Rest Of Europe ";

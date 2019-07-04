@@ -767,6 +767,10 @@ nav.bootsnav .megamenu-content .col-menu {
     .related-tours .tour-item.hotel-item{
         padding:0;
     }
+    header .list-inline>li{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 }
 @media only screen and (max-width: 479px){
 .left .root, .right .root {

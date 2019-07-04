@@ -228,6 +228,7 @@
                                                                         ?>
                                                                             <tr class="tour_info" data-tourcode="<?php echo $tours->TourCode; ?>" style="cursor: pointer;">
                                                                               <td><?php  echo $tours->TourCode; ?>
+                                                                              <br/>
                                                                                 <span class="hlights">
                                                                                   <?php  echo $tours->DepartureDate; ?>
                                                                                 </span>

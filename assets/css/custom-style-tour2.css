@@ -226,6 +226,9 @@ color: #000;
     .verticle-tab .nav-tabs>li>a{
         border:1px solid;
     }
+    .verticle-tab .tab-content{
+        height: 800px;
+    }
 }
 
 @media (max-width: 500px){
