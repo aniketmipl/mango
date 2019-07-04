@@ -56,7 +56,7 @@
 <section class="blog-single-pages portfolio tour-content">
         <div class="page-header-container">
             <img src="<?php echo base_url().'assets/'.$slider_image; ?>" class="desktop-image" alt="slider_image">
-            <img src="<?php echo base_url().'assets/images/tours/europe/exotic-europe.jpg'?>" class="mobile-image" alt="slider_image">
+            <img src="<?php echo base_url().'assets/'.$slider_mobile_image; ?>" class="mobile-image" alt="slider_image">
           <div class="post-blog-item">
 
             <div class="date-mate">

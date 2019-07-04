@@ -594,93 +594,43 @@
                     </div>
                 </div>
                 <div class="row">
-                        <div id="tour-carousel" class="tour-carousel-ltr owl-carousel owl-theme">
+                <div class="col-md-12">
+                    <div id="tour-carousel" class="tour-carousel-ltr owl-carousel owl-theme">
                         <div class="item">
-                        <div class="hover-box tour-blog-box">
-                            <div class="tour-img image">
-                                <img src="<?php echo base_url();?>assets/images/blog/lokrang-9-12-18.jpg" alt="">
-                                <div class="over-layer">
-                                    <div class="links">
-                                        <ul class="list-inline">
-                                            
-                                            <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tour-item blog-item">
-                                <div class="blog-details">
-                                        <ul class="list-inline">
-                                                <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
-                                                <li><a href="#"><i class="ion-ios-calendar"></i> 9 डिसेंबर लेख </a></li>
-                                                
-                                            </ul>
-                                    <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                    <a class="read-btn" href="#">Read More </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="hover-box tour-blog-box">
-                            <div class="tour-img image">
-                                <img src="<?php echo base_url();?>assets/images/blog/europe-3.jpg" alt="">
-                                <div class="over-layer">
-                                    <div class="links">
-                                        <ul class="list-inline">
-                                            
-                                            <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tour-item blog-item">
-                                    <div class="blog-details">
-                                            <ul class="list-inline">
-                                                    <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
-                                                    <li><a href="#"><i class="ion-ios-calendar"></i> भाग क्र. 1 </a></li>
-                                                    
-                                                </ul>
-                                        <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                        <a class="read-btn" href="#">Read More </a>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="hover-box tour-blog-box">
-                            <div class="tour-img image">
-                                <img src="<?php echo base_url();?>assets/images/blog/europe-4.jpg" alt="">
-                                <div class="over-layer">
-                                    <div class="links">
-                                        <ul class="list-inline">
-                                            <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tour-item blog-item">
-                                    <div class="blog-details">
-                                            <ul class="list-inline">
-                                                    <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
-                                                    <li><a href="#"><i class="ion-ios-calendar"></i> भाग क्र. 2 </a></li>
-                                                    
-                                                </ul>
-                                        <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                        <a class="read-btn" href="#">Read More </a>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
                             <div class="hover-box tour-blog-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/images/blog/europe-5.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/blog/lokrang-9-12-18.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-                                                
-                                                <li><a href="images/blog/7.jpg"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+
+                                                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour-item blog-item">
+                                    <div class="blog-details">
+                                            <ul class="list-inline">
+                                                    <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
+                                                    <li><a href="#"><i class="ion-ios-calendar"></i> 9 डिसेंबर लेख </a></li>
+
+                                                </ul>
+                                        <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
+                                        <a class="read-btn" href="#">Read More </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hover-box tour-blog-box">
+                                <div class="tour-img image">
+                                    <img src="<?php echo base_url();?>assets/images/blog/europe-3.jpg" alt="">
+                                    <div class="over-layer">
+                                        <div class="links">
+                                            <ul class="list-inline">
+
+                                                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -689,8 +639,8 @@
                                         <div class="blog-details">
                                                 <ul class="list-inline">
                                                         <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
-                                                        <li><a href="#"><i class="ion-ios-calendar"></i> भाग क्र. 3 </a></li>
-                                                        
+                                                        <li><a href="#"><i class="ion-ios-calendar"></i> भाग क्र. 1 </a></li>
+
                                                     </ul>
                                             <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
                                             <a class="read-btn" href="#">Read More </a>
@@ -698,7 +648,59 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="item">
+                            <div class="hover-box tour-blog-box">
+                                <div class="tour-img image">
+                                    <img src="<?php echo base_url();?>assets/images/blog/europe-4.jpg" alt="">
+                                    <div class="over-layer">
+                                        <div class="links">
+                                            <ul class="list-inline">
+                                                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour-item blog-item">
+                                        <div class="blog-details">
+                                                <ul class="list-inline">
+                                                        <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
+                                                        <li><a href="#"><i class="ion-ios-calendar"></i> भाग क्र. 2 </a></li>
+
+                                                    </ul>
+                                            <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
+                                            <a class="read-btn" href="#">Read More </a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                                <div class="hover-box tour-blog-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url();?>assets/images/blog/europe-5.jpg" alt="">
+                                        <div class="over-layer">
+                                            <div class="links">
+                                                <ul class="list-inline">
+
+                                                    <li><a href="images/blog/7.jpg"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tour-item blog-item">
+                                            <div class="blog-details">
+                                                    <ul class="list-inline">
+                                                            <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
+                                                            <li><a href="#"><i class="ion-ios-calendar"></i> भाग क्र. 3 </a></li>
+
+                                                        </ul>
+                                                <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
+                                                <a class="read-btn" href="#">Read More </a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
                 </div>
             </div>
         </section>

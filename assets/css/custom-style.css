@@ -1094,5 +1094,19 @@ background: #e8e6e6;
     .mobile-image{
         display:block !important;
     }
+    .page-header-container img{
+        width: 100% !important;
+        height: auto;
+    }
+    .page-header-container{
+        width: 100%;
+        height:auto;
+    }
+    .page-title-container .page-title .entry-title{
+        font-size: 1.5em;
+        line-height: 34px;
+        margin: 10px 0;
+
+    }
 }
 
