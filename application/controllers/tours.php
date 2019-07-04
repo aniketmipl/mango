@@ -22,6 +22,7 @@ class tours extends CI_Controller {
 		$filter_data['slider_image'] = 'images/tours/europe/exotic-eurpoe-banner.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Europe Group Tour Package from India Exotic Europe | Mango Holidays";
@@ -72,6 +73,7 @@ class tours extends CI_Controller {
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
+		$filter_data['ProductHighlights'] =$data['api_result']['ProductHighlights'];
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
 
 
@@ -465,7 +467,7 @@ class tours extends CI_Controller {
 		$result['ProductTitle'] = $decrypt_data->ProductTitle;
 		$result['Inclusions'] = $decrypt_data->Inclusions;
 		$result['Exclusions'] = $decrypt_data->Exclusions;
-
+		$result['ProductHighlights'] =$decrypt_data->ProductHighlights;
 		return $result;
 
 	}

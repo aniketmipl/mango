@@ -136,7 +136,25 @@
                                                                         </div> 
                                                                 </div>
                                                             <div role="tabpanel" class="tab-pane fade" id="tab-item-two">
-                                                                
+                                                                <div class="row">
+                                                                            <div class="col-lg-12">
+                                                                                    <div class="tab-tour-info">
+                                                                                <h4><b>Highlights</b></h4>
+                                                                                        <div class="small-border"></div>
+                                                                                        <ul>
+                                                                                          <?php 
+                                                                                          if(isset($ProductHighlights)){
+                                                                                            foreach ($ProductHighlights as $ph_key ) { ?>
+                                                                                            <li>
+                                                                                              <?php echo $ph_key->HighlightItem;
+                                                                                              }}
+                                                                                            ?>
+                                                                                            </li>
+                                                                                        </ul> 
+                                                                                    </div>
+                                                                            
+                                                                            </div>
+                                                                        </div> 
                                                             </div>
                                                             <div role="tabpanel" class="tab-pane fade" id="tab-item-three">
                                                                     <div class="tab-tour-info">
