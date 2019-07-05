@@ -315,7 +315,7 @@
 
 
     function related_tour(){
-        var curent_sector = "<?php echo $sector; ?>";
+        var curent_sector = "<?php echo trim($sector); ?>";
         var relative_tours="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName="+curent_sector;
         var current_tour = "<?php echo @$ProductTitle;?>";
 
