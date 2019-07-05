@@ -20,4 +20,14 @@ class Pages extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
+	public function about_us()
+	{
+
+		$head_data['title'] = "about Us Page";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/about_us');
+		$this->load->view('common/footer');
+	}
+
 }

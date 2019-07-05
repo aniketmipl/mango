@@ -27,9 +27,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 clearfix">
-                            <div class="footer-service fo-title">
-                        <div class="widget">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-20 clearfix">
+                            <div class="footer-service fo-title mb-20">
+                        <div class="widget mb-20">
                             <h4>GROUP TOUR</h4>
                             <div class="small-border"></div>
                             
@@ -44,7 +44,9 @@
                                 <li><a href="<?php echo base_url();?>GroupTours/group_mauritius"><i class="fa fa-caret-right"></i>Mauritius</a></li>
                                 <li><a href="<?php echo base_url();?>GroupTours/group_rest_of_europe"><i class="fa fa-caret-right"></i>Rest of Europe</a></li>
                             </ul>
+                           
                         </div>
+                        
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 clearfix">

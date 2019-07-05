@@ -12,11 +12,17 @@
         text-transform: none;
     }
     p {
-        font-size: 1.0833em;
+        /* font-size: 1.0833em;
         line-height: 1.6666;
         margin-bottom: 15px;
+        letter-spacing: 0.2px; */
+        font-size: 1.2em;
+        line-height: 1.6666;
+        margin-bottom: 15px;
+        color: #585858;
         letter-spacing: 0.2px;
     }
+
     section, .section {
         display: block;
         overflow: visible;
@@ -371,6 +377,7 @@
 
     .tour-content .post-blog-item{
         background-color:#fff;
+       
     }
 
     .tour-content .container{
@@ -534,6 +541,12 @@
         text-align: center;
     }
 
+    .team-area .hover-box{
+        background: #f3f3f3;
+    }
+    .tour-item .tour-details:hover p {
+        color: #585858;
+    }
     @media (min-width:1440px){
     .page-header-container img {
         width: 100% !important;

@@ -203,7 +203,7 @@
                             <div class="wiget-title" style="margin-bottom:0;">
                                    
                                     <h4>Tour Dates & Availability</h4>
-                                    <p>(Click on tour to view details)</p>
+                                    <p style="color: #f60;letter-spacing: 0.5px;">(Click on tour to view details)</p>
                                 </div>
                                 <div class="table-style-three" style="padding-bottom: 0;">
                                             <div class="row"> 
@@ -263,7 +263,7 @@
              <!--related tours started-->  
             
         <section class="hotel-offer tour-category">
-        <div class="container" style="padding:0">
+        <div class="container">
             <div class="row">
                 <div class="hottel-grid-offer related-tours" style="justify-content: left;">
                     <div class="col-md-12">
@@ -303,7 +303,7 @@
     </div>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    
+ 
  <script type="text/javascript">
 
 
