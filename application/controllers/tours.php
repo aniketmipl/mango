@@ -155,7 +155,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/incredible-america-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/america/incredible-america.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="America";
@@ -179,7 +179,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/east-cost-america-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/america/east-coast-of-america.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="America";
@@ -251,7 +251,7 @@ class tours extends CI_Controller {
 		$filter_data['Days']= $data['api_result']['Days'];
 		$filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
 		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Africa";
