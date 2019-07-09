@@ -8,73 +8,79 @@
                             <div class="widget">
                                 <h4>Quick Links</h4>
                                 <div class="small-border"></div>
-                                <ul class="widget-list list-unstyled mb-20">
-                                    <li><a href="<?php echo base_url();?>"><i class="fa fa-caret-right"></i>Home</a></li>
-                                    <li><a href="https://mangoholidays.in/about-us/"><i class="fa fa-caret-right"></i>About Us</a></li>
-                                    <li><a href="https://mangoholidays.in/contact-us/"><i class="fa fa-caret-right"></i>Contact Us</a></li>
-                                    <li><a href="https://mangoholidays.in/contact-us/"><i class="fa fa-caret-right"></i>Enquiry</a></li>
-                                    <li><a href="https://mangoholidays.in/media/"><i class="fa fa-caret-right"></i>Media</a></li>
-                                    <li><a href="https://mangoholidays.in/galleries/photo-gallery/"><i class="fa fa-caret-right"></i>Photo Gallery</a></li>
-                                    <li><a href="https://mangoholidays.in/faqs/"><i class="fa fa-caret-right"></i>FAQ</a></li>
+                                <div class="col-md-12 no-padding">
+                                <ul class="widget-list triangle list-unstyled mb-20">
+                                    <li><a href="<?php echo base_url();?>"> Home</a></li>
+                                    <li><a href="https://mangoholidays.in/about-us/"> About Us</a></li>
+                                    <li><a href="https://mangoholidays.in/contact-us/"> Contact Us</a></li>
+                                    <li><a href="https://mangoholidays.in/contact-us/"> Enquiry</a></li>
+                                    <li><a href="https://mangoholidays.in/media/"> Media</a></li>
+                                    <li><a href="https://mangoholidays.in/galleries/photo-gallery/"> Photo Gallery</a></li>
+                                    <li><a href="https://mangoholidays.in/faqs/"> FAQ</a></li>
                                 </ul>
+                                </div>
                                 
+                                <div class="col-md-12 no-padding">
                                 <h5>Special Tours</h5>
-                               
-                                <ul class="widget-list list-unstyled mb-20">
+                                <ul class="widget-list triangle list-unstyled mb-20">
                                     <!-- <li><a href="#"><i class="fa fa-caret-right"></i>Weekend Gateways</a></li> -->
-                                    <li><a href="#"><i class="fa fa-caret-right"></i>Corporate Tours</a></li>
+                                    <li><a href="#"> Corporate Tours</a></li>
                                 </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-20 clearfix">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 mb-20 clearfix">
                             <div class="footer-service fo-title mb-20">
                         <div class="widget mb-20">
                             <h4>GROUP TOUR</h4>
                             <div class="small-border"></div>
                             
-                            
-                            <ul class="widget-list list-unstyled mb-20">
-                                <li><a href="<?php echo base_url();?>GroupTours/group_africa"><i class="fa fa-caret-right"></i>Africa</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_america"><i class="fa fa-caret-right"></i>America</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_australiaandnewzealand"><i class="fa fa-caret-right"></i>Australia & New Zealand</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_dubai"><i class="fa fa-caret-right"></i>Dubai</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_europe"><i class="fa fa-caret-right"></i>Europe</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_japan"><i class="fa fa-caret-right"></i>Japan</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_mauritius"><i class="fa fa-caret-right"></i>Mauritius</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_rest_of_europe"><i class="fa fa-caret-right"></i>Rest of Europe</a></li>
+                            <div class="col-md-12 no-padding">
+                            <ul class="widget-list triangle list-unstyled mb-20">
+                                <li><a href="<?php echo base_url();?>GroupTours/group_africa"> Africa</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_america"> America</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_australiaandnewzealand"> Australia & New Zealand</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_dubai"> Dubai</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_europe"> Europe</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_japan"> Japan</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_mauritius"> Mauritius</a></li>
+                                <li><a href="<?php echo base_url();?>GroupTours/group_rest_of_europe"> Rest of Europe</a></li>
                             </ul>
-                           
+                            </div>
                         </div>
                         
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 clearfix">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 clearfix">
                             <div class="footer-service fo-title">
                                     <div class="widget">
                                         <h4>CUSTOMIZED TOUR</h4>
                                         <div class="small-border"></div>
+                                        <div class="col-md-6 no-padding">
                                         <h5>INDIA</h5>
-                                        <ul class="widget-list list-unstyled mb-20">
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Andaman</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Gujarat</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Gujarat</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Hyderabad</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Kashmir</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Kerala</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Madhya Pradesh</a></li>
+                                        <ul class="widget-list triangle list-unstyled mb-20">
+                                            <li><a href="#"> Andaman</a></li>
+                                            <li><a href="#"> Gujarat</a></li>
+                                            <li><a href="#"> Gujarat</a></li>
+                                            <li><a href="#"> Hyderabad</a></li>
+                                            <li><a href="#"> Kashmir</a></li>
+                                            <li><a href="#"> Kerala</a></li>
+                                            <li><a href="#"> Madhya Pradesh</a></li>
                                         </ul>
-                                        
+                                        </div>
+                                        <div class="col-md-6 no-padding">
                                         <h5>INTERNATIONAL</h5>
-                                        <ul class="widget-list list-unstyled mb-20">
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Africa</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Australia & New Zealand</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Dubai</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Europe</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Japan</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Mauritius</a></li>
-                                            <li><a href="#"><i class="fa fa-caret-right"></i>Scandinavia</a></li>
+                                        <ul class="widget-list triangle list-unstyled mb-20">
+                                            <li><a href="#"> Africa</a></li>
+                                            <li><a href="#"> Australia & New Zealand</a></li>
+                                            <li><a href="#"> Dubai</a></li>
+                                            <li><a href="#"> Europe</a></li>
+                                            <li><a href="#"> Japan</a></li>
+                                            <li><a href="#"> Mauritius</a></li>
+                                            <li><a href="#"> Scandinavia</a></li>
                                         </ul>
+                                        </div>
                                     </div>
                                     </div>
                     </div>

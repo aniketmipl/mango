@@ -22,6 +22,9 @@
         color: #585858;
         letter-spacing: 0.2px;
     }
+    .no-padding{
+        padding:0;
+    }
 
     section, .section {
         display: block;
@@ -255,10 +258,11 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         font-size: 12px;
-        line-height: 0;
+        line-height: 18px;
         margin: 0;
         padding: 8px 0px;
         text-transform: uppercase;
+        margin-left:5%;
     }
     footer a {
         color: #a5a2a0;
@@ -280,6 +284,21 @@
         padding-bottom: 8px;
         margin-bottom: auto;
     }
+    
+    ul.triangle li:before {
+        content: "\f0da";
+        color: #a5a2a0;
+        display: block;
+        float: left;
+        font-size: 13px;
+        left: 0px;
+        position: absolute;
+    }
+    ul.triangle li:before{
+        font-family: "FontAwesome";
+    }
+
+
     .fot-style-2 .top-footer {
         background: #111;
         padding: 50px 0px 0px;
@@ -548,6 +567,44 @@
     }
     .tour-item .tour-details:hover p {
         color: #585858;
+    }
+
+    .infoText{
+        font-size: 1.125rem;
+        color: #212221;
+        line-height: 1.4375rem;
+        font-weight: 600;
+    }
+    .contact-address .address ul li p{
+       
+        font-size: 14px;
+        margin-bottom:0;
+    }
+    .fa-ul{
+        margin-left: 2.8em;
+    }
+    .contact-address .address ul li i{
+        margin-top: 3px;
+    }
+    .contact-address .address ul li{
+        line-height: 2.5em;
+        font-size: 14px;
+    }
+    .contact-address .address {
+        
+        overflow: hidden;
+        position: relative;
+        padding: 15px 25px 20px;
+        margin-bottom: 30px;
+        transition: transform .2s,-webkit-transform .2s;
+    }
+    .contact-address .address:hover{
+        /* box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.15), 0 4px 15px 0 rgba(0, 0, 0, 0.15);  */
+        -webkit-transform: scale(1.005);
+        transform: scale(1.005);
+        box-shadow: -1px -1px 8px 0 rgba(0,0,0,.75);
+        -webkit-box-shadow: -1px -1px 8px 0 rgba(0,0,0,.75);
+        -moz-box-shadow: -1px -1px 8px 0 rgba(0,0,0,.75);
     }
     @media (min-width:1440px){
     .page-header-container img {
@@ -818,6 +875,7 @@ nav.bootsnav .megamenu-content .col-menu {
 .breadcrumbs {
     display: none;
 }
+
 }
 
 /*modal css*/
@@ -920,9 +978,38 @@ nav.bootsnav .megamenu-content .col-menu {
     /* font-family: 'NexaBlack'; */
     
 }  
+.contact-from{
+   
+    float: left;
+    width: 100%;
+    padding:2%;
+    background: #f7f6f6;
+    /* padding-top:2%; */
+    /* box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.15), 0 4px 15px 0 rgba(0, 0, 0, 0.15); */
+}
+
+.contact-from .input-field input{
+    padding: 5px 22px;
+    height: 40px;
+    border: 1px solid #c1c0c0;
+}
+.contact-from .input-field textarea{
+    padding: 5px 22px;
+    resize: vertical; 
+    
+    border: 1px solid #c1c0c0;
+}
+.contact-from .input-field input:focus, .contact-from .input-field textarea:focus {
+    box-shadow: none !important;
+    
+    border: 1px solid #FF6600;
+}
 @media only screen and (max-width:768px){
     #side-slide{
         display:none;
+    }
+    .modal-body h3{
+        text-align:center;
     }
 }
 

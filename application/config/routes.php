@@ -72,3 +72,4 @@ $route['tours/new-zealand-&-australia'] = 'tours/Australia_and_New_Zealand';
 $route['tours/central-eastern-europe'] = 'tours/central_eastern_europe';
 $route['tours/scenic-scandinavia'] = 'tours/scenic_scandinavia';
 $route['about-us'] = 'pages/about_us';
+$route['contact-us'] = 'pages/contact_us';
