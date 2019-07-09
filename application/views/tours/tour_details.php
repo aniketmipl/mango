@@ -408,7 +408,8 @@
                 var result = JSON.parse(JSON.stringify(res));
                 var main_body = '<h4 style="text-align: center; text-transform: none;">Tour Price & Dates Availablity</h4><h3 style="color:#FF6600;">Tour Code: '+res.TourCode+'</h3>';
                 console.log(result.TourPricingHeaders[0].TourPricingDetails.length);
-                var body_content = '<table class="table-striped table-bordered">'+
+                var body_content = '<div class="table-responsive">'+
+                '<table class="table table-striped table-bordered">'+
                 '<thead>'+
                 '<tr>'+
                 '<th rowspan="1" colspan="1" style="width: 120px;">CURRENCY</th>'+
@@ -460,6 +461,7 @@
                 '</tr>'+
                 '</tbody>'+
                 '</table>'+
+                '</div>'+
                 '<br/>'+
                 '<p>Tour price is calculated at '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1SellingRate+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'='+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2SellingRate+'/-.</p>'+
                 '<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' to be calculated on the prevailing rate of exchange of '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' -> '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' on the day of actual payment to Mango Holidays.</p>'+

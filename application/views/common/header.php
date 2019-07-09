@@ -275,7 +275,7 @@
                                 </ul>
                         </li>
                         <li>
-                            <a href="<?php echo base_url()?>Pages/contact_us">Contact</a>
+                            <a href="<?php echo base_url()?>contact-us">Contact</a>
                         </li>
                     </ul>
                 </div>

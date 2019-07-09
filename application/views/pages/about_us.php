@@ -11,7 +11,10 @@
     </div>
 </div>
 <div class="clearfix"></div>
-
+<div class="page-header-container">
+            <img src="<?php echo base_url();?>assets/images/about-banner.jpg" class="desktop-image" alt="slider_image">
+           
+</div>
      <!-- Strat About Us -->
      <section class="about-us">
         <div class="container">
@@ -27,9 +30,9 @@
                             <h2>About <b>Mango Holidays</b></h2>
                         </div>
                         <h4 style="line-height: 29px; letter-spacing: 0.5px; text-transform:uppercase;"><b>Our aim at Mango Holidays is to create for our guests; an Experience of a Lifetime!!</b></h4>
-                        <p>The journey of Mango Holidays (India) Private Limited began on January 1st, 2008. Since inception, the growth has been phenomenal. In a short span of time, we have opened offices in prime locations in Mumbai & Pune.<br/>
+                        <p>The journey of Mango Holidays (India) Private Limited began on January 1st, 2008. Since inception, the growth has been phenomenal. In a short span of time, we have opened offices in prime locations in Mumbai & Pune.<br/><br/>
 
-                            We provide every travel related solution. We organize group tours, customized packages, corporate tours (MICE), provide visa assistance & also take care of air tickets, travel insurance & forex needs.<br/>
+                            We provide every travel related solution. We organize group tours, customized packages, corporate tours (MICE), provide visa assistance & also take care of air tickets, travel insurance & forex needs.<br/><br/>
                             
                             Our mission at Mango Holidays is to focus on values over volumes and quality over quantity with absolutely honest and ethical interactions at each stage.</p>
                         <!-- <a class="btn btn-primary" href="#">Read More</a> -->
