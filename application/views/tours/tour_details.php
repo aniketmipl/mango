@@ -20,6 +20,7 @@
 
                 
 ?>
+
 <div id="tour_heading" style="display: none">
     <?php echo $ProductTitle;?>
 </div>
