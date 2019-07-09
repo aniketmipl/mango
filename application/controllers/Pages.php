@@ -23,7 +23,7 @@ class Pages extends CI_Controller {
 	public function about_us()
 	{
 
-		$head_data['title'] = "about Us Page";
+		$head_data['title'] = "About Us Page";
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('pages/about_us');

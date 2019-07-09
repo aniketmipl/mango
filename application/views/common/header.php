@@ -253,7 +253,7 @@
                             <a href="tour-details.html">Corporate Tours</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url()?>Pages/about_us">About Us</a>
+                            <a href="<?php echo base_url()?>about-us">About Us</a>
                         </li>
                         <!-- <li>
                             <a href="tour-details.html">Media</a>
