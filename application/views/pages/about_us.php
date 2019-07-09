@@ -11,7 +11,10 @@
     </div>
 </div>
 <div class="clearfix"></div>
-
+<div class="page-header-container">
+            <img src="<?php echo base_url();?>assets/images/about-banner.jpg" class="desktop-image" alt="slider_image">
+            <img src="" class="mobile-image" alt="slider_image">
+</div>
      <!-- Strat About Us -->
      <section class="about-us">
         <div class="container">

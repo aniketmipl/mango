@@ -540,7 +540,9 @@
         padding:10px !important;
         text-align: center;
     }
-
+    .testimonial-carousel .item blockquote p{
+        color: #e2e0e0;
+    }
     .team-area .hover-box{
         background: #f3f3f3;
     }
