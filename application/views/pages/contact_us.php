@@ -1,5 +1,5 @@
 
-<SCRIPT type=text/javascript>
+<script type="text/javascript">
 
 function onSubmit(){
 	
@@ -70,7 +70,7 @@ return true;
 }
 }
 
-</SCRIPT>
+</script>
 <?php
 $mynumber= rand(673,62389);
 //echo $mynumber."<br><br>";

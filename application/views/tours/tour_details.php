@@ -334,10 +334,18 @@
             var rtr = JSON.parse(JSON.stringify(res));
 
             var related_tours_array = rtr.ProductList;
-            console.log(related_tours_array);
+            // console.log(related_tours_array);
             if(related_tours_array !=  null){
                 var array_length = related_tours_array.length;
+<<<<<<< HEAD
                 console.log(array_length);
+=======
+                // console.log("Related tour length "+array_length);
+                if(array_length > 5){
+                    array_length = 5
+                }
+                // console.log(array_length);
+>>>>>>> 6f5f4ef14d069d828e68ef24664abfb442bf2388
                 var related_tour_div='';
                 if(array_length > 1){
                     var i;
@@ -406,7 +414,7 @@
           success:function(res){
                 var result = JSON.parse(JSON.stringify(res));
                 var main_body = '<h4 style="text-align: center; text-transform: none;">Tour Price & Dates Availablity</h4><h3 style="color:#FF6600;">Tour Code: '+res.TourCode+'</h3>';
-                console.log(result.TourPricingHeaders[0].TourPricingDetails.length);
+                // console.log(result.TourPricingHeaders[0].TourPricingDetails.length);
                 var body_content = '<div class="table-responsive">'+
                 '<table class="table table-striped table-bordered">'+
                 '<thead>'+
