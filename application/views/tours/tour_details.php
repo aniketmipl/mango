@@ -83,7 +83,7 @@
                                                             <?php $filename="file.pdf" ;
                                                             $data ="tt";
                                                             ?>
-                                                                <li><i class="fa fa-envelope-o"></i> <a href="<?php echo base_url()?>contact-us"> Send Enquiry</a> &nbsp;| </li>
+                                                                <li><i class="fa fa-envelope-o"></i> <a style="cursor:pointer;" id="element" class="show-modal"> Send Enquiry</a> &nbsp;| </li>
                                                                <!--  <li><i class="fa fa-print" aria-hidden="true"></i> <a style="cursor:pointer;" id="pdf_print"> Print</a>&nbsp; | </li> -->
                                                                 <!-- <li><button onclick="generate()"><i class="fa fa-download" aria-hidden="true"></i>Download</button></li> -->
                                                                 <li><i class="fa fa-download" aria-hidden="true"></i><a style="cursor:pointer;" id="pdf_download">Download / Print Itinerary  </a></li>
@@ -337,15 +337,11 @@
             // console.log(related_tours_array);
             if(related_tours_array !=  null){
                 var array_length = related_tours_array.length;
-<<<<<<< HEAD
-                console.log(array_length);
-=======
                 // console.log("Related tour length "+array_length);
                 if(array_length > 5){
                     array_length = 5
                 }
                 // console.log(array_length);
->>>>>>> 6f5f4ef14d069d828e68ef24664abfb442bf2388
                 var related_tour_div='';
                 if(array_length > 1){
                     var i;
@@ -524,3 +520,46 @@
 
  </script>
 
+
+
+<div id="testmodal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Confirmation</h4>
+            </div>
+            <div class="modal-body">
+                <p>Do you want to save changes you made to document before closing?</p>
+                <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var show_btn=$('.show-modal');
+  var show_btn=$('.show-modal');
+  //$("#testmodal").modal('show');
+  
+    show_btn.click(function(){
+      $("#testmodal").modal('show');
+  })
+});
+
+$(function() {
+        $('#element').on('click', function( e ) {
+            Custombox.open({
+                target: '#testmodal-1',
+                effect: 'fadein'
+            });
+            e.preventDefault();
+        });
+    });
+</script>
