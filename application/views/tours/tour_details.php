@@ -263,7 +263,7 @@
              <!--related tours started-->  
             
         <section class="hotel-offer tour-category">
-        <div class="container">
+        <div class="container" style="padding-bottom:0;">
             <div class="row">
                 <div class="hottel-grid-offer related-tours" style="justify-content: left;">
                     <div class="col-md-12">

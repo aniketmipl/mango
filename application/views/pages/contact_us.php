@@ -123,11 +123,15 @@ var randomnumber= <?= $mynumber?>;
       <div class="col-md-3 col-lg-2 col-sm-6 col-12">
         <h6 class="smallHeadingGray">Social Media Network</h6>
 		<div class="infoText pt-1">
-			<a href="#"><i class="fa fa-facebook"></i><span></span></a> &nbsp;&nbsp;
-		<a href="#"><i class="fa fa-google-plus"></i></a> &nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-twitter"></i></a> &nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-dribbble"></i></a> &nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-pinterest"></i></a></div>
+			<a href="https://www.facebook.com/MangoHolidays/" target="_blank"><i class="fa fa-facebook"></i><span></span></a>&nbsp;&nbsp;
+            <a href="https://www.instagram.com/mangoholidays/" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+            <a href="https://twitter.com/mangoholidays" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+            <a href="#" target="_blank"><i class="fa fa-youtube fa-lg"></i></a>
+			<!-- <a href="#"><i class="fa fa-facebook"></i><span></span></a> &nbsp;&nbsp;
+			<a href="#"><i class="fa fa-google-plus"></i></a> &nbsp;&nbsp;
+            <a href="#"><i class="fa fa-twitter"></i></a> &nbsp;&nbsp;
+            <a href="#"><i class="fa fa-dribbble"></i></a> &nbsp;&nbsp;
+            <a href="#"><i class="fa fa-pinterest"></i></a></div> -->
       </div>
 </div>
 	</div>

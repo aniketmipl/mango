@@ -142,11 +142,11 @@
                     <div class="pull-right">
                         <div class="header-topbar-col">
                             <ul class="social-icon list-inline">
-                                <li><a href="#"><i class="fa fa-facebook"></i><span></span></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="https://www.facebook.com/MangoHolidays/" target="_blank"><i class="fa fa-facebook"></i><span></span></a></li>
+                                <li><a href="https://www.instagram.com/mangoholidays/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/mangoholidays" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li class="yt-tpcon"><a href="#" target="_blank"><i class="fa fa-youtube-play fa-lg"></i></a></li>
+                                <!-- <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -154,7 +154,6 @@
                             <ul>
                                 <li><a href="<?php echo base_url()?>assets/Document/E-brochure.pdf" target="_blank" class="e-brochure"><i class="fa fa-download" aria-hidden="true"></i> &nbsp;E-Brochure</a></li>
                             </ul>
-                            
                     </div>
                     <a class="top-link" href="#">Careers</a>  -->
                     <span class="top-link">
