@@ -930,6 +930,11 @@ nav.bootsnav .megamenu-content .col-menu {
  color:#fff;
  opacity:1;
 }
+@media only screen and (max-width:768px){
+    .modal-body h3{
+        text-align:center;
+    }
+}
 
 /*For mango moments */
 #side-slide {
@@ -1037,9 +1042,7 @@ nav.bootsnav .megamenu-content .col-menu {
     #side-slide{
         display:none;
     }
-    .modal-body h3{
-        text-align:center;
-    }
+    
 }
 
 /*end of mango moments*/

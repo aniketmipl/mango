@@ -265,8 +265,8 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Blog</a></li>
-                                <li><a class="dropdown-item" href="#">Advertorials</a></li>
+                                <li><a class="dropdown-item" href="#">Blogs / Advertorials</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Advertorials</a></li> -->
                                 <li><a class="dropdown-item" href="#">Destination Videos</a></li>
                             </ul>
                         </li>
