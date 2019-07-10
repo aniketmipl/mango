@@ -150,12 +150,17 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="pull-right" style="margin-right:12px;">
+                    <!-- <div class="pull-right" style="margin-right:12px;">
                             <ul>
                                 <li><a href="<?php echo base_url()?>assets/Document/E-brochure.pdf" target="_blank" class="e-brochure"><i class="fa fa-download" aria-hidden="true"></i> &nbsp;E-Brochure</a></li>
                             </ul>
+                            
                     </div>
-                    
+                    <a class="top-link" href="#">Careers</a>  -->
+                    <span class="top-link">
+                    <a href="#">Careers </a> &nbsp;|&nbsp;
+                    <a href="<?php echo base_url()?>assets/Document/E-brochure.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> &nbsp;E-Brochure </a> 
+                    </span>
                 </div>
             </div>
         </div>
@@ -250,7 +255,7 @@
                         </li>
                         
                         <li>
-                            <a href="tour-details.html">Corporate Tours</a>
+                            <a href="#">Corporate Tours</a>
                         </li>
                         <li>
                             <a href="<?php echo base_url()?>about-us">About Us</a>
@@ -261,17 +266,17 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="tour-details.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="tour-details.html">Advertorials</a></li>
-                                <li><a class="dropdown-item" href="tour-details.html">Destination Videos</a></li>
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">Advertorials</a></li>
+                                <li><a class="dropdown-item" href="#">Destination Videos</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guest Corner </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="tour-details.html">Guest Feedback Form</a></li>
-                                    <li><a class="dropdown-item" href="tour-details.html">Testimonials</a></li>
-                                    <li><a class="dropdown-item" href="tour-details.html">Testimonials Video's</a></li>
+                                    <li><a class="dropdown-item" href="#">Guest Feedback Form</a></li>
+                                    <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                                    <li><a class="dropdown-item" href="#">Testimonials Video's</a></li>
                                 </ul>
                         </li>
                         <li>
@@ -284,16 +289,124 @@
         </nav>
         <!-- End Navigation -->
     </header>
+    
+<SCRIPT type=text/javascript>
+
+function onSubmit(){
+	
+	if (document.Enquiry.contact_person.value  == "")
+	{
+		alert("Please enter Contact Person Name .");
+		document.Enquiry.contact_person.focus()
+		return false;
+	}
+
+  if (document.Enquiry.from.value  == "")
+	{
+		alert("Please enter Email Address.");
+		document.Enquiry.from.focus()
+		return false;
+	}
+	var tempEmail= document.Enquiry.from.value;
+	var exclude=/[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
+	var check=/@[\w\-]+\./;
+	var checkend=/\.[a-zA-Z]{2,3}$/;
+	if (document.Enquiry.from.value!="")
+	{
+	if (tempEmail.search(exclude)!=-1||tempEmail.search(check)==-1||tempEmail.search(checkend)==-1)
+	{
+		alert("Can you check your Email Address again?");
+		document.Enquiry.from.focus();
+		return false
+	}
+	}	
+	
+	if (document.Enquiry.telNo.value  == "")
+	{
+		alert("Please enter Telephone No .");
+		document.Enquiry.telNo.focus()
+		return false;
+	}
+	if (document.Enquiry.telNo.value!="")
+	{
+		var tel= parseInt(document.Enquiry.telNo.value); 
+			if (isNaN(tel)) 
+				{  
+				alert("Enter Telephone Number Correctly");
+				document.Enquiry.telNo.focus();
+				return false
+				} 
+	}
+		
+
+	if (document.Enquiry.requirement_details.value  == "")
+	{
+		alert("Please enter Requirement Details .");
+		document.Enquiry.requirement_details.focus()
+		return false;
+	}		
+
+	return  CheckData();
+	// Validating
+function CheckData()
+{
+with(document.Enquiry)
+{
+if(q.value != randomnumber)
+{
+alert("Please Enter Correct Number");
+q.focus();
+return false;
+}
+}
+return true;
+}
+}
+
+</SCRIPT>
+<?php
+$mynumber= rand(673,62389);
+//echo $mynumber."<br><br>";
+
+$ilength=strlen($mynumber);
+// echo $ilength."<br><br>";
+for($i=0; $i<$ilength; $i++)
+{
+//print substr($mynumber, $i, 1).", ";
+}
+?>
+<script type="text/javascript">
+//defining variable and storinging in script
+var randomnumber= <?= $mynumber?>;
+// Validating
+</script>
+
     <!-- End Main Header -->
     <div class="sidebar-contact">
                 <div class="toggle"><span class="hd-mobile">QUICK ENQURY</span></div>
                 <h4>Send Enquiry</h4>
                 <div class="scroll">
-                <form>
-                  <input type="text" name="" placeholder="Name">
-                  <input type="email" name="" placeholder="Email">
-                  <input type="rel" name="" placeholder="Phone Number">
-                  <textarea placeholder="Message here.."></textarea>
+                <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
+                  <input name="redirect" type="hidden">
+              						<input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
+              						<input name="subject" type="hidden" value="Quick Enquiry From Website">
+                  <input type="text" name="contact_person" placeholder="Name">
+                  <input type="email" name="from" placeholder="Email">
+                  <input type="rel" name="telNo" placeholder="Phone Number">
+                  <textarea name="requirement_details" placeholder="Message here.."></textarea>
+                  <?php
+                        for($i=0; $i<$ilength; $i++)
+                        {
+                        $ipic= substr($mynumber, $i, 1);
+                        $sFilePath = "";
+                        //if (file_exists(".$ipic.".gif"))
+                        $sFilePath = $ipic.".gif";
+                        ?>
+                        <img style="width:18px" src="https://mipl.co.in/nb/<?=$sFilePath ?>" />
+                        <?php 
+                        }
+                        ?>
+                        <input type="text" placeholder="Enter verifcation code" name="q">
                   <input type="submit" name="" value="send">
                 </form>
                 </div>
@@ -306,3 +419,4 @@
                       })
                     })
             </script>
+

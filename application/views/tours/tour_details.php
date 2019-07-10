@@ -83,7 +83,7 @@
                                                             <?php $filename="file.pdf" ;
                                                             $data ="tt";
                                                             ?>
-                                                                <li><i class="fa fa-envelope-o"></i> <a href="#"> Send Enquiry</a> &nbsp;| </li>
+                                                                <li><i class="fa fa-envelope-o"></i> <a href="<?php echo base_url()?>contact-us"> Send Enquiry</a> &nbsp;| </li>
                                                                <!--  <li><i class="fa fa-print" aria-hidden="true"></i> <a style="cursor:pointer;" id="pdf_print"> Print</a>&nbsp; | </li> -->
                                                                 <!-- <li><button onclick="generate()"><i class="fa fa-download" aria-hidden="true"></i>Download</button></li> -->
                                                                 <li><i class="fa fa-download" aria-hidden="true"></i><a style="cursor:pointer;" id="pdf_download">Download / Print Itinerary  </a></li>
