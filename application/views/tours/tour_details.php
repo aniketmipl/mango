@@ -20,7 +20,6 @@
 
                 
 ?>
-
 <div id="tour_heading" style="display: none">
     <?php echo $ProductTitle;?>
 </div>
@@ -338,10 +337,6 @@
             console.log(related_tours_array);
             if(related_tours_array !=  null){
                 var array_length = related_tours_array.length;
-                console.log("Related tour length "+array_length);
-                if(array_length > 5){
-                    array_length = 5
-                }
                 console.log(array_length);
                 var related_tour_div='';
                 if(array_length > 1){
@@ -520,3 +515,4 @@
   });
 
  </script>
+
