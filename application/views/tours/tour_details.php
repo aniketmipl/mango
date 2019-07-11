@@ -4,8 +4,6 @@
         }
 
 </style>
-
-<!--1st part - code to print itenary from api for Donload/Print Itenary PDF-->
 <?php 
         
 
@@ -17,6 +15,9 @@
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
     }}
         @$itenary_program .="</div>";
+       
+      
+
                 
 ?>
 <div id="tour_heading" style="display: none">
@@ -38,8 +39,6 @@
 <p>Only for display and not in pdf</p>
 
 </div>
-<!--end 1st part - code to print itenary from api for Donload/Print Itenary PDF-->
-
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
@@ -283,8 +282,6 @@
             
         </div>
     </section>
-
-    <!--Popup for Tour Info with prices -->
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
@@ -304,14 +301,13 @@
         </div>
       </div>
     </div>
-<!--end of Popup for Tour Info with prices -->
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
  
  <script type="text/javascript">
 
 
-  //function for Related Tour section 
+   
   $(function(){
 
  related_tour();
@@ -392,9 +388,9 @@
           }
       });
     }
-//end of function for Related Tour section
+
    
-//function for popup display with prices on click of tour code & fectching data from API    
+    
     $(".tour_info").click(function(){
       var tour_code = $(this).attr('data-tourcode');
 
@@ -481,9 +477,7 @@
           }
       });
     });
-//end function for popup display on click of tour code & fectching data from API
 
-    //<!--2nd part - code to print itenary from api for Donload/Print Itenary PDF-->    
     $("#pdf_download").click(function(){
         var pdf_download = "<?php echo base_url()?>tours/mpdf";
         var content = $('#PDFcontent').html();
@@ -520,162 +514,49 @@
                 }
         })
     })
-    //<!--end 2nd part - code to print itenary from api for Donload/Print Itenary PDF-->
+
 
   });
 
  </script>
 
 
-<!--"Send Enquiry" form validation script & form code-->
-<SCRIPT type=text/javascript>
 
-function onSubmit(){
-	
-	if (document.Enquiry.contact_person.value  == "")
-	{
-		alert("Please enter Contact Person Name .");
-		document.Enquiry.contact_person.focus()
-		return false;
-	}
-
-  if (document.Enquiry.from.value  == "")
-	{
-		alert("Please enter Email Address.");
-		document.Enquiry.from.focus()
-		return false;
-	}
-	var tempEmail= document.Enquiry.from.value;
-	var exclude=/[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
-	var check=/@[\w\-]+\./;
-	var checkend=/\.[a-zA-Z]{2,3}$/;
-	if (document.Enquiry.from.value!="")
-	{
-	if (tempEmail.search(exclude)!=-1||tempEmail.search(check)==-1||tempEmail.search(checkend)==-1)
-	{
-		alert("Can you check your Email Address again?");
-		document.Enquiry.from.focus();
-		return false
-	}
-	}	
-	
-	if (document.Enquiry.telNo.value  == "")
-	{
-		alert("Please enter Telephone No .");
-		document.Enquiry.telNo.focus()
-		return false;
-	}
-	if (document.Enquiry.telNo.value!="")
-	{
-		var tel= parseInt(document.Enquiry.telNo.value); 
-			if (isNaN(tel)) 
-				{  
-				alert("Enter Telephone Number Correctly");
-				document.Enquiry.telNo.focus();
-				return false
-				} 
-	}
-		
-
-	if (document.Enquiry.requirement_details.value  == "")
-	{
-		alert("Please enter Requirement Details .");
-		document.Enquiry.requirement_details.focus()
-		return false;
-	}		
-
-	return  CheckData();
-	// Validating
-function CheckData()
-{
-with(document.Enquiry)
-{
-if(q.value != randomnumber)
-{
-alert("Please Enter Correct Number");
-q.focus();
-return false;
-}
-}
-return true;
-}
-}
-
-</SCRIPT>
-<?php
-$mynumber= rand(673,62389);
-//echo $mynumber."<br><br>";
-
-$ilength=strlen($mynumber);
-// echo $ilength."<br><br>";
-for($i=0; $i<$ilength; $i++)
-{
-//print substr($mynumber, $i, 1).", ";
-}
-?>
-<script type="text/javascript">
-//defining variable and storinging in script
-var randomnumber= <?= $mynumber?>;
-// Validating
-</script>
-<!--end of "Send Enquiry" form validation script & form code-->
-
-<!--popup for "Send enquiry" with corresponding Tour name-->
-<div id="enquiry-form-modal" class="modal fade">
+<div id="testmodal" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Send Enquiry for <?php echo @$ProductTitle;?> </h4>
+                <h4 class="modal-title">Confirmation</h4>
             </div>
-            <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
-            <div class="modal-body-enquiry-form">
-            <input name="redirect" type="hidden">
-              	<input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
-                  <input name="subject" type="hidden" value="Tour Enquiry From Website">    
-                  <input name="tour-name" type="hidden" value="<?php echo @$ProductTitle;?>">    
-            <input type="text" name="contact_person" placeholder="Name">
-                  <input type="email" name="from" placeholder="Email">
-                  <input type="rel" name="telNo" placeholder="Phone Number">
-                  <textarea name="requirement_details" placeholder="Message here.."></textarea>
-                  <?php
-                        for($i=0; $i<$ilength; $i++)
-                        {
-                        $ipic= substr($mynumber, $i, 1);
-                        $sFilePath = "";
-                        //if (file_exists(".$ipic.".gif"))
-                        $sFilePath = $ipic.".gif";
-                        ?>
-                        <img style="width:18px" src="https://mipl.co.in/nb/<?=$sFilePath ?>" />
-                        <?php 
-                        }
-                        ?>
-                        <input type="text" placeholder="Enter verifcation code" name="q">
-                  
+            <div class="modal-body">
+                <p>Do you want to save changes you made to document before closing?</p>
+                <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
             </div>
             <div class="modal-footer">
-                <button type="submit" name="submit" class="btn btn-primary btn-form-theme">Submit</button>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
-            </form>
         </div>
     </div>
 </div>
+
 
 <script type="text/javascript">
 $(document).ready(function(){
   // var show_btn=$('.show-modal');
   // var show_btn=$('.show-modal');
-  // //$("#enquiry-form-modal").modal('show');
+  // //$("#testmodal").modal('show');
   
   //   show_btn.click(function(){
-  //     $("#enquiry-form-modal").modal('show');
+  //     $("#testmodal").modal('show');
   // })
 });
 
 $(function() {
         $('#element').on('click', function( e ) {
-            $("#enquiry-form-modal").modal('show');
+
+            $("#testmodal").modal('show');
             // Custombox.open({
             //     target: '#testmodal-1',
             //     effect: 'fadein'
@@ -684,5 +565,3 @@ $(function() {
         });
     });
 </script>
-
-<!--popup for "Send enquiry" with corresponding Tour name-->
