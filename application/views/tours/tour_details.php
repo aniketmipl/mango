@@ -532,55 +532,55 @@
 
 function onSubmit(){
 	
-	if (document.Enquiry.contact_person.value  == "")
+	if (document.EnquiryNew.contact_person.value  == "")
 	{
 		alert("Please enter Contact Person Name .");
-		document.Enquiry.contact_person.focus()
+		document.EnquiryNew.contact_person.focus()
 		return false;
 	}
 
-  if (document.Enquiry.from.value  == "")
+  if (document.EnquiryNew.from.value  == "")
 	{
 		alert("Please enter Email Address.");
-		document.Enquiry.from.focus()
+		document.EnquiryNew.from.focus()
 		return false;
 	}
-	var tempEmail= document.Enquiry.from.value;
+	var tempEmail= document.EnquiryNew.from.value;
 	var exclude=/[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
 	var check=/@[\w\-]+\./;
 	var checkend=/\.[a-zA-Z]{2,3}$/;
-	if (document.Enquiry.from.value!="")
+	if (document.EnquiryNew.from.value!="")
 	{
 	if (tempEmail.search(exclude)!=-1||tempEmail.search(check)==-1||tempEmail.search(checkend)==-1)
 	{
 		alert("Can you check your Email Address again?");
-		document.Enquiry.from.focus();
+		document.EnquiryNew.from.focus();
 		return false
 	}
 	}	
 	
-	if (document.Enquiry.telNo.value  == "")
+	if (document.EnquiryNew.telNo.value  == "")
 	{
 		alert("Please enter Telephone No .");
-		document.Enquiry.telNo.focus()
+		document.EnquiryNew.telNo.focus()
 		return false;
 	}
-	if (document.Enquiry.telNo.value!="")
+	if (document.EnquiryNew.telNo.value!="")
 	{
-		var tel= parseInt(document.Enquiry.telNo.value); 
+		var tel= parseInt(document.EnquiryNew.telNo.value); 
 			if (isNaN(tel)) 
 				{  
 				alert("Enter Telephone Number Correctly");
-				document.Enquiry.telNo.focus();
+				document.EnquiryNew.telNo.focus();
 				return false
 				} 
 	}
 		
 
-	if (document.Enquiry.requirement_details.value  == "")
+	if (document.EnquiryNew.requirement_details.value  == "")
 	{
 		alert("Please enter Requirement Details .");
-		document.Enquiry.requirement_details.focus()
+		document.EnquiryNew.requirement_details.focus()
 		return false;
 	}		
 
@@ -588,7 +588,7 @@ function onSubmit(){
 	// Validating
 function CheckData()
 {
-with(document.Enquiry)
+with(document.EnquiryNew)
 {
 if(q.value != randomnumber)
 {
@@ -628,7 +628,7 @@ var randomnumber= <?= $mynumber?>;
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4 class="modal-title">Send Enquiry for <?php echo @$ProductTitle;?> </h4>
             </div>
-            <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
+            <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="EnquiryNew" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
               	<input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
@@ -636,7 +636,7 @@ var randomnumber= <?= $mynumber?>;
                   <input name="tour-name" type="hidden" value="<?php echo @$ProductTitle;?>">    
             <input type="text" name="contact_person" placeholder="Name">
                   <input type="email" name="from" placeholder="Email">
-                  <input type="rel" name="telNo" placeholder="Phone Number">
+                  <input type="text" name="telNo" placeholder="Phone Number">
                   <textarea name="requirement_details" placeholder="Message here.."></textarea>
                   <?php
                         for($i=0; $i<$ilength; $i++)
