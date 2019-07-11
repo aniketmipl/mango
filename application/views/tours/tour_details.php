@@ -626,14 +626,14 @@ var randomnumber= <?= $mynumber?>;
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Send Enquiry</h4>
+                <h4 class="modal-title">Send Enquiry for <?php echo @$ProductTitle;?> </h4>
             </div>
             <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
               	<input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
                   <input name="subject" type="hidden" value="Tour Enquiry From Website">    
-                  <input name="tour-name" type="hidden" value="XYZ Tour">    
+                  <input name="tour-name" type="hidden" value="<?php echo @$ProductTitle;?>">    
             <input type="text" name="contact_person" placeholder="Name">
                   <input type="email" name="from" placeholder="Email">
                   <input type="rel" name="telNo" placeholder="Phone Number">
