@@ -243,10 +243,8 @@
 }
 .page-header-container img {
     width: 1440px !important;
-  
     display: block;
     margin: 0 auto;
-  
     height: 300px;
     max-width: 1440px;
 }
@@ -930,6 +928,42 @@ nav.bootsnav .megamenu-content .col-menu {
  color:#fff;
  opacity:1;
 }
+.modal-body-enquiry-form{
+    position: relative;
+    padding: 20px;
+}
+#enquiry-form-modal .modal-title{
+    color:#fff;
+}
+#enquiry-form-modal.modal{
+    top: 15%;
+}
+#enquiry-form-modal input, 
+#enquiry-form-modal textarea {
+    width: 100%;
+    height: 36px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.5);
+    outline: none;
+    color: #4c4c4c;
+}
+#enquiry-form-modal .modal-header{
+    background: #038422;
+}
+#enquiry-form-modal .btn-form-theme{
+    background: #038422;
+    border-color: #038422;
+}
+#enquiry-form-modal .btn-form-theme:hover{
+    background: #FF6600;
+    border-color: #FF6600;
+}
+#enquiry-form-modal .btn-default:hover{
+    color:#fff;
+}
+
 @media only screen and (max-width:768px){
     .modal-body h3{
         text-align:center;
