@@ -530,7 +530,7 @@
 <!--"Send Enquiry" form validation script & form code-->
 <SCRIPT type=text/javascript>
 
-function onSubmit(){
+function onSubmitNew(){
 	
 	if (document.EnquiryNew.contact_person.value  == "")
 	{
@@ -628,7 +628,7 @@ var randomnumber= <?= $mynumber?>;
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4 class="modal-title">Send Enquiry for <?php echo @$ProductTitle;?> </h4>
             </div>
-            <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="EnquiryNew" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
+            <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="EnquiryNew" onSubmit="return onSubmitNew()"  enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
               	<input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
