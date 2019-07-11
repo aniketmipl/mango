@@ -292,7 +292,7 @@
             <!--<div class="modal-body">
               <p>This is a large modal.</p>
             </div>-->
-            <div class="modal-body">
+            <div class="modal-body tour-body">
                 <!-- Dynamic content goes here -->
             </div>
             <div class="modal-footer">
@@ -470,8 +470,8 @@
                 '<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' to be calculated on the prevailing rate of exchange of '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' -> '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' on the day of actual payment to Mango Holidays.</p>'+
                 '<p>Tour Price Starting From : '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+ result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue+'/- per adult on twin sharing basis!</p>'+
                 '<p><b>**Prices increase as seats get filled.**</b></p>';
-                $(".modal-body").html("");
-                $(".modal-body").html(main_body+body_content);
+                $(".tour-body").html("");
+                $(".tour-body").html(main_body+body_content);
                 $("#myModal").modal('show');
 
           }
@@ -544,22 +544,24 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-  var show_btn=$('.show-modal');
-  var show_btn=$('.show-modal');
-  //$("#testmodal").modal('show');
+  // var show_btn=$('.show-modal');
+  // var show_btn=$('.show-modal');
+  // //$("#testmodal").modal('show');
   
-    show_btn.click(function(){
-      $("#testmodal").modal('show');
-  })
+  //   show_btn.click(function(){
+  //     $("#testmodal").modal('show');
+  // })
 });
 
 $(function() {
         $('#element').on('click', function( e ) {
-            Custombox.open({
-                target: '#testmodal-1',
-                effect: 'fadein'
-            });
-            e.preventDefault();
+
+            $("#testmodal").modal('show');
+            // Custombox.open({
+            //     target: '#testmodal-1',
+            //     effect: 'fadein'
+            // });
+            // e.preventDefault();
         });
     });
 </script>
