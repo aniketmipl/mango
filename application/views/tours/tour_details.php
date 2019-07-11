@@ -528,16 +528,17 @@
 
 
 <!--"Send Enquiry" form validation script & form code-->
-<SCRIPT type=text/javascript>
+<SCRIPT type="text/javascript">
 
-function onSubmit(){
-    
-    if (document.EnquiryNew.contact_person.value  == "")
-    {
-        alert("Please enter Contact Person Name .");
-        document.EnquiryNew.contact_person.focus()
-        return false;
-    }
+
+function onSubmitNew(){
+	
+	if (document.EnquiryNew.contact_person.value  == "")
+	{
+		alert("Please enter Contact Person Name .");
+		document.EnquiryNew.contact_person.focus()
+		return false;
+	}
 
   if (document.EnquiryNew.from.value  == "")
     {
@@ -590,7 +591,7 @@ function CheckData()
 {
 with(document.EnquiryNew)
 {
-if(q.value != randomnumber)
+if(q.value != randomnumber_tour)
 {
 alert("Please Enter Correct Number");
 q.focus();
@@ -603,10 +604,10 @@ return true;
 
 </SCRIPT>
 <?php
-$mynumber= rand(673,62389);
+$mynumber_tour= rand(673,62389);
 //echo $mynumber."<br><br>";
 
-$ilength=strlen($mynumber);
+$ilength=strlen($mynumber_tour);
 // echo $ilength."<br><br>";
 for($i=0; $i<$ilength; $i++)
 {
@@ -615,7 +616,7 @@ for($i=0; $i<$ilength; $i++)
 ?>
 <script type="text/javascript">
 //defining variable and storinging in script
-var randomnumber= <?= $mynumber?>;
+var randomnumber_tour= <?= $mynumber_tour?>;
 // Validating
 </script>
 <!--end of "Send Enquiry" form validation script & form code-->
@@ -628,7 +629,7 @@ var randomnumber= <?= $mynumber?>;
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4 class="modal-title">Send Enquiry for <?php echo @$ProductTitle;?> </h4>
             </div>
-            <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="EnquiryNew" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
+            <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="EnquiryNew" onSubmit="return onSubmitNew()"  enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
                 <input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
@@ -641,7 +642,7 @@ var randomnumber= <?= $mynumber?>;
                   <?php
                         for($i=0; $i<$ilength; $i++)
                         {
-                        $ipic= substr($mynumber, $i, 1);
+                        $ipic= substr($mynumber_tour, $i, 1);
                         $sFilePath = "";
                         //if (file_exists(".$ipic.".gif"))
                         $sFilePath = $ipic.".gif";
