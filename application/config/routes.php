@@ -73,3 +73,4 @@ $route['tours/central-eastern-europe'] = 'tours/central_eastern_europe';
 $route['tours/scenic-scandinavia'] = 'tours/scenic_scandinavia';
 $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';
+$route['corporate-tours-package'] = 'pages/corporate_tours';

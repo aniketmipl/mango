@@ -30,4 +30,14 @@ class Pages extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
+	public function corporate_tours()
+	{
+
+		$head_data['title'] = "Corporate Tour Page";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/corporate_tours');
+		$this->load->view('common/footer');
+	}
+
 }

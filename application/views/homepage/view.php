@@ -617,7 +617,7 @@
 
                                                 </ul>
                                         <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                        <a class="read-btn" href="#">Read More </a>
+                                        <!-- <a class="read-btn" href="#">Read More </a> -->
                                     </div>
                                 </div>
                             </div>
@@ -643,7 +643,7 @@
 
                                                     </ul>
                                             <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                            <a class="read-btn" href="#">Read More </a>
+                                            <!-- <a class="read-btn" href="#">Read More </a> -->
                                         </div>
                                 </div>
                             </div>
@@ -668,7 +668,7 @@
 
                                                     </ul>
                                             <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                            <a class="read-btn" href="#">Read More </a>
+                                            <!-- <a class="read-btn" href="#">Read More </a> -->
                                         </div>
                                 </div>
                             </div>
@@ -694,14 +694,18 @@
 
                                                         </ul>
                                                 <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                                <a class="read-btn" href="#">Read More </a>
+                                                <!-- <a class="read-btn" href="#">Read More </a> -->
                                             </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                 </div>
+                <div style="display: block;text-align: center;">
+                    <a class="btn btn-primary" href="#">View More</a> 
                 </div>
+            </div>
+                
             </div>
         </section>
         <!-- End Blog Section -->
