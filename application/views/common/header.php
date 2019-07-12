@@ -254,7 +254,7 @@
                         </li>
                         
                         <li>
-                            <a href="#">Corporate Tours</a>
+                            <a href="<?php echo base_url()?>corporate-tours-package">Corporate Tours</a>
                         </li>
                         <li>
                             <a href="<?php echo base_url()?>about-us">About Us</a>

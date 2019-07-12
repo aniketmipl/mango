@@ -522,6 +522,7 @@
         font-size: 18px;
     font-weight: 600;
     }
+   
     .main-heading{
         z-index:1;
     }
@@ -635,6 +636,7 @@
         height: 300px;
         max-width: 100%;
     }
+    
     }
     @media (max-width:1300px) and (min-width:992px){
     .container-big{
@@ -745,9 +747,12 @@
         width:90%;
         margin: 0 auto;
     }
-    
-
-
+    .tour-blog-box .blog-details{
+        padding:15px 30px;
+    }
+    .tour-blog-box.hover-box .image .over-layer{
+        margin: 0 13px;
+    }
 
     .testimonal-area {
         background: url(../images/bg/3.jpg);
@@ -1287,4 +1292,147 @@ background: #e8e6e6;
         line-height: 12px;
     }
 }
+
+/*Corporate tour styling*/
+:root{
+    --color_1: #eb3b5a;
+    --color_2: #fa8231;
+    --color_3: #8854d0;
+    --color_4: #20bf6b;
+}
+
+.serviceBox{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding: 30px 9px 0;
+    position: relative;
+}
+
+.serviceBox:before,
+.serviceBox:after{
+    content: "";
+    background: var(--color_1);
+    width: 25px;
+    height: 15px;
+    opacity: 0;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    -webkit-clip-path: polygon(100% 30%, 100% 66%, 50% 100%, 0 66%, 0 30%, 50% 60%);
+    clip-path: polygon(100% 30%, 100% 66%, 50% 100%, 0 66%, 0 30%, 50% 60%);
+    transition: all 0.3s;
+}
+
+.serviceBox:hover:before{
+    opacity: 1;
+    top: 151px;
+}
+
+.serviceBox:hover:after{
+    opacity: 1;
+    top: 160px;
+}
+
+.serviceBox .service-icon{
+    color: #fff;
+    background: var(--color_1);
+    font-size: 40px;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 50px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.2);
+    position: relative;
+    transition: all 0.3s;
+}
+
+.serviceBox .service-icon:before,
+.serviceBox .service-icon:after{
+    content: "";
+    border: 2px solid var(--color_1);
+    border-left: 2px dashed var(--color_1);
+    border-right: 2px dashed var(--color_1);
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    bottom: -10px;
+    right: -10px;
+    transition: all 0.3s;
+}
+
+.serviceBox .service-icon:after{
+    transform: rotate(-45deg);
+    top: -20px;
+    left: -20px;
+    bottom: -20px;
+    right: -20px;
+}
+
+.serviceBox:hover .service-icon:before{ transform:rotate(-40deg); }
+
+.serviceBox:hover .service-icon:after{ transform:rotate(40deg); }
+
+.serviceBox .service-icon i.fa{ transition: all 0.3s;  margin-top: 27px; }
+
+.serviceBox:hover .service-icon i.fa{ 
+    transform: rotateX(360deg); 
+   
+}
+
+.serviceBox .title{
+    color: var(--color_1);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.serviceBox .description{
+    color: #606060;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.serviceBox.orange:before,
+.serviceBox.orange:after{
+    background: var(--color_2);
+}
+.serviceBox.orange .service-icon{ background: var(--color_2); }
+.serviceBox.orange .service-icon:before,
+.serviceBox.orange .service-icon:after{
+    border-color: var(--color_2);
+}
+.serviceBox.orange .title{ color: var(--color_2); }
+
+.serviceBox.purple:before,
+.serviceBox.purple:after{
+    background: var(--color_3);
+}
+.serviceBox.purple .service-icon{ background: var(--color_3); }
+.serviceBox.purple .service-icon:before,
+.serviceBox.purple .service-icon:after{
+    border-color: var(--color_3);
+}
+.serviceBox.purple .title{ color: var(--color_3); }
+
+.serviceBox.green:before,
+.serviceBox.green:after{
+    background: var(--color_4);
+}
+.serviceBox.green .service-icon{ background: var(--color_4); }
+.serviceBox.green .service-icon:before,
+.serviceBox.green .service-icon:after{
+    border-color: var(--color_4);
+}
+.serviceBox.green .title{ color: var(--color_4); }
+
+@media only screen and (max-width:990px){
+    .serviceBox{ margin: 0 0 30px; }
+}
+
+/*end Corporate tour styling*/
 
