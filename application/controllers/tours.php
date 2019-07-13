@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class tours extends CI_Controller {
+class Tours extends CI_Controller {
 
 	public function index()
 	{
@@ -14,18 +14,12 @@ class tours extends CI_Controller {
 		$product_code='E1';
 
 		$data['api_result']=$this->call_api($product_id,$product_code);		
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		$filter_data['slider_image'] = 'images/tours/europe/exotic-europe-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/europe/exotic-europe.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
-
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
+
 		$head_data['title'] = "Europe Group Tour Package from India Exotic Europe | Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
@@ -39,16 +33,17 @@ class tours extends CI_Controller {
 		$product_code='E2';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
-		
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/europe/classic-europe-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
@@ -64,19 +59,20 @@ class tours extends CI_Controller {
 		$product_code='E3';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
-		
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/europe/glimpses-of-europe-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/europe/glimpses-of-europe.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
-		$filter_data['ProductHighlights'] =$data['api_result']['ProductHighlights'];
+		// $filter_data['ProductHighlights'] =$data['api_result']['ProductHighlights'];
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
 
 
@@ -93,17 +89,17 @@ class tours extends CI_Controller {
 		$product_code='E5';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
-		
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/europe/grand-europe-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/europe/grand-europe.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
@@ -121,18 +117,18 @@ class tours extends CI_Controller {
 		$product_code='E4';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
-		
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['itenary_program']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['itenary_program']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/europe/best-of-europe-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/europe/best-of-europe.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];		
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];		
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
@@ -148,16 +144,17 @@ class tours extends CI_Controller {
 		$product_id ='18';
 		$product_code='U1';
 		
-		$data['api_result']=$this->call_api($product_id,$product_code);		
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$data['api_result']=$this->call_api($product_id,$product_code);
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];		
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/incredible-america-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/america/incredible-america.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="America";
 		$filter_data['sector_path']="GroupTours/group_america";
 		$head_data['title'] = "Incredible America |Tour Package from Pune  Mumbai | Mango Holidays";
@@ -172,16 +169,17 @@ class tours extends CI_Controller {
 		$product_id ='19';
 		$product_code='U2';
 		
-		$data['api_result']=$this->call_api($product_id,$product_code);		
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];	
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/east-cost-america-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/america/east-coast-of-america.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="America";
 		$filter_data['sector_path']="GroupTours/group_america";
 		$head_data['title'] = "East Coast America Tour - Mango Holidays- call 8380039503";
@@ -196,16 +194,17 @@ class tours extends CI_Controller {
 		$product_id ='21';
 		$product_code='U3';
 		
-		$data['api_result']=$this->call_api($product_id,$product_code);		
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$data['api_result']=$this->call_api($product_id,$product_code);
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];		
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/east-coast-of-america-with-orlando-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/america/east-coast-of-america-with-orlando.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="America";
 		$filter_data['sector_path']="GroupTours/group_america";
 		$head_data['title'] = "East Coast America Tour - Mango Holidays- call 8380039503";
@@ -220,16 +219,17 @@ class tours extends CI_Controller {
 		$product_id ='22';
 		$product_code='U4';
 		
-		$data['api_result']=$this->call_api($product_id,$product_code);		
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];	
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/america/west-coast-of-america-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/america/west-coast-of-america.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$head_data['title'] = "West Coast America - Mango Holidays - Best Group Tour - call 838003503";
 		$filter_data['sector']="America";
 		$filter_data['sector_path']="GroupTours/group_america";
@@ -245,15 +245,16 @@ class tours extends CI_Controller {
 		$product_code='S1';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Africa";
 		$filter_data['sector_path']="GroupTours/group_africa";
 		$head_data['title'] = "South Africa Tour Holiday Packages from Mumbai Pune Mango Holidays";
@@ -268,16 +269,17 @@ class tours extends CI_Controller {
 		$product_id ='11';
 		$product_code='D1';
 		
-		$data['api_result']=$this->call_api($product_id,$product_code);		
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];	
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/dubai/dazzling-dubai-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/dubai/dazzling-dubai.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Dubai";
 		$filter_data['sector_path']="GroupTours/group_dubai";
 		$head_data['title'] = "Dubai Group Tour with Abu Dhabi - Mango Holidays";
@@ -294,15 +296,16 @@ class tours extends CI_Controller {
 		$product_code='J1';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);		
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/japan/japan-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/japan/japan.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Japan";
 		$filter_data['sector_path']="GroupTours/group_japan";
 		$head_data['title'] = "Japan Group Tour - Japanese Discovery - 5 N / 6 D Mango Holidays";
@@ -319,17 +322,17 @@ class tours extends CI_Controller {
 		$product_code='M1';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 
-
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/mauritius/mauritius-masti.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Mauritius";
 		$filter_data['sector_path']="GroupTours/group_mauritius";
 		$head_data['title'] = "Mauritius Group Tour - Mango Holidays";
@@ -345,17 +348,16 @@ class tours extends CI_Controller {
 		$product_code='A1';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
-
-
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/australia-and-new-zeeland/new-zealand-&-australia-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/australia-and-new-zeeland/new-zealand-&-australia.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Australia and New Zeeland";
 		$filter_data['sector_path']="GroupTours/group_australiaandnewzealand";
 		$head_data['title'] = "Australia and New Zeeland Group Tour - Mango Holidays";
@@ -372,17 +374,17 @@ class tours extends CI_Controller {
 		$product_code='E6';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 
-
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		// $filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
+		// $filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
+		// $filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
+		// $filter_data['Days']= $data['api_result']['Days'];
+		// $filter_data['Nights']= $data['api_result']['Nights'];
 		$filter_data['slider_image'] = 'images/tours/rest-of-europe/central-eastern-europe-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/central-eastern-europe.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
+		// $filter_data['Inclusions']= $data['api_result']['Inclusions'];
+		// $filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Rest Of Europe";
 		$filter_data['sector_path']="GroupTours/group_rest_of_europe";
 		$head_data['title'] = "Rest Of Europe Group Tour - Mango Holidays";
@@ -398,17 +400,9 @@ class tours extends CI_Controller {
 		$product_code='E7';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
-
-
-		$filter_data['itenary']= $data['api_result']['ProductItineraryByDay'];
-		$filter_data['UpcomingTours']= $data['api_result']['UpcomingTours'];
-		$filter_data['ProductTitle']= $data['api_result']['ProductTitle'];
-		$filter_data['Days']= $data['api_result']['Days'];
-		$filter_data['Nights']= $data['api_result']['Nights'];
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		$filter_data['slider_image'] = 'images/tours/rest-of-europe/scenic-scandinavia-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/scenic-scandinavia.jpg';
-		$filter_data['Inclusions']= $data['api_result']['Inclusions'];
-		$filter_data['Exclusions']= $data['api_result']['Exclusions'];
 		$filter_data['sector']="Rest Of Europe ";
 		$filter_data['sector_path']="GroupTours/group_rest_of_europe";
 		$head_data['title'] = "Scenic Scandinavia Group Tour - Mango Holidays";
@@ -475,15 +469,7 @@ class tours extends CI_Controller {
 		$return = curl_exec($ch);
 		curl_close($ch);
 		$decrypt_data = json_decode($return);
-
-		$result['ProductItineraryByDay'] = $decrypt_data->ProductItineraryByDay;
-		$result['Days'] = $decrypt_data->Days;
-		$result['Nights'] = $decrypt_data->Nights;
-		$result['UpcomingTours'] = $decrypt_data->UpcomingTours;
-		$result['ProductTitle'] = $decrypt_data->ProductTitle;
-		$result['Inclusions'] = $decrypt_data->Inclusions;
-		$result['Exclusions'] = $decrypt_data->Exclusions;
-		$result['ProductHighlights'] =$decrypt_data->ProductHighlights;
+		$result['complete_data'] = $decrypt_data;
 		return $result;
 
 	}
