@@ -716,6 +716,12 @@
         margin-top:10px;
         font-size:1em;
     }
+    .infoText{
+        padding-bottom:5%;
+    }
+    .smallHeadingGray{
+        margin-bottom: 2px;
+    }
     }
 
 @media only screen and (min-width:991px){
@@ -876,6 +882,9 @@ nav.bootsnav .megamenu-content .col-menu {
     .top-link{
         margin-top:5px;
         font-size:1em;
+    }
+    .address br{
+        display: none;
     }
 }
 @media only screen and (max-width: 479px){
@@ -1370,6 +1379,7 @@ background: #e8e6e6;
     position: relative;
     z-index: 1;
     transition: all 0.5s ease 0s;
+    height: 402px;
 }
 
 .serviceBox:before,
@@ -1414,7 +1424,7 @@ background: #e8e6e6;
 .serviceBox .service-content{
     color: #fff;
     line-height: 25px;
-    padding: 2px 12px 20px;
+    padding: 15px 12px 20px;
 }
 
 .serviceBox .title{
@@ -1537,6 +1547,9 @@ background: #e8e6e6;
 
 @media only screen and (max-width: 990px){
     .serviceBox{ margin-bottom: 30px; }
+    .serviceBox .service-content{
+        padding: 40px 12px 20px;
+    }
 }
 
 @media only screen and (max-width: 767px){
@@ -1544,6 +1557,7 @@ background: #e8e6e6;
     .serviceBox:after{
         top: 80px;
     }
+   
 }
 
 @media only screen and (max-width: 480px){
@@ -1551,6 +1565,7 @@ background: #e8e6e6;
     .serviceBox:after{
         top: 140px;
     }
+ 
 }
 /*end Corporate tour styling*/
 

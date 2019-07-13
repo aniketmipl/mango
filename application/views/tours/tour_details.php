@@ -553,14 +553,14 @@ var randomnumber_tour= <?= $mynumber_tour?>;
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Send Enquiry for <?php echo $complete_data->ProductTitle;?> </h4>
+                <h4 class="modal-title">Send Enquiry for <?php echo @$complete_data->ProductTitle;?> </h4>
             </div>
             <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="EnquiryNew" onSubmit="return onSubmitNew()"  enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
                 <input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
                   <input name="subject" type="hidden" value="Tour Enquiry From Website">    
-                  <input name="tour-name" type="hidden" value="<?php echo $complete_data->ProductTitle;?>">    
+                  <input name="tour-name" type="hidden" value="<?php echo @$complete_data->ProductTitle;?>">    
             <input type="text" name="contact_person" placeholder="Name">
                   <input type="email" name="from" placeholder="Email">
                   <input type="text" name="telNo" placeholder="Phone Number">

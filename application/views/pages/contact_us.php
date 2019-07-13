@@ -217,15 +217,15 @@ Pune. Maharashtra 411004.</p></li>
                         <div class="address">
 						<h4>Dadar</h4>
                             <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-map-marker"></i> <p> 5, Adi House, Gokhale Road North,
-Near Portuguese Church,
-Dadar (W) –400 028, Maharashtra.</p></li>
+                                <li><i class="fa-li fa fa-map-marker"></i> <p> 5, Adi House, Gokhale Road North,<br/>
+Near Portuguese Church,<br/>
+Dadar (W) –400 028,<br/> Maharashtra.</p></li>
                                 <li><i class="fa-li fa fa-mobile"></i>+91 22 24335500 / 11 / 22</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
 							<br/>
-							<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15087.995730531897!2d72.8360824!3d19.0197687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb9fb984ed8286f5!2sMango+Holidays!5e0!3m2!1sen!2sin!4v1524131540546" width="100%" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+							<iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15087.995730531897!2d72.8360824!3d19.0197687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb9fb984ed8286f5!2sMango+Holidays!5e0!3m2!1sen!2sin!4v1524131540546" width="100%" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
 	</div>
@@ -234,36 +234,35 @@ Dadar (W) –400 028, Maharashtra.</p></li>
                         <div class="address">
 						<h4>Thane</h4>
                             <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-map-marker"></i> <p>3702, 7th Floor, Tulsee Chambers,
-Pachpakhadi, Opp. Teen Petrol Pump,
-Thane (W) – 400 602, Maharashtra.</p></li>
+                                <li><i class="fa-li fa fa-map-marker"></i> <p>3702, 7th Floor, Tulsee Chambers,<br/>
+Pachpakhadi, Opp. Teen Petrol Pump,<br/>
+Thane (W) – 400 602,<br/> Maharashtra.</p></li>
                                 
                                 <li><i class="fa-li fa fa-mobile"></i>+91 22- 25450017 / 18 / 19 / 20</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
 							<br/>
-							<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15072.179604612527!2d72.9700949!3d19.1932411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd487399a35fd49a2!2sMango+Holidays+India+Pvt+Ltd+-+Top+Travel+Agents+in+Thane+West!5e0!3m2!1sen!2sin!4v1524131673191" width="100%" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+							<iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15072.179604612527!2d72.9700949!3d19.1932411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd487399a35fd49a2!2sMango+Holidays+India+Pvt+Ltd+-+Top+Travel+Agents+in+Thane+West!5e0!3m2!1sen!2sin!4v1524131673191" width="100%" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
 	</div>
-	</div>
-<div class="row">
+	
 	<div class="col-sm-6 col-md-4">
                     <div class="contact-address">
                         <div class="address">
 						<h4>Nagpur </h4>
                             <ul class="fa-ul">
                                 <li><i class="fa-li fa fa-map-marker"></i> <p>302, 3rd Floor, Pathak House,
-Near VNIT College, Abhyankar Nagar,
-Nagpur – 440010, Maharashtra.</p></li>
+Near VNIT College, Abhyankar Nagar,<br/>
+Nagpur – 440010,<br/> Maharashtra.</p></li>
                                 
                                 <li><i class="fa-li fa fa-mobile"></i>+91 712 – 2244557 / 8 / 9</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
 							<br/>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+							<iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                         </div>
                     </div>
 	</div>
