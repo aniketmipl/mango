@@ -9,9 +9,9 @@
 <?php 
         
 
-    if(isset($complete_data->ProductItineraryByDay)){
+    if(isset($itenary)){
         @$itenary_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
-        foreach($complete_data->ProductItineraryByDay as $itenary_key){
+        foreach($itenary as $itenary_key){
 
                 $itenary_program .= "<h3 style='font-size:18px; font-weight:600'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
@@ -20,14 +20,14 @@
                 
 ?>
 <div id="tour_heading" style="display: none">
-    <?php echo $complete_data->ProductTitle;?>
+    <?php echo $ProductTitle;?>
 </div>
 <div id="tour_duration" style="display: none">
-     <?php  echo $complete_data->Days; ?> Days  / <?php echo $complete_data->Nights; ?> Night 
+     <?php  echo $Days; ?> Days  / <?php echo $Nights; ?> Night 
 </div>
 <div id='PDFcontent' style="display: none">
-    <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $complete_data->ProductTitle;?></h2>
-    <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Night </h3>
+    <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $ProductTitle;?></h2>
+    <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $Days; ?> Days / <?php echo $Nights; ?> Night </h3>
     <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">TOUR ITINERARY</h3>
 
     <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p>
@@ -43,12 +43,12 @@
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
-          <h2 class="entry-title"><?php echo @$complete_data->ProductTitle;?></h2>
+          <h2 class="entry-title"><?php echo @$ProductTitle;?></h2>
         </div>
         <ul class="breadcrumbs pull-right">
             <li><a href="#">Group Tour</a></li>
-            <li><a href="<?php echo base_url().$sector_path;?>"><?php echo @$complete_data->SectorName;?></a></li>
-            <li class="active"><?php echo @$complete_data->ProductTitle;?></li>
+            <li><a href="<?php echo base_url().$sector_path;?>"><?php echo @$sector;?></a></li>
+            <li class="active"><?php echo @$ProductTitle;?></li>
         </ul>
     </div>
 </div>
@@ -61,8 +61,8 @@
           <div class="post-blog-item">
 
             <div class="date-mate">
-                    <h6>Days<span><?php echo $complete_data->Days; ?></span></h6>
-                    <h6 class="nights">Nights<span><?php echo $complete_data->Nights; ?></span></h6>
+                    <h6>Days<span><?php echo $Days; ?></span></h6>
+                    <h6 class="nights">Nights<span><?php echo $Nights; ?></span></h6>
             </div>
             </div>
         </div>
@@ -81,11 +81,14 @@
                                                 <div class="col-lg-12">
                                                 <div class="content-button">
                                                         <ul class="list-inline">
-                                                            <li><i class="fa fa-envelope-o"></i> <a style="cursor:pointer;" id="element" class="show-modal"> Send Enquiry</a> &nbsp;| </li>
+                                                            <?php $filename="file.pdf" ;
+                                                            $data ="tt";
+                                                            ?>
+                                                                <li><i class="fa fa-envelope-o"></i> <a style="cursor:pointer;" id="element" class="show-modal"> Send Enquiry</a> &nbsp;| </li>
                                                                <!--  <li><i class="fa fa-print" aria-hidden="true"></i> <a style="cursor:pointer;" id="pdf_print"> Print</a>&nbsp; | </li> -->
                                                                 <!-- <li><button onclick="generate()"><i class="fa fa-download" aria-hidden="true"></i>Download</button></li> -->
-                                                            <li><i class="fa fa-download" aria-hidden="true"></i><a style="cursor:pointer;" id="pdf_download">Download / Print Itinerary  </a></li>
-                                                        </ul>  
+                                                                <li><i class="fa fa-download" aria-hidden="true"></i><a style="cursor:pointer;" id="pdf_download">Download / Print Itinerary  </a></li>
+                                                            </ul>  
                                                 </div> 
                                                 </div>
                                               <div class="col-lg-12 column-margin">
@@ -110,8 +113,8 @@
                                                                                     </div>
                                                                             <ul id='timeline1'>
                                                                                 <?php 
-                                                                                if(isset($complete_data->ProductItineraryByDay)){
-                                                                                    foreach($complete_data->ProductItineraryByDay as $key){?>
+                                                                                if(isset($itenary)){
+                                                                                    foreach($itenary as $key){?>
                                                                                 <li class='work'>
                                                                                     <div class="relative">
                                                                                        
@@ -142,8 +145,8 @@
                                                                                         <div class="small-border"></div>
                                                                                         <ul>
                                                                                           <?php 
-                                                                                          if(isset($complete_data->ProductHighlights)){
-                                                                                            foreach ($complete_data->ProductHighlights as $ph_key ) { ?>
+                                                                                          if(isset($ProductHighlights)){
+                                                                                            foreach ($ProductHighlights as $ph_key ) { ?>
                                                                                             <li>
                                                                                               <?php echo $ph_key->HighlightItem;
                                                                                               }}
@@ -162,7 +165,7 @@
                                                                             <ul>
                                                                               <?php 
 
-                                                                                foreach ($complete_data->Inclusions as $InclusionsItem ) { ?>
+                                                                                foreach ($Inclusions as $InclusionsItem ) { ?>
                                                                                 <li>
                                                                                   <?php echo $InclusionsItem->InclusionItem;
                                                                                   }
@@ -175,7 +178,7 @@
                                                                                     <ul>
                                                                                       <?php 
 
-                                                             foreach ($complete_data->Exclusions as $ExclusionsItem ) { ?>
+                                                             foreach ($Exclusions as $ExclusionsItem ) { ?>
                                                               <li>
                                                                 <?php echo $ExclusionsItem->ExclusionItem;
                                                                    }
@@ -219,8 +222,8 @@
                                                                    
                                                                       <tbody>
                                                                         <?php 
-                                                                            if(isset($complete_data->UpcomingTours)){
-                                                                                foreach ($complete_data->UpcomingTours as $tours){
+                                                                            if(isset($UpcomingTours)){
+                                                                                foreach ($UpcomingTours as $tours){
                                                                                 foreach($tours->UpcomingTourPricingDetails as $pricedetails){
                                                                                     if(($tours->TourStatus)=='Open'){
                                                                         ?>
@@ -260,7 +263,7 @@
 
              <!--related tours started-->  
             
-        <section class="hotel-offer tour-category" style="display:none;">
+        <section class="hotel-offer tour-category">
         <div class="container" style="padding-bottom:0;">
             <div class="row">
                 <div class="hottel-grid-offer related-tours" style="justify-content: left;">
@@ -311,13 +314,84 @@
   //function for Related Tour section 
   $(function(){
 
- // related_tour();
+ related_tour();
 
 
 
-    // function related_tour(){
-   
-    // }
+    function related_tour(){
+        var curent_sector = "<?php echo trim($sector); ?>";
+        var relative_tours="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName="+curent_sector;
+        var current_tour = "<?php echo @$ProductTitle;?>";
+
+        $.ajax({
+          url:relative_tours,
+          type:'GET',
+          headers:
+          {
+            'UserName':'mhwebsite',
+            'Password':'mango'
+          },
+          username:'mhwebsite',
+          password:'mango',
+          success:function(res){
+
+            var rtr = JSON.parse(JSON.stringify(res));
+
+            var related_tours_array = rtr.ProductList;
+            // console.log(related_tours_array);
+            if(related_tours_array !=  null){
+                var array_length = related_tours_array.length;
+                // console.log("Related tour length "+array_length);
+                if(array_length > 5){
+                    array_length = 5
+                }
+                // console.log(array_length);
+                var related_tour_div='';
+                if(array_length > 1){
+                    var i;
+                    for (i = 0; i < array_length; i++) { 
+                        if(related_tours_array[i].ProductTitle != current_tour){
+                            var ProductTitle = related_tours_array[i].ProductTitle;
+                            var related_tour_view ='<div class="col-md-3 col-sm-4 mb-20">'+
+                            '<div class="hover-box tour-hotel-box">'+
+                                    '<div class="tour-img image">'+
+                                            '<img src="<?php echo base_url();?>assets/images/tours/'+curent_sector.replace(new RegExp(" ","g"),"-").toLowerCase()+'/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'.jpg" alt="">'+
+
+                                            '<div class="over-layer">'+
+                                                '<div class="links">'+
+                                                    '<ul class="list-inline">'+
+                                                        '<li><a href="<?php echo base_url();?>tours/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'"><i class="fa fa-link" aria-hidden="true"></i></a></li>'+
+                                                    '</ul>'+
+                                                '</div>'+
+                                            '</div>'+
+                                        '</div>'+
+                                '<div class="tour-item hotel-item">'+
+                                '<div class="blog-details">'+
+                                    '<a href="<?php echo base_url();?>tours/'+ProductTitle.replace(new RegExp(" ","g"),"-").toLowerCase()+'">'+
+                                        '<h4>'+related_tours_array[i].ProductTitle+'</h4>'+
+                                        '<p>'+related_tours_array[i].Days+' Days / '+related_tours_array[i].Nights+' Nights</p>'+
+                                    '</a>'+
+                                    '</div>'+
+                                '</div>'+
+                            '</div>'+
+                        '</div>';
+                                related_tour_div +=related_tour_view;
+                        }
+                    }
+                            $(".related_tours").append(related_tour_div);
+                            
+
+                            // console.log("Tour Title "+related_tours_array[i].ProductTitle);
+                }else{
+                    $(".tour-category").css('display','none');
+                }
+            }else{
+                $(".tour-category").css('display','none');
+            }
+            
+          }
+      });
+    }
 //end of function for Related Tour section
    
 //function for popup display with prices on click of tour code & fectching data from API    
@@ -413,7 +487,7 @@
     $("#pdf_download").click(function(){
         var pdf_download = "<?php echo base_url()?>tours/mpdf";
         var content = $('#PDFcontent').html();
-        var sector ="<?php echo @$complete_data->SectorName ;?>";
+        var sector ="<?php echo @$sector ;?>";
 
         $.ajax({    
                 url:pdf_download,
@@ -431,7 +505,7 @@
     $("#pdf_print").click(function(){
         var pdf_download = "<?php echo base_url()?>tours/mpdf";
         var content = $('#PDFcontent').html();
-        var sector ="<?php echo @$complete_data->SectorName ;?>";
+        var sector ="<?php echo @$sector ;?>";
 
         $.ajax({    
                 url:pdf_download,
@@ -553,14 +627,14 @@ var randomnumber_tour= <?= $mynumber_tour?>;
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Send Enquiry for <?php echo $complete_data->ProductTitle;?> </h4>
+                <h4 class="modal-title">Send Enquiry for <?php echo @$ProductTitle;?> </h4>
             </div>
             <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="EnquiryNew" onSubmit="return onSubmitNew()"  enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
                 <input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
                   <input name="subject" type="hidden" value="Tour Enquiry From Website">    
-                  <input name="tour-name" type="hidden" value="<?php echo $complete_data->ProductTitle;?>">    
+                  <input name="tour-name" type="hidden" value="<?php echo @$ProductTitle;?>">    
             <input type="text" name="contact_person" placeholder="Name">
                   <input type="email" name="from" placeholder="Email">
                   <input type="text" name="telNo" placeholder="Phone Number">
