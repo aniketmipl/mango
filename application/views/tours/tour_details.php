@@ -93,8 +93,9 @@
                                                     <!-- Nav tabs -->
                                                         <ul class="nav nav-tabs" role="tablist">
                                                             <li role="presentation" class="active"><a href="#tab-item-one" aria-controls="tab-item-one" role="tab" data-toggle="tab"><i class="fa fa-anchor" aria-hidden="true"></i>Itinerary</a></li>
-                                                            <li role="presentation"><a href="#tab-item-two" aria-controls="tab-item-two" role="tab" data-toggle="tab"><i class="fa fa-user" aria-hidden="true"></i>Highlights</a></li>
+                                                            <li role="presentation"><a href="#tab-item-two" aria-controls="tab-item-two" role="tab" data-toggle="tab"><i class="fa fa-star" aria-hidden="true"></i>Highlights</a></li>
                                                             <li role="presentation"><a href="#tab-item-three" aria-controls="tab-item-three" role="tab" data-toggle="tab"><i class="fa fa-suitcase" aria-hidden="true"></i>Inclusions / Exclusions</a></li>
+                                                            <li role="presentation"><a href="#tab-item-four" aria-controls="tab-item-four" role="tab" data-toggle="tab"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Tour Information</a></li>
                                                             
                                                         </ul>
                                                     <!-- Tab panes -->
@@ -185,6 +186,12 @@
                                                                                             
 
                                                                     </div>    
+                                                            </div>
+                                                            <div role="tabpanel" class="tab-pane fade" id="tab-item-four">
+                                                            <div class="tab-tour-info">
+                                                                            <h4><b>Tour Information :</b></h4>
+                                                                            <div class="small-border"></div>
+                                                            </div>       
                                                             </div>
                                                             
                                                        </div>

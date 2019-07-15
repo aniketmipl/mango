@@ -630,15 +630,31 @@
         -webkit-box-shadow: -1px -1px 8px 0 rgba(0,0,0,.75);
         -moz-box-shadow: -1px -1px 8px 0 rgba(0,0,0,.75);
     }
+
+    
     @media (min-width:1440px){
     .page-header-container img {
         width: 100% !important;
         display: block;
         margin: 0 auto;
         height: 300px;
-        max-width: 100%;
+        /* max-width: 100%; */
+        max-width: 1423px;
     }
-    
+    .page-header-container{
+        max-width: 1423px;   
+        margin: 0 auto;
+    }
+    .page-title-container{
+        max-width: 1423px;
+    margin: 0 auto;
+    height:56px;
+    float:none;
+    }
+    .container-big{
+        margin: 0 auto;
+    max-width: 1423px;
+    }
     }
     @media (max-width:1300px) and (min-width:992px){
     .container-big{
@@ -791,6 +807,8 @@
 
 
 }
+
+
 @media (min-width: 1024px){
 nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
     margin-top: -20px;
