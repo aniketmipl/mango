@@ -207,7 +207,7 @@
                 <div class="col-sm-12">
                     <div class="separator-area-three center-767">
                         <h2>Take A Detour From Routine Life </h2>
-                        <p>For detailed information, please feel free to call us on 022-24335500 / 020-25444417 at your earliest convenience or write to us on <a href="#">info@mangoholidays.in</a></p>
+                        <p>For detailed information, please feel free to call us on 022-24335500 / 020-25444417 at your earliest convenience or write to us on <a href="<?php echo base_url()?>contact-us">info@mangoholidays.in</a></p>
                         <a class="btn btn-default custom-btn-one my-btn-lg" href="<?php echo base_url()?>contact-us" role="button">Send Enquiry</a>
                     </div>  
                 </div>
