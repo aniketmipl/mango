@@ -313,8 +313,8 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/rest-of-europe/scenic-scandinavia-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/scenic-scandinavia.jpg';
+		$filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
 		$filter_data['sector']="Rest Of Europe ";
 		$filter_data['sector_path']="GroupTours/group_rest_of_europe";
 		$head_data['title'] = "South East Asia Tour Singapore Thailand Malaysia | Mango Holidays";
