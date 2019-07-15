@@ -24,7 +24,6 @@ class CustomizedTours extends CI_Controller {
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-	
 
 	public function call_api($sector){
 
