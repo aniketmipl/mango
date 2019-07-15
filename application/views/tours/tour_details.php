@@ -590,17 +590,14 @@ var randomnumber_tour= <?= $mynumber_tour?>;
 </div>
 
 <script type="text/javascript">
-$(document).ready(function(){
-  // var show_btn=$('.show-modal');
-  // var show_btn=$('.show-modal');
-  // //$("#enquiry-form-modal").modal('show');
-  
-  //   show_btn.click(function(){
-  //     $("#enquiry-form-modal").modal('show');
-  // })
-});
-
 $(function() {
+    var tour_type ="<?php echo $complete_data->TravelType?>";
+
+    if(tour_type == 'GIT'){
+        $(".group_tour").addClass('active');
+    }else if(tour_type == 'FIT'){
+        $(".customized_tour").addClass('active');
+    }
         $('#element').on('click', function( e ) {
             $("#enquiry-form-modal").modal('show');
             // Custombox.open({
@@ -610,6 +607,7 @@ $(function() {
             // e.preventDefault();
         });
     });
+
 </script>
 
 <!--popup for "Send enquiry" with corresponding Tour name-->

@@ -317,7 +317,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/scenic-scandinavia.jpg';
 		$filter_data['sector']="Rest Of Europe ";
 		$filter_data['sector_path']="GroupTours/group_rest_of_europe";
-		$head_data['title'] = "South East Asia Group Tour - Mango Holidays";
+		$head_data['title'] = "South East Asia Tour Singapore Thailand Malaysia | Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
