@@ -7,6 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <?php
+    $controller = $this->uri->segment(1); // get current controller
+
     if(isset($title)){?>
         <title><?php echo @$title;?></title>
     <?php } else { ?>
@@ -193,11 +195,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="fadeInUp" data-out="fadeOutDown">
-                        <li class="active">
+                        <li class="<?php echo ($controller =='')?'active':''?>">
                             <a href="<?php echo base_url();?>">Home</a>
                         </li>
                        
-                        <li class="dropdown">
+                        <li class="dropdown group_tour <?php echo ($controller =='GroupTours')?'active':'' ?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Group Tours </a>
                             <ul class="dropdown-menu">
                                 <li><a href="<?php echo base_url()?>GroupTours/group_africa">Africa</a></li>
@@ -208,9 +210,10 @@
                                 <li><a href="<?php echo base_url()?>GroupTours/group_japan">Japan</a></li>
                                 <li><a href="<?php echo base_url()?>GroupTours/group_mauritius">Mauritius</a></li>
                                 <li><a href="<?php echo base_url()?>GroupTours/group_rest_of_europe">Rest of Europe</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_asia">Asia</a></li>
                             </ul>
                         </li>    
-                        <li class="dropdown megamenu-fw">
+                        <li class="dropdown megamenu-fw customized_tour">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Customized Tours </a>
                                 <ul class="dropdown-menu megamenu-content" role="menu">
                                     <li>
@@ -253,10 +256,10 @@
                                 </ul>
                         </li>
                         
-                        <li>
+                        <li class="<?php echo ($controller =='corporate-tours-package')?'active':''?>">
                             <a href="<?php echo base_url()?>corporate-tours-package">Corporate Tours</a>
                         </li>
-                        <li>
+                        <li class="<?php echo ($controller =='about-us')?'active':''?>">
                             <a href="<?php echo base_url()?>about-us">About Us</a>
                         </li>
                         <!-- <li>
@@ -278,7 +281,7 @@
                                     <li><a class="dropdown-item" href="#">Testimonials Video's</a></li>
                                 </ul>
                         </li>
-                        <li>
+                        <li class="<?php echo ($controller =='contact-us')?'active':''?>">
                             <a href="<?php echo base_url()?>contact-us">Contact</a>
                         </li>
                     </ul>
