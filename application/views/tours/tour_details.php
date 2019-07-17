@@ -46,8 +46,19 @@
           <h2 class="entry-title"><?php echo @$complete_data->ProductTitle;?></h2>
         </div>
         <ul class="breadcrumbs pull-right">
-            <li><a href="#">Group Tour</a></li>
-            <li><a href="<?php echo base_url().$sector_path;?>"><?php echo @$complete_data->SectorName;?></a></li>
+            <li>
+                <a href="#"><?php if($complete_data->TravelType == 'GIT'){echo "Group Tour";}else{ echo "Customized Tour";}?></a>
+            </li>
+            <li>
+                <a href="<?php if($complete_data->TravelType == 'GIT'){
+                    echo base_url()."GroupTours/group_".trim(strtolower(str_replace(' ','',$complete_data->SectorName)));
+                }else{
+                    echo base_url()."CustomizedTours/group_".trim(strtolower(str_replace(' ','',$complete_data->SectorName)));
+                } ?>"><?php echo @$complete_data->SectorName;?></a>
+            </li>
+           <!--  <li>
+                <a href="<?php  //echo base_url().$sector_path;?>"><?php// echo @$complete_data->SectorName;?></a>
+            </li> -->
             <li class="active"><?php echo @$complete_data->ProductTitle;?></li>
         </ul>
     </div>
