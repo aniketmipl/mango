@@ -280,7 +280,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_image'] = 'images/tours/rest-of-europe/central-eastern-europe-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/central-eastern-europe.jpg';
 		$filter_data['sector']="Rest Of Europe";
-		$filter_data['sector_path']="GroupTours/group_rest_of_europe";
+		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Rest Of Europe Group Tour - Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
@@ -316,7 +316,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
 		$filter_data['sector']="Rest Of Europe ";
-		$filter_data['sector_path']="GroupTours/group_rest_of_europe";
+		$filter_data['sector_path']="GroupTours/group_asia";
 		$head_data['title'] = "South East Asia Tour Singapore Thailand Malaysia | Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
