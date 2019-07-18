@@ -573,16 +573,16 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4 class="modal-title">Send Enquiry for <?php echo @$complete_data->ProductTitle;?> </h4>
             </div>
-            <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="EnquiryNew" onSubmit="return onSubmitNew()"  enctype ="multipart/form-data">
+            <form  method="post" name="EnquiryNew" id="EnquiryNew" enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
-                <input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
-                  <input name="subject" type="hidden" value="Tour Enquiry From Website">    
-                  <input name="tour-name" type="hidden" value="<?php echo @$complete_data->ProductTitle;?>">    
-            <input type="text" name="contact_person" placeholder="Name">
-                  <input type="email" name="from" placeholder="Email">
-                  <input type="text" name="telNo" placeholder="Phone Number">
-                  <textarea name="requirement_details" placeholder="Message here.."></textarea>
+                <input name="recipient" type="hidden" id="recipient" value="amita.manchekar@mipl.co.in">
+                  <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website">    
+                  <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">    
+                <input type="text" name="contact_person" id="contact_person" placeholder="Name">
+                  <input type="email" name="from" id="from" placeholder="Email">
+                  <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
+                  <textarea name="requirement_details" id="requirement_details" placeholder="Message here.."></textarea>
                   <?php
                         for($i=0; $i<$ilength; $i++)
                         {
@@ -599,7 +599,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                   
             </div>
             <div class="modal-footer">
-                <button type="submit" name="submit" class="btn btn-primary btn-form-theme">Submit</button>
+                <button type="submit" name="submit" class="btn btn-primary btn-form-theme form-submit">Submit</button>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
             </form>
@@ -624,6 +624,28 @@ $(function() {
             // });
             // e.preventDefault();
         });
+        $(".form-submit").click(function(e){
+
+            e.preventDefault();
+            var validation = onSubmitNew();
+            if(validation != false){
+
+                var submit_url = "http://www.midsupport.com/php/TestResult_attach-mango.php";
+
+                $.ajax({
+                    url: submit_url,
+                    type: 'post',
+                    dataType: 'json',
+                    data: $('form#EnquiryNew').serialize(),
+                    complete:function(res){
+                        $("#enquiry-form-modal").modal('hide');
+                        alert("Thank you for enquiry");
+                    }
+                });
+            }
+
+        })
+
     });
 
 </script>
