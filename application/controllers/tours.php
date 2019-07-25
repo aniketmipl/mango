@@ -15,8 +15,11 @@ class Tours extends CI_Controller {
 
 		$data['api_result']=$this->call_api($product_id,$product_code);		
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/europe/exotic-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/exotic-europe.jpg';
+		// $filter_data['slider_image'] = 'images/tours/europe/exotic-europe-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/europe/exotic-europe.jpg';
+		$filter_data['slider_image'] = 'git/E1/exotic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E1/exotic-europe.jpg';
+
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 
@@ -34,8 +37,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/europe/classic-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
+		// $filter_data['slider_image'] = 'images/tours/europe/classic-europe-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/europe/classic-europe.jpg';
+		$filter_data['slider_image'] = 'git/E2/classic-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E2/classic-europe.jpg';
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
@@ -52,8 +57,8 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/europe/glimpses-of-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/glimpses-of-europe.jpg';
+		$filter_data['slider_image'] = 'git/E3/glimpses-of-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E3/glimpses-of-europe.jpg';
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
@@ -72,9 +77,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-
-		$filter_data['slider_image'] = 'images/tours/europe/grand-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/grand-europe.jpg';	
+		// $filter_data['slider_image'] = 'images/tours/europe/grand-europe-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/europe/grand-europe.jpg';	
+		$filter_data['slider_image'] = 'git/E5/grand-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E5/grand-europe.jpg';	
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
@@ -93,8 +99,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/europe/best-of-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/europe/best-of-europe.jpg';	
+		// $filter_data['slider_image'] = 'images/tours/europe/best-of-europe-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/europe/best-of-europe.jpg';	
+		$filter_data['slider_image'] = 'git/E4/best-of-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E4/best-of-europe.jpg';	
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
@@ -112,8 +120,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];		
-		$filter_data['slider_image'] = 'images/tours/america/incredible-america-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/america/incredible-america.jpg';
+		// $filter_data['slider_image'] = 'images/tours/america/incredible-america-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/america/incredible-america.jpg';
+		$filter_data['slider_image'] = 'git/U1/incredible-america-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/U1/incredible-america.jpg';
 		$filter_data['sector']="America";
 		$filter_data['sector_path']="GroupTours/group_america";
 		$head_data['title'] = "Incredible America |Tour Package from Pune  Mumbai | Mango Holidays";
@@ -130,8 +140,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];	
-		$filter_data['slider_image'] = 'images/tours/america/east-cost-america-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/america/east-coast-of-america.jpg';
+		// $filter_data['slider_image'] = 'images/tours/america/east-cost-america-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/america/east-coast-of-america.jpg';
+		$filter_data['slider_image'] = 'git/U2/east-cost-america-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/U2/east-coast-of-america.jpg';
 		$filter_data['sector']="America";
 		$filter_data['sector_path']="GroupTours/group_america";
 		$head_data['title'] = "East Coast America Tour - Mango Holidays- call 8380039503";
@@ -148,8 +160,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];		
-		$filter_data['slider_image'] = 'images/tours/america/east-coast-of-america-with-orlando-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/america/east-coast-of-america-with-orlando.jpg';
+		// $filter_data['slider_image'] = 'images/tours/america/east-coast-of-america-with-orlando-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/america/east-coast-of-america-with-orlando.jpg';
+		$filter_data['slider_image'] = 'git/U3/east-coast-of-america-with-orlando-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/U3/east-coast-of-america-with-orlando.jpg';
 		$filter_data['sector']="America";
 		$filter_data['sector_path']="GroupTours/group_america";
 		$head_data['title'] = "East Coast America Tour - Mango Holidays- call 8380039503";
@@ -166,8 +180,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];	
-		$filter_data['slider_image'] = 'images/tours/america/west-coast-of-america-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/america/west-coast-of-america.jpg';
+		// $filter_data['slider_image'] = 'images/tours/america/west-coast-of-america-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/america/west-coast-of-america.jpg';
+		$filter_data['slider_image'] = 'git/U4/west-coast-of-america-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/U4/west-coast-of-america.jpg';
 		$head_data['title'] = "West Coast America - Mango Holidays - Best Group Tour - call 838003503";
 		$filter_data['sector']="America";
 		$filter_data['sector_path']="GroupTours/group_america";
@@ -184,8 +200,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'git/S1/south-african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/S1/south-african-safari.jpg';
 		$filter_data['sector']="Africa";
 		$filter_data['sector_path']="GroupTours/group_africa";
 		$head_data['title'] = "South Africa Tour Holiday Packages from Mumbai Pune Mango Holidays";
@@ -202,8 +220,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];	
-		$filter_data['slider_image'] = 'images/tours/dubai/dazzling-dubai-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/dubai/dazzling-dubai.jpg';
+		// $filter_data['slider_image'] = 'images/tours/dubai/dazzling-dubai-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/dubai/dazzling-dubai.jpg';
+		$filter_data['slider_image'] = 'git/D1/dazzling-dubai-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/D1/dazzling-dubai.jpg';
 		$filter_data['sector']="Dubai";
 		$filter_data['sector_path']="GroupTours/group_dubai";
 		$head_data['title'] = "Dubai Group Tour with Abu Dhabi - Mango Holidays";
@@ -221,8 +241,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);		
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/japan/japan-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/japan/japan.jpg';
+		// $filter_data['slider_image'] = 'images/tours/japan/japan-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/japan/japan.jpg';
+		$filter_data['slider_image'] = 'git/J1/japan-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/J1/japan.jpg';
 		$filter_data['sector']="Japan";
 		$filter_data['sector_path']="GroupTours/group_japan";
 		$head_data['title'] = "Japan Group Tour - Japanese Discovery - 5 N / 6 D Mango Holidays";
@@ -240,8 +262,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/mauritius/mauritius-masti.jpg';
+		// $filter_data['slider_image'] = 'images/tours/mauritius/mauritius-masti-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/mauritius/mauritius-masti.jpg';
+		$filter_data['slider_image'] = 'git/M1/mauritius-masti-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/M1/mauritius-masti.jpg';
 		$filter_data['sector']="Mauritius";
 		$filter_data['sector_path']="GroupTours/group_mauritius";
 		$head_data['title'] = "Mauritius Group Tour - Mango Holidays";
@@ -258,8 +282,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/australia-and-new-zeeland/new-zealand-&-australia-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/australia-and-new-zeeland/new-zealand-&-australia.jpg';
+		// $filter_data['slider_image'] = 'images/tours/australia-and-new-zeeland/new-zealand-&-australia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/australia-and-new-zeeland/new-zealand-&-australia.jpg';
+		$filter_data['slider_image'] = 'git/A1/new-zealand-australia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/A1/new-zealand-australia.jpg';
 		$filter_data['sector']="Australia and New Zeeland";
 		$filter_data['sector_path']="GroupTours/group_australiaandnewzealand";
 		$head_data['title'] = "Australia and New Zeeland Group Tour - Mango Holidays";
@@ -277,8 +303,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/rest-of-europe/central-eastern-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/central-eastern-europe.jpg';
+		// $filter_data['slider_image'] = 'images/tours/rest-of-europe/central-eastern-europe-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/central-eastern-europe.jpg';
+		$filter_data['slider_image'] = 'git/E6/central-eastern-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E6/central-eastern-europe.jpg';
 		$filter_data['sector']="Rest Of Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Rest Of Europe Group Tour - Mango Holidays";
@@ -295,8 +323,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/rest-of-europe/scenic-scandinavia-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/scenic-scandinavia.jpg';
+		// $filter_data['slider_image'] = 'images/tours/rest-of-europe/scenic-scandinavia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/scenic-scandinavia.jpg';
+		$filter_data['slider_image'] = 'git/E7/scenic-scandinavia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E7/scenic-scandinavia.jpg';
 		$filter_data['sector']="Rest Of Europe ";
 		$filter_data['sector_path']="GroupTours/group_rest_of_europe";
 		$head_data['title'] = "Scenic Scandinavia Group Tour - Mango Holidays";
@@ -313,8 +343,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
+		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
+		$filter_data['slider_image'] = 'git/F1/south-east-asia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/F1/south-east-asia.jpg';
 		$filter_data['sector']="Rest Of Europe ";
 		$filter_data['sector_path']="GroupTours/group_asia";
 		$head_data['title'] = "South East Asia Tour Singapore Thailand Malaysia | Mango Holidays";
