@@ -19,7 +19,7 @@ class GroupTours extends CI_Controller {
 										'group3' =>'images/tours/europe/exotic-eurpoe.jpg');
 		$data['sector_name']=$sector;
 		$data['gt_image'] = 'images/tours/africa/main.jpg';
-
+		
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');

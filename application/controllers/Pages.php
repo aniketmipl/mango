@@ -39,5 +39,14 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/corporate_tours');
 		$this->load->view('common/footer');
 	}
+	public function media()
+	{
+
+		$head_data['title'] = "Advetorial";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/media');
+		$this->load->view('common/footer');
+	}
 
 }

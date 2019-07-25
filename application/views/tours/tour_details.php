@@ -33,7 +33,7 @@
     <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p>
 </div>
 
-<div id='ignoreContent'  style="display: none">
+<div id='ignoreContent' style="display: none">
 
 <p>Only for display and not in pdf</p>
 
