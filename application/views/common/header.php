@@ -209,7 +209,6 @@
                                 <li><a href="<?php echo base_url()?>GroupTours/group_europe">Europe</a></li>
                                 <li><a href="<?php echo base_url()?>GroupTours/group_japan">Japan</a></li>
                                 <li><a href="<?php echo base_url()?>GroupTours/group_mauritius">Mauritius</a></li>
-                                <li><a href="<?php echo base_url()?>GroupTours/group_rest_of_europe">Rest of Europe</a></li>
                                 <li><a href="<?php echo base_url()?>GroupTours/group_asia">Asia</a></li>
                             </ul>
                         </li>    
