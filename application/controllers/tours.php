@@ -57,8 +57,8 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'git/E3/glimpses-of-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'git/E3/glimpses-of-europe.jpg';
+		$filter_data['slider_image'] = 'git/E31/glimpses-of-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E31/glimpses-of-europe.jpg';
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
