@@ -22,7 +22,7 @@
                     <div class="col-md-4 col-sm-6 mb-20">
                         <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                        <img src="<?php echo base_url().'assets/'.$gt_image; ?>" alt="">
+                                        <img src="<?php echo base_url().$value->ProductImage; ?>" alt="">
                                         <div class="over-layer">
                                             <div class="links">
                                                 <ul class="list-inline">
