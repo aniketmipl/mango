@@ -173,11 +173,13 @@
                                                                             <div class="small-border"></div>
                                                                             <ul>
                                                                               <?php 
-
+                                                                                if(($complete_data->Inclusions) != ''){
                                                                                 foreach ($complete_data->Inclusions as $InclusionsItem ) { ?>
                                                                                 <li>
-                                                                                  <?php echo $InclusionsItem->InclusionItem;
-                                                                                  }
+                                                                                  <?php 
+
+                                                                                  echo @$InclusionsItem->InclusionItem;
+                                                                                  }}
                                                                                 ?>
                                                                                 </li>
                                                                             </ul> 
@@ -186,11 +188,11 @@
                                                                                     <div class="small-border"></div>
                                                                                     <ul>
                                                                                       <?php 
-
+                                                            if(($complete_data->Exclusions) != ''){
                                                              foreach ($complete_data->Exclusions as $ExclusionsItem ) { ?>
                                                               <li>
                                                                 <?php echo $ExclusionsItem->ExclusionItem;
-                                                                   }
+                                                                   }}
                                                                 ?>
                                                               </li>        
                                                                                     </ul>
