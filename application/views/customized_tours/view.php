@@ -42,13 +42,13 @@
                                             <li><i class="ion-ios-star"></i></li>
                                         </ul> -->
                                         <h4>
+                                        <small  style="font-size: inherit; font-weight: 600; color: inherit;"> <?php  echo $value->Days; ?> Days  / <?php echo $value->Nights; ?> Night </small>
                                         <?php 
                                         if(($value->LowestTwinSharingPrice) != ''){ 
                                         ?>
-                                        <b><?php  echo "INR ".$value->LowestTwinSharingPrice; ?> / </b> 
+                                        <b style="float:right;"><?php  echo "INR ".$value->LowestTwinSharingPrice; ?> </b> 
                                         <?php } 
                                          ?>
-                                        <small> <?php  echo $value->Days; ?> Days  / <?php echo $value->Nights; ?> Night </small>
                                         </h4>
                                     <a class="read-btn" href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>">View Details <i class="ion-ios-arrow-thin-right"></i></a>
                                 </div>
