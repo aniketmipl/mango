@@ -392,8 +392,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
 		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
-		$filter_data['slider_image'] = 'git/F1/south-east-asia-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'git/F1/south-east-asia.jpg';
+		$filter_data['slider_image'] = 'fit/GREECE-001/greece1-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GREECE-001/greece1.jpg';
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="CustomizedTours/group_eurpoe";
 		$head_data['title'] = "Greece Tour | Mango Holidays";
