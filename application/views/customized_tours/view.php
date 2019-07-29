@@ -34,13 +34,22 @@
                             <div class="tour-item hotel-item">
                                 <div class="blog-details">
                                         <h3><a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>"><?php echo $value->ProductTitle?></a></h3>
-                                        <ul class="list-inline">
+                                        <!-- <ul class="list-inline">
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
-                                        </ul>
+                                        </ul> -->
+                                        <h4>
+                                        <?php 
+                                        if(($value->LowestTwinSharingPrice) != ''){ 
+                                        ?>
+                                        <b><?php  echo "INR ".$value->LowestTwinSharingPrice; ?> / </b> 
+                                        <?php } 
+                                         ?>
+                                        <small> <?php  echo $value->Days; ?> Days  / <?php echo $value->Nights; ?> Night </small>
+                                        </h4>
                                     <a class="read-btn" href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>">View Details <i class="ion-ios-arrow-thin-right"></i></a>
                                 </div>
                             </div>
