@@ -104,8 +104,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/europe/best-of-europe-banner.jpg';
 		// $filter_data['slider_mobile_image'] = 'images/tours/europe/best-of-europe.jpg';	
-		$filter_data['slider_image'] = 'git/E4/best-of-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'git/E4/best-of-europe.jpg';	
+		$filter_data['slider_image'] = 'git/E41/best-of-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E41/best-of-europe.jpg';	
 		$head_data['title'] = "Europe Packages | Book Europe Tour Packages | MANGO HOLIDAYS";
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
@@ -350,6 +350,25 @@ class Tours extends CI_Controller {
 		// $filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/central-eastern-europe.jpg';
 		$filter_data['slider_image'] = 'git/E6/central-eastern-europe-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/E6/central-eastern-europe.jpg';
+		$filter_data['sector']="Europe";
+		$filter_data['sector_path']="GroupTours/group_europe";
+		$head_data['title'] = "Mesmerising Europe Group Tour - Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function highlights_of_europe()
+	{
+		$product_id ='8';
+		$product_code='E4';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/rest-of-europe/central-eastern-europe-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/central-eastern-europe.jpg';
+		$filter_data['slider_image'] = 'git/E4/best-of-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E4/best-of-europe.jpg",.jpg';
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Mesmerising Europe Group Tour - Mango Holidays";

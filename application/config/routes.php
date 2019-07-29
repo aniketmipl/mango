@@ -73,6 +73,7 @@ $route['tours/central-eastern-europe'] = 'tours/central_eastern_europe';
 $route['tours/scenic-scandinavia'] = 'tours/scenic_scandinavia';
 $route['tours/south-east-asia'] = 'tours/south_east_asia';
 $route['tours/mesmerising-europe'] = 'tours/mesmerising_europe';
+$route['tours/highlights-of-europe'] = 'tours/highlights_of_europe';
 $route['tours/greece---athens-mykonos-santorini'] = 'tours/greece1';
 $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';
