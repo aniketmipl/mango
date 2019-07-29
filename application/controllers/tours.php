@@ -95,8 +95,10 @@ class Tours extends CI_Controller {
 
 	public function best_of_europe()
 	{
-		$product_id ='8';
-		$product_code='E4';
+		//$product_id ='8';
+		//$product_code='E4';
+		$product_id ='32';
+		$product_code='E41';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
