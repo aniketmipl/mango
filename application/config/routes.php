@@ -76,3 +76,5 @@ $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';
 $route['corporate-tours-package'] = 'pages/corporate_tours';
 $route['media'] = 'pages/media';
+$route['tours/mesmerising-europe'] = 'tours/mesmerising_europe';
+

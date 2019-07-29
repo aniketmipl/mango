@@ -25,6 +25,23 @@ class CustomizedTours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
+	public function group_europe()
+	{
+		$sector ='Europe'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Africa Group Tour| Mango Holidays";
+		$data['group_images'] = array(  'group1' =>'images/tours/europe/best-of-europe.jpg',
+										'group2' =>'images/tours/europe/classic-europe.jpg',
+										'group3' =>'images/tours/europe/exotic-eurpoe.jpg');
+		$data['sector_name']=$sector;
+		$data['gt_image'] = 'images/tours/africa/main.jpg';
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('custom_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+
 	public function call_api($sector){
 
 		$sector= str_replace ( ' ', '%20', $sector);

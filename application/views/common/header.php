@@ -239,7 +239,7 @@
                                                         <li><a href="#">Africa</a></li>
                                                         <li><a href="#">Australia & New Zealand</a></li>
                                                         <li><a href="#">Dubai</a></li>
-                                                        <li><a href="#">Europe</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/group_europe">Europe</a></li>
                                                         <li><a href="#">Japan</a></li>
                                                         <li><a href="#">Mauritius</a></li>
                                                         <li><a href="#">Scandinavia</a></li>

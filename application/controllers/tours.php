@@ -336,6 +336,27 @@ class Tours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
+	public function mesmerising_europe()
+	{
+		$product_id ='26';
+		$product_code='E9';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/rest-of-europe/central-eastern-europe-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/rest-of-europe/central-eastern-europe.jpg';
+		$filter_data['slider_image'] = 'git/E6/central-eastern-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E6/central-eastern-europe.jpg';
+		$filter_data['sector']="Rest Of Europe";
+		$filter_data['sector_path']="GroupTours/group_europe";
+		$head_data['title'] = "Rest Of Europe Group Tour - Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+
 	public function south_east_asia(){
 
 		$product_id ='15';
