@@ -341,8 +341,8 @@ class Tours extends CI_Controller {
 
 	public function mesmerising_europe()
 	{
-		$product_id ='26';
-		$product_code='E9';
+		$product_id ='34';
+		$product_code='E42';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
@@ -383,6 +383,27 @@ class Tours extends CI_Controller {
 
 		$product_id ='15';
 		$product_code='F1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
+		$filter_data['slider_image'] = 'git/F1/south-east-asia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/F1/south-east-asia.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="GroupTours/group_asia";
+		$head_data['title'] = "South East Asia Tour Singapore Thailand Malaysia | Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+
+	}
+
+	public function stunning_europe(){
+
+		$product_id ='33';
+		$product_code='E51';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
