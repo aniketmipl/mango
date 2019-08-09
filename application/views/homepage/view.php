@@ -597,112 +597,164 @@
                 <div class="col-md-12">
                     <div id="tour-carousel" class="tour-carousel-ltr owl-carousel owl-theme">
                         <div class="item">
-                            <div class="hover-box tour-blog-box">
+                        <div class="hover-box tour-blog-box blog-item-1">
+                            <div class="tour-img image">
+                                <img src="<?php echo base_url();?>assets/images/blog/lokrang-9-12-18.jpg" alt="">
+                                <div class="over-layer">
+                                    <div class="links">
+                                        <ul class="list-inline">
+                                            <li><a href="<?php echo base_url();?>assets/images/blog/D-000-MGHD-Lokrang-Tumhi-Turist-Aahat-ki...Travler-09-12-18-05.pdf" target="_blank"><i class="ion-ios-search-strong"></i></a></li>
+                                            <li><a href="<?php echo base_url();?>assets/images/blog/D-000-MGHD-Lokrang-Tumhi-Turist-Aahat-ki...Travler-09-12-18-05.pdf" download><i class="fa fa-download"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tour-item blog-item">
+                                <div class="blog-details">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="ion-person"></i> मिलिंद बाबर</a></li>
+                                        <li><a href="#"><i class="ion-ios-calendar"></i> 9 डिसेंबर २०१८ </a></li>
+                                        <li><a href="#"><i class="ion-chatbubble-working"></i>  लोकरंग</a></li>
+                                    </ul>
+                                    <h4><a href="#">तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</a></h4>
+                                    <a class="read-btn" href="<?php echo base_url();?>assets/images/blog/D-000-MGHD-Lokrang-Tumhi-Turist-Aahat-ki...Travler-09-12-18-05.pdf" target="_blank">Download / View <i class="ion-ios-arrow-thin-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="item">
+                            <div class="hover-box tour-blog-box blog-item-1">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/images/blog/lokrang-9-12-18.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-5.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-
-                                                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-5.pdf" target="_blank"><i class="ion-ios-search-strong"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-5.pdf" download><i class="fa fa-download"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tour-item blog-item">
                                     <div class="blog-details">
-                                            <ul class="list-inline">
-                                                    <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
-                                                    <li><a href="#"><i class="ion-ios-calendar"></i> 9 डिसेंबर लेख </a></li>
-
-                                                </ul>
-                                        <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                        <!-- <a class="read-btn" href="#">Read More </a> -->
+                                        <ul class="list-inline">
+                                            <li><a href="#"><i class="ion-person"></i> मिलिंद बाबर</a></li>
+                                            <li><a href="#"><i class="ion-ios-calendar"></i> १ डिसेंबर २०१८ </a></li>
+                                            <li><a href="#"><i class="ion-chatbubble-working"></i>  लोकरंग</a></li>
+                                        </ul>
+                                        <h4><a href="#">युरोप …….काय काळजी घ्याल? भाग क्र. 5</a></h4>
+                                        <a class="read-btn" href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-5.pdf" target="_blank">Download / View <i class="ion-ios-arrow-thin-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="hover-box tour-blog-box">
+                            <div class="hover-box tour-blog-box blog-item-1">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/images/blog/europe-3.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-4.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-
-                                                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-4.pdf" target="_blank"><i class="ion-ios-search-strong"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-4.pdf" download><i class="fa fa-download"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tour-item blog-item">
-                                        <div class="blog-details">
-                                                <ul class="list-inline">
-                                                        <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
-                                                        <li><a href="#"><i class="ion-ios-calendar"></i> भाग क्र. 1 </a></li>
-
-                                                    </ul>
-                                            <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                            <!-- <a class="read-btn" href="#">Read More </a> -->
-                                        </div>
+                                    <div class="blog-details">
+                                        <ul class="list-inline">
+                                            <li><a href="#"><i class="ion-person"></i> मिलिंद बाबर</a></li>
+                                            <li><a href="#"><i class="ion-ios-calendar"></i> २५ नोंव्हेंबर २०१८ </a></li>
+                                            <li><a href="#"><i class="ion-chatbubble-working"></i>  लोकरंग</a></li>
+                                        </ul>
+                                        <h4><a href="#">युरोप …….काय काळजी घ्याल? भाग क्र. 4</a></h4>
+                                        <a class="read-btn" href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-4.pdf" target="_blank">Download / View <i class="ion-ios-arrow-thin-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="hover-box tour-blog-box">
+                            <div class="hover-box tour-blog-box blog-item-1">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/images/blog/europe-4.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-3.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-                                                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-3.pdf" target="_blank"><i class="ion-ios-search-strong"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-3.pdf" download><i class="fa fa-download"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tour-item blog-item">
-                                        <div class="blog-details">
-                                                <ul class="list-inline">
-                                                        <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
-                                                        <li><a href="#"><i class="ion-ios-calendar"></i> भाग क्र. 2 </a></li>
-
-                                                    </ul>
-                                            <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                            <!-- <a class="read-btn" href="#">Read More </a> -->
-                                        </div>
+                                    <div class="blog-details">
+                                        <ul class="list-inline">
+                                            <li><a href="#"><i class="ion-person"></i> मिलिंद बाबर</a></li>
+                                            <li><a href="#"><i class="ion-ios-calendar"></i> १८ नोंव्हेंबर २०१८ </a></li>
+                                            <li><a href="#"><i class="ion-chatbubble-working"></i>  लोकरंग</a></li>
+                                        </ul>
+                                        <h4><a href="#">युरोप …….काय काळजी घ्याल? भाग क्र. 3</a></h4>
+                                        <a class="read-btn" href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-3.pdf" target="_blank">Download / View <i class="ion-ios-arrow-thin-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                                <div class="hover-box tour-blog-box">
-                                    <div class="tour-img image">
-                                        <img src="<?php echo base_url();?>assets/images/blog/europe-5.jpg" alt="">
-                                        <div class="over-layer">
-                                            <div class="links">
-                                                <ul class="list-inline">
-
-                                                    <li><a href="images/blog/7.jpg"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                                </ul>
-                                            </div>
+                            <div class="hover-box tour-blog-box blog-item-1">
+                                <div class="tour-img image">
+                                    <img src="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-2.jpg" alt="">
+                                    <div class="over-layer">
+                                        <div class="links">
+                                            <ul class="list-inline">
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-2.pdf" target="_blank"><i class="ion-ios-search-strong"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-2.pdf" download><i class="fa fa-download"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class="tour-item blog-item">
-                                            <div class="blog-details">
-                                                    <ul class="list-inline">
-                                                            <li><a href="#"><i class="ion-document"></i> लोकरंग</a></li>
-                                                            <li><a href="#"><i class="ion-ios-calendar"></i> भाग क्र. 3 </a></li>
-
-                                                        </ul>
-                                                <!-- <h4>तुम्ही टुरिस्ट आहात कि ट्रॅव्हलर ???</h4> -->
-                                                <!-- <a class="read-btn" href="#">Read More </a> -->
-                                            </div>
+                                </div>
+                                <div class="tour-item blog-item">
+                                    <div class="blog-details">
+                                        <ul class="list-inline">
+                                            <li><a href="#"><i class="ion-person"></i> मिलिंद बाबर</a></li>
+                                            <li><a href="#"><i class="ion-ios-calendar"></i> ११ नोंव्हेंबर २०१८ </a></li>
+                                            <li><a href="#"><i class="ion-chatbubble-working"></i>  लोकरंग</a></li>
+                                        </ul>
+                                        <h4><a href="#">युरोप …….काय काळजी घ्याल? भाग क्र. 2</a></h4>
+                                        <a class="read-btn" href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-2.pdf" target="_blank">Download / View <i class="ion-ios-arrow-thin-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hover-box tour-blog-box blog-item-1">
+                                <div class="tour-img image">
+                                    <img src="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-1.jpg" alt="">
+                                    <div class="over-layer">
+                                        <div class="links">
+                                            <ul class="list-inline">
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-1.pdf" target="_blank"><i class="ion-ios-search-strong"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-1.pdf" download><i class="fa fa-download"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour-item blog-item">
+                                    <div class="blog-details">
+                                        <ul class="list-inline">
+                                            <li><a href="#"><i class="ion-person"></i> मिलिंद बाबर</a></li>
+                                            <li><a href="#"><i class="ion-ios-calendar"></i> ४ नोंव्हेंबर २०१८ </a></li>
+                                            <li><a href="#"><i class="ion-chatbubble-working"></i>  लोकरंग</a></li>
+                                        </ul>
+                                        <h4><a href="#">युरोप …….काय काळजी घ्याल? भाग क्र. 1</a></h4>
+                                        <a class="read-btn" href="<?php echo base_url();?>assets/images/blog/europe-kai-kalaji-ghyal-bhag-1.pdf" target="_blank">Download / View <i class="ion-ios-arrow-thin-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                 </div>
                 <div style="display: block;text-align: center;">
-                    <a class="btn btn-primary" href="#">View More</a> 
+                    <a class="btn btn-primary" href="<?php echo base_url();?>media">View More</a> 
                 </div>
             </div>
                 

@@ -25,7 +25,9 @@
     .no-padding{
         padding:0;
     }
-
+    .no-margin{
+        margin:0;
+    }
     section, .section {
         display: block;
         overflow: visible;
@@ -69,6 +71,12 @@
     }
     .mb-20{
         margin-bottom:20px !important;
+    }
+    .mb-40{
+        margin-bottom:40px !important;
+    }
+    .mt-40{
+        margin-top:40px !important;
     }
     .navbar-brand{
         height: 100px;
@@ -159,6 +167,13 @@
     }
     .blog-details ul li a{
         font-size: 1.2em;
+    }
+    .blog-details{
+        box-shadow: 4px 7px 8px #dadada;
+    }
+    .nex-tab-btn ul li a i{
+        display: block;
+        padding-top: 10px;
     }
     .hotel-item .blog-details h3 a{
         color: #366547;
@@ -453,7 +468,7 @@
         color: #fff;
     }
     .blog-details .read-btn i::before {
-        margin: 2px 5px;
+        margin: -2px 5px;
        
     }
     .tour-content .post-blog-item .date-mate h6.nights{
@@ -1658,3 +1673,12 @@ background: #e8e6e6;
 }
 
 /*end of Media section*/
+
+/*blog page*/
+.tour-blog-box.hover-box.blog-item-1 .image .over-layer {
+    width: 100%;
+    margin: 0;
+}
+.hover-box .over-layer i{
+    display: block;
+}
