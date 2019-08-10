@@ -125,7 +125,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_mobile_image'] = 'git/E9/highlights-of-europe.jpg';
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="GroupTours/group_europe";
-		$head_data['title'] = "Highlights Europe Group Tour - Mango Holidays";
+		$head_data['title'] = "Mesmerising Europe Group Tour - Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
