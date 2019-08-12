@@ -37,7 +37,7 @@
                                 <div class="blog-details">
                                         <h3><a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>"><?php echo $value->ProductTitle?></a></h3>
                                         <h4>
-                                        <small style="font-size: inherit; font-weight: 600; color: inherit;"><?php echo $value->Nights; ?> Night / <?php  echo $value->Days; ?> Days  </small>
+                                        <small style="font-size: inherit; font-weight: 600; color: inherit;"><?php echo $value->Nights; ?> Nights / <?php  echo $value->Days; ?> Days  </small>
                                         <?php 
                                         if(($value->LowestTwinSharingPrice) != ''){ 
                                         ?>

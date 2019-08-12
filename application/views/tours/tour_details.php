@@ -387,30 +387,30 @@
                 '</tr>'+
                 '<tr>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount1+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount1+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount1+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount1+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount1+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount1+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount1.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount1.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount1.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount1.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount1.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount1.toFixed()+'</td>'+
                 '</tr>'+
                 '<tr>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount2+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount2+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount2+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount2+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount2+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount2+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount2.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount2.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount2.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount2.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount2.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount2.toFixed()+'</td>'+
                 '</tr>'+
                 '<tr>'+
                 '<td>TOTAL IN INR</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].TotalINRValue+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].TotalINRValue+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].TotalINRValue+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].TotalINRValue+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].TotalINRValue+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].TotalINRValue.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].TotalINRValue.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].TotalINRValue.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].TotalINRValue.toFixed()+'</td>'+
+                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].TotalINRValue.toFixed()+'</td>'+
                 '</tr>'+
                 '</tbody>'+
                 '</table>'+
@@ -418,7 +418,7 @@
                 '<br/>'+
                 '<p>Tour price is calculated at '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1SellingRate+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'='+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2SellingRate+'/-.</p>'+
                 '<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' to be calculated on the prevailing rate of exchange of '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' -> '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' on the day of actual payment to Mango Holidays.</p>'+
-                '<p>Tour Price Starting From : '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+ result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue+'/- per adult on twin sharing basis!</p>'+
+                '<p>Tour Price Starting From : '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+ result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue.toFixed()+'/- per adult on twin sharing basis!</p>'+
                 '<p><b>**Prices increase as seats get filled.**</b></p>';
                 $(".tour-body").html("");
                 $(".tour-body").html(main_body+body_content);
