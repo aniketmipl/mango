@@ -206,8 +206,8 @@
 
                                                                             <?php 
                                                                             if(isset($complete_data->ProductFeatures)){ ?>
-                                                                            <h5><b>Product Features :</b></h5>
-                                                                            <hr>
+                                                                            <h4><b>Product Features :</b></h4>
+                                                                            <div class="small-border"></div>
                                                                             <ul>
                                                                             <?php foreach ($complete_data->ProductFeatures as $ProductFeatures) {?>
                                                                                 <li> <?php echo  $ProductFeatures->FeatureItem?>
@@ -219,8 +219,8 @@
 
                                                                             <?php 
                                                                             if(isset($complete_data->BookingInstructions)){ ?>
-                                                                            <h5><b>Booking Instructions :</b></h5>
-                                                                            <hr>
+                                                                            <h4><b>Booking Instructions :</b></h4>
+                                                                            <div class="small-border"></div>
                                                                             <ul>
                                                                             <?php foreach ($complete_data->BookingInstructions as $BookingInstructions) {?>
                                                                                 <li> <?php echo  $BookingInstructions->BookingInstructionItem?></li>
@@ -229,8 +229,8 @@
 
                                                                              <?php 
                                                                             if(isset($complete_data->Notes)){ ?>
-                                                                            <h5><b>Notes :</b></h5>
-                                                                            <hr>
+                                                                            <h4><b>Notes :</b></h4>
+                                                                            <div class="small-border"></div>
                                                                             <ul>
                                                                             <?php foreach ($complete_data->Notes as $Notes) {?>
                                                                                 <li> <?php echo  $Notes->NoteItem?></li>
@@ -239,8 +239,8 @@
 
                                                                             <?php 
                                                                             if(isset($complete_data->TermsConditions)){ ?>
-                                                                            <h5><b>Terms and Conditions :</b></h5>
-                                                                            <hr>
+                                                                            <h4><b>Terms and Conditions :</b></h4>
+                                                                            <div class="small-border"></div>
                                                                             <ul>
                                                                             <?php foreach ($complete_data->TermsConditions as $TermsConditions) {?>
                                                                                 <li> <?php echo  $TermsConditions->TermConditionItem?></li>
