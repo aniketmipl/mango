@@ -202,8 +202,52 @@
                                                             </div>
                                                             <div role="tabpanel" class="tab-pane fade" id="tab-item-four">
                                                             <div class="tab-tour-info">
-                                                                            <h4><b>Tour Information :</b></h4>
-                                                                            <div class="small-border"></div>
+                                                                            <!-- <h4><b>Tour Information :</b></h4> -->
+
+                                                                            <?php 
+                                                                            if(isset($complete_data->ProductFeatures)){ ?>
+                                                                            <h5><b>Product Features :</b></h5>
+                                                                            <hr>
+                                                                            <ul>
+                                                                            <?php foreach ($complete_data->ProductFeatures as $ProductFeatures) {?>
+                                                                                <li> <?php echo  $ProductFeatures->FeatureItem?>
+                                                                                    
+                                                                                </li>
+                                                                            <?php }} ?>
+                                                                            </ul>
+
+
+                                                                            <?php 
+                                                                            if(isset($complete_data->BookingInstructions)){ ?>
+                                                                            <h5><b>Booking Instructions :</b></h5>
+                                                                            <hr>
+                                                                            <ul>
+                                                                            <?php foreach ($complete_data->BookingInstructions as $BookingInstructions) {?>
+                                                                                <li> <?php echo  $BookingInstructions->BookingInstructionItem?></li>
+                                                                            <?php }} ?>
+                                                                            </ul>
+
+                                                                             <?php 
+                                                                            if(isset($complete_data->Notes)){ ?>
+                                                                            <h5><b>Notes :</b></h5>
+                                                                            <hr>
+                                                                            <ul>
+                                                                            <?php foreach ($complete_data->Notes as $Notes) {?>
+                                                                                <li> <?php echo  $Notes->NoteItem?></li>
+                                                                            <?php }} ?>
+                                                                            </ul>
+
+                                                                            <?php 
+                                                                            if(isset($complete_data->TermsConditions)){ ?>
+                                                                            <h5><b>Terms and Conditions :</b></h5>
+                                                                            <hr>
+                                                                            <ul>
+                                                                            <?php foreach ($complete_data->TermsConditions as $TermsConditions) {?>
+                                                                                <li> <?php echo  $TermsConditions->TermConditionItem?></li>
+                                                                            <?php }} ?>
+                                                                            </ul>
+                                                                            
+                                                                            
                                                             </div>       
                                                             </div>
                                                             
