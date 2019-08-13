@@ -414,7 +414,7 @@ class Tours extends CI_Controller {
 		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
 		$filter_data['slider_image'] = 'git/F1/south-east-asia-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/F1/south-east-asia.jpg';
-		$filter_data['sector']="Asia";
+		$filter_data['sector']="South East Asia";
 		$filter_data['sector_path']="GroupTours/group_asia";
 		$head_data['title'] = "South East Asia Tour Singapore Thailand Malaysia | Mango Holidays";
 

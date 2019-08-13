@@ -256,7 +256,7 @@
                                                                               </td>
                                                                               <td>
                                                                                 <span class="hlights">
-                                                                                  INR <?php echo $pricedetails->TotalINRValue; ?>
+                                                                                  INR <?php echo round($pricedetails->TotalINRValue); ?>
                                                                                 </span>
                                                                               </td>
                                                                             </tr>
