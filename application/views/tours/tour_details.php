@@ -239,7 +239,7 @@
 
                                                                             <?php 
                                                                             if(isset($complete_data->TermsConditions)){ ?>
-                                                                            <h4><b>Terms and Conditions :</b></h4>
+                                                                            <h4><b>Terms & Conditions :</b></h4>
                                                                             <div class="small-border"></div>
                                                                             <ul>
                                                                             <?php foreach ($complete_data->TermsConditions as $TermsConditions) {?>
