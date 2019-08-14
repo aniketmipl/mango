@@ -123,7 +123,9 @@
                                                                             <ul id='timeline1'>
                                                                                 <?php 
                                                                                 if(isset($complete_data->ProductItineraryByDay)){
-                                                                                    foreach($complete_data->ProductItineraryByDay as $key){?>
+                                                                                    foreach($complete_data->ProductItineraryByDay as $ProductItineraryByDay){
+                                                                                        foreach ($ProductItineraryByDay->ProductItineraryByDayItem as $key ) {
+                                                                                        ?>
                                                                                 <li class='work'>
                                                                                     <div class="relative">
                                                                                        
@@ -141,7 +143,7 @@
                                                                                             </p>
                                                                                     </div>
                                                                                 </li>
-                                                                                <?php }} ?>
+                                                                                <?php }}} ?>
                                                                             </ul>
                                                                             </div>
                                                                         </div> 
@@ -225,7 +227,7 @@
                                                                                 <li> <?php echo  $BookingInstructions->BookingInstructionItem?></li>
                                                                             <?php }} ?>
                                                                             </ul>
-                                                                            
+
                                                                             <?php 
                                                                             if(isset($complete_data->AirTravelInstructions)){ ?>
                                                                             <h4><b>Air Travel Instructions :</b></h4>
