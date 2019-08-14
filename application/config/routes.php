@@ -80,7 +80,7 @@ $route['tours/highlights-of-europe'] = 'tours/highlights_of_europe';
 $route['tours/greece---athens-mykonos-santorini'] = 'tours/greece1';
 $route['tours/new-zealand-discovery'] = 'tours/new_zealand_discovery';
 
-
+//pages
 $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';
 $route['corporate-tours-package'] = 'pages/corporate_tours';
