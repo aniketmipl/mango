@@ -217,6 +217,16 @@
                                                                             </ul>
 
                                                                             <?php 
+                                                                            if(isset($complete_data->BookingInstructions)){ ?>
+                                                                            <h4><b>Booking Instructions :</b></h4>
+                                                                            <div class="small-border"></div>
+                                                                            <ul>
+                                                                            <?php foreach ($complete_data->BookingInstructions as $BookingInstructions) {?>
+                                                                                <li> <?php echo  $BookingInstructions->BookingInstructionItem?></li>
+                                                                            <?php }} ?>
+                                                                            </ul>
+                                                                            
+                                                                            <?php 
                                                                             if(isset($complete_data->AirTravelInstructions)){ ?>
                                                                             <h4><b>Air Travel Instructions :</b></h4>
                                                                             <div class="small-border"></div>
@@ -229,27 +239,19 @@
                                                                             </ul>
 
                                                                             <?php 
-                                                                            if(isset($complete_data->ProductFeatures)){ ?>
-                                                                            <h4><b>Product Features :</b></h4>
+                                                                            if(isset($complete_data->VisaInstructions)){ ?>
+                                                                            <h4><b>Visa Instructions :</b></h4>
                                                                             <div class="small-border"></div>
                                                                             <ul>
-                                                                            <?php foreach ($complete_data->ProductFeatures as $ProductFeatures) {?>
-                                                                                <li> <?php echo  $ProductFeatures->FeatureItem?>
+                                                                            <?php foreach ($complete_data->VisaInstructions as $VisaInstructions) {?>
+                                                                                <li> <?php echo  $VisaInstructions->VisaInstructionItem?>
                                                                                     
                                                                                 </li>
                                                                             <?php }} ?>
                                                                             </ul>
 
 
-                                                                            <?php 
-                                                                            if(isset($complete_data->BookingInstructions)){ ?>
-                                                                            <h4><b>Booking Instructions :</b></h4>
-                                                                            <div class="small-border"></div>
-                                                                            <ul>
-                                                                            <?php foreach ($complete_data->BookingInstructions as $BookingInstructions) {?>
-                                                                                <li> <?php echo  $BookingInstructions->BookingInstructionItem?></li>
-                                                                            <?php }} ?>
-                                                                            </ul>
+                                                                            
 
                                                                              <?php 
                                                                             if(isset($complete_data->Notes)){ ?>
