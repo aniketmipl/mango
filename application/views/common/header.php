@@ -236,7 +236,7 @@
                                                 <h5><b>International</b></h5>
                                                 <div class="content">
                                                     <ul class="menu-col">
-                                                        <li><a href="#">Africa</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/custom_southafrica">Africa</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/custom_ausandnz">Australia & New Zealand</a></li>
                                                         <li><a href="#">Dubai</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/group_europe">Europe</a></li>

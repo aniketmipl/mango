@@ -79,6 +79,7 @@ $route['tours/highlights-of-europe'] = 'tours/highlights_of_europe';
 //Customized tours
 $route['tours/greece---athens-mykonos-santorini'] = 'tours/greece1';
 $route['tours/new-zealand-discovery'] = 'tours/new_zealand_discovery';
+$route['tours/south-africa-with-victoria-falls'] = 'tours/south_africa_with_victoria_falls';
 
 //pages
 $route['about-us'] = 'pages/about_us';

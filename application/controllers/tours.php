@@ -470,6 +470,26 @@ class Tours extends CI_Controller {
 	}
 
 
+	public function south_africa_with_victoria_falls(){
+		$product_id ='36';
+		$product_code='SA1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'git/S1/south-african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/S1/south-african-safari.jpg';
+		$filter_data['sector']="Africa";
+		$filter_data['sector_path']="GroupTours/group_africa";
+		$head_data['title'] = "South Africa Tour Holiday Packages from Mumbai Pune Mango Holidays";
+
+		$this->load->view('common/header');
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+
 	public function mpdf(){
 		//load mPDF library
 		@$this->load->library('m_pdf');
