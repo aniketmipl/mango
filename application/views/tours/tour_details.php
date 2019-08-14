@@ -216,6 +216,30 @@
                                                                             <?php }} ?>
                                                                             </ul>
 
+                                                                            <?php 
+                                                                            if(isset($complete_data->AirTravelInstructions)){ ?>
+                                                                            <h4><b>Air Travel Instructions :</b></h4>
+                                                                            <div class="small-border"></div>
+                                                                            <ul>
+                                                                            <?php foreach ($complete_data->AirTravelInstructions as $AirTravelInstructions) {?>
+                                                                                <li> <?php echo  $AirTravelInstructions->AirTravelInstructionItem?>
+                                                                                    
+                                                                                </li>
+                                                                            <?php }} ?>
+                                                                            </ul>
+
+                                                                            <?php 
+                                                                            if(isset($complete_data->ProductFeatures)){ ?>
+                                                                            <h4><b>Product Features :</b></h4>
+                                                                            <div class="small-border"></div>
+                                                                            <ul>
+                                                                            <?php foreach ($complete_data->ProductFeatures as $ProductFeatures) {?>
+                                                                                <li> <?php echo  $ProductFeatures->FeatureItem?>
+                                                                                    
+                                                                                </li>
+                                                                            <?php }} ?>
+                                                                            </ul>
+
 
                                                                             <?php 
                                                                             if(isset($complete_data->BookingInstructions)){ ?>

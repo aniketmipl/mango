@@ -75,7 +75,12 @@ $route['tours/south-east-asia'] = 'tours/south_east_asia';
 $route['tours/mesmerising-europe'] = 'tours/mesmerising_europe';
 $route['tours/stunning-europe'] = 'tours/stunning_europe';
 $route['tours/highlights-of-europe'] = 'tours/highlights_of_europe';
+
+//Customized tours
 $route['tours/greece---athens-mykonos-santorini'] = 'tours/greece1';
+$route['tours/new-zealand-discovery'] = 'tours/new_zealand_discovery';
+
+
 $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';
 $route['corporate-tours-package'] = 'pages/corporate_tours';

@@ -448,6 +448,27 @@ class Tours extends CI_Controller {
 
 	}
 
+	public function new_zealand_discovery(){
+
+		$product_id ='35';
+		$product_code='NZ1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
+		$filter_data['slider_image'] = 'fit/GREECE-001/greece1-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GREECE-001/greece1.jpg';
+		$filter_data['sector']="Europe";
+		$filter_data['sector_path']="CustomizedTours/group_eurpoe";
+		$head_data['title'] = "Greece Tour | Mango Holidays";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+
+	}
+
 
 	public function mpdf(){
 		//load mPDF library
