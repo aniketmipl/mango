@@ -65,7 +65,7 @@
 </div>
 <div class="clearfix"></div>
 <!-- Start BLog Section -->
-<section class="blog-single-pages portfolio tour-content">
+<section class="blog-single-pages portfolio tour-content fit">
         <div class="page-header-container">
             <img src="<?php echo base_url().'assets/'.$slider_image; ?>" class="desktop-image" alt="slider_image">
             <img src="<?php echo base_url().'assets/'.$slider_mobile_image; ?>" class="mobile-image" alt="slider_image">
@@ -292,6 +292,7 @@
                     <div class="widget bdr-pry-color">
                             <div class="wiget-title" style="margin-bottom:0;">
                                     <h4>Tour Availability</h4>
+                                    <p style="color: #f60;letter-spacing: 0.5px;">(Select Tour Category)</p>
                                     <!-- <h4>Tour Dates & Availability</h4> -->
                                     <!-- <p style="color: #f60;letter-spacing: 0.5px;">(Click on tour to view details)</p> -->
                                 </div>
@@ -318,11 +319,12 @@
                                                                             foreach ($complete_data->ProductPricingHeader as $ProductPricingHeader) {
                                                                         ?>
                                                                         <tr>
-                                                                            <td><input type="radio" name=""></td>
+                                                                            <td><input type="radio" name="category" value=""></td>
                                                                             <td> <?php  echo @$ProductPricingHeader->PriceBand; ?> </td>
                                                                             <td><?php  echo $ProductPricingHeader->ProductPricingDetail[0]->CurrencyCode1;
-                                                                                echo "<br>";
-                                                                                echo $ProductPricingHeader->ProductPricingDetail[0]->Amount1; ?></td>
+                                                                               echo "<br>";
+                                                                               echo $ProductPricingHeader->ProductPricingDetail[0]->Amount1; ?>
+                                                                            </td>
                                                                             <td><?php  echo @$ProductPricingHeader->TourDateTo; ?></td>
                                                                         </tr>
 
@@ -356,8 +358,9 @@
                                                 </div>
                                                 </div>
                                             </div>
-                                                                <button class="btn"><a style="cursor:pointer;" id="element" class="show-modal"> Send Enquiry</a></button>
-                                        
+                                                                <!-- <button class="btn"><a style="cursor:pointer;" id="element" class="show-modal"> Send Enquiry</a></button> -->
+                                                                <a class="btn btn-theme my-btn-md show-modal" id="element" style="width:100%; text-align:center; cursor:pointer;"href="#" role="button">SEND ENQUIRY &nbsp;&nbsp;<i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+                                                                
                                         </div>
                     </div>
                     <!-- // End Widget -->

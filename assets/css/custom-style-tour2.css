@@ -278,3 +278,25 @@ color: #000;
   }
 
   /*end for scrollbar*/
+
+
+/*styling for fit tour*/  
+.fit .tour-table td{
+    border: 1px solid #ddd;
+    vertical-align: top;
+    font-weight: 600;
+}
+.fit .tour-table .thead-dark th{
+    border-right: 1px solid #8e8c8c;
+}
+.fit .tour-table input[type=radio]{
+    height: auto;
+}
+.fit .btn-theme{
+    background-color:#423f3f !important;
+}
+.fit .btn-theme:hover{
+    background-color:#FF6600 !important;
+}
+
+/*end styling for fit tour*/  
