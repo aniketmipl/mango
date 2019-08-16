@@ -292,6 +292,7 @@
                     <div class="widget bdr-pry-color">
                             <div class="wiget-title" style="margin-bottom:0;">
                                     <h4>Tour Availability</h4>
+                                    <p style="color: #f60;letter-spacing: 0.5px;">(Select Tour Category)</p>
                                     <!-- <h4>Tour Dates & Availability</h4> -->
                                     <!-- <p style="color: #f60;letter-spacing: 0.5px;">(Click on tour to view details)</p> -->
                                 </div>
