@@ -8,7 +8,7 @@ class CustomizedTours extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
-	public function group_africa()
+	/*public function group_africa()
 	{
 		$sector ='Africa'; //for Api
 
@@ -23,9 +23,9 @@ class CustomizedTours extends CI_Controller {
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
-	}
+	}*/
 
-	public function group_europe()
+	public function custom_europe()
 	{
 		$sector ='Europe'; //for Api
 
@@ -38,7 +38,7 @@ class CustomizedTours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
-	public function custom_ausandnz()
+	public function custom_australiaandnewzealand()
 	{
 		$sector ='Australia and New Zealand'; //for Api
 
@@ -50,7 +50,8 @@ class CustomizedTours extends CI_Controller {
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-	public function custom_southafrica()
+
+	public function custom_africa()
 	{
 		$sector ='Africa'; //for Api
 

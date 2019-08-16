@@ -457,11 +457,11 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
 		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
-		$filter_data['slider_image'] = 'fit/GREECE-001/greece1-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/GREECE-001/greece1.jpg';
+		$filter_data['slider_image'] = 'fit/NZ1/new-zealand-discovery-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/NZ1/new-zealand-discovery.jpg';
 		$filter_data['sector']="Europe";
-		$filter_data['sector_path']="CustomizedTours/group_eurpoe";
-		$head_data['title'] = "Greece Tour | Mango Holidays";
+		$filter_data['sector_path']="CustomizedTours/custom_australiaandnewzealand";
+		$head_data['title'] = "Australia and New Zealand Tour | Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
@@ -478,10 +478,10 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		// $filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'git/S1/south-african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'git/S1/south-african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Africa";
-		$filter_data['sector_path']="GroupTours/group_africa";
+		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "South Africa Tour Holiday Packages from Mumbai Pune Mango Holidays";
 
 		$this->load->view('common/header');
