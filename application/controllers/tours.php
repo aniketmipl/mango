@@ -464,7 +464,8 @@ class Tours extends CI_Controller {
 		$head_data['title'] = "Australia and New Zealand Tour | Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
-		$this->load->view('tours/tour_details',$filter_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 
 	}
