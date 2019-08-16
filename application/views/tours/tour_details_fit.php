@@ -322,6 +322,7 @@
                                                                             <td><input type="radio" name="category" value=""></td>
                                                                             <td> <?php  echo @$ProductPricingHeader->PriceBand; ?> </td>
                                                                             <td><?php  echo $ProductPricingHeader->ProductPricingDetail[0]->CurrencyCode1;
+
                                                                                echo "<br>";
                                                                                echo $ProductPricingHeader->ProductPricingDetail[0]->Amount1; ?>
                                                                             </td>
