@@ -486,7 +486,8 @@ class Tours extends CI_Controller {
 		$head_data['title'] = "South Africa Tour Holiday Packages from Mumbai Pune Mango Holidays";
 
 		$this->load->view('common/header');
-		$this->load->view('tours/tour_details',$filter_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
 
