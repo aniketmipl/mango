@@ -320,7 +320,9 @@
                                                                         <tr>
                                                                             <td><input type="radio" name=""></td>
                                                                             <td> <?php  echo @$ProductPricingHeader->PriceBand; ?> </td>
-                                                                            <td></td>
+                                                                            <td><?php  echo $ProductPricingHeader->ProductPricingDetail[0]->CurrencyCode1;
+                                                                                echo "<br>";
+                                                                                echo $ProductPricingHeader->ProductPricingDetail[0]->Amount1; ?></td>
                                                                             <td><?php  echo @$ProductPricingHeader->TourDateTo; ?></td>
                                                                         </tr>
 
@@ -667,11 +669,14 @@ var randomnumber_tour= <?= $mynumber_tour?>;
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
                 <input name="recipient" type="hidden" id="recipient" value="amita.manchekar@mipl.co.in">
-                  <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website">    
-                  <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">    
-                <input type="text" name="contact_person" id="contact_person" placeholder="Name">
-                  <input type="email" name="from" id="from" placeholder="Email">
-                  <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
+                    <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website">    
+                    <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">
+                    <input type="text" name="contact_person" id="contact_person" placeholder="Name">
+                    <input type="text" name="adult" id="adult" placeholder="No. of Adults">
+                    <input type="email" name="from" id="from" placeholder="Email">
+                    <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
+                    <input type="text" name="travel_date" id="travel_date" placeholder="Travel Date">
+
                   <textarea name="requirement_details" id="requirement_details" placeholder="Message here.."></textarea>
                   <?php
                         for($i=0; $i<$ilength; $i++)

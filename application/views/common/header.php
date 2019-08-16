@@ -223,7 +223,6 @@
                                                     <ul class="menu-col">
                                                         <li><a href="#">Andaman</a></li>
                                                         <li><a href="#">Gujarat</a></li>
-                                                        <li><a href="#">Gujarat</a></li>
                                                         <li><a href="#">Hyderabad</a></li>
                                                         <li><a href="#">Kashmir</a></li>
                                                         <li><a href="#">Kerala</a></li>
@@ -384,7 +383,7 @@ var randomnumber= <?= $mynumber?>;
 
     <!-- End Main Header -->
     <div class="sidebar-contact">
-                <div class="toggle"><span class="hd-mobile">QUICK ENQURY</span></div>
+                <div class="toggle"><span class="hd-mobile">QUICK ENQUIRY</span></div>
                 <h4>Send Enquiry</h4>
                 <div class="scroll">
                 <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
