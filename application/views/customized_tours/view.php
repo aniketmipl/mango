@@ -5,7 +5,7 @@
             <h2 class="entry-title"><?php echo $sector_name;?> Tour</h2>
         </div>
         <ul class="breadcrumbs pull-right">
-            <li><a href="#">Group Tour</a></li>
+            <li><a href="#">Customized Tour</a></li>
             <li class="active"><?php echo $sector_name;?></li>
         </ul>
     </div>
