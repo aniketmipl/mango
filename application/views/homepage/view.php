@@ -535,8 +535,8 @@
     
 
 
-<!-- Streat Counter Section -->
-<section class="counter-area parallax" data-parallax-bg-image="images/bg/2.jpg">
+<!-- Streat Counter Section--> 
+<!--<section class="counter-area parallax" data-parallax-bg-image="images/bg/2.jpg">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-6">
@@ -577,7 +577,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!-- End Counter Section -->
    
 
@@ -919,13 +919,13 @@
     <!-- End Portfolio Section -->
 
       <!--Promo Box Style One -->
-      <section class="promo-box-style-one"> 
+      <!--<section class="promo-box-style-one"> 
         <div class="container">
             <div class="row promo-box-one"> 
                 <div class="col-sm-8">
                     <div class="promo-area-one center-767">
                        
-                            <!-- <h2><b>Media Tour</b></h2> -->
+                          
                             <div class="sec-title">
                                 <h2>Media <b>Tour</b></h2>
                                 
@@ -941,4 +941,4 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->

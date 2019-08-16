@@ -338,8 +338,13 @@
 
 
     .fot-style-2 .top-footer {
-        background: #111;
+        /* background: #111; */
+        background: #444;
         padding: 50px 0px 0px;
+    }
+    .fot-style-2 .bottom-footer {
+       
+        background: #3e3d3d;
     }
  
     .container-big{
