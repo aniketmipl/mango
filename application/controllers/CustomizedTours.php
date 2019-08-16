@@ -60,7 +60,7 @@ class CustomizedTours extends CI_Controller {
 		$data['sector_name']=$sector;
 		
 		$this->load->view('common/header',$head_data);
-		$this->load->view('customized_tours/view',$data);
+		// $this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
 
