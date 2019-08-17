@@ -242,9 +242,10 @@
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_europe">Europe</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_japan">Japan</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_mauritius">Mauritius</a></li>
-                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li>
+                                                        <!-- <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li> -->
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_maldives">Maldives</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_nepal">Nepal</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_srilanka">Sri Lanka</a></li>
 
                                                     </ul>
                                                 </div>

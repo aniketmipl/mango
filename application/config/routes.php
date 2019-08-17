@@ -94,6 +94,8 @@ $route['tours/discover-russia'] = 'tours/discover_russia';
 $route['tours/best-of-russia'] = 'tours/best_of_russia';
 $route['tours/amazing-china'] = 'tours/amazing_china';
 $route['tours/scenic-madhyapradesh'] = 'tours/scenic_madhyapradesh';
+$route['tours/amazing-new-zealand'] = 'tours/amazing_new_zealand';
+$route['tours/seychelles-magic'] = 'tours/seychelles_magic';
 
 //pages
 $route['about-us'] = 'pages/about_us';
