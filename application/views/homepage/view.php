@@ -129,7 +129,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div id="tour-carousel" class="tour-carousel-rtl owl-carousel owl-theme">
+                    <div id="tour-carousel" class="tour-carousel-ltr owl-carousel owl-theme">
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">

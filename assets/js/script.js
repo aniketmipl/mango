@@ -172,8 +172,8 @@
         animateOut: '',
         animateIn: 'zoomIn',
         navText: [
-            '<i class="ion-ios-arrow-left"></i>',
-            '<i class="ion-ios-arrow-right"></i>'
+            '<i class="ion-ios-arrow-right"></i>',
+            '<i class="ion-ios-arrow-left"></i>'
         ],
         responsive: {
             0: {
