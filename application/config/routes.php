@@ -85,6 +85,8 @@ $route['tours/classical-tour-of-egypt'] = 'tours/classical_tour_of_egypt';
 $route['tours/stunning-andaman'] = 'tours/stunning_andaman';
 $route['tours/splendors-of-madhya-pradesh'] = 'tours/splendors_of_madhya_pradesh';
 $route['tours/historic-madhya-pradesh'] = 'tours/historic_madhya_pradesh';
+$route['tours/marvellous-mauritius'] = 'tours/marvellous_mauritius';
+$route['tours/mauritius-break'] = 'tours/mauritius_break';
 
 //pages
 $route['about-us'] = 'pages/about_us';

@@ -100,7 +100,18 @@ class CustomizedTours extends CI_Controller {
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
+	public function custom_mauritius()
+	{
+		$sector ='Mauritius'; //for Api
 
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Mauritius Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
 
 	public function call_api($sector){
 

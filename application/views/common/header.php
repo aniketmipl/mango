@@ -241,7 +241,7 @@
                                                         <li><a href="#">Dubai</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/custom_europe">Europe</a></li>
                                                         <li><a href="#">Japan</a></li>
-                                                        <li><a href="#">Mauritius</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/custom_mauritius">Mauritius</a></li>
                                                         <li><a href="#">Scandinavia</a></li>
 
                                                     </ul>
