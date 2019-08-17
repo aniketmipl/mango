@@ -113,6 +113,130 @@ class CustomizedTours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
+	public function custom_dubia()
+	{
+		$sector ='Dubai'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Dubai Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function custom_dubai()
+	{
+		$sector ='Dubai'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Dubai Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function custom_japan()
+	{
+		$sector ='Japan'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Dubai Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function custom_scandinavia()
+	{
+		$sector ='Scandinavia'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Scandinavia Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function custom_maldives()
+	{
+		$sector ='Maldives'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Maldives Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+
+	public function custom_gujarat()
+	{
+		$sector ='Gujarat'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Gujarat Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+		public function custom_hyderabad()
+	{
+		$sector ='Hyderabad'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Hyderabad Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+		public function custom_kashmir()
+	{
+		$sector ='Kashmir'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Kashmir Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+		public function custom_kerala()
+	{
+		$sector ='Kerala'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Kerala Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+		public function custom_nepal()
+	{
+		$sector ='Nepal'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Nepal Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+
+	
+
 	public function call_api($sector){
 
 		$sector= str_replace ( ' ', '%20', $sector);
