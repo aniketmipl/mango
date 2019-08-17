@@ -134,7 +134,7 @@
                     <div class="pull-left">
                         <div class="header-topbar-col center767">
                             <ul class="list-inline" style="font-size:1.1em;">
-                                <li><i class="fa fa-phone"></i> <a href="#">+91 8380039503 / 4 / 5 / 7</a></li>
+                                <li><i class="fa fa-phone"></i> <a href="#">+91 8380039499 / 8380039503 / 8380039505 </a></li>
                                 <li>&nbsp;| &nbsp</li>
                                 <li> <i class="fa fa-envelope-o"></i> <a href="#">info@mangoholidays.in</a></li>
                             </ul>
@@ -222,7 +222,6 @@
                                                 <div class="content">
                                                     <ul class="menu-col">
                                                         <li><a href="#">Andaman</a></li>
-                                                        <li><a href="#">Gujarat</a></li>
                                                         <li><a href="#">Gujarat</a></li>
                                                         <li><a href="#">Hyderabad</a></li>
                                                         <li><a href="#">Kashmir</a></li>
@@ -384,7 +383,7 @@ var randomnumber= <?= $mynumber?>;
 
     <!-- End Main Header -->
     <div class="sidebar-contact">
-                <div class="toggle"><span class="hd-mobile">QUICK ENQURY</span></div>
+                <div class="toggle"><span class="hd-mobile">QUICK ENQUIRY</span></div>
                 <h4>Send Enquiry</h4>
                 <div class="scroll">
                 <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
