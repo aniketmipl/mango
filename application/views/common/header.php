@@ -221,7 +221,7 @@
                                                 <h5><b>India</b></h5>
                                                 <div class="content">
                                                     <ul class="menu-col">
-                                                        <li><a href="#">Andaman</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/custom_andaman">Andaman</a></li>
                                                         <li><a href="#">Gujarat</a></li>
                                                         <li><a href="#">Hyderabad</a></li>
                                                         <li><a href="#">Kashmir</a></li>
@@ -242,6 +242,7 @@
                                                         <li><a href="#">Japan</a></li>
                                                         <li><a href="#">Mauritius</a></li>
                                                         <li><a href="#">Scandinavia</a></li>
+
                                                     </ul>
                                                 </div>
                                             </div>
