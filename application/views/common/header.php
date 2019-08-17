@@ -226,7 +226,7 @@
                                                         <li><a href="#">Hyderabad</a></li>
                                                         <li><a href="#">Kashmir</a></li>
                                                         <li><a href="#">Kerala</a></li>
-                                                        <li><a href="#">Madhya Pradesh</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/custom_madhya_pradesh">Madhya Pradesh</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -235,6 +235,7 @@
                                                 <h5><b>International</b></h5>
                                                 <div class="content">
                                                     <ul class="menu-col">
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/custom_asia">Asia</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/custom_africa">Africa</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/custom_australiaandnewzealand">Australia & New Zealand</a></li>
                                                         <li><a href="#">Dubai</a></li>

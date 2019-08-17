@@ -82,6 +82,7 @@ $route['tours/new-zealand-discovery'] = 'tours/new_zealand_discovery';
 $route['tours/south-africa-with-victoria-falls'] = 'tours/south_africa_with_victoria_falls';
 $route['tours/beautiful-andaman'] = 'tours/beautiful_andaman';
 $route['tours/classical-tour-of-egypt'] = 'tours/classical_tour_of_egypt';
+$route['tours/stunning-andaman'] = 'tours/stunning_andaman';
 
 //pages
 $route['about-us'] = 'pages/about_us';
