@@ -222,12 +222,24 @@ class CustomizedTours extends CI_Controller {
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-		public function customized_nepal()
+	public function customized_nepal()
 	{
 		$sector ='Nepal'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
 		$head_data['title'] = "Nepal Tour| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function customized_srilanka()
+	{
+		$sector ='Sri Lanka'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		$head_data['title'] = "Sri Lanka Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$this->load->view('common/header',$head_data);
