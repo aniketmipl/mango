@@ -15,7 +15,9 @@
         <div class="container">
             <div class="row">
                 <div class="hottel-grid-offer" style="justify-content: left;">
-                    <?php foreach ($api_result as $key => $value) { 
+                    <?php 
+                    if(isset($api_result)){
+                        foreach ($api_result as $key => $value) { 
                         if($value->TravelType == 'FIT'){
                         $page_name=strtolower(trim($value->ProductTitle));
                     ?>
@@ -49,7 +51,7 @@
                             </div>
                         </div>
                     </div>
-                <?php }} ?>
+                <?php }}} ?>
                 </div>
             </div>
             

@@ -80,6 +80,20 @@ $route['tours/highlights-of-europe'] = 'tours/highlights_of_europe';
 $route['tours/greece---athens-mykonos-santorini'] = 'tours/greece1';
 $route['tours/new-zealand-discovery'] = 'tours/new_zealand_discovery';
 $route['tours/south-africa-with-victoria-falls'] = 'tours/south_africa_with_victoria_falls';
+$route['tours/beautiful-andaman'] = 'tours/beautiful_andaman';
+$route['tours/classical-tour-of-egypt'] = 'tours/classical_tour_of_egypt';
+$route['tours/stunning-andaman'] = 'tours/stunning_andaman';
+$route['tours/splendors-of-madhya-pradesh'] = 'tours/splendors_of_madhya_pradesh';
+$route['tours/historic-madhya-pradesh'] = 'tours/historic_madhya_pradesh';
+$route['tours/marvellous-mauritius'] = 'tours/marvellous_mauritius';
+$route['tours/mauritius-break'] = 'tours/mauritius_break';
+$route['tours/blissful-bali'] = 'tours/blissful_bali';
+$route['tours/best-of-china'] = 'tours/best_of_china';
+$route['tours/stunning-singapore'] = 'tours/stunning_singapore';
+$route['tours/discover-russia'] = 'tours/discover_russia';
+$route['tours/best-of-russia'] = 'tours/best_of_russia';
+$route['tours/amazing-china'] = 'tours/amazing_china';
+$route['tours/scenic-madhyapradesh'] = 'tours/scenic_madhyapradesh';
 
 //pages
 $route['about-us'] = 'pages/about_us';

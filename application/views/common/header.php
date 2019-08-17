@@ -221,12 +221,12 @@
                                                 <h5><b>India</b></h5>
                                                 <div class="content">
                                                     <ul class="menu-col">
-                                                        <li><a href="#">Andaman</a></li>
-                                                        <li><a href="#">Gujarat</a></li>
-                                                        <li><a href="#">Hyderabad</a></li>
-                                                        <li><a href="#">Kashmir</a></li>
-                                                        <li><a href="#">Kerala</a></li>
-                                                        <li><a href="#">Madhya Pradesh</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_andaman">Andaman</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_gujarat">Gujarat</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_hyderabad">Hyderabad</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_kashmir">Kashmir</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_kerala">Kerala</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_madhya_pradesh">Madhya Pradesh</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -235,13 +235,17 @@
                                                 <h5><b>International</b></h5>
                                                 <div class="content">
                                                     <ul class="menu-col">
-                                                        <li><a href="<?php echo base_url()?>CustomizedTours/custom_africa">Africa</a></li>
-                                                        <li><a href="<?php echo base_url()?>CustomizedTours/custom_australiaandnewzealand">Australia & New Zealand</a></li>
-                                                        <li><a href="#">Dubai</a></li>
-                                                        <li><a href="<?php echo base_url()?>CustomizedTours/custom_europe">Europe</a></li>
-                                                        <li><a href="#">Japan</a></li>
-                                                        <li><a href="#">Mauritius</a></li>
-                                                        <li><a href="#">Scandinavia</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_asia">Asia</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_africa">Africa</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_australiaandnewzealand">Australia & New Zealand</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_dubai">Dubai</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_europe">Europe</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_japan">Japan</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_mauritius">Mauritius</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_maldives">Maldives</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_nepal">Nepal</a></li>
+
                                                     </ul>
                                                 </div>
                                             </div>
