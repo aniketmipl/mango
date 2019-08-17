@@ -87,6 +87,13 @@ $route['tours/splendors-of-madhya-pradesh'] = 'tours/splendors_of_madhya_pradesh
 $route['tours/historic-madhya-pradesh'] = 'tours/historic_madhya_pradesh';
 $route['tours/marvellous-mauritius'] = 'tours/marvellous_mauritius';
 $route['tours/mauritius-break'] = 'tours/mauritius_break';
+$route['tours/blissful-bali'] = 'tours/blissful_bali';
+$route['tours/best-of-china'] = 'tours/best_of_china';
+$route['tours/stunning-singapore'] = 'tours/stunning_singapore';
+$route['tours/discover-russia'] = 'tours/discover_russia';
+$route['tours/best-of-russia'] = 'tours/best_of_russia';
+$route['tours/amazing-china'] = 'tours/amazing_china';
+$route['tours/scenic-madhyapradesh'] = 'tours/scenic_madhyapradesh';
 
 //pages
 $route['about-us'] = 'pages/about_us';

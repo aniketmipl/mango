@@ -313,7 +313,7 @@ class Tours extends CI_Controller {
 		$filter_data['sector_path']="GroupTours/group_africa";
 		$head_data['title'] = "South Africa Tour Holiday Packages from Mumbai Pune Mango Holidays";
 
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
@@ -485,7 +485,7 @@ class Tours extends CI_Controller {
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "South Africa Tour Holiday Packages from Mumbai Pune Mango Holidays";
 
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -505,7 +505,7 @@ class Tours extends CI_Controller {
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "BEAUTIFUL ANDAMAN Tour";
 
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -525,7 +525,7 @@ class Tours extends CI_Controller {
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "Stunning Andaman Tour";
 
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -545,7 +545,7 @@ class Tours extends CI_Controller {
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "CLASSICAL TOUR OF EGYPT";
 
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -566,7 +566,7 @@ class Tours extends CI_Controller {
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "Splendors of Madhya Pradesh";
 
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -586,7 +586,7 @@ class Tours extends CI_Controller {
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "Historic Madhya Pradesh";
 
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -604,7 +604,7 @@ class Tours extends CI_Controller {
 		$filter_data['sector']="Mauritius";
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "MARVELLOUS MAURITIUS";
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -623,7 +623,153 @@ class Tours extends CI_Controller {
 		$filter_data['sector']="Mauritius";
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "MARVELLOUS MAURITIUS";
-		$this->load->view('common/header');
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function blissful_bali(){
+		$product_id ='3';
+		$product_code='BA';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$head_data['title'] = "BLISSFUL BALI";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function best_of_china(){
+		$product_id ='28';
+		$product_code='CH';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$head_data['title'] = "BEST OF CHINA";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function stunning_singapore(){
+		$product_id ='37';
+		$product_code='SI';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$head_data['title'] = "STUNNING SINGAPORE";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function discover_russia(){
+		$product_id ='39';
+		$product_code='RU1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$head_data['title'] = "DISCOVER RUSSIA TOUR";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function best_of_russia(){
+		$product_id ='41';
+		$product_code='RU2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$head_data['title'] = "BEST OF RUSSIA";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function kuala_lumpur(){
+		$product_id ='42';
+		$product_code='MY1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$head_data['title'] = "KUALA LUMPUR";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function amazing_china(){
+		$product_id ='50';
+		$product_code='CH1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$head_data['title'] = "AMAZING CHINA";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function scenic_madhyapradesh(){
+		$product_id ='49';
+		$product_code='MP3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$head_data['title'] = "Madhya Pradesh";
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
