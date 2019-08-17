@@ -83,6 +83,8 @@ $route['tours/south-africa-with-victoria-falls'] = 'tours/south_africa_with_vict
 $route['tours/beautiful-andaman'] = 'tours/beautiful_andaman';
 $route['tours/classical-tour-of-egypt'] = 'tours/classical_tour_of_egypt';
 $route['tours/stunning-andaman'] = 'tours/stunning_andaman';
+$route['tours/splendors-of-madhya-pradesh'] = 'tours/splendors_of_madhya_pradesh';
+$route['tours/historic-madhya-pradesh'] = 'tours/historic_madhya_pradesh';
 
 //pages
 $route['about-us'] = 'pages/about_us';
