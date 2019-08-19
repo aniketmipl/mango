@@ -97,6 +97,15 @@ $route['tours/scenic-madhyapradesh'] = 'tours/scenic_madhyapradesh';
 $route['tours/amazing-new-zealand'] = 'tours/amazing_new_zealand';
 $route['tours/seychelles-magic'] = 'tours/seychelles_magic';
 $route['tours/spectacular-south-africa'] = 'tours/spectacular_south_africa';
+$route['tours/kuala-lumpur'] = 'tours/kuala_lumpur';
+$route['tours/best-of-thailand'] = 'tours/best_of_thailand';
+$route['tours/bangkok-pattaya'] = 'tours/bangkok_pattaya';
+$route['tours/mesmerising-nepal'] = 'tours/mesmerising_nepal';
+$route['tours/scenic-nepal'] = 'tours/scenic_nepal';
+$route['tours/temple-tour-of-nepal'] = 'tours/temple_tour_of_nepal';
+$route['tours/beautiful-sri-lanka'] = 'tours/beautiful_srilanka';
+$route['tours/scenic-sri-lanka'] = 'tours/scenic_srilanka';
+
 
 //pages
 $route['about-us'] = 'pages/about_us';
