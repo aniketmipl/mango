@@ -1012,8 +1012,8 @@ class Tours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 	public function enchanting_kerala_with_kanyakumari(){
-		$product_id ='61';
-		$product_code='KE3';
+		$product_id ='63';
+		$product_code='KE4';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
