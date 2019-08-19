@@ -524,7 +524,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_image'] = 'fit/AN2/stunning-andaman-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/AN2/stunning-andaman.jpg';
 		$filter_data['sector']="Andaman";
-		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$filter_data['sector_path']="CustomizedTours/customized_andaman";
 		$head_data['title'] = "Stunning Andaman Tour";
 
 		$this->load->view('common/header',$head_data);
@@ -541,8 +541,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/EG1/classical-tour-of-egypt-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/EG1/classical-tour-of-egypt.jpg';
+		$filter_data['slider_image'] = 'fit/EG1/Classical-Tour-of-Egypt-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/EG1/Classical-Tour-of-Egypt.jpg';
 		$filter_data['sector']="Africa";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "CLASSICAL TOUR OF EGYPT";
@@ -803,8 +803,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SE1/seychelles-magic-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SE1/seychelles-magic.jpg';
+		$filter_data['slider_image'] = 'fit/SE1/Seychelles-Magic-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SE1/Seychelles-Magic.jpg';
 		$filter_data['sector']="Africa";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "SEYCHELLES MAGIC";
