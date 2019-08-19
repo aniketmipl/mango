@@ -105,6 +105,10 @@ $route['tours/scenic-nepal'] = 'tours/scenic_nepal';
 $route['tours/temple-tour-of-nepal'] = 'tours/temple_tour_of_nepal';
 $route['tours/beautiful-sri-lanka'] = 'tours/beautiful_srilanka';
 $route['tours/scenic-sri-lanka'] = 'tours/scenic_srilanka';
+$route['tours/short-break-kerala'] = 'tours/short_break_kerala';
+$route['tours/scenic-kerala'] = 'tours/scenic_kerala';
+$route['tours/attractive-kerala'] = 'tours/attractive_kerala';
+$route['tours/enchanting-kerala-with-kanyakumari'] = 'tours/enchanting_kerala_with_kanyakumari';
 
 
 //pages
