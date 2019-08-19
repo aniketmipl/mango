@@ -114,6 +114,7 @@ $route['tours/maldives-paradise-island-resort'] = 'tours/maldives_paradise_islan
 $route['tours/maldives-olhuveli'] = 'tours/maldives_olhuveli';
 $route['tours/glimpse-of-rajasthan'] = 'tours/glimpse_of_rajasthan';
 $route['tours/best-of-rajasthan'] = 'tours/best_of_rajasthan';
+$route['tours/gujarat-special-wildlife-and-pilgrimage'] = 'tours/gujarat_special_wildlife_and_pilgrimage';
 
 
 //pages
