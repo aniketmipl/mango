@@ -108,15 +108,19 @@ var randomnumber= <?= $mynumber?>;
 <section style="background-color:#f1f0f0;">
 <div class="container" style="padding:20px 0;">	
 			<div class="row">
-      <div class="col-md-3 col-lg-3 col-sm-6 col-12 helpLine">
+      <!-- <div class="col-md-3 col-lg-3 col-sm-6 col-12 helpLine">
         <h6 class="smallHeadingGray">Landline Number</h6>
         <div class="infoText pt-1">020 2544 4415</div>
       </div>
       <div class="col-md-3 col-lg-4 col-sm-6 col-12 infoNumbers">
         <h6 class="smallHeadingGray">InfoSale Number</h6>
         <div class="infoText pt-1">+91 8380039503 / 4 / 5 / 7<br></div>
+      </div> -->
+	  <div class="col-md-5 col-lg-6 col-sm-12 col-12 infoNumbers">
+        <h6 class="smallHeadingGray">InfoSale Number</h6>
+        <div class="infoText pt-1">+91 8380039499 / 8380039503 / 8380039505 <br></div>
       </div>
-      <div class="col-md-3 col-lg-3 col-sm-6 col-12">
+      <div class="col-md-4 col-lg-4 col-sm-6 col-12">
         <h6 class="smallHeadingGray">Email Address</h6>
         <div class="infoText pt-1"><a href="#"> info@mangoholidays.in</a></div>
       </div>
@@ -199,8 +203,8 @@ var randomnumber= <?= $mynumber?>;
                                 <li><i class="fa-li fa fa-map-marker"></i> <p>302, Swojas Capital, Above Tata Motors,
 Near Film Institute, Law College Road,
 Pune. Maharashtra 411004.</p></li>
-                                <li><i class="fa-li fa fa-phone"></i>020 2544 4415</li>
-                                <li><i class="fa-li fa fa-mobile"></i>+91 8380039503 / 4 / 5 / 7</li>
+                                <li><i class="fa-li fa fa-phone"></i>+91 20 25444415</li>
+                                <li><i class="fa-li fa fa-mobile"></i>+91 8380039499 / 8380039505</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
@@ -238,7 +242,7 @@ Dadar (W) –400 028,<br/> Maharashtra.</p></li>
 Pachpakhadi, Opp. Teen Petrol Pump,<br/>
 Thane (W) – 400 602,<br/> Maharashtra.</p></li>
                                 
-                                <li><i class="fa-li fa fa-mobile"></i>+91 22- 25450017 / 18 / 19 / 20</li>
+                                <li><i class="fa-li fa fa-mobile"></i> +91 8380039503</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
@@ -257,10 +261,11 @@ Thane (W) – 400 602,<br/> Maharashtra.</p></li>
 Near VNIT College, Abhyankar Nagar,<br/>
 Nagpur – 440010,<br/> Maharashtra.</p></li>
                                 
-                                <li><i class="fa-li fa fa-mobile"></i>+91 712 – 2244557 / 8 / 9</li>
+                                <!-- <li><i class="fa-li fa fa-mobile"></i>+91 712 – 2244557 / 8 / 9</li> -->
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
+							<br/>
 							<br/>
 							<iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                         </div>
