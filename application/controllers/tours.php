@@ -788,7 +788,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Australia and New Zealand";
 		$filter_data['sector_path']="CustomizedTours/custom_asia";
-		$head_data['title'] = "AMAZING NEW ZEALAND";
+		$head_data['title'] = "AMAZING NEW ZEALAND Tour";
 		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
@@ -807,7 +807,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_mobile_image'] = 'fit/SE1/Seychelles-Magic.jpg';
 		$filter_data['sector']="Africa";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
-		$head_data['title'] = "SEYCHELLES MAGIC";
+		$head_data['title'] = "SEYCHELLES MAGIC Tour";
 		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
@@ -821,8 +821,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/Spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/Spectacular-south-africa.jpg';
 		$filter_data['sector']="Africa";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "SPECTACULAR SOUTH AFRICA";

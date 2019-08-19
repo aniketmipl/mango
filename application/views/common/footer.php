@@ -18,6 +18,7 @@
                                     <li><a href="https://mangoholidays.in/galleries/photo-gallery/"> Photo Gallery</a></li>
                                     <li><a href="https://mangoholidays.in/faqs/"> FAQ</a></li>
                                     <li><a href="https://mangoholidays.in/careers/"> Careers</a></li>
+                                    <li><a href="https://mangoholidays.in/careers/"> Terms & Condition</a></li>
                                 </ul>
                                 </div>
                                 
