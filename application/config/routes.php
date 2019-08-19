@@ -109,6 +109,11 @@ $route['tours/short-break-kerala'] = 'tours/short_break_kerala';
 $route['tours/scenic-kerala'] = 'tours/scenic_kerala';
 $route['tours/attractive-kerala'] = 'tours/attractive_kerala';
 $route['tours/enchanting-kerala-with-kanyakumari'] = 'tours/enchanting_kerala_with_kanyakumari';
+$route['tours/maldives-fun-island'] = 'tours/maldives_fun_island';
+$route['tours/maldives-paradise-island-resort'] = 'tours/maldives_paradise_island_resort';
+$route['tours/maldives-olhuveli'] = 'tours/maldives_olhuveli';
+$route['tours/glimpse-of-rajasthan'] = 'tours/glimpse_of_rajasthan';
+$route['tours/best-of-rajasthan'] = 'tours/best_of_rajasthan';
 
 
 //pages

@@ -1029,7 +1029,100 @@ class Tours extends CI_Controller {
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
-	
+	public function maldives_fun_island(){
+		$product_id ='51';
+		$product_code='ML1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Maldives";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "MALDIVES FUN ISLAND";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function maldives_paradise_island_resort(){
+		$product_id ='53';
+		$product_code='ML2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Maldives";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "MALDIVES PARADISE ISLAND RESORT";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function maldives_olhuveli(){
+		$product_id ='56';
+		$product_code='ML3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Maldives";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "MALDIVES OLHUVELI";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function best_of_rajasthan(){
+		$product_id ='70';
+		$product_code='RA1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Rajasthan";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Best Of Rajasthan";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function glimpse_of_rajasthan(){
+		$product_id ='71';
+		$product_code='RA2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Rajasthan";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Glimpse of Rajasthan";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
 
 	public function mpdf(){
 		//load mPDF library

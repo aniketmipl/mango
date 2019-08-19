@@ -227,6 +227,7 @@
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_kashmir">Kashmir</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_kerala">Kerala</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_madhya_pradesh">Madhya Pradesh</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_rajasthan">Rajasthan</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
