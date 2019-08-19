@@ -482,7 +482,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Africa";
-		$filter_data['sector_path']="CustomizedTours/custom_africa";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "South Africa Tour Holiday Packages from Mumbai Pune Mango Holidays";
 
 		$this->load->view('common/header',$head_data);
@@ -491,6 +491,8 @@ class Tours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
+
+///CUSTOMIZED INDIA TOURS
 	public function beautiful_andaman(){
 		$product_id ='38';
 		$product_code='AN1';
@@ -498,12 +500,12 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/AN1/beautiful-andaman-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/AN1/beautiful-andaman.jpg';
 		$filter_data['sector']="Andaman";
-		$filter_data['sector_path']="CustomizedTours/custom_africa";
-		$head_data['title'] = "BEAUTIFUL ANDAMAN Tour";
+		$filter_data['sector_path']="CustomizedTours/customized_andaman";
+		$head_data['title'] = "BEAUTIFUL ANDAMAN";
 
 		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
@@ -518,11 +520,11 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/AN2/stunning-andaman-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/AN2/stunning-andaman.jpg';
 		$filter_data['sector']="Andaman";
-		$filter_data['sector_path']="CustomizedTours/custom_africa";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "Stunning Andaman Tour";
 
 		$this->load->view('common/header',$head_data);
@@ -538,11 +540,11 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/EG1/classical-tour-of-egypt-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/EG1/classical-tour-of-egypt.jpg';
 		$filter_data['sector']="Africa";
-		$filter_data['sector_path']="CustomizedTours/custom_africa";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "CLASSICAL TOUR OF EGYPT";
 
 		$this->load->view('common/header',$head_data);
@@ -559,11 +561,11 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Madhya Pradesh";
-		$filter_data['sector_path']="CustomizedTours/custom_africa";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "Splendors of Madhya Pradesh";
 
 		$this->load->view('common/header',$head_data);
@@ -579,7 +581,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Madhya Pradesh";
@@ -598,7 +600,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Mauritius";
@@ -617,7 +619,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Mauritius";
@@ -635,7 +637,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Asia";
@@ -654,7 +656,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Asia";
@@ -672,9 +674,9 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SI/stunning-singapore-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SI/stunning-singapore.jpg';
 		$filter_data['sector']="Asia";
 		$filter_data['sector_path']="CustomizedTours/custom_asia";
 		$head_data['title'] = "STUNNING SINGAPORE";
@@ -690,7 +692,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Asia";
@@ -708,7 +710,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Asia";
@@ -726,7 +728,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Asia";
@@ -745,7 +747,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Asia";
@@ -763,7 +765,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Asia";
@@ -781,7 +783,7 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Australia and New Zealand";
@@ -800,12 +802,30 @@ class Tours extends CI_Controller {
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SE1/seychelles-magic-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SE1/seychelles-magic.jpg';
 		$filter_data['sector']="Africa";
-		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "SEYCHELLES MAGIC";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function spectacular_south_africa(){
+		$product_id ='66';
+		$product_code='SA2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Africa";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "SPECTACULAR SOUTH AFRICA";
 		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);

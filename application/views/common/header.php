@@ -235,18 +235,21 @@
                                                 <h5><b>International</b></h5>
                                                 <div class="content">
                                                     <ul class="menu-col">
+                                                      <div class="col-md-6 col-sm-12">
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_asia">Asia</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_africa">Africa</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_australiaandnewzealand">Australia & New Zealand</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_dubai">Dubai</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_europe">Europe</a></li>
+                                                      </div>
+                                                      <div class="col-md-6 col-sm-12">
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_japan">Japan</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_mauritius">Mauritius</a></li>
                                                         <!-- <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li> -->
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_maldives">Maldives</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_nepal">Nepal</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_srilanka">Sri Lanka</a></li>
-
+                                                      </div>
                                                     </ul>
                                                 </div>
                                             </div>

@@ -53,7 +53,7 @@
                 <a href="<?php if($complete_data->TravelType == 'GIT'){
                     echo base_url()."GroupTours/group_".trim(strtolower(str_replace(' ','',$complete_data->SectorName)));
                 }else{
-                    echo base_url()."CustomizedTours/custom_".trim(strtolower(str_replace(' ','',$complete_data->SectorName)));
+                    echo base_url()."CustomizedTours/customized_".trim(strtolower(str_replace(' ','',$complete_data->SectorName)));
                 } ?>"><?php echo @$complete_data->SectorName;?></a>
             </li>
            <!--  <li>

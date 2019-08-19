@@ -96,6 +96,7 @@ $route['tours/amazing-china'] = 'tours/amazing_china';
 $route['tours/scenic-madhyapradesh'] = 'tours/scenic_madhyapradesh';
 $route['tours/amazing-new-zealand'] = 'tours/amazing_new_zealand';
 $route['tours/seychelles-magic'] = 'tours/seychelles_magic';
+$route['tours/spectacular-south-africa'] = 'tours/spectacular_south_africa';
 
 //pages
 $route['about-us'] = 'pages/about_us';
