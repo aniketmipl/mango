@@ -115,7 +115,10 @@ $route['tours/maldives-olhuveli'] = 'tours/maldives_olhuveli';
 $route['tours/glimpse-of-rajasthan'] = 'tours/glimpse_of_rajasthan';
 $route['tours/best-of-rajasthan'] = 'tours/best_of_rajasthan';
 $route['tours/gujarat-special-wildlife-and-pilgrimage'] = 'tours/gujarat_special_wildlife_and_pilgrimage';
-
+$route['tours/best-of-turkey'] = 'tours/best_of_turkey';
+$route['tours/turkish-delight'] = 'tours/turkish_delight';
+$route['tours/azerbaijan-baku'] = 'tours/azerbaijan_baku';
+$route['tours/dubai-abu-dhabi-luxury'] = 'tours/dubai_abu_dhabi_luxury';
 
 //pages
 $route['about-us'] = 'pages/about_us';

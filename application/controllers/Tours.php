@@ -1141,6 +1141,80 @@ class Tours extends CI_Controller {
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
+	public function best_of_turkey(){
+		$product_id ='73';
+		$product_code='TU1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Europe";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "BEST OF TURKEY";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function turkish_delight(){
+		$product_id ='74';
+		$product_code='TU2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Europe";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "TURKISH DELIGHT";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function azerbaijan_baku(){
+		$product_id ='75';
+		$product_code='AZ1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Europe";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "AZERBAIJAN BAKU";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function dubai_abu_dhabi_luxury(){
+		$product_id ='72';
+		$product_code='DX1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Dubai";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "DUBAI ABU DHABI LUXURY";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	
+	
 	public function mpdf(){
 		//load mPDF library
 		@$this->load->library('m_pdf');
