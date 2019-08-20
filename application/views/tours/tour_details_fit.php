@@ -679,7 +679,13 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                     <input type="text" name="adult" id="adult" placeholder="No. of Adults">
                     <input type="email" name="from" id="from" placeholder="Email">
                     <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
-                    <input type="text" name="travel_date" id="travel_date" placeholder="Travel Date">
+                    <div class="input-group date margin-bottom-30" data-date-format="dd-mm-yyyy" style="width:100%;">
+                        <input type="text" name="travel_date" class="form-control" placeholder="Select Your Travel Date">
+                            <div class="input-group-addon" style="">
+                                <span class="glyphicon glyphicon-th"></span>
+                            </div>
+                    </div>
+                    <!-- <input type="text" class="date" data-date-format="dd.mm.yyyy" name="travel_date" id="travel_date"  placeholder="Travel Date"> -->
 
                   <textarea name="requirement_details" id="requirement_details" placeholder="Message here.."></textarea>
                   <?php
