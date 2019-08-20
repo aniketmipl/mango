@@ -638,10 +638,10 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['slider_image'] = 'fit/BA/blissful-bali-banner.jpg.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/BA/blissful-bali.jpg';
 		$filter_data['sector']="Asia";
-		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$filter_data['sector_path']="CustomizedTours/customized_asia";
 		$head_data['title'] = "BLISSFUL BALI";
 		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
