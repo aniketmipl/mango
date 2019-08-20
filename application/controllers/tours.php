@@ -565,7 +565,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Madhya Pradesh";
-		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$filter_data['sector_path']="CustomizedTours/customized_madhya_pradesh";
 		$head_data['title'] = "Splendors of Madhya Pradesh";
 
 		$this->load->view('common/header',$head_data);
@@ -585,7 +585,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Madhya Pradesh";
-		$filter_data['sector_path']="CustomizedTours/custom_africa";
+		$filter_data['sector_path']="CustomizedTours/customized_madhya_pradesh";
 		$head_data['title'] = "Historic Madhya Pradesh";
 
 		$this->load->view('common/header',$head_data);
@@ -769,7 +769,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
 		$filter_data['sector']="Asia";
-		$filter_data['sector_path']="CustomizedTours/custom_asia";
+		$filter_data['sector_path']="CustomizedTours/customized_madhya_pradesh";
 		$head_data['title'] = "Madhya Pradesh";
 		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);

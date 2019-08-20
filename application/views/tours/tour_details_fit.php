@@ -319,7 +319,7 @@
                                                                             foreach ($complete_data->ProductPricingHeader as $ProductPricingHeader) {
                                                                         ?>
                                                                         <tr>
-                                                                            <td><input type="radio" name="category" value=""></td>
+                                                                            <td><input type="radio" class="tour_cat" name="category" value="<?php echo @$ProductPricingHeader->PriceBand;?>"></td>
                                                                             <td> <?php  echo @$ProductPricingHeader->PriceBand; ?> </td>
                                                                             <td><?php  echo $ProductPricingHeader->ProductPricingDetail[0]->CurrencyCode1;
                                                                                echo "<br>";
@@ -675,6 +675,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                     <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website">    
                     <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">
                     <input type="text" name="contact_person" id="contact_person" placeholder="Name">
+                    <input type="hidden" name="tour_category" id="tour_category" >
                     <input type="text" name="adult" id="adult" placeholder="No. of Adults">
                     <input type="email" name="from" id="from" placeholder="Email">
                     <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
@@ -715,7 +716,14 @@ $(function() {
         $(".customized_tour").addClass('active');
     }
         $('#element').on('click', function( e ) {
-            $("#enquiry-form-modal").modal('show');
+            var radioValue = $("input[name='category']:checked").val();
+            $("#tour_category").val("");
+            $("#tour_category").val(radioValue);
+            if(radioValue == undefined){
+                alert("Please Select Category");
+            }else{
+                $("#enquiry-form-modal").modal('show');
+            }
             // Custombox.open({
             //     target: '#testmodal-1',
             //     effect: 'fadein'
