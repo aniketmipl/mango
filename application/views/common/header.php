@@ -212,7 +212,7 @@
                                 <li><a href="<?php echo base_url()?>GroupTours/group_asia">South East Asia</a></li>
                             </ul>
                         </li>    
-                        <li class="dropdown megamenu-fw customized_tour">
+                        <li class="dropdown megamenu-fw customized_tour <?php echo ($controller =='CustomizedTours')?'active':'' ?>">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Customized Tours </a>
                                 <ul class="dropdown-menu megamenu-content" role="menu">
                                     <li>
