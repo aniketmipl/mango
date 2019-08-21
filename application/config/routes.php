@@ -121,6 +121,7 @@ $route['tours/azerbaijan-baku'] = 'tours/azerbaijan_baku';
 $route['tours/swiss-paris'] = 'tours/swiss_paris';
 $route['tours/greek-voyage'] = 'tours/greek_voyage';
 $route['tours/hong-kong'] = 'tours/hong_kong';
+$route['tours/dubai-abu-dhabi-luxury'] = 'tours/dubai_abu_dhabi_luxury';
 //pages
 $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';

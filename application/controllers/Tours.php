@@ -1271,10 +1271,7 @@ class Tours extends CI_Controller {
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
-	}
-
-	
-	
+	} 
 	public function mpdf(){
 		//load mPDF library
 		@$this->load->library('m_pdf');
