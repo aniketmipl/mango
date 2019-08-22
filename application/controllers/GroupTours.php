@@ -125,6 +125,29 @@ class GroupTours extends CI_Controller {
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
+	public function group_eastern_europe()
+	{
+		$sector ='Eastern Europe';
+		$data['api_result']=$this->call_api($sector);
+		$data['sector_name']=$sector;
+		//$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
+		
+		$this->load->view('common/header');
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function group_scandinavia()
+	{
+		$sector ='Scandinavia';
+		$data['api_result']=$this->call_api($sector);
+		$data['sector_name']=$sector;
+		//$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
+		
+		$this->load->view('common/header');
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	 
 
 	public function call_api($sector){
 
