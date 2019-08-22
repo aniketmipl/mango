@@ -1,4 +1,3 @@
-
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
@@ -31,7 +30,7 @@
                                         }else{
                                             $ProductImage = base_url().'assets/images/default-tour.jpg';
                                         } ?>
-                                        <img src="<?php echo $ProductImage; ?>" alt="">
+                                        <img class="img-thumbnail" src="<?php echo $ProductImage; ?>" alt="">
                                         <div class="over-layer">
                                             <div class="links">
                                                 <ul class="list-inline">
