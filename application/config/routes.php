@@ -53,6 +53,30 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+
+//menu links
+$route['customized-holidays/india/andaman'] ='/CustomizedTours/customized_andaman';
+$route['customized-holidays/india/gujarat'] ='CustomizedTours/customized_gujarat';
+$route['customized-holidays/india/himachal-pradesh'] ='CustomizedTours/customized_himachal';
+$route['customized-holidays/india/gujarat'] ='CustomizedTours/customized_gujarat';
+$route['customized-holidays/india/karnataka-tour-packages'] ='CustomizedTours/customized_karnataka';
+$route['customized-holidays/india/kashmir'] ='CustomizedTours/customized_kashmir';
+$route['customized-holidays/india/kerala'] ='CustomizedTours/customized_kerala';
+$route['customized-holidays/india/madhya-pradesh'] ='CustomizedTours/customized_madhya_pradesh';
+$route['customized-holidays/india/kerala'] ='CustomizedTours/customized_kerala';
+$route['customized-holidays/india/rajasthan'] ='CustomizedTours/customized_rajasthan';
+
+//International customized tours
+$route['customized-holidays/africa'] ='CustomizedTours/customized_africa';
+$route['customized-holidays/australia-new-zealand'] ='CustomizedTours/customized_australiaandnewzealand';
+$route['customized-holidays/dubai'] ='CustomizedTours/customized_dubai';
+$route['customized-holidays/europe/'] ='CustomizedTours/customized_europe';
+$route['customized-holidays/nepal'] ='CustomizedTours/customized_nepal';
+$route['customized-holidays/russia'] ='CustomizedTours/customized_russia';
+$route['customized-holidays/south-east-asia'] ='CustomizedTours/customized_asia';
+
+
+
 $route['tours/exotic-europe-group-tour'] ='tours/exotic_europe';
 $route['tours/exotic-europe'] ='tours/exotic_europe';
 $route['tours/glimpses-of-europe'] ='tours/glimpses_of_europe';

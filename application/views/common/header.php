@@ -257,6 +257,7 @@
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_dubai">Dubai</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_europe">Europe</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_bali">Bali</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_turkey">Turkey</a></li>
                                                       </div>
                                                       <div class="col-md-6 col-sm-12">
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_japan">Japan</a></li>
@@ -266,6 +267,7 @@
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_nepal">Nepal</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_srilanka">Sri Lanka</a></li>
                                                         <li><a href="<?php echo base_url()?>CustomizedTours/customized_egypt">Egypt</a></li>
+                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_azerbaijan">Azerbaijan</a></li>
                                                       </div>
                                                     </ul>
                                                 </div>
