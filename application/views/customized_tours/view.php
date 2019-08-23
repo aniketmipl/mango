@@ -30,7 +30,7 @@
                                         }else{
                                             $ProductImage = base_url().'assets/images/default-tour.jpg';
                                         } ?>
-                                        <img class="img-thumbnail" src="<?php echo $ProductImage; ?>" alt="">
+                                        <img class="" src="<?php echo $ProductImage; ?>" alt="">
                                         <div class="over-layer">
                                             <div class="links">
                                                 <ul class="list-inline">

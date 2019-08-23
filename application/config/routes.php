@@ -131,3 +131,4 @@ $route['corporate-tours-package'] = 'pages/corporate_tours';
 $route['media'] = 'pages/media';
 $route['media_page2'] = 'pages/media_page2';//new page
 $route['media_page3'] = 'pages/media_page3';//new page
+$route['guest-testimonials-all'] = 'pages/guest_testimonials_all';

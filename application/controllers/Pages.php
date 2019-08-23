@@ -66,5 +66,14 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/media_page3');
 		$this->load->view('common/footer');
 	}
+	
+	public function guest_testimonials_all()
+	{
 
+		$head_data['title'] = "Guest Testimonials";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/guest_testimonials_all');
+		$this->load->view('common/footer');
+	}
 }

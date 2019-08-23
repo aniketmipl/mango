@@ -5465,3 +5465,44 @@ section,
 .form-control {
     width: 100% !important;
 }
+
+/*-------------------------
+testimonial page start
+-------------------------*/
+.testimonials .services-features .back-color {
+    background: #f7f7f7;
+    padding: 15px 20px;
+    box-shadow: 2px 5px 9px 0px #ccc;
+}
+.testimonials .services-features {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 40px;
+}
+.testimonials .services-features i {
+    font-size: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    margin-top: 0px;
+    color: #111111;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #0a672c;
+    color: #fff;
+    box-shadow: 2px 5px 9px 0px #ccc;
+}
+.services-style-one.testimonials {
+    padding: 0;
+}
+.testimonials .services-features h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+/*-------------------------
+end of testimonial page start
+-------------------------*/
