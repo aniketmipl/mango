@@ -210,6 +210,8 @@
                                 <li><a href="<?php echo base_url()?>GroupTours/group_japan">Japan</a></li>
                                 <!-- <li><a href="<?php echo base_url()?>GroupTours/group_mauritius">Mauritius</a></li> -->
                                 <li><a href="<?php echo base_url()?>GroupTours/group_asia">South East Asia</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_eastern_europe">Eastern Europe</a></li>
+                                <li><a href="<?php echo base_url()?>GroupTours/group_scandinavia">Scandinavia</a></li>
                             </ul>
                         </li>    
                         <li class="dropdown megamenu-fw customized_tour <?php echo ($controller =='CustomizedTours')?'active':'' ?>">
@@ -227,7 +229,9 @@
                                                             <li><a href="<?php echo base_url()?>CustomizedTours/customized_hyderabad">Hyderabad</a></li>
                                                             <li><a href="<?php echo base_url()?>CustomizedTours/customized_kashmir">Kashmir</a></li>
                                                             <li><a href="<?php echo base_url()?>CustomizedTours/customized_kerala">Kerala</a></li>
-                                                            <li><a href="<?php echo base_url()?>CustomizedTours/customized_karnataka">Karnataka</a></li>
+                                                            <li><a href="<?php echo base_url()?>CustomizedTours/customized_karnataka">Karnataka</a></li> 
+                                                            <li><a href="<?php echo base_url()?>CustomizedTours/customized_himachal">Himachal</a></li>
+
                                                         </div>
                                                         <div class="col-md-6 col-sm-12">
                                                             <li><a href="<?php echo base_url()?>CustomizedTours/customized_madhya_pradesh">Madhya Pradesh</a></li>
@@ -236,6 +240,7 @@
                                                             <li><a href="<?php echo base_url()?>CustomizedTours/customized_goa">Goa</a></li>
                                                             <li><a href="<?php echo base_url()?>CustomizedTours/customized_north_east">North East</a></li>
                                                             <li><a href="<?php echo base_url()?>CustomizedTours/customized_andhra_pradesh">Andhra Pradesh</a></li>
+                                                            <li><a href="<?php echo base_url()?>CustomizedTours/customized_orissa">Orissa</a></li>
                                                         </div>
                                                     </ul>
                                                 </div>
