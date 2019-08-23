@@ -13,7 +13,7 @@
 </div>
 <div class="clearfix"></div>
 <div class="page-header-container">
-            <img src="<?php echo base_url();?>assets/images/media-banner.jpg" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url();?>assets/images/testimonial-banner.jpg" class="desktop-image" alt="slider_image">
            
 </div>
 
@@ -101,7 +101,7 @@
                             <h4>T. N. AROLKAR</h4>
                             <p>We would like to thank you very much for the fun and memorable Glimpses of Europe trip from 04th June – 15th June 2018!
 I would like to thank you very much for all the efforts you have done, for the wonderful, streamlined tour we recently experienced with your organization. We really appreciate your support regarding the organization of our trip.</p>
-                             <a class="btn btn-default custom-btn-four my-btn-sm" href="#" role="button">Read More</a>
+                             <!-- <a class="btn btn-default custom-btn-four my-btn-sm" href="#" role="button">Read More</a> -->
                         </div>
                     </div>  
                 </div>  
