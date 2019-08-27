@@ -156,6 +156,11 @@ $route['tours/blissful-bali-honeymoon-special'] = 'tours/blissful_bali_honeymoon
 $route['tours/best-of-bali'] = 'tours/best_of_bali';
 $route['tours/best-of-sri-lanka'] = 'tours/best_of_sri_lanka';
 $route['tours/egypt-jewels'] = 'tours/egypt_jewels';
+$route['tours/spanish-delight'] = 'tours/spanish_delight';
+$route['tours/best-of-spain'] = 'tours/best_of_spain';
+$route['tours/british-columbia-canada'] = 'tours/british_columbia_canada';
+$route['tours/canadian-rockies'] = 'tours/canadian_rockies';
+$route['tours/eastern-canada'] = 'tours/eastern_canada';
 
 
 
