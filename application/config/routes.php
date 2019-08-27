@@ -161,8 +161,20 @@ $route['tours/best-of-spain'] = 'tours/best_of_spain';
 $route['tours/british-columbia-canada'] = 'tours/british_columbia_canada';
 $route['tours/canadian-rockies'] = 'tours/canadian_rockies';
 $route['tours/eastern-canada'] = 'tours/eastern_canada';
-
-
+$route['tours/gujarat-wildlife-and-pilgrimage'] = 'tours/gujarat_wildlife_and_pilgrimage';
+$route['tours/hills-and-meadows'] = 'tours/hills_and_meadows';
+$route['tours/kashmir-with-vaishnodevi'] = 'tours/kashmir_with_vaishnodevi';
+$route['tours/mesmerizing-south-karnataka'] = 'tours/mesmerizing_south_karnataka';
+$route['tours/mysore-ooty-kodai'] = 'tours/mysore_ooty_kodai';
+$route['tours/quick-break-karnataka'] = 'tours/quick_break_karnataka';
+$route['tours/classic-himachal'] = 'tours/classic_himachal';
+$route['tours/devbhumi-himachal'] = 'tours/devbhumi_himachal';
+$route['tours/scenic-madhya-pradesh'] = 'tours/scenic_madhya_pradesh';
+$route['tours/highlights-of-tamil-nadu'] = 'tours/highlights_of_tamil_nadu';
+$route['tours/darjeeling-pelling-gangtok'] = 'tours/darjeeling_pelling_gangtok';
+$route['tours/hyderabad-with-ramoji'] = 'tours/hyderabad_with_ramoji';
+$route['tours/hyderabad-with-srisailyam'] = 'tours/hyderabad_with_srisailyam';
+$route['tours/unique-orissa'] = 'tours/unique_orissa';
 
 
 //pages

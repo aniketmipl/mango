@@ -1582,6 +1582,303 @@ class Tours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
+	public function gujarat_wildlife_and_pilgrimage(){
+
+		$product_id ='69';
+		$product_code='GJ1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Gujarat";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Gujarat Wildlife and Pilgrimage";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function hills_and_meadows(){
+
+		$product_id ='84';
+		$product_code='JK2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Kashmir";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Hills and Meadows";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function kashmir_with_vaishnodevi(){
+
+		$product_id ='87';
+		$product_code='JK3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Kashmir";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Kashmir with Vaishnodevi";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function mesmerizing_south_karnataka(){
+
+		$product_id ='88';
+		$product_code='KA1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Karnataka";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Mesmerizing South Karnataka";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function mysore_ooty_kodai(){
+
+		$product_id ='89';
+		$product_code='KA2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Karnataka";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Mysore Ooty Kodai";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function quick_break_karnataka(){
+
+		$product_id ='92';
+		$product_code='KA3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Karnataka";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Quick Break Karnataka";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	
+	public function classic_himachal(){
+
+		$product_id ='93';
+		$product_code='HP1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Himachal";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Classic Himachal";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function devbhumi_himachal(){
+
+		$product_id ='95';
+		$product_code='HP2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Himachal";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Devbhumi Himachal";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function scenic_madhya_pradesh(){
+
+		$product_id ='49';
+		$product_code='MP3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Madhya Pradesh";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Scenic Madhya Pradesh";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function highlights_of_tamil_nadu(){
+
+		$product_id ='81';
+		$product_code='TN1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Tamil Nadu";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Highlights of Tamil Nadu";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function goa(){
+
+		$product_id ='82';
+		$product_code='GO1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Goa";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Goa";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function darjeeling_pelling_gangtok(){
+
+		$product_id ='108';
+		$product_code='NE1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="North East";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Darjeeling Pelling Gangtok";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function hyderabad_with_ramoji(){
+
+		$product_id ='90';
+		$product_code='AP1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Andhra Pradesh";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Hyderabad with Ramoji";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	
+	public function hyderabad_with_srisailyam(){
+
+		$product_id ='91';
+		$product_code='AP2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Andhra Pradesh";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Hyderabad with Srisailyam";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function unique_orissa(){
+
+		$product_id ='96';
+		$product_code='OD1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['sector']="Orissa";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Unique Orissa";
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}	
+	
+	
 	public function mpdf(){
 		//load mPDF library
 		@$this->load->library('m_pdf');
