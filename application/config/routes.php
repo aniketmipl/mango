@@ -149,6 +149,16 @@ $route['tours/hong-kong'] = 'tours/hong_kong';
 $route['tours/dubai-abu-dhabi-luxury'] = 'tours/dubai_abu_dhabi_luxury';
 $route['tours/heaven-on-earth'] = 'tours/heaven_on_earth';
 $route['tours/singapore-fully-loaded'] = 'tours/singapore_fully_loaded';
+$route['tours/basic-singapore'] = 'tours/basic_singapore';
+$route['tours/basic-singapore-with-universal-studios'] = 'tours/basic_singapore_with_universal_studios';
+$route['tours/best-of-dubai'] = 'tours/best_of_dubai';
+$route['tours/blissful-bali-honeymoon-special'] = 'tours/blissful_bali_honeymoon_special';
+$route['tours/best-of-bali'] = 'tours/best_of_bali';
+$route['tours/best-of-sri-lanka'] = 'tours/best_of_sri_lanka';
+$route['tours/egypt-jewels'] = 'tours/egypt_jewels';
+
+
+
 
 //pages
 $route['about-us'] = 'pages/about_us';
