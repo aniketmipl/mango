@@ -175,6 +175,8 @@ $route['tours/darjeeling-pelling-gangtok'] = 'tours/darjeeling_pelling_gangtok';
 $route['tours/hyderabad-with-ramoji'] = 'tours/hyderabad_with_ramoji';
 $route['tours/hyderabad-with-srisailyam'] = 'tours/hyderabad_with_srisailyam';
 $route['tours/unique-orissa'] = 'tours/unique_orissa';
+$route['tours/eastern-europe'] = 'tours/eastern_europe';
+$route['tours/eastern-europe-express'] = 'tours/eastern_europe_express';
 
 
 //pages
