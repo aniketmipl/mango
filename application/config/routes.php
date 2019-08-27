@@ -74,6 +74,7 @@ $route['customized-holidays/europe/'] ='CustomizedTours/customized_europe';
 $route['customized-holidays/nepal'] ='CustomizedTours/customized_nepal';
 $route['customized-holidays/russia'] ='CustomizedTours/customized_russia';
 $route['customized-holidays/south-east-asia'] ='CustomizedTours/customized_asia';
+$route['customized-holidays/south-east-asia'] ='CustomizedTours/customized_asia';
 
 
 
@@ -147,6 +148,7 @@ $route['tours/greek-voyage'] = 'tours/greek_voyage';
 $route['tours/hong-kong'] = 'tours/hong_kong';
 $route['tours/dubai-abu-dhabi-luxury'] = 'tours/dubai_abu_dhabi_luxury';
 $route['tours/heaven-on-earth'] = 'tours/heaven_on_earth';
+$route['tours/singapore-fully-loaded'] = 'tours/singapore_fully_loaded';
 
 //pages
 $route['about-us'] = 'pages/about_us';
