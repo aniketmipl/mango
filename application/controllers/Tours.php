@@ -601,8 +601,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['slider_image'] = 'fit/MR1/marvellous-mauritius-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/MR1/marvellous-mauritius.jpg';
 		$filter_data['sector']="Mauritius";
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "MARVELLOUS MAURITIUS";
@@ -613,15 +613,15 @@ class Tours extends CI_Controller {
 	} 
 
 	public function mauritius_break(){
-		$product_id ='47';
-		$product_code='MR1';
+		$product_id ='48';
+		$product_code='MR2';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
+		$filter_data['slider_image'] = 'fit/MR2/mauritius-break-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/MR2/mauritius-break.jpg';
 		$filter_data['sector']="Mauritius";
 		$filter_data['sector_path']="CustomizedTours/custom_africa";
 		$head_data['title'] = "MARVELLOUS MAURITIUS";
@@ -693,9 +693,9 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
-		$filter_data['sector']="Asia";
+		$filter_data['slider_image'] = 'fit/RU1/discover-russia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/RU1/discover-russia.jpg';
+		$filter_data['sector']="Russia";
 		$filter_data['sector_path']="CustomizedTours/custom_asia";
 		$head_data['title'] = "DISCOVER RUSSIA TOUR";
 		$this->load->view('common/header',$head_data);
@@ -711,9 +711,9 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA1/south-africa-with-victoria-falls-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA1/south-africa-with-victoria-falls.jpg';
-		$filter_data['sector']="Asia";
+		$filter_data['slider_image'] = 'fit/RU2/best-of-russia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/RU2/best-of-russia.jpg';
+		$filter_data['sector']="Russia";
 		$filter_data['sector_path']="CustomizedTours/custom_asia";
 		$head_data['title'] = "BEST OF RUSSIA";
 		$this->load->view('common/header',$head_data);
@@ -1037,8 +1037,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/ML1/maldives-fun-island-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/ML1/maldives-fun-island.jpg';
 		$filter_data['sector']="Maldives";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "MALDIVES FUN ISLAND";
@@ -1055,8 +1055,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/ML2/maldives-paradise-island-resort-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/ML2/maldives-paradise-island-resort.jpg';
 		$filter_data['sector']="Maldives";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "MALDIVES PARADISE ISLAND RESORT";
@@ -1074,8 +1074,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/ML3/maldives-olhuveli-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/ML3/maldives-olhuveli.jpg';
 		$filter_data['sector']="Maldives";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "MALDIVES OLHUVELI";
@@ -1149,8 +1149,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/TU1/best-of-turkey-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/TU1/best-of-turkey.jpg';
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "BEST OF TURKEY";
@@ -1167,8 +1167,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/TU2/turkish-delight-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/TU2/turkish-delight.jpg';
 		$filter_data['sector']="Europe";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "TURKISH DELIGHT";
@@ -1494,8 +1494,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/SP1/Spanish-delight-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SP1/Spanish-delight.jpg';
 		$filter_data['sector']="Spain";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "SPANISH DELIGHT";
@@ -1514,8 +1514,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/SP2/best-of-spain-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SP2/best-of-spain.jpg';
 		$filter_data['sector']="Spain";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "BEST OF SPAIN";
