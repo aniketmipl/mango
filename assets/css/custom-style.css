@@ -1687,3 +1687,30 @@ background: #e8e6e6;
 .hover-box .over-layer i{
     display: block;
 }
+
+/*video testimonials page*/
+.YouTubePopUp-Wrap{
+    background-color: rgba(0, 0, 0, 0.62);
+}
+.YouTubePopUp-Close{
+    background: url(../../assets/images/close.png) no-repeat;
+    background-size: 24px 24px;
+    -webkit-background-size: 24px 24px;
+
+}
+.testimonials .video-content i {
+    /* font-size: 200px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    opacity: 0;
+    padding: 15% 21%; */
+    font-size: 76px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    opacity: 0;
+    padding: 28% 37%;
+}
+
+/*end video testimonials page*/

@@ -272,9 +272,9 @@
                         <li><a href="<?php echo base_url()?>media#section"><i class="ion-arrow-left-c"></i></a></li>
                         <li><a href="<?php echo base_url()?>media#section">1</a></li>
                         <li><a class="active" href="#">2</a></li>
-                        <li><a href="<?php echo base_url()?>media_page3#section">3</a></li>
+                        <li><a href="<?php echo base_url()?>media-page3#section">3</a></li>
                         <!-- <li><a href="#">4</a></li> -->
-                        <li><a href="<?php echo base_url()?>media_page3#section"><i class="ion-arrow-right-c"></i></a></li>
+                        <li><a href="<?php echo base_url()?>media-page3#section"><i class="ion-arrow-right-c"></i></a></li>
                     </ul>
                 </div>
             </div>

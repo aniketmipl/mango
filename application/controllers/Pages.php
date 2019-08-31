@@ -76,4 +76,41 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/guest_testimonials_all');
 		$this->load->view('common/footer');
 	}
+
+	public function guest_testimonials_videos()
+	{
+
+		$head_data['title'] = "Guest Testimonials";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/guest_testimonials_videos');
+		$this->load->view('common/footer');
+	}
+	public function guest_testimonials_videos_page2()
+	{
+
+		$head_data['title'] = "Guest Testimonials";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/guest_testimonials_videos_page2');
+		$this->load->view('common/footer');
+	}
+	public function guest_testimonials_videos_page3()
+	{
+
+		$head_data['title'] = "Guest Testimonials Videos";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/guest_testimonials_videos_page3');
+		$this->load->view('common/footer');
+	}
+	public function destination_videos()
+	{
+
+		$head_data['title'] = "Destination Videos";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/destination_videos');
+		$this->load->view('common/footer');
+	}
 }

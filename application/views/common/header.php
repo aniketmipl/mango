@@ -147,7 +147,7 @@
                                 <li><a href="https://www.facebook.com/MangoHolidays/" target="_blank"><i class="fa fa-facebook"></i><span></span></a></li>
                                 <li><a href="https://www.instagram.com/mangoholidays/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                                 <li><a href="https://twitter.com/mangoholidays" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li class="yt-tpcon"><a href="#" target="_blank"><i class="fa fa-youtube-play fa-lg"></i></a></li>
+                                <li class="yt-tpcon"><a href="https://www.youtube.com/channel/UCUl_GfhPaCEidqnHeff0njQ" target="_blank"><i class="fa fa-youtube-play fa-lg"></i></a></li>
                                 <!-- <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li> -->
                             </ul>
                         </div>
@@ -299,15 +299,15 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="<?php echo base_url()?>media">Blogs / Advertorials</a></li>
                                 <!-- <li><a class="dropdown-item" href="#">Advertorials</a></li> -->
-                                <li><a class="dropdown-item" href="#">Destination Videos</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url()?>destination-videos">Destination Videos</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
+                        <li class="dropdown <?php echo ($controller =='guest-testimonials-all')?'active':''?>">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guest Corner </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Guest Feedback Form</a></li>
                                     <li><a class="dropdown-item" href="<?php echo base_url()?>guest-testimonials-all">Testimonials</a></li>
-                                    <li><a class="dropdown-item" href="#">Testimonials Video's</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo base_url()?>guest-testimonials-videos">Testimonials Video's</a></li>
                                 </ul>
                         </li>
                         <li class="<?php echo ($controller =='contact-us')?'active':''?>">
