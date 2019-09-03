@@ -1131,8 +1131,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/GJ1/gujarat-wildlife-and-pilgrimage-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GJ1/gujarat-special-wildlife-and-pilgrimage.jpg';
 		$filter_data['sector']="Gujarat";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "Gujarat Special Wildlife and Pilgrimage";
@@ -1281,8 +1281,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/JK1/heaven-on-earth-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/JK1/Heaven-on-Earth.jpg';
 		$filter_data['sector']="Kashmir";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "HEAVEN ON EARTH";
@@ -1611,8 +1611,8 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SA2/spectacular-south-africa-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SA2/spectacular-south-africa.jpg';
+		$filter_data['slider_image'] = 'fit/JK2/Hills-and-Meadows-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/JK2/Hills-and-Meadows.jpg';
 		$filter_data['sector']="Kashmir";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "Hills and Meadows";
