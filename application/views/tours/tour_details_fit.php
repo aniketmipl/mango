@@ -5,6 +5,8 @@
 
 </style>
 
+
+<meta name="description" content="">
 <!--1st part - code to print itenary from api for Donload/Print Itenary PDF-->
 <?php 
         
