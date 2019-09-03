@@ -3,52 +3,52 @@
 
 function onSubmit_Feedback(){
 	
-	if (document.Enquiry_Feedback.Contact_Person.value  == "")
+	if (document.Enquiry_Feedback.contact_cerson.value  == "")
 	{
 		alert("Please enter Contact Person Name .");
-		document.Enquiry_Feedback.Contact_Person.focus()
+		document.Enquiry_Feedback.contact_person.focus()
 		return false;
 	}
 	
-	if (document.Enquiry_Feedback.TelNo.value  == "")
+	if (document.Enquiry_Feedback.telNo.value  == "")
 	{
 		alert("Please enter Telephone No .");
-		document.Enquiry_Feedback.TelNo.focus()
+		document.Enquiry_Feedback.telNo.focus()
 		return false;
 	}
-	if (document.Enquiry_Feedback.TelNo.value!="")
+	if (document.Enquiry_Feedback.telNo.value!="")
 	{
-		var tel= parseInt(document.Enquiry_Feedback.TelNo.value); 
+		var tel= parseInt(document.Enquiry_Feedback.telNo.value); 
 			if (isNaN(tel)) 
 				{  
 				alert("Enter Telephone Number Correctly");
-				document.Enquiry_Feedback.TelNo.focus();
+				document.Enquiry_Feedback.telNo.focus();
 				return false
 				} 
 	}
 		
-	if (document.Enquiry_Feedback.From.value  == "")
+	if (document.Enquiry_Feedback.from.value  == "")
 	{
 		alert("Please enter Email Address.");
-		document.Enquiry_Feedback.From.focus()
+		document.Enquiry_Feedback.from.focus()
 		return false;
 	}
-    if (document.Enquiry_Feedback.From.value  == "")
+    if (document.Enquiry_Feedback.from.value  == "")
 	{
 		alert("Please enter Email Address.");
-		document.Enquiry_Feedback.From.focus()
+		document.Enquiry_Feedback.from.focus()
 		return false;
 	}
-	var tempEmail= document.Enquiry_Feedback.From.value;
+	var tempEmail= document.Enquiry_Feedback.from.value;
 	var exclude=/[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
 	var check=/@[\w\-]+\./;
 	var checkend=/\.[a-zA-Z]{2,3}$/;
-	if (document.Enquiry_Feedback.From.value!="")
+	if (document.Enquiry_Feedback.from.value!="")
 	{
 	if (tempEmail.search(exclude)!=-1||tempEmail.search(check)==-1||tempEmail.search(checkend)==-1)
 	{
 		alert("Can you check your Email Address again?");
-		document.Enquiry_Feedback.From.focus();
+		document.Enquiry_Feedback.from.focus();
 		return false
 	}
 	}
@@ -175,13 +175,13 @@ var randomnumber_Feedback= <?= $mynumber_Feedback?>;
                                 <div class="small-border" style="margin-bottom:20px;"></div>
                             </div>
                             <div class="input-field col-sm-4">
-                                <input class="set-input validate" name="Contact_Person" placeholder="Your Name *" id="Contact_Person" type="text">
+                                <input class="set-input validate" name="contact_person" placeholder="Your Name *" id="contact_person" type="text">
                             </div>
                             <div class="input-field col-sm-4">
-                                <input class="set-input validate" name="TelNo" placeholder="Phone *" id="TelNo" type="text">
+                                <input class="set-input validate" name="telNo" placeholder="Phone *" id="telNo" type="text">
                             </div>
                             <div class="input-field col-sm-4">
-                                <input class="set-input validate" name="From" placeholder="Email *" id="From" type="text">
+                                <input class="set-input validate" name="from" placeholder="Email *" id="from" type="text">
                             </div>
 
                             <div class="col-md-12"><hr/></div>
