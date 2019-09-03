@@ -20,7 +20,9 @@ class CustomizedTours extends CI_Controller {
 		$data['sector_name']=$sector;
 		$data['gt_image'] = 'images/tours/africa/main.jpg';
 
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}*/
@@ -33,7 +35,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Europe Customized Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -46,7 +50,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "NEW ZEALAND DISCOVERY Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -59,7 +65,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "SOUTH AFRICA WITH VICTORIA FALLS Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -71,7 +79,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "SOUTH AFRICA WITH VICTORIA FALLS Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -84,7 +94,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "BLISSFUL BALI Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -96,7 +108,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Splendors of Madhya Pradesh Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -108,23 +122,14 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Mauritius Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
 
-	// public function customized_dubia()
-	// {
-	// 	$sector ='Dubai'; //for Api
-
-	// 	$data['api_result']=$this->call_api($sector);
-	// 	$head_data['title'] = "Dubai Tour| Mango Holidays";
-	// 	$data['sector_name']=$sector;
-		
-	// 	$this->load->view('common/header',$head_data);
-	// 	$this->load->view('customized_tours/view',$data);
-	// 	$this->load->view('common/footer');
-	// }
+	
 	public function customized_dubai()
 	{
 		$sector ='Dubai'; //for Api
@@ -133,7 +138,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Dubai Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -145,7 +152,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Dubai Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -157,7 +166,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Scandinavia Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -169,7 +180,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Maldives Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -182,7 +195,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Gujarat Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -194,7 +209,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Hyderabad Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -206,7 +223,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Kashmir Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -218,7 +237,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Kerala Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -230,7 +251,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Nepal Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -242,7 +265,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Sri Lanka Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -254,7 +279,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Rajasthan Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -266,7 +293,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Tamil Nadu Tour | Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -278,7 +307,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Goa Tour | Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -290,7 +321,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "North East Tour | Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -302,7 +335,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "karnataka Tour | Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	} 
@@ -314,7 +349,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "North East Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -327,7 +364,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Bali Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -339,7 +378,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Egypt Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -351,7 +392,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Himachal Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -364,7 +407,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Orissa Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -376,7 +421,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Turkey Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -388,7 +435,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Azerbaijan Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -400,7 +449,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Spain Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -412,7 +463,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Russia Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -424,7 +477,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Greece Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -436,7 +491,9 @@ class CustomizedTours extends CI_Controller {
 		$head_data['title'] = "Canada Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'FIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
