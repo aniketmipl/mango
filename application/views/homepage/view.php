@@ -521,7 +521,7 @@
                                 <p>Take a video tour of our satisfied clients.
                                 </p>
                                 <!-- <a href="https://youtu.be/SQg5bOPzEfQ" class="demo" id="play-button"><span><i class="icon icon-Play"></i></span></a> -->
-                                <a href="#" class="demo" id="play-button"><span><i class="icon icon-Play"></i></span></a>
+                                <a href="<?php echo base_url();?>guest-testimonials-videos" class="demo" id="play-button"><span><i class="icon icon-Play"></i></span></a>
                             </div>
                         </div>
                     </div>

@@ -775,7 +775,8 @@
         font-weight: 600;
     }
     .tour-carousel-ltr h3{
-        font-size: 16px;
+        /* font-size: 16px; */
+        font-size: 18px;
         font-weight: 600;
     }
     .testimonial-carousel .item blockquote{
