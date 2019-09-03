@@ -957,6 +957,9 @@ nav.bootsnav .megamenu-content .col-menu {
 .breadcrumbs {
     display: none;
 }
+.no-padding-xs{
+    padding:0;
+}
 
 }
 
@@ -1715,3 +1718,19 @@ background: #e8e6e6;
 }
 
 /*end video testimonials page*/
+
+/*Guest feedback form*/
+.feedback-form .input-group-addon{
+    padding: 12px 12px;
+    width: auto;
+    display: inline-block;
+}
+.feedback-form p{
+    margin-bottom:5px;
+    margin-top:8px;
+}
+
+.contact-from.feedback-form .input-field input{
+    margin-bottom:10px;
+}
+/*end Guest feedback form*/
