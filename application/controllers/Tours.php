@@ -1669,7 +1669,7 @@ class Tours extends CI_Controller {
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/KA2/Mysore-Ooty-Kodai-banner.jpg';
+		$filter_data['slider_image'] = 'fit/KA2/mysore-ooty-kodai-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/KA2/Mysore-Ooty-Kodai.jpg';
 		$filter_data['sector']="Karnataka";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
