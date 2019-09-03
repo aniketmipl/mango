@@ -294,7 +294,7 @@
                         <!-- <li>
                             <a href="tour-details.html">Media</a>
                         </li> -->
-                        <li class="dropdown <?php echo ($controller =='media')?'active':''?>">
+                        <li class="dropdown <?php if (($controller =='media')|| ($controller =='destination-videos')){ echo 'active';} ?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="<?php echo base_url()?>media">Blogs / Advertorials</a></li>
@@ -302,7 +302,7 @@
                                 <li><a class="dropdown-item" href="<?php echo base_url()?>destination-videos">Destination Videos</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown <?php echo ($controller =='guest-testimonials-all')?'active':''?>">
+                        <li class="dropdown <?php if (($controller =='guest-testimonials-videos')|| ($controller =='guest-testimonials-all')|| ($controller =='feedback')){ echo 'active';} ?>">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guest Corner </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="<?php echo base_url()?>feedback">Guest Feedback Form</a></li>
