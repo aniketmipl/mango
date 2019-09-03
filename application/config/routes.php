@@ -193,3 +193,4 @@ $route['guest-testimonials-videos'] = 'pages/guest_testimonials_videos';
 $route['guest-testimonials-videos-page2'] = 'pages/guest_testimonials_videos_page2';
 $route['guest-testimonials-videos-page3'] = 'pages/guest_testimonials_videos_page3';
 $route['destination-videos'] = 'pages/destination_videos';
+$route['feedback'] = 'pages/feedback';

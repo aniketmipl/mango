@@ -305,7 +305,7 @@
                         <li class="dropdown <?php echo ($controller =='guest-testimonials-all')?'active':''?>">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guest Corner </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Guest Feedback Form</a></li>
+                                    <li><a class="dropdown-item" href="<?php echo base_url()?>feedback">Guest Feedback Form</a></li>
                                     <li><a class="dropdown-item" href="<?php echo base_url()?>guest-testimonials-all">Testimonials</a></li>
                                     <li><a class="dropdown-item" href="<?php echo base_url()?>guest-testimonials-videos">Testimonials Video's</a></li>
                                 </ul>

@@ -113,4 +113,13 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/destination_videos');
 		$this->load->view('common/footer');
 	}
+	public function feedback()
+	{
+
+		$head_data['title'] = "Guest Feedback Form";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/feedback');
+		$this->load->view('common/footer');
+	}
 }

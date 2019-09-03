@@ -130,7 +130,7 @@ var randomnumber= <?= $mynumber?>;
 			<a href="https://www.facebook.com/MangoHolidays/" target="_blank"><i class="fa fa-facebook"></i><span></span></a>&nbsp;&nbsp;
             <a href="https://www.instagram.com/mangoholidays/" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
             <a href="https://twitter.com/mangoholidays" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-            <a href="#" target="_blank"><i class="fa fa-youtube fa-lg"></i></a>
+            <a href="https://www.youtube.com/channel/UCUl_GfhPaCEidqnHeff0njQ" target="_blank"><i class="fa fa-youtube fa-lg"></i></a>
 			<!-- <a href="#"><i class="fa fa-facebook"></i><span></span></a> &nbsp;&nbsp;
 			<a href="#"><i class="fa fa-google-plus"></i></a> &nbsp;&nbsp;
             <a href="#"><i class="fa fa-twitter"></i></a> &nbsp;&nbsp;
