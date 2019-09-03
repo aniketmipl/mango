@@ -17,7 +17,9 @@ class GroupTours extends CI_Controller {
 		$data['sector_name']=$sector;
 		// $data['gt_image'] = 'images/tours/africa/main.jpg';
 		
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'GIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -30,7 +32,9 @@ class GroupTours extends CI_Controller {
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/asia/main.jpg';
 
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'GIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -43,7 +47,9 @@ class GroupTours extends CI_Controller {
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/america/main.jpg';
 
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'GIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -56,7 +62,9 @@ class GroupTours extends CI_Controller {
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/dubai/main.jpg';
 
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'GIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -70,7 +78,9 @@ class GroupTours extends CI_Controller {
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/europe/main.jpg';
 
-		$this->load->view('common/header',$head_data);
+		$head_data['sector'] = $data['sector_name'];
+$head_data['travel_type'] = 'GIT';
+$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
