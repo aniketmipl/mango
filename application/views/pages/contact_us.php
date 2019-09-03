@@ -1,55 +1,55 @@
 
 <script type="text/javascript">
 
-function onSubmit(){
+function onSubmit2(){
 	
-	if (document.Enquiry.contact_person.value  == "")
+	if (document.Enquiry2.contact_person.value  == "")
 	{
 		alert("Please enter Contact Person Name .");
-		document.Enquiry.contact_person.focus()
+		document.Enquiry2.contact_person.focus()
 		return false;
 	}
 	
-	if (document.Enquiry.telNo.value  == "")
+	if (document.Enquiry2.telNo.value  == "")
 	{
 		alert("Please enter Telephone No .");
-		document.Enquiry.telNo.focus()
+		document.Enquiry2.telNo.focus()
 		return false;
 	}
-	if (document.Enquiry.telNo.value!="")
+	if (document.Enquiry2.telNo.value!="")
 	{
-		var tel= parseInt(document.Enquiry.telNo.value); 
+		var tel= parseInt(document.Enquiry2.telNo.value); 
 			if (isNaN(tel)) 
 				{  
 				alert("Enter Telephone Number Correctly");
-				document.Enquiry.telNo.focus();
+				document.Enquiry2.telNo.focus();
 				return false
 				} 
 	}
 		
-	if (document.Enquiry.from.value  == "")
+	if (document.Enquiry2.from.value  == "")
 	{
 		alert("Please enter Email Address.");
-		document.Enquiry.from.focus()
+		document.Enquiry2.from.focus()
 		return false;
 	}
-	var tempEmail= document.Enquiry.from.value;
+	var tempEmail= document.Enquiry2.from.value;
 	var exclude=/[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
 	var check=/@[\w\-]+\./;
 	var checkend=/\.[a-zA-Z]{2,3}$/;
-	if (document.Enquiry.from.value!="")
+	if (document.Enquiry2.from.value!="")
 	{
 	if (tempEmail.search(exclude)!=-1||tempEmail.search(check)==-1||tempEmail.search(checkend)==-1)
 	{
 		alert("Can you check your Email Address again?");
-		document.Enquiry.from.focus();
+		document.Enquiry2.from.focus();
 		return false
 	}
 	}	
-	if (document.Enquiry.requirement_details.value  == "")
+	if (document.Enquiry2.requirement_details.value  == "")
 	{
 		alert("Please enter Requirement Details .");
-		document.Enquiry.requirement_details.focus()
+		document.Enquiry2.requirement_details.focus()
 		return false;
 	}		
 
@@ -57,7 +57,7 @@ function onSubmit(){
 	// Validating
 function CheckData()
 {
-with(document.Enquiry)
+with(document.Enquiry2)
 {
 if(q.value != randomnumber)
 {
@@ -152,7 +152,7 @@ var randomnumber= <?= $mynumber?>;
 							<h4 style="padding-bottom: 12px;">Send Your Enquiry / Requirement </h4>
 							<div class="small-border"></div>
 						
-						<form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
+						<form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry2" onSubmit="return onSubmit2()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
 						
                                     <input name="redirect" type="hidden">
               						<input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
