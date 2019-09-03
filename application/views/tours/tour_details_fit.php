@@ -1,3 +1,11 @@
+<?php 
+$sector = $complete_data->SectorName;
+?>
+
+<meta name="description" content="Mango Holidays providing <?php echo $sector ;?> Customized Tours, <?php echo $sector ;?> Vacation Tour, <?php echo $sector ;?> Customized Tours Packages, <?php echo $sector ;?> Vacation Tour Packages from Mumbai, Pune, Thane, India"> 
+
+<meta name="keywords" content="customised <?php echo $sector ;?> tour, customised <?php echo $sector ;?> tour packages, customised <?php echo $sector ;?> vacation tour, customised <?php echo $sector ;?> vacation tour packages, customised <?php echo $sector ;?> tour from Mumbai, customised <?php echo $sector ;?> tour from Pune,customised <?php echo $sector ;?> tour from Thane, customised <?php echo $sector ;?> tour from India ,customised <?php echo $sector ;?> tour packages from Mumbai, customised <?php echo $sector ;?> tour packages from Pune, customised <?php echo $sector ;?> tour packages from Thane, customised <?php echo $sector ;?> tour packages from India, customised <?php echo $sector ;?> vacation tour from Mumbai, customised <?php echo $sector ;?> vacation tour from Pune, customised <?php echo $sector ;?> vacation tour from Thane, customised <?php echo $sector ;?> vacation tour from India, customised <?php echo $sector ;?> vacation tour packages from Mumbai, customised <?php echo $sector ;?> vacation tour packages from Pune,">   
+
 <style type="text/css">
         .footer_contact{
             line-height: 0.8;
@@ -5,6 +13,8 @@
 
 </style>
 
+
+<meta name="description" content="">
 <!--1st part - code to print itenary from api for Donload/Print Itenary PDF-->
 <?php 
         

@@ -1,3 +1,9 @@
+<?php 
+$sector = $complete_data->SectorName;
+?>
+
+<meta name="description" content="Mango Holidays providing <?php echo $sector ;?> Group Tour Packages, <?php echo $sector ;?> Tour, <?php echo $sector ;?> Tour Group Tour Packages, <?php echo $sector ;?> Tour Packages from Mumbai, Thane, Pune, India">    
+
 <style type="text/css">
         .footer_contact{
             line-height: 0.8;
