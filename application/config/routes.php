@@ -55,6 +55,21 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 //menu links
+
+                             //Group Tours
+$route['group-tour-packages/africa'] = 'GroupTours/group_africa';
+$route['group-tour-packages/america'] = 'GroupTours/group_africa';
+$route['group-tour-packages/australia-new-zealand'] = 'GroupTours/group_australiaandnewzealand';
+$route['group-tour-packages/dubai'] = 'GroupTours/group_dubai';
+$route['group-tour-packages/europe'] = 'GroupTours/group_europe';
+$route['group-tour-packages/japan'] = 'GroupTours/group_japan';
+$route['group-tour-packages/south-east-asia'] = 'GroupTours/group_asia';
+$route['group-tour-packages/eastern_europe'] = 'GroupTours/group_eastern_europe';
+$route['group-tour-packages/scandinavia'] = 'GroupTours/group_scandinavia';
+
+
+                           //customized tours
+
 $route['customized-holidays/india/andaman'] ='/CustomizedTours/customized_andaman';
 $route['customized-holidays/india/gujarat'] ='CustomizedTours/customized_gujarat';
 $route['customized-holidays/india/himachal-pradesh'] ='CustomizedTours/customized_himachal';
@@ -65,6 +80,13 @@ $route['customized-holidays/india/kerala'] ='CustomizedTours/customized_kerala';
 $route['customized-holidays/india/madhya-pradesh'] ='CustomizedTours/customized_madhya_pradesh';
 $route['customized-holidays/india/kerala'] ='CustomizedTours/customized_kerala';
 $route['customized-holidays/india/rajasthan'] ='CustomizedTours/customized_rajasthan';
+
+
+
+
+
+//Menu Links End
+
 
 //International customized tours
 $route['customized-holidays/africa'] ='CustomizedTours/customized_africa';
