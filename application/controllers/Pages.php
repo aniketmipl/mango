@@ -122,4 +122,13 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/feedback');
 		$this->load->view('common/footer');
 	}
+	public function careers()
+	{
+
+		$head_data['title'] = "Career Page";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/careers');
+		$this->load->view('common/footer');
+	}
 }
