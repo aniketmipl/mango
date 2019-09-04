@@ -16,7 +16,7 @@
 </div>
 <div class="clearfix"></div>
 <div class="page-header-container">
-            <img src="<?php echo base_url();?>assets/images/contact-banner.jpg" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url();?>assets/images/feedback-banner.jpg" class="desktop-image" alt="slider_image">
 			
 			
 </div>
@@ -27,8 +27,9 @@
 <div class="container" style="padding-top:60px;">
 	<div class="row">
 	<div class="col-md-12">
-                    <div class="contact-from feedback-form" style="box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.15), 0 4px 15px 0 rgba(0, 0, 0, 0.15);">
-                        <h4>Dear Guest,</h4>
+                    <div class="contact-from feedback-form" style="box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.15), 0 4px 15px 0 rgba(0, 0, 0, 0.15); padding: 3% 2% 5% 2%;">
+                        <h4 style="margin-bottom:2%;">Dear Guest,</h4>
+                        
                         <p>
                         Thank you for giving us the opportunity to serve you. We request you to spare some of your valuable time to share your experience with us. Your feedback will go a long way in helping us serve you better. Looking forward to having you holiday with us again.
                         </p>
@@ -336,14 +337,16 @@
                                 <div class="col-md-12 mt-20"></div>
                                 <p><b>If yes, then kindly share the names of 2 persons you would like to recommend Mango Holidays to:</b> </p>
                                 <div class="input-field col-sm-6 col-xs-12 no-padding">
-                                    <input class="set-input validate" name="Contact_Person_Reference_1" placeholder="Your Name *" id="Contact_Person_Reference_1" type="text">
-                                    <input class="set-input validate" name="TelNo_Reference_1" placeholder="Phone *" id="TelNo_Reference_1" type="text">
-                                    <input class="set-input validate" name="Email_Reference_1" placeholder="Email *" id="Email_Reference_1" type="text">
+                                    <p>1.</p>
+                                    <input class="set-input validate" name="Contact_Person_Reference_1" placeholder="Name" id="Contact_Person_Reference_1" type="text">
+                                    <input class="set-input validate" name="TelNo_Reference_1" placeholder="Phone" id="TelNo_Reference_1" type="text">
+                                    <input class="set-input validate" name="Email_Reference_1" placeholder="Email" id="Email_Reference_1" type="text">
                                 </div>
                                 <div class="input-field col-sm-6 col-xs-12  no-padding-xs">
-                                    <input class="set-input validate" name="Contact_Person_Reference_2" placeholder="Your Name *" id="Contact_Person_Reference_2" type="text">
-                                    <input class="set-input validate" name="TelNo_Reference_2" placeholder="Phone *" id="TelNo_Reference_2" type="text">
-                                    <input class="set-input validate" name="Email_Reference_2" placeholder="Email *" id="Email_Reference_2" type="text">
+                                    <p>2.</p>
+                                    <input class="set-input validate" name="Contact_Person_Reference_2" placeholder="Name" id="Contact_Person_Reference_2" type="text">
+                                    <input class="set-input validate" name="TelNo_Reference_2" placeholder="Phone" id="TelNo_Reference_2" type="text">
+                                    <input class="set-input validate" name="Email_Reference_2" placeholder="Email" id="Email_Reference_2" type="text">
                                 </div>
                                 <!----->
                                 <div class="col-md-12 mt-20"></div>
