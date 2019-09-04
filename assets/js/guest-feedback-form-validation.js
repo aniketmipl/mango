@@ -82,26 +82,61 @@ function onSubmit_Feedback(){
 		return false;
 	}
 
-	if (document.Enquiry_Feedback.requirement_details.value  == "")
+	// if (document.Enquiry_Feedback.requirement_details.value  == "")
+	// {
+	// 	alert("Please enter Requirement Details .");
+	// 	document.Enquiry_Feedback.requirement_details.focus()
+	// 	return false;
+	// }
+	
+		var tel= parseInt(document.Enquiry_Feedback.TelNo_Reference_1.value); 
+			if (isNaN(tel)) 
+				{  
+				alert("Enter Telephone Number of First Reference Correctly");
+				document.Enquiry_Feedback.TelNo_Reference_1.focus();
+				return false
+				} 
+	
+		
+	
+	var tempEmail= document.Enquiry_Feedback.Email_Reference_1.value;
+	var exclude=/[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
+	var check=/@[\w\-]+\./;
+	var checkend=/\.[a-zA-Z]{2,3}$/;
+	if (document.Enquiry_Feedback.Email_Reference_1.value!="")
 	{
-		alert("Please enter Requirement Details .");
-		document.Enquiry_Feedback.requirement_details.focus()
-		return false;
-	}		
+	if (tempEmail.search(exclude)!=-1||tempEmail.search(check)==-1||tempEmail.search(checkend)==-1)
+	{
+		alert("Can you check your Email Address of First Reference  again?");
+		document.Enquiry_Feedback.Email_Reference_1.focus();
+		return false
+	}
+	}
 
-	return  CheckData_Feedback();
-	// Validating
-function CheckData_Feedback()
+	var tel= parseInt(document.Enquiry_Feedback.TelNo_Reference_2.value); 
+	if (isNaN(tel)) 
+		{  
+		alert("Enter Telephone Number of Second Reference Correctly");
+		document.Enquiry_Feedback.TelNo_Reference_2.focus();
+		return false
+		} 
+
+
+
+var tempEmail= document.Enquiry_Feedback.Email_Reference_2.value;
+var exclude=/[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
+var check=/@[\w\-]+\./;
+var checkend=/\.[a-zA-Z]{2,3}$/;
+if (document.Enquiry_Feedback.Email_Reference_2.value!="")
 {
-with(document.Enquiry_Feedback)
+if (tempEmail.search(exclude)!=-1||tempEmail.search(check)==-1||tempEmail.search(checkend)==-1)
 {
-if(q.value != randomnumber_Feedback)
-{
-alert("Please Enter Correct Number");
-q.focus();
-return false;
+alert("Can you check your Email Address of Second Reference again?");
+document.Enquiry_Feedback.Email_Reference_2.focus();
+return false
 }
 }
-return true;
-}
+		
+
+
 }

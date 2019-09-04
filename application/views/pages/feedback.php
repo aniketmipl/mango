@@ -2,23 +2,6 @@
 <!-- validation js-->
 <script type="text/javascript" src="<?php echo base_url();?>assets/js/guest-feedback-form-validation.js"></script>
 
-<?php
-$mynumber_Feedback= rand(673,62389);
-//echo $mynumber."<br><br>";
-
-$ilength=strlen($mynumber_Feedback);
-// echo $ilength."<br><br>";
-for($i=0; $i<$ilength; $i++)
-{
-//print substr($mynumber, $i, 1).", ";
-}
-?>
-<script type="text/javascript">
-//defining variable and storinging in script
-var randomnumber_Feedback= <?= $mynumber_Feedback?>;
-// Validating
-</script>
-
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
@@ -314,7 +297,7 @@ var randomnumber_Feedback= <?= $mynumber_Feedback?>;
                                 <div class="input-field col-sm-6 col-xs-12 no-padding">
                                   <textarea class="set-input-textarea" id="memorable_experience_1" name="memorable_experience_1" placeholder="..... " rows="3"></textarea>
                                 </div>
-                                <div class="input-field col-sm-6 col-xs-12">
+                                <div class="input-field col-sm-6 col-xs-12  no-padding-xs">
                                   <textarea class="set-input-textarea" id="memorable_experience_2" name="memorable_experience_2" placeholder="..... " rows="3"></textarea>
                                 </div>
                                 <!----->
@@ -323,7 +306,7 @@ var randomnumber_Feedback= <?= $mynumber_Feedback?>;
                                 <div class="input-field col-sm-6 col-xs-12 no-padding">
                                 <input class="set-input validate" name="Next_Destination_Plan" placeholder="Destination" id="Next_Destination_Plan" type="text">  
                                 </div>
-                                <div class="input-field col-sm-6 col-xs-12">
+                                <div class="input-field col-sm-6 col-xs-12 no-padding-xs">
                                 <div class="row">
                                     <div class="col-md-3 col-sm-3 col-xs-12 no-padding-xs">
                                         <p>Tour Date : </p> 
@@ -338,30 +321,39 @@ var randomnumber_Feedback= <?= $mynumber_Feedback?>;
                                     </div>
                                 </div>
                                 </div>
-
+                                <!----->
+                                <div class="col-md-12 mt-20"></div>
+                                <div class="col-md-5 col-sm-7 col-xs-12 no-padding">
+                                <p><b>Would you recommend Mango Holidays to others?</b> </p>
+                                </div>
+                                <div class="col-md-7 col-sm-5 col-xs-12 no-padding">
+                                    <p>
+                                                            <input type="radio" name="Would_you_recommend_Mango_Holidays_to_others" value="Yes" checked="checked"> Yes 
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Would_you_recommend_Mango_Holidays_to_others" value="No"> No
+                                    </p>
+                                </div>
+                                <!----->
+                                <div class="col-md-12 mt-20"></div>
+                                <p><b>If yes, then kindly share the names of 2 persons you would like to recommend Mango Holidays to:</b> </p>
+                                <div class="input-field col-sm-6 col-xs-12 no-padding">
+                                    <input class="set-input validate" name="Contact_Person_Reference_1" placeholder="Your Name *" id="Contact_Person_Reference_1" type="text">
+                                    <input class="set-input validate" name="TelNo_Reference_1" placeholder="Phone *" id="TelNo_Reference_1" type="text">
+                                    <input class="set-input validate" name="Email_Reference_1" placeholder="Email *" id="Email_Reference_1" type="text">
+                                </div>
+                                <div class="input-field col-sm-6 col-xs-12  no-padding-xs">
+                                    <input class="set-input validate" name="Contact_Person_Reference_2" placeholder="Your Name *" id="Contact_Person_Reference_2" type="text">
+                                    <input class="set-input validate" name="TelNo_Reference_2" placeholder="Phone *" id="TelNo_Reference_2" type="text">
+                                    <input class="set-input validate" name="Email_Reference_2" placeholder="Email *" id="Email_Reference_2" type="text">
+                                </div>
+                                <!----->
+                                <div class="col-md-12 mt-20"></div>
+                                <div class="input-field col-md-12 no-padding">
+                                   
+                                    <p><b>If No, Please specify the reason:</b></p>
+                                    <input class="set-input validate" name="Reason_For_No_Recommendation_to_others" placeholder="......" id="Reason_For_No_Recommendation_to_others" type="text">
+                                </div>
                             </div>
 
-
-
-                            <div class="col-md-12"><hr/></div>
-                            <div class="input-field col-sm-4">
-                                <textarea class="set-input-textarea" id="requirement_details" name="requirement_details" placeholder="Write Your Message *" rows="3"></textarea>
-							</div>
-							<div class="input-field col-sm-4">
-							<?php
-                        for($i=0; $i<$ilength; $i++)
-                        {
-                        $ipic= substr($mynumber_Feedback, $i, 1);
-                        $sFilePath = "";
-                        //if (file_exists(".$ipic.".gif"))
-                        $sFilePath = $ipic.".gif";
-                        ?>
-                        <img style="width:20px;" src="https://mipl.co.in/nb/<?=$sFilePath ?>" />
-                        <?php 
-                        }
-                        ?>
-                        <input class="set-input validate" type="text" placeholder="Enter verifcation code *" name="q">
-							</div>
 							<div class="input-field col-sm-4">
                                 <button style="margin-top: 6%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" id="send">Send Message</button>
 							</div>
