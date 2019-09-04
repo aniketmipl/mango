@@ -17,8 +17,8 @@
     <?php }
     
     if($travel_type == 'pages'){?>
-        <meta name="description" content="<?php echo $description ;?>">
-        <meta name="keywords" content="<?php echo $keyword ;?>">   
+        <meta name="description" content="<?php echo $page_description ;?>">
+        <meta name="keywords" content="<?php echo $page_keyword ;?>">   
     <?php }
 
     } ?>
