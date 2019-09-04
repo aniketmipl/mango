@@ -208,10 +208,10 @@ var randomnumber_tour= <?= $mynumber_tour?>;
 <!--end of "Send Enquiry" form validation script & form code-->
 
 <!--popup for "Send enquiry" with corresponding Tour name-->
-<div id="enquiry-form-modal" class="modal fade">
+<div id="enquiry-form-modal" class="modal fade career">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header" style="background: #404241;">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h4 class="modal-title">Submit Your Application </h4>
             </div>
@@ -220,7 +220,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
             <input name="redirect" type="hidden">
                 <input name="recipient" type="hidden" id="recipient" value="amita.manchekar@mipl.co.in">
                 <input name="subject" type="hidden" id="subject" value="Career Application From Website">    
-                <b><input name="post-applied-for" id="post-applied-for" value="Virtual CFO Senior Position "></b>    
+                <b><input name="post-applied-for" id="post-applied-for" value="Virtual CFO Senior Position" readonly></b>    
                     <input type="text" name="contact_person" id="contact_person" placeholder="Name">
                   <input type="email" name="from" id="from" placeholder="Email">
                   <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
@@ -243,7 +243,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                   
             </div>
             <div class="modal-footer">
-                <button type="submit" name="submit" class="btn btn-primary btn-form-theme form-submit">Submit</button>
+                <button type="submit" name="submit" class="btn btn-primary btn-form-theme form-submit" style="background: #404241;">Submit</button>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
             </form>
