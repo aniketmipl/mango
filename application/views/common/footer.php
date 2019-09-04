@@ -267,3 +267,62 @@
     <script type="text/javascript" src="<?php echo base_url();?>assets/js/mapit.js"></script>
     <!-- Import Main Custom jS -->
     <script type="text/javascript" src="<?php echo base_url();?>assets/js/script.js"></script>
+    <style>
+    #lhc_header {
+    background-color: #0e7ac0;
+    }
+    #lhc_container {
+    margin-bottom: 88   px !important;
+    margin-right: 15px !important;
+    box-shadow: 0px 0px 12px 3px rgba(50, 50, 50, 0.17);
+    z-index: 10000;
+    }
+    #lhc_status_container{
+    box-sizing: content-box;
+    transition: 1s;
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    text-indent: -9999px;
+    white-space: nowrap;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    box-shadow: -2px -2px 5px transparent;
+    }
+    #lhc_status_container .status-icon {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    padding: 50px 10px 10px 39px;
+    background-image: url(https://mangoholidays.in/wp-content/uploads/2018/03/livechat.png);
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: -3px;
+    opacity: 1;
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    }
+    </style>
+    <script type="text/javascript">
+    var LHCChatOptions = {};
+    LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500};
+    (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    var refferer = (document.referrer) ? encodeURIComponent(document.referrer) : '';
+    var location  = (document.location) ? encodeURIComponent(document.location) : '';
+    po.src = '//mangoholidays.in/support/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(hide_offline)/yes/(check_operator_messages)/yes/(top)/350/(units)/pixels/(leaveamessage)/yes/(department)/1?r='+refferer+'&l='+location;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+    </script>

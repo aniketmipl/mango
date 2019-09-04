@@ -73,14 +73,37 @@ $route['group-tour-packages/scandinavia'] = 'GroupTours/group_scandinavia';
 $route['customized-holidays/india/andaman'] ='/CustomizedTours/customized_andaman';
 $route['customized-holidays/india/gujarat'] ='CustomizedTours/customized_gujarat';
 $route['customized-holidays/india/himachal-pradesh'] ='CustomizedTours/customized_himachal';
-$route['customized-holidays/india/gujarat'] ='CustomizedTours/customized_gujarat';
 $route['customized-holidays/india/karnataka-tour-packages'] ='CustomizedTours/customized_karnataka';
 $route['customized-holidays/india/kashmir'] ='CustomizedTours/customized_kashmir';
 $route['customized-holidays/india/kerala'] ='CustomizedTours/customized_kerala';
 $route['customized-holidays/india/madhya-pradesh'] ='CustomizedTours/customized_madhya_pradesh';
 $route['customized-holidays/india/kerala'] ='CustomizedTours/customized_kerala';
 $route['customized-holidays/india/rajasthan'] ='CustomizedTours/customized_rajasthan';
+$route['customized-holidays/india/tamil-nadu'] ='CustomizedTours/customized_tamil_nadu';
+$route['customized-holidays/india/goa'] ='CustomizedTours/customized_goa';
+$route['customized-holidays/india/north-east'] ='CustomizedTours/customized_north_east';
+$route['customized-holidays/india/andhra-pradesh'] ='CustomizedTours/customized_andhra_pradesh';
+$route['customized-holidays/india/orissa'] ='CustomizedTours/customized_orissa';
 
+       //International customized tours
+$route['customized-holidays/asia'] ='CustomizedTours/customized_asia';
+$route['customized-holidays/africa'] ='CustomizedTours/customized_africa';
+$route['customized-holidays/australia-new-zealand'] ='CustomizedTours/customized_australiaandnewzealand';
+$route['customized-holidays/dubai'] ='CustomizedTours/customized_dubai';
+$route['customized-holidays/europe'] ='CustomizedTours/customized_europe';
+$route['customized-holidays/bali'] ='CustomizedTours/customized_bali';
+$route['customized-holidays/turkey'] ='CustomizedTours/customized_turkey';
+$route['customized-holidays/spain'] ='CustomizedTours/customized_spain';
+$route['customized-holidays/russia'] ='CustomizedTours/customized_russia';
+$route['customized-holidays/japan'] ='CustomizedTours/customized_japan';
+$route['customized-holidays/mauritius'] ='CustomizedTours/customized_mauritius';
+$route['customized-holidays/maldives'] ='CustomizedTours/customized_maldives';
+$route['customized-holidays/nepal'] ='CustomizedTours/customized_nepal';
+$route['customized-holidays/sri-lanka'] ='CustomizedTours/customized_srilanka';
+$route['customized-holidays/egypt'] ='CustomizedTours/customized_egypt';
+$route['customized-holidays/azerbaijan'] ='CustomizedTours/customized_azerbaijan';
+$route['customized-holidays/greece'] ='CustomizedTours/customized_greece';
+$route['customized-holidays/canada'] ='CustomizedTours/customized_canada';
 
 
 
