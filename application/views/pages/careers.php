@@ -13,7 +13,7 @@
 </div>
 <div class="clearfix"></div>
 <div class="page-header-container">
-            <img src="<?php echo base_url();?>assets/images/contact-banner.jpg" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url();?>assets/images/careers-banner.jpg" class="desktop-image" alt="slider_image">
 			
 			
 </div>
@@ -93,7 +93,8 @@
                                     
                         </div>
 
-						
+						<p>If your CV is shortlisted, you will be called for an interview with a prior appointment.<br/>
+Thank you for your interest in Mango Holidays.</p>
 					
                     </div>
                 </div>
@@ -219,7 +220,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
             <input name="redirect" type="hidden">
                 <input name="recipient" type="hidden" id="recipient" value="amita.manchekar@mipl.co.in">
                 <input name="subject" type="hidden" id="subject" value="Career Application From Website">    
-                <input name="post-applied-for" id="post-applied-for" value="Post - Virtual CFO Senior Position ">    
+                <b><input name="post-applied-for" id="post-applied-for" value="Virtual CFO Senior Position "></b>    
                     <input type="text" name="contact_person" id="contact_person" placeholder="Name">
                   <input type="email" name="from" id="from" placeholder="Email">
                   <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
