@@ -11,22 +11,36 @@
                                 <div class="col-md-12 no-padding">
                                 <ul class="widget-list triangle list-unstyled mb-20">
                                     <li><a href="<?php echo base_url();?>"> Home</a></li>
-                                    <li><a href="https://mangoholidays.in/about-us/"> About Us</a></li>
-                                    <li><a href="https://mangoholidays.in/contact-us/"> Contact Us</a></li>
-                                    <li><a href="https://mangoholidays.in/contact-us/"> Enquiry</a></li>
-                                    <li><a href="https://mangoholidays.in/media/"> Media</a></li>
-                                    <li><a href="https://mangoholidays.in/galleries/photo-gallery/"> Photo Gallery</a></li>
-                                    <li><a href="https://mangoholidays.in/faqs/"> FAQ</a></li>
-                                    <li><a href="https://mangoholidays.in/careers/"> Careers</a></li>
-                                    <li><a href="https://mangoholidays.in/terms-and-conditions/"> Terms & Conditions</a></li>
+                                    <li><a href="<?php echo base_url()?>about-us"> About Us</a></li>
+                                    <li><a href="<?php echo base_url()?>contact-us"> Contact Us</a></li>
+                                    <li><a href="<?php echo base_url()?>contact-us"> Enquiry</a></li>
+                                    <li><a href="<?php echo base_url()?>media"> Media</a></li>
+                                    <li><a href="<?php echo base_url()?>photo-gallery"> Photo Gallery</a></li>
+                                    <li><a href="<?php echo base_url()?>faqs"> FAQ</a></li>
                                 </ul>
                                 </div>
                                 
                                 <div class="col-md-12 no-padding">
-                                <h5>Special Tours</h5>
+                                <h5><b>Special Tours</b></h5>
                                 <ul class="widget-list triangle list-unstyled mb-20">
-                                    <!-- <li><a href="#"><i class="fa fa-caret-right"></i>Weekend Gateways</a></li> -->
-                                    <li><a href="#"> Corporate Tours</a></li>
+                                    <li><a href="<?php echo base_url()?>corporate-tours-package"> Corporate Tours</a></li>
+                                </ul>
+                                </div>
+
+                                <div class="col-md-12 no-padding">
+                                <h5><b>Join Us</b></h5>
+                                <ul class="widget-list triangle list-unstyled mb-20">
+                                    <li><a href="<?php echo base_url()?>careers"> Careers</a></li>
+                                    <li><a href="<?php echo base_url()?>">Preferred Sales Agent</a></li>
+                                    <li><a href="<?php echo base_url()?>feedback">Guest Feedback Form</a></li>
+                                </ul>
+                                </div>
+
+                                <div class="col-md-12 no-padding">
+                                <ul class="widget-list triangle list-unstyled mb-20">
+                                    <li><a href="<?php echo base_url()?>">How to book</a></li>
+                                    <li><a href="<?php echo base_url()?>">Privacy Policy</a></li>
+                                    <li><a href="<?php echo base_url()?>terms-and-conditions"> Terms & Conditions</a></li>
                                 </ul>
                                 </div>
                             </div>
