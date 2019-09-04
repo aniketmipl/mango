@@ -124,8 +124,10 @@ class Pages extends CI_Controller {
 	}
 	public function careers()
 	{
-
+		$head_data['travel_type'] = 'pages';
 		$head_data['title'] = "Career Page";
+		$head_data['description'] = "This is description";
+		$head_data['keyword'] = "This is keyword";
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('pages/careers');
