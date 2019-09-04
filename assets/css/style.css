@@ -1871,6 +1871,7 @@ select.form-control {
 .hover-box .image img {
     width: 100%;
     height: auto;
+   border:0;
 }
 
 .hover-box .image .over-layer {
