@@ -1743,3 +1743,21 @@ background: #e8e6e6;
 
 }
 /*end Guest feedback form*/
+
+/*career page*/
+.career .accordion-style-one ul li{
+   
+    list-style-type: disc !important;
+    font-size: 1.2em;
+    line-height: 1.6666;
+    color: #585858;
+    letter-spacing: 0.2px;
+}
+.career .accordion-style-one ul{
+    padding-left:2%;
+   
+}
+.career .btn:focus{
+    color:#fff;
+}
+/*end career page*/
