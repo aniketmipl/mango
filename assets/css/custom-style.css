@@ -1733,4 +1733,13 @@ background: #e8e6e6;
 .contact-from.feedback-form .input-field input{
     margin-bottom:10px;
 }
+.feedback-form input[type=checkbox], 
+.feedback-form input[type=radio]
+{
+    height: auto;
+}
+.feedback-form .valueformat{
+    font-size:1.2em; 
+
+}
 /*end Guest feedback form*/

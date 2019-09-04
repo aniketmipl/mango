@@ -1729,6 +1729,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
+
 	
 	public function hills_and_meadows(){
 
