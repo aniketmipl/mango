@@ -157,6 +157,12 @@ function onSubmitNew(){
                 } 
     }
         
+    if (document.EnquiryNew.file.value  == "")
+    {
+        alert("Please attach your CV .");
+        document.EnquiryNew.file.focus()
+        return false;
+    }
 
     function validateFileExtension(fld) {
     if (!/(\.bmp|\.gif|\.jpg|\.jpeg|\.txt|\.doc|\.docx|\.xls|\.xlsx|\.pdf|\.zip|\.rar)$/i.test(fld.value)) 
@@ -225,7 +231,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                   <input type="email" name="from" id="from" placeholder="Email">
                   <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
                   <textarea name="requirement_details" id="requirement_details" placeholder="Message here.."></textarea>
-                  <label>Attach File :</label>
+                  <label>Attach Your CV :</label>
 					<input type="file" style="display:inline-block;" name="file" id="file" onChange="return validateFileExtension(this)"  />
                   <?php
                         for($i=0; $i<$ilength; $i++)
