@@ -31,15 +31,15 @@
                                 <h5><b>Join Us</b></h5>
                                 <ul class="widget-list triangle list-unstyled mb-20">
                                     <li><a href="<?php echo base_url()?>careers"> Careers</a></li>
-                                    <li><a href="<?php echo base_url()?>">Preferred Sales Agent</a></li>
+                                    <li><a href="<?php echo base_url()?>franchisee">Preferred Sales Agent</a></li>
                                     <li><a href="<?php echo base_url()?>feedback">Guest Feedback Form</a></li>
                                 </ul>
                                 </div>
 
                                 <div class="col-md-12 no-padding">
                                 <ul class="widget-list triangle list-unstyled mb-20">
-                                    <li><a href="<?php echo base_url()?>">How to book</a></li>
-                                    <li><a href="<?php echo base_url()?>">Privacy Policy</a></li>
+                                    <li><a href="<?php echo base_url()?>how-to-book">How to book</a></li>
+                                    <li><a href="<?php echo base_url()?>privacy-policy">Privacy Policy</a></li>
                                     <li><a href="<?php echo base_url()?>terms-and-conditions"> Terms & Conditions</a></li>
                                 </ul>
                                 </div>
@@ -54,14 +54,17 @@
                             
                             <div class="col-md-12 no-padding">
                             <ul class="widget-list triangle list-unstyled mb-20">
-                                <li><a href="<?php echo base_url();?>GroupTours/group_africa"> Africa</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_america"> America</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_australiaandnewzealand"> Australia & New Zealand</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_dubai"> Dubai</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_europe"> Europe</a></li>
-                                <li><a href="<?php echo base_url();?>GroupTours/group_japan"> Japan</a></li>
-                                <!-- <li><a href="<?php echo base_url();?>GroupTours/group_mauritius"> Mauritius</a></li> -->
-                                <!-- <li><a href="<?php echo base_url();?>GroupTours/group_rest_of_europe"> Rest of Europe</a></li> -->
+                            <li><a href="<?php echo base_url()?>group-tour-packages/africa">Africa</a></li>
+                                <li><a href="<?php echo base_url()?>group-tour-packages/america">America</a></li>
+                                <li><a href="<?php echo base_url()?>group-tour-packages/australia-new-zealand">Australia & New Zealand</a></li>
+                                <li><a href="<?php echo base_url()?>group-tour-packages/dubai">Dubai</a></li>
+                                <li><a href="<?php echo base_url()?>group-tour-packages/europe">Europe</a></li>
+                                <li><a href="<?php echo base_url()?>group-tour-packages/japan">Japan</a></li>
+                                <!-- <li><a href="<?php echo base_url()?>GroupTours/group_mauritius">Mauritius</a></li> -->
+                                <li><a href="<?php echo base_url()?>group-tour-packages/south-east-asia">South East Asia</a></li>
+                                <li><a href="<?php echo base_url()?>group-tour-packages/eastern_europe">Eastern Europe</a></li>
+                                <li><a href="<?php echo base_url()?>group-tour-packages/scandinavia">Scandinavia</a></li>
+                                
                             </ul>
                             </div>
                         </div>
@@ -74,27 +77,46 @@
                                         <h4>CUSTOMIZED TOUR</h4>
                                         <div class="small-border"></div>
                                         <div class="col-md-6 no-padding">
-                                        <h5>INDIA</h5>
+                                        <h5><b>INDIA</b></h5>
                                         <ul class="widget-list triangle list-unstyled mb-20">
-                                            <li><a href="#"> Andaman</a></li>
-                                            <li><a href="#"> Gujarat</a></li>
-                                            <li><a href="#"> Gujarat</a></li>
-                                            <li><a href="#"> Hyderabad</a></li>
-                                            <li><a href="#"> Kashmir</a></li>
-                                            <li><a href="#"> Kerala</a></li>
-                                            <li><a href="#"> Madhya Pradesh</a></li>
+                                        <li><a href="<?php echo base_url()?>customized-holidays/india/andaman">Andaman</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/gujarat">Gujarat</a></li>
+                                                            <li><a href="<?php echo base_url()?>CustomizedTours/customized_hyderabad">Hyderabad</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/kashmir">Kashmir</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/kerala">Kerala</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/karnataka-tour-packages">Karnataka</a></li> 
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/himachal-pradesh">Himachal</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/madhya-pradesh">Madhya Pradesh</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/rajasthan">Rajasthan</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/tamil-nadu">Tamil Nadu</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/goa">Goa</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/north-east">North East</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/andhra-pradesh">Andhra Pradesh</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/orissa">Orissa</a></li>
                                         </ul>
                                         </div>
                                         <div class="col-md-6 no-padding">
-                                        <h5>INTERNATIONAL</h5>
+                                        <h5><b>INTERNATIONAL</b></h5>
                                         <ul class="widget-list triangle list-unstyled mb-20">
-                                            <li><a href="#"> Africa</a></li>
-                                            <li><a href="#"> Australia & New Zealand</a></li>
-                                            <li><a href="#"> Dubai</a></li>
-                                            <li><a href="#"> Europe</a></li>
-                                            <li><a href="#"> Japan</a></li>
-                                            <li><a href="#"> Mauritius</a></li>
-                                            <li><a href="#"> Scandinavia</a></li>
+                                        <li><a href="<?php echo base_url()?>customized-holidays/asia">Asia</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/africa">Africa</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/australia-new-zealand">Australia & New Zealand</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/dubai">Dubai</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/europe">Europe</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/bali">Bali</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/turkey">Turkey</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/spain">Spain</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/russia">Russia</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/japan">Japan</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/mauritius">Mauritius</a></li>
+                                                        <!-- <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li> -->
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/maldives">Maldives</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/nepal">Nepal</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/sri-lanka">Sri Lanka</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/egypt">Egypt</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/azerbaijan">Azerbaijan</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/greece">Greece</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/canada">Canada</a></li>
                                         </ul>
                                         </div>
                                     </div>
@@ -123,15 +145,17 @@
                                                                             <h4>Pune Office</h4>
                                                                             <address>
                                                                                 <ul class="list-unstyled mar-tp-10">
-                                                                                    <li><span class="fa fa-map-marker"></span><b>Address :</b> 302, Swojas Capital, Above Tata Motors, 
-                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                                        Opp. Film Institute,  Law College Road, 
-                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                                        Pune. Maharashtra 411004
+                                                                                    <li><span class="fa fa-map-marker"></span><b>Address :</b> 302, Swojas Capital, 
+                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                        Above Tata Motors, Opp. Film Institute,
+                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                        Law College Road, Pune,  
+                                                                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                       Maharashtra 411004.
                                                                                     </li>
                                                                                     <li><span class="fa fa-phone"></span> <b>Phone :</b> + 020 2544 4415</li> 
                                                                                     <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
-                                                                                    <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
+                                                                                    <li><span class="fa fa-envelope"></span> <b>Email :</b> <span style="text-transform:none; font-size:inherit; font-family:inherit;">info@mangoholidays.in</span></li>
                                                                                     
                                                                                     
                                                                                 </ul>
@@ -146,14 +170,14 @@
                                                                    <address>
                                                                             <ul class="list-unstyled mar-tp-10">
                                                                                 <li><span class="fa fa-map-marker"></span><b>Address :</b> 5, Adi House, Gokhale Road North, 
-                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                                     Near Portuguese Church,
-                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                                     Dadar (W) –400 028, Maharashtra. 
                                                                                 </li>
                                                                                 <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 22 24335500 / 11 / 22</li> 
                                                                                 <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
-                                                                                <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
+                                                                                <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">info@mangoholidays.in</span></li>
                                                                                 
                                                                                 
                                                                             </ul>
@@ -167,14 +191,14 @@
                                                                     <address>
                                                                             <ul class="list-unstyled mar-tp-10">
                                                                                 <li><span class="fa fa-map-marker"></span><b>Address :</b> 702, 7th Floor, Tulsee Chambers,
-                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                                     Pachpakhadi, Opp. Teen Petrol Pump,
-                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                                    Thane (W) – 400 602, Maharashtra
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    Thane (W) – 400 602, Maharashtra.
                                                                                 </li>
                                                                                 <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 22- 25450017 / 18 / 19 / 20</li> 
                                                                                 <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
-                                                                                <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
+                                                                                <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">info@mangoholidays.in</span></li>
                                                                                 
                                                                                 
                                                                             </ul>
@@ -188,14 +212,14 @@
                                                                     <address>
                                                                             <ul class="list-unstyled mar-tp-10">
                                                                                 <li><span class="fa fa-map-marker"></span><b>Address :</b>    302, 3rd Floor, Pathak House, 
-                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                                     Near VNIT College, Abhyankar Nagar,
-                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                                    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                                     Nagpur – 440010, Maharashtra.
                                                                                 </li>
                                                                                 <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 712 – 2244557 / 8 / 9</li> 
                                                                                 <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
-                                                                                <li><span class="fa fa-envelope"></span><b>Email :</b> info@mangoholidays.in</li>
+                                                                                <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">info@mangoholidays.in</span></li>
                                                                                 
                                                                                 
                                                                             </ul>
