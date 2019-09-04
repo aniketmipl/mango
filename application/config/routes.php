@@ -222,6 +222,7 @@ $route['tours/hyderabad-with-srisailyam'] = 'tours/hyderabad_with_srisailyam';
 $route['tours/unique-orissa'] = 'tours/unique_orissa';
 $route['tours/eastern-europe'] = 'tours/eastern_europe';
 $route['tours/eastern-europe-express'] = 'tours/eastern_europe_express';
+$route['tours/vietnam-cambodia'] = 'tours/vietnam_cambodia';
 
 
 //pages
