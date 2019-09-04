@@ -8,7 +8,8 @@
     if(isset($travel_type)){
         if($travel_type =='GIT'){?>
     <meta name="description" content="Mango Holidays providing <?php echo $sector ;?> Group Tour Packages, <?php echo $sector ;?> Tour, <?php echo $sector ;?> Tour Group Tour Packages, <?php echo $sector ;?> Tour Packages from Mumbai, Thane, Pune, India">  
-
+    <meta name="keywords" content = "<?php echo $sector ;?> group tour, <?php echo $sector ;?> group tour packages, <?php echo $sector ;?> group vacation tour, <?php echo $sector ;?> group vacation tour packages, <?php echo $sector ;?> group tour from Mumbai, <?php echo $sector ;?> group tour from Pune,<?php echo $sector ;?> group tour from Thane, 
+<?php echo $sector ;?> group tour from India ,<?php echo $sector ;?> group tour packages from Mumbai, <?php echo $sector ;?> group tour packages from Pune, <?php echo $sector ;?> group tour packages from Thane, <?php echo $sector ;?> group tour packages from India, <?php echo $sector ;?> group vacation tour from Mumbai, <?php echo $sector ;?> group vacation tour from Pune, <?php echo $sector ;?> group vacation tour from Thane, <?php echo $sector ;?> group vacation tour from India, <?php echo $sector ;?> group vacation tour packages from Mumbai,<?php echo $sector ;?> group vacation tour packages from Pune,<?php echo $sector ;?> group vacation tour packages from Thane,<?php echo $sector ;?> group vacation tour packages from India,">
     <?php }
     if($travel_type == 'FIT'){?>
         <meta name="description" content="Mango Holidays providing <?php echo $sector ;?> Customized Tours, <?php echo $sector ;?> Vacation Tour, <?php echo $sector ;?> Customized Tours Packages, <?php echo $sector ;?> Vacation Tour Packages from Mumbai, Pune, Thane, India">
@@ -226,7 +227,11 @@
                                 <li><a href="<?php echo base_url()?>group-tour-packages/scandinavia">Scandinavia</a></li>
                             </ul>
                         </li>    
-                        <li class="dropdown megamenu-fw customized_tour <?php echo ($controller =='CustomizedTours')?'active':'' ?>">
+                        <li class="dropdown megamenu-fw customized_tour <?php if (($controller =='CustomizedTours')||($controller =='customized-holidays')){
+                            echo 'active';
+                        } ?>">
+
+
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Customized Tours </a>
                                 <ul class="dropdown-menu megamenu-content" role="menu">
                                     <li>
