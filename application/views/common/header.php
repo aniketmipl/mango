@@ -4,18 +4,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="">
-    <!-- <?php 
+    <?php 
     if(isset($travel_type)){
         if($travel_type =='GIT'){?>
     <meta name="description" content="Mango Holidays providing <?php echo $sector ;?> Group Tour Packages, <?php echo $sector ;?> Tour, <?php echo $sector ;?> Tour Group Tour Packages, <?php echo $sector ;?> Tour Packages from Mumbai, Thane, Pune, India">  
 
     <?php }
     if($travel_type == 'FIT'){?>
-    <?php }} ?>
         <meta name="description" content="Mango Holidays providing <?php echo $sector ;?> Customized Tours, <?php echo $sector ;?> Vacation Tour, <?php echo $sector ;?> Customized Tours Packages, <?php echo $sector ;?> Vacation Tour Packages from Mumbai, Pune, Thane, India">
 
-        <meta name="keywords" content="customised <?php echo $sector ;?> tour, customised <?php echo $sector ;?> tour packages, customised <?php echo $sector ;?> vacation tour, customised <?php echo $sector ;?> vacation tour packages, customised <?php echo $sector ;?> tour from Mumbai, customised <?php echo $sector ;?> tour from Pune,customised <?php echo $sector ;?> tour from Thane, customised <?php echo $sector ;?> tour from India ,customised <?php echo $sector ;?> tour packages from Mumbai, customised <?php echo $sector ;?> tour packages from Pune, customised <?php echo $sector ;?> tour packages from Thane, customised <?php echo $sector ;?> tour packages from India, customised <?php echo $sector ;?> vacation tour from Mumbai, customised <?php echo $sector ;?> vacation tour from Pune, customised <?php echo $sector ;?> vacation tour from Thane, customised <?php echo $sector ;?> vacation tour from India, customised <?php echo $sector ;?> vacation tour packages from Mumbai, customised <?php echo $sector ;?> vacation tour packages from Pune,">    -->
-        
+        <meta name="keywords" content="customised <?php echo $sector ;?> tour, customised <?php echo $sector ;?> tour packages, customised <?php echo $sector ;?> vacation tour, customised <?php echo $sector ;?> vacation tour packages, customised <?php echo $sector ;?> tour from Mumbai, customised <?php echo $sector ;?> tour from Pune,customised <?php echo $sector ;?> tour from Thane, customised <?php echo $sector ;?> tour from India ,customised <?php echo $sector ;?> tour packages from Mumbai, customised <?php echo $sector ;?> tour packages from Pune, customised <?php echo $sector ;?> tour packages from Thane, customised <?php echo $sector ;?> tour packages from India, customised <?php echo $sector ;?> vacation tour from Mumbai, customised <?php echo $sector ;?> vacation tour from Pune, customised <?php echo $sector ;?> vacation tour from Thane, customised <?php echo $sector ;?> vacation tour from India, customised <?php echo $sector ;?> vacation tour packages from Mumbai, customised <?php echo $sector ;?> vacation tour packages from Pune,">   
+    <?php }} ?>
     <?php
     $controller = $this->uri->segment(1); // get current controller
 
@@ -103,6 +102,7 @@
       }
     }
     </script>
+
 
 
 
