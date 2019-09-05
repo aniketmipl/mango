@@ -9,17 +9,16 @@
 <meta name="description" content="">
 <!--1st part - code to print itenary from api for Donload/Print Itenary PDF-->
 <?php 
-        
-
     if(isset($complete_data->ProductItineraryByDay)){
         @$itenary_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
-        foreach($complete_data->ProductItineraryByDay as $itenary_key){
+        foreach($complete_data->ProductItineraryByDay as $itenary_key2){
+            foreach ($itenary_key2->ProductItineraryByDayItem as $itenary_key) {
+               
 
                 $itenary_program .= "<h3 style='font-size:18px; font-weight:600'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
-    }}
+    }}}
         @$itenary_program .="</div>";
-                
 ?>
 <div id="tour_heading" style="display: none">
     <?php echo $complete_data->ProductTitle;?>
