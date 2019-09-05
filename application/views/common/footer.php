@@ -15,7 +15,7 @@
                                     <li><a href="<?php echo base_url()?>contact-us"> Contact Us</a></li>
                                     <li><a href="<?php echo base_url()?>contact-us"> Enquiry</a></li>
                                     <li><a href="<?php echo base_url()?>media"> Media</a></li>
-                                    <li><a href="<?php echo base_url()?>photo-gallery"> Photo Gallery</a></li>
+                                    <li><a href="<?php echo base_url()?>galleries/photo-gallery"> Photo Gallery</a></li>
                                     <li><a href="<?php echo base_url()?>faqs"> FAQ</a></li>
                                 </ul>
                                 </div>
