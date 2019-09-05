@@ -911,7 +911,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn btn-primary" href="#">View More</a>
+                    <a class="btn btn-primary" href="<?php echo base_url()?>galleries/photo-gallery">View More</a>
                 </div>
             </div>
         </div>
