@@ -202,7 +202,7 @@ var randomnumber= <?= $mynumber?>;
                             <ul class="fa-ul">
                                 <li><i class="fa-li fa fa-map-marker"></i> <p>302, Swojas Capital, Above Tata Motors,
 Near Film Institute, Law College Road,
-Pune. Maharashtra 411004.</p></li>
+Pune, Maharashtra 411004.</p></li>
                                 <li><i class="fa-li fa fa-phone"></i>+91 20 25444415</li>
                                 <li><i class="fa-li fa fa-mobile"></i>+91 8380039499 / 8380039505</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
