@@ -663,7 +663,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
 <!--end of "Send Enquiry" form validation script & form code-->
 
 <!--popup for "Send enquiry" with corresponding Tour name-->
-<div id="enquiry-form-modal" class="modal fade">
+<div id="enquiry-form-modal" class="modal fade fit-enquiry-form">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
