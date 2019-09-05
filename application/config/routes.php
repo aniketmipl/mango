@@ -58,7 +58,7 @@ $route['translate_uri_dashes'] = FALSE;
 
                              //Group Tours
 $route['group-tour-packages/africa'] = 'GroupTours/group_africa';
-$route['group-tour-packages/america'] = 'GroupTours/group_africa';
+$route['group-tour-packages/america'] = 'GroupTours/group_america';
 $route['group-tour-packages/australia-new-zealand'] = 'GroupTours/group_australiaandnewzealand';
 $route['group-tour-packages/dubai'] = 'GroupTours/group_dubai';
 $route['group-tour-packages/europe'] = 'GroupTours/group_europe';
