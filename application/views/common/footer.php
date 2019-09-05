@@ -330,7 +330,7 @@
     color: #000;
     display: block;
     padding: 50px 10px 10px 39px;
-    background-image: url(https://mangoholidays.in/wp-content/uploads/2018/03/livechat.png);
+    background-image: url(https://mangoholidays.in/livechatimg/livechat.png);
     background-size: 80px 80px;
     background-repeat: no-repeat;
     background-position: -3px;

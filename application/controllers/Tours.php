@@ -1611,7 +1611,7 @@ $this->load->view('common/header',$head_data);
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/EG3/egypt-jewels-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/EG3/Egypt-Jewels.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/EG3/Egypt-jewels.jpg';
 		$filter_data['sector']="Egypt";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "EGYPT JEWELS";
