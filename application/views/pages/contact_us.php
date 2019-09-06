@@ -259,9 +259,9 @@ Thane (W) – 400 602,<br/> Maharashtra.</p></li>
                             <ul class="fa-ul">
                                 <li><i class="fa-li fa fa-map-marker"></i> <p>302, 3rd Floor, Pathak House,
 Near VNIT College, Abhyankar Nagar,<br/>
-Nagpur – 440010,<br/> Maharashtra.</p></li>
-                                
-                                <!-- <li><i class="fa-li fa fa-mobile"></i>+91 712 – 2244557 / 8 / 9</li> -->
+Nagpur – 440010, Maharashtra.</p></li>
+								<li><i class="fa-li fa fa-mobile"></i>+91 9923244687</li>
+                                <li><i class="fa-li fa fa-phone"></i>+91 712-2244557 / 8 / 9</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
