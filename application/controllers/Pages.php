@@ -160,12 +160,23 @@ class Pages extends CI_Controller {
 	public function photo_gallery()
 	{
 		$head_data['travel_type'] = 'pages';
-		$head_data['title'] = "Photo Gallery";
+		$head_data['title'] = "Photo Gallery | Mango Holidays";
 		$head_data['page_description'] = "";
 		$head_data['page_keyword'] = "";
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('pages/photo_gallery');
+		$this->load->view('common/footer');
+	}
+	public function faqs()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "FAQs | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/faqs');
 		$this->load->view('common/footer');
 	}
 }

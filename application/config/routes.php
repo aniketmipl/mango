@@ -243,3 +243,4 @@ $route['feedback'] = 'pages/feedback';
 $route['careers'] = 'pages/careers';
 $route['galleries/photo-gallery'] = 'pages/photo_gallery';
 $route['photo-gallery'] = 'pages/photo_gallery';
+$route['faqs'] = 'pages/faqs';

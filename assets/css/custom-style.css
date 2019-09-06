@@ -1796,3 +1796,26 @@ background: #e8e6e6;
 }
 
 /*end career page*/
+
+/*FAQs page*/
+.faqs ul{
+    padding-left:2%;
+}
+.faqs ul li{
+    font-size:1.2em;
+    list-style-type: disc;
+    
+}
+.faqs table{
+    border:1px solid #ccc;
+    padding:2%;
+}
+.faqs table tr td, .faqs table tr th{
+   padding:2%;
+   border:1px solid #ccc;
+}
+.faqs .panel-title>a{
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+/*end FAQs page*/
