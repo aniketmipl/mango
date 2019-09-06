@@ -135,7 +135,7 @@
                         <h2><b>Upcoming</b> Tours</h2>
                         <p>
                             We share something in common, A passion for travel.<br/>  
-                            Book your holidays & tour packages with Mango Holidays for an experienc of a lifetime!
+                            Book your holidays & tour packages with Mango Holidays for an experience of a lifetime!
                         </p>
                     </div>
                 </div>
@@ -346,7 +346,7 @@
                             </div>
                         </div>
 
-                        <div class="item">
+                        <!-- <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
                                     <img src="<?php echo base_url();?>assets/images/tours/Mauritius.jpg" alt="">
@@ -368,13 +368,13 @@
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
                                         </ul>
-                                        <!-- <h4><b>INR 3,47,205 /</b>  <small> 13 NIGHTS / 14 DAYS</small></h4> -->
+                                        
                                        
                                         <a class="read-btn" href="<?php echo base_url();?>tours/mauritius-masti">Read More </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
