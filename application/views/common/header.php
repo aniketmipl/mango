@@ -124,7 +124,7 @@
     <meta property="business:contact_data:country_name" content="India" /> 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url();?>assets/images/favicon.png">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <!-- Import Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
 
@@ -153,7 +153,7 @@
                             <ul class="list-inline" style="font-size:1.1em;">
                                 <li><i class="fa fa-phone"></i> <a href="#">+91 8380039499 / 8380039503 / 8380039505 </a></li>
                                 <li>&nbsp;| &nbsp</li>
-                                <li> <i class="fa fa-envelope-o"></i> <a href="#">info@mangoholidays.in</a></li>
+                                <li> <i class="fa fa-envelope-o"></i> <a href="<?php echo base_url()?>contact-us">info@mangoholidays.in</a></li>
                             </ul>
                         </div>
                     </div>
