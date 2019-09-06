@@ -442,8 +442,8 @@ var randomnumber= <?= $mynumber?>;
                 <div class="scroll">
                 <form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
                   <input name="redirect" type="hidden">
-              		<input name="recipient" type="hidden" value="hr@mangoholidays.in, careers@mangoholidays.in, customercare@mangoholidays.in, tapasyab@mangoholidays.in, tapasya@mangoholidays.in, info@mangoholidays.in">
-              		<input name="subject" type="hidden" value="Quick Enquiry From Website">
+              						<input name="recipient" type="hidden" value="hr@mangoholidays.in, customercare@mangoholidays.in, tapasyab@mangoholidays.in, tapasya@mangoholidays.in, info@mangoholidays.in">
+              						<input name="subject" type="hidden" value="Quick Enquiry From Website">
                   <input type="text" name="contact_person" placeholder="Name">
                   <input type="email" name="from" placeholder="Email">
                   <input type="rel" name="telNo" placeholder="Phone Number">

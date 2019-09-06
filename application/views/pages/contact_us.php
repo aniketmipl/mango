@@ -155,7 +155,7 @@ var randomnumber= <?= $mynumber?>;
 						<form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry2" onSubmit="return onSubmit2()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
 						
                                     <input name="redirect" type="hidden">
-              						<input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
+              						<input name="recipient" type="hidden" value="hr@mangoholidays.in, customercare@mangoholidays.in, tapasyab@mangoholidays.in, tapasya@mangoholidays.in, info@mangoholidays.in">
               						<input name="subject" type="hidden" value="Enquiry From Website">
                             <div class="input-field col-sm-4">
                                 <input class="set-input validate" name="contact_person" placeholder="Your Name *" id="contact_person" type="text">

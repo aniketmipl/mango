@@ -45,7 +45,7 @@
 						<form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry_Feedback" onSubmit="return onSubmit_Feedback()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
 						
                             <input name="redirect" type="hidden">
-                            <input name="recipient" type="hidden" value="hr@mangoholidays.in, careers@mangoholidays.in, customercare@mangoholidays.in, tapasyab@mangoholidays.in, tapasya@mangoholidays.in, info@mangoholidays.in">
+              				<input name="recipient" type="hidden" value="hr@mangoholidays.in, customercare@mangoholidays.in, tapasyab@mangoholidays.in, tapasya@mangoholidays.in, info@mangoholidays.in">
                             <input name="subject" type="hidden" value="Guest Feedback From Website">
                             
                             <div class="col-sm-12">

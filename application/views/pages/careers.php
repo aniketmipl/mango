@@ -224,7 +224,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
             <form action="http://www.midsupport.com/php/TestResult_attach.php" onSubmit="return onSubmitNew()" method="post" name="EnquiryNew" id="EnquiryNew" enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
-                <input name="recipient" type="hidden" id="recipient" value="amita.manchekar@mipl.co.in">
+                <input name="recipient" type="hidden" id="recipient" value="hr@mangoholidays.in, careers@mangoholidays.in, customercare@mangoholidays.in, tapasyab@mangoholidays.in, tapasya@mangoholidays.in, info@mangoholidays.in">
                 <input name="subject" type="hidden" id="subject" value="Career Application From Website">    
                 <b><input name="post-applied-for" id="post-applied-for" value="Virtual CFO Senior Position" readonly></b>    
                     <input type="text" name="contact_person" id="contact_person" placeholder="Name">
