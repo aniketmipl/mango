@@ -116,13 +116,21 @@
         background-position: center;
         position: relative;
     }
+    .slide-4{
+        background: url(../images/sliders/japan-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
 
-    .slide-1:before, .slide-2:before, .slide-3:before{
+    .slide-1:before, .slide-2:before, .slide-3:before, .slide-4:before{
             background: rgba(0, 0, 0, 0);
     }
 
     .carousel .item {
-        height: 650px;
+        /*height: 650px; // if search box is available*/
+        height: 615px;
         width: 100%;
     }
 

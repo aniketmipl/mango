@@ -152,10 +152,10 @@ var randomnumber= <?= $mynumber?>;
 							<h4 style="padding-bottom: 12px;">Send Your Enquiry / Requirement </h4>
 							<div class="small-border"></div>
 						
-						<form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry2" onSubmit="return onSubmit2()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
+						<form action="https://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry2" onSubmit="return onSubmit2()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
 						
                                     <input name="redirect" type="hidden">
-              						<input name="recipient" type="hidden" value="amita.manchekar@mipl.co.in">
+              						<input name="recipient" type="hidden" value="hr@mangoholidays.in, customercare@mangoholidays.in, tapasyab@mangoholidays.in, tapasya@mangoholidays.in, info@mangoholidays.in">
               						<input name="subject" type="hidden" value="Enquiry From Website">
                             <div class="input-field col-sm-4">
                                 <input class="set-input validate" name="contact_person" placeholder="Your Name *" id="contact_person" type="text">
@@ -259,9 +259,9 @@ Thane (W) – 400 602,<br/> Maharashtra.</p></li>
                             <ul class="fa-ul">
                                 <li><i class="fa-li fa fa-map-marker"></i> <p>302, 3rd Floor, Pathak House,
 Near VNIT College, Abhyankar Nagar,<br/>
-Nagpur – 440010,<br/> Maharashtra.</p></li>
-                                
-                                <!-- <li><i class="fa-li fa fa-mobile"></i>+91 712 – 2244557 / 8 / 9</li> -->
+Nagpur – 440010, Maharashtra.</p></li>
+								<li><i class="fa-li fa fa-mobile"></i>+91 9923244687</li>
+                                <li><i class="fa-li fa fa-phone"></i>+91 712-2244557 / 8 / 9</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>

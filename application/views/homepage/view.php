@@ -14,10 +14,23 @@
                             <h3 data-animation="animated fadeInUp">Explore Europe</span>
                         </h3>
                         <br/>
-                            <button class="btns" data-animation="animated zoomIn">Read More</button>
+                            <a href="<?php echo base_url()?>group-tour-packages/europe"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
                         </div>
                     </div>
                     <!-- /.item -->
+
+                    <!-- Second slide -->
+                    <div class="item slide-4">
+                        <div class="carousel-caption">
+                            <h4 data-animation="animated fadeInDown" style="font-size:2.3em;"> Hakone Komagatake Ropeway</p>
+                                <br/>
+                            <h3 data-animation="animated fadeInUp">Join us for Japan 2020</span>
+                        </h3>
+                        <br/>
+                        <a href="<?php echo base_url()?>group-tour-packages/japan"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
+                        </div>
+                    </div>
+                   <!-- /.item -->
 
                     <!-- Second slide -->
                     <div class="item slide-2">
@@ -28,7 +41,7 @@
                             <h3 data-animation="animated fadeInUp">South East Asia</span>
                         </h3>
                         <br/>
-                            <button class="btns" data-animation="animated zoomIn">Read More</button>
+                        <a href="<?php echo base_url()?>group-tour-packages/south-east-asia"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
                         </div>
                     </div>
                     <!-- /.item -->
@@ -41,7 +54,7 @@
                             <h3 data-animation="animated fadeInUp">Discover Dubai</span>
                         </h3>
                         <br/>
-                            <button class="btns" data-animation="animated zoomIn">Read More</button>
+                            <a href="<?php echo base_url()?>group-tour-packages/dubai"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
                         </div>
                     </div>
                     <!-- /.item -->
