@@ -152,7 +152,7 @@ var randomnumber= <?= $mynumber?>;
 							<h4 style="padding-bottom: 12px;">Send Your Enquiry / Requirement </h4>
 							<div class="small-border"></div>
 						
-						<form action="http://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry2" onSubmit="return onSubmit2()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
+						<form action="https://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry2" onSubmit="return onSubmit2()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
 						
                                     <input name="redirect" type="hidden">
               						<input name="recipient" type="hidden" value="hr@mangoholidays.in, customercare@mangoholidays.in, tapasyab@mangoholidays.in, tapasya@mangoholidays.in, info@mangoholidays.in">
