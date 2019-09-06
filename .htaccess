@@ -4,9 +4,3 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L,QSA]
 
-RewriteEngine On
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://mangoholidays.in/$1 [R=301,L]
-
-Redirect 301 /livechat https://mangoholidays.in/support/index.php/site_admin
-Redirect 301 /stats https://mangoholidays.in/cgi-bin/awstats/awstats.pl
