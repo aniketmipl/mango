@@ -387,13 +387,13 @@
                                         <div class="rate" style="position:absolute; right:0; top:0; ">
                                             <p> 
                                             <?php 
-                                        if(($RelatedProducts->LowestTwinSharingPrice) != ''){ 
-                                        ?>
-                                        <b><?php  echo "INR &nbsp;&nbsp;".$RelatedProducts->LowestTwinSharingPrice; ?> </b>
-                                        <?php } 
-                                         ?>
-                                         </p>
-                                            </div>
+                                            if(($RelatedProducts->LowestTwinSharingPrice) != ''){ 
+                                            ?>
+                                            <b><?php  echo "INR &nbsp;&nbsp;".$RelatedProducts->LowestTwinSharingPrice; ?> </b>
+                                            <?php } 
+                                            ?>
+                                            </p>
+                                        </div>
                                     </div>
                                     <div class="tour-item hotel-item">
                                         <div class="tour-details">
