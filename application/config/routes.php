@@ -223,7 +223,8 @@ $route['tours/unique-orissa'] = 'tours/unique_orissa';
 $route['tours/eastern-europe'] = 'tours/eastern_europe';
 $route['tours/eastern-europe-express'] = 'tours/eastern_europe_express';
 $route['tours/vietnam-cambodia'] = 'tours/vietnam_cambodia';
-
+$route['tours/japan---cherry-blossom'] = 'tours/japan';
+$route['tours/japan-cherry-blossom'] = 'tours/japan';
 
 //pages
 $route['about-us'] = 'pages/about_us';
@@ -243,4 +244,8 @@ $route['feedback'] = 'pages/feedback';
 $route['careers'] = 'pages/careers';
 $route['galleries/photo-gallery'] = 'pages/photo_gallery';
 $route['photo-gallery'] = 'pages/photo_gallery';
-$route['faqs'] = 'pages/faqs';
+
+//redirected urls
+$route['tours/southafricatour'] = 'tours/south_african_safari';
+$route['tours/glimpsesofeurope'] = 'tours/glimpses_of_europe';
+$route['tours/australia-new-zealand'] ='tours/Australia_and_New_Zealand';  

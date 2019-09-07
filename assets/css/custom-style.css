@@ -137,6 +137,9 @@
     .carousel-caption{
         text-shadow: rgb(0, 0, 0) 5px 5px 12px;
     }
+    .carousel-caption h4{
+       color:#fff;
+    }
     .hover-box .image .over-layer{
         background: rgba(8, 74, 32, 0.81);
     }
@@ -720,6 +723,38 @@
     }
     
     }
+
+    @media only screen and (max-width: 767px) and (min-width: 320px){
+.carousel-caption {
+    display: block;
+}
+.carousel-caption h4{
+    display:none;
+}
+.carousel-caption h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.carousel-caption .btns{
+    font-size: 8px;
+    padding: 2px 2px;
+    border-color: rgba(255, 255, 255, 0);
+
+}
+    }
+
+    @media only screen and (max-width: 600px){
+.carousel-caption {
+    top: 30%;
+}
+    }
+    @media only screen and (max-width: 479px){
+.root {
+    width: 30px;
+}
+    }
+
 
     @media only screen and (max-width: 767px) and (min-width: 425px){
         .carousel .item {
@@ -1819,3 +1854,4 @@ background: #e8e6e6;
     font-size: 0.9em;
 }
 /*end FAQs page*/
+

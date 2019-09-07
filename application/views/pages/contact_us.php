@@ -224,7 +224,8 @@ Pune, Maharashtra 411004.</p></li>
                                 <li><i class="fa-li fa fa-map-marker"></i> <p> 5, Adi House, Gokhale Road North,<br/>
 Near Portuguese Church,<br/>
 Dadar (W) –400 028,<br/> Maharashtra.</p></li>
-                                <li><i class="fa-li fa fa-mobile"></i>+91 22 24335500 / 11 / 22</li>
+								<li><i class="fa-li fa fa-mobile"></i>+91 9049759322</li>
+								<li><i class="fa-li fa fa-phone"></i>+91 22 24335500 / 11 / 22</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>

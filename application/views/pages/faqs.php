@@ -283,14 +283,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                             <div class="small-border"></div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading10">
+                    <div class="panel-heading" role="tab" id="heading14">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse10" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse14" aria-expanded="false" aria-controls="collapseThree3">
                             WILL THE TOUR BE HECTIC?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+                    <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
                         <div class="panel-body">
                         <p>
                         Most of our group tours have a medium to fast pace, as we need to cover maximum sightseeing places in limited time/days.
@@ -300,14 +300,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading11">
+                    <div class="panel-heading" role="tab" id="heading15">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse11" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse15" aria-expanded="false" aria-controls="collapseThree3">
                             DOES THE GROUP TOUR INVOLVE A LOT OF WALKING?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+                    <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
                         <div class="panel-body">
                         <p>
                         Generally, you are required to walk while at sightseeing places, airports and parks. Tour manager will instruct you from time to time.
@@ -316,33 +316,509 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     </div>
                 </div>
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading12">
+                    <div class="panel-heading" role="tab" id="heading16">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse12" aria-expanded="false" aria-controls="collapseThree3">
-                            DO YOU PROVIDE LEAVE TRAVEL CERTIFICATE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse16" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT TYPE OF FOOD DO YOU PROVIDE?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                    <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
                         <div class="panel-body">
                         <p>
-                        Leave Travel Certificate can be issued only if you inform us about the same at the time of booking the tour. Such requests cannot be processed if intimated later.
+                        On our group tours, we provide Indian food for lunch and dinner because we understand that gratifying your taste buds is also a way to win your heart. With Mango Holidays we promise delicious, hygienic & healthy food keeping international quality standards in mind.
                         </p>
                         </div>
                     </div>
                 </div>
                 <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading17">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse17" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading18">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse18" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading19">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse19" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading20">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse20" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading20">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading21">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse21" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading22">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse22" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading22">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading23">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse23" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading23">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading24">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse24" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading24">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading25">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse25" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading25">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading26">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse26" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading26">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading27">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse27" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse27" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading27">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading28">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse28" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse28" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading28">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading29">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse29" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse29" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading29">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="heading13">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            CAN I MODIFY MY TRAVEL PLAN ONCE THE BOOKING IS DONE?
+                            WHAT ARE THE TOUR LEADERS LIKE?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
                         <div class="panel-body">
                         <p>
-                        You can modify your travel plans by informing the sales staff about it. Additional charges are applicable for cancelling the old booking and making the new arrangements & these charges will be borne by you.
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading13">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT ARE THE TOUR LEADERS LIKE?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                        <div class="panel-body">
+                        <p>
+                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
                         </p>
                         </div>
                     </div>
