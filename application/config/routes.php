@@ -249,3 +249,6 @@ $route['photo-gallery'] = 'pages/photo_gallery';
 $route['tours/southafricatour'] = 'tours/south_african_safari';
 $route['tours/glimpsesofeurope'] = 'tours/glimpses_of_europe';
 $route['tours/australia-new-zealand'] ='tours/Australia_and_New_Zealand';  
+$route['corporate-tours'] ='pages/corporate_tours';
+$route['tours/eastcoastamerica'] = 'tours/east_coast_of_america';
+$route['mango-holidays-contact'] = 'pages/contact_us';
