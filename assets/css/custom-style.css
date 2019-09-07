@@ -610,7 +610,7 @@
         margin-bottom:0;
     }
     .related-tours .tour-item .tour-details{
-        padding: 20px 0 20px;
+        padding: 10px 0 10px;
     }
     .related-tours h3{
     font-size: 2.2em;
@@ -631,6 +631,11 @@
         padding:10px !important;
         text-align: center;
     }
+    
+    .tour-carousel-related .tour-item .tour-details:hover p{
+        color:#fff;
+    }
+
     .testimonial-carousel .item blockquote p{
         color: #e2e0e0;
     }

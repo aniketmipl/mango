@@ -2,6 +2,7 @@
         .footer_contact{
             line-height: 0.8;
         }
+       
 
 </style>
 
@@ -360,7 +361,7 @@
                         <div class="small-border"></div>
                     </div>
                     <div class="related_tours col-md-12"> 
-                       <div id="tour-carousel" class="tour-carousel owl-carousel owl-theme">
+                       <div id="tour-carousel" class="tour-carousel-related owl-carousel owl-theme">
                         <?php foreach($complete_data->RelatedProducts as $RelatedProducts){ 
                             $product_image = $RelatedProducts->ProductImage;
                             if(file_exists($product_image)){
@@ -370,8 +371,9 @@
                             }
                              $page_name=strtolower(trim($RelatedProducts->ProductTitle));
                         ?>
-                        
+                       
                             <div class="item">
+                           
                                 <div class="hover-box tour-hotel-box">
                                     <div class="tour-img image">
                                         <img src="<?php echo $ProductImage; ?>" alt="Tour Image">
@@ -387,8 +389,16 @@
                                         <div class="tour-details">
                                         <!-- <a href="tour-details.html"> -->
                                             <a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>">
-                                            <p> <?php echo $RelatedProducts->Days; ?>  Days / <?php echo $RelatedProducts->Nights; ?> Nights </p>
                                             <p class="price"><?php echo $RelatedProducts->ProductTitle; ?></p>
+                                            <p> <?php echo $RelatedProducts->Days; ?>  Days / <?php echo $RelatedProducts->Nights; ?> Nights </p>
+                                            <p> 
+                                            <?php 
+                                        if(($RelatedProducts->LowestTwinSharingPrice) != ''){ 
+                                        ?>
+                                        <b><?php  echo "INR ".$RelatedProducts->LowestTwinSharingPrice; ?></b>
+                                        <?php } 
+                                         ?>
+                                            </p>
                                         </a>
                                         </div>
                                     </div>
