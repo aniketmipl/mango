@@ -362,12 +362,18 @@
                     <div class="related_tours col-md-12"> 
                        <div id="tour-carousel" class="tour-carousel owl-carousel owl-theme">
                         <?php foreach($complete_data->RelatedProducts as $RelatedProducts){ 
+                            $product_image = $RelatedProducts->ProductImage;
+                            if(file_exists($product_image)){
+                               $ProductImage = base_url().$RelatedProducts->ProductImage;
+                            }else{
+                                $ProductImage = base_url().'assets/images/default-tour.jpg';
+                            }
                              $page_name=strtolower(trim($RelatedProducts->ProductTitle));
                         ?>
                             <div class="item">
                                 <div class="hover-box">
                                     <div class="tour-img image">
-                                        <img src="<?php echo base_url().$RelatedProducts->ProductImage ?>" alt="">
+                                        <img src="<?php echo $ProductImage; ?>" alt="">
                                         <div class="over-layer">
                                             <div class="links">
                                                 <h4><a href="#">Classic Europe</a></h4>
