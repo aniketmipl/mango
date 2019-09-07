@@ -375,7 +375,7 @@
                             <div class="item">
                            
                                 <div class="hover-box tour-hotel-box">
-                                    <div class="tour-img image">
+                                    <div class="tour-img image  style="position:relative;">
                                         <img src="<?php echo $ProductImage; ?>" alt="Tour Image">
                                         <div class="over-layer">
                                             <div class="links">
@@ -384,21 +384,30 @@
                                                 </ul>
                                             </div>
                                         </div>
+                                        <div class="rate" style="position:absolute; right:0; top:0; ">
+                                            <p> 
+                                            <?php 
+                                        if(($RelatedProducts->LowestTwinSharingPrice) != ''){ 
+                                        ?>
+                                        <b><?php  echo "INR &nbsp;&nbsp;".$RelatedProducts->LowestTwinSharingPrice; ?> </b>
+                                        <?php } 
+                                         ?>
+                                         </p>
+                                            </div>
                                     </div>
                                     <div class="tour-item hotel-item">
                                         <div class="tour-details">
                                         <!-- <a href="tour-details.html"> -->
                                             <a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>">
                                             <p class="price"><?php echo $RelatedProducts->ProductTitle; ?></p>
-                                            <p> <?php echo $RelatedProducts->Days; ?>  Days / <?php echo $RelatedProducts->Nights; ?> Nights </p>
-                                            <p> 
-                                            <?php 
-                                        if(($RelatedProducts->LowestTwinSharingPrice) != ''){ 
-                                        ?>
-                                        <b><?php  echo "INR ".$RelatedProducts->LowestTwinSharingPrice; ?></b>
-                                        <?php } 
-                                         ?>
+                                           
+                                           
+                                            <p>
+                                            <?php echo $RelatedProducts->Days; ?>  Days / <?php echo $RelatedProducts->Nights; ?> Nights 
                                             </p>
+                                         
+                                            
+                                        
                                         </a>
                                         </div>
                                     </div>
