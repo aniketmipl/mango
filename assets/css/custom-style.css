@@ -123,8 +123,15 @@
         background-position: center;
         position: relative;
     }
+    .slide-5{
+        background: url(../images/sliders/japan-cherryblsm-banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
 
-    .slide-1:before, .slide-2:before, .slide-3:before, .slide-4:before{
+    .slide-1:before, .slide-2:before, .slide-3:before, .slide-4:before, .slide-5:before{
             background: rgba(0, 0, 0, 0);
     }
 

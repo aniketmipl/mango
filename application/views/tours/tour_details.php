@@ -370,6 +370,7 @@
                             }
                              $page_name=strtolower(trim($RelatedProducts->ProductTitle));
                         ?>
+                        
                             <div class="item">
                                 <div class="hover-box tour-hotel-box">
                                     <div class="tour-img image">
@@ -393,6 +394,7 @@
                                     </div>
                                 </div>
                             </div>
+                        
                             <?php }?>
                         </div>
 
@@ -402,8 +404,9 @@
             
         <!-- </div>
     </section> -->
+        <?php } ?>
               <!--related tours ended-->   
-            <?php } ?>
+           
         </div>
     </section>
 
