@@ -347,14 +347,14 @@
 
                         
                 
-            
+            </div>
 
              <!--related tours started-->  
         <?php if(isset($complete_data->RelatedProducts)){?>
-        <!-- <section class="hotel-offer tour-category" >
-        <div class="container" style="padding-bottom:0;"> -->
-            <div class="">
-                <div class="spacial-place related-tours">
+        <section class="hotel-offer tour-category" >
+        <div class="container" style="padding-bottom:0;">
+            <div class="row">
+                <div class="hottel-grid-offer related-tours" style="justify-content: left;">
                     <div class="col-md-12">
                         <h3 class="mb-20"><a>You may also like</a></h3>
                         <div class="small-border"></div>
@@ -371,18 +371,17 @@
                              $page_name=strtolower(trim($RelatedProducts->ProductTitle));
                         ?>
                             <div class="item">
-                                <div class="hover-box tour-hotel-box">
+                                <div class="hover-box">
                                     <div class="tour-img image">
-                                        <img src="<?php echo $ProductImage; ?>" alt="Tour Image">
+                                        <img src="<?php echo $ProductImage; ?>" alt="">
                                         <div class="over-layer">
                                             <div class="links">
-                                                <ul class="list-inline">
-                                                        <li><a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                                                </ul>
+                                                <h4><a href="#">Classic Europe</a></h4>
+                                                <h6><?php echo $RelatedProducts->Days; ?> Days / <?php echo $RelatedProducts->Nights; ?> Nights</h6>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tour-item hotel-item">
+                                    <div class="tour-item">
                                         <div class="tour-details">
                                         <!-- <a href="tour-details.html"> -->
                                             <a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>">
@@ -400,8 +399,8 @@
                 </div>
             </div>
             
-        <!-- </div>
-    </section> -->
+        </div>
+    </section>
               <!--related tours ended-->   
             <?php } ?>
         </div>

@@ -996,6 +996,12 @@ nav.bootsnav .megamenu-content .col-menu {
     }
 }
 @media only screen and (max-width: 479px){
+    .related_tours .tour-carousel .hover-box .image .over-layer .links {
+    top: 33%;
+    
+}
+}
+@media only screen and (max-width: 479px){
 .left .root, .right .root {
     display: inline-block;
 }
