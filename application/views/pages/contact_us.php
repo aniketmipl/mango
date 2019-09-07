@@ -203,8 +203,8 @@ var randomnumber= <?= $mynumber?>;
                                 <li><i class="fa-li fa fa-map-marker"></i> <p>302, Swojas Capital, Above Tata Motors,
 Near Film Institute, Law College Road,
 Pune, Maharashtra 411004.</p></li>
-                                <li><i class="fa-li fa fa-phone"></i>+91 20 25444415</li>
-                                <li><i class="fa-li fa fa-mobile"></i>+91 8380039499 / 8380039505</li>
+								<li><i class="fa-li fa fa-mobile"></i>+91 8380039499 / 8380039505</li>
+								<li><i class="fa-li fa fa-phone"></i>+91 20 25444415</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
@@ -223,14 +223,14 @@ Pune, Maharashtra 411004.</p></li>
                             <ul class="fa-ul">
                                 <li><i class="fa-li fa fa-map-marker"></i> <p> 5, Adi House, Gokhale Road North,<br/>
 Near Portuguese Church,<br/>
-Dadar (W) –400 028,<br/> Maharashtra.</p></li>
+Dadar (W) –400 028, Maharashtra.</p></li>
 								<li><i class="fa-li fa fa-mobile"></i>+91 9049759322</li>
 								<li><i class="fa-li fa fa-phone"></i>+91 22 24335500 / 11 / 22</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
 							<br/>
-							<iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15087.995730531897!2d72.8360824!3d19.0197687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb9fb984ed8286f5!2sMango+Holidays!5e0!3m2!1sen!2sin!4v1524131540546" width="100%" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+							<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15087.995730531897!2d72.8360824!3d19.0197687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb9fb984ed8286f5!2sMango+Holidays!5e0!3m2!1sen!2sin!4v1524131540546" width="100%" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
 	</div>
@@ -241,14 +241,15 @@ Dadar (W) –400 028,<br/> Maharashtra.</p></li>
                             <ul class="fa-ul">
                                 <li><i class="fa-li fa fa-map-marker"></i> <p>3702, 7th Floor, Tulsee Chambers,<br/>
 Pachpakhadi, Opp. Teen Petrol Pump,<br/>
-Thane (W) – 400 602,<br/> Maharashtra.</p></li>
+Thane (W) – 400 602, Maharashtra.</p></li>
                                 
-                                <li><i class="fa-li fa fa-mobile"></i> +91 8380039503</li>
+								<li><i class="fa-li fa fa-mobile"></i> +91 8380039503</li> 
+								<li><i class="fa-li fa fa-phone"></i> +91 22- 25450017 / 18 / 19 / 20</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
 							<br/>
-							<iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15072.179604612527!2d72.9700949!3d19.1932411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd487399a35fd49a2!2sMango+Holidays+India+Pvt+Ltd+-+Top+Travel+Agents+in+Thane+West!5e0!3m2!1sen!2sin!4v1524131673191" width="100%" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+							<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15072.179604612527!2d72.9700949!3d19.1932411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd487399a35fd49a2!2sMango+Holidays+India+Pvt+Ltd+-+Top+Travel+Agents+in+Thane+West!5e0!3m2!1sen!2sin!4v1524131673191" width="100%" height="200" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
 	</div>
