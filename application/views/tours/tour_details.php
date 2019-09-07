@@ -356,7 +356,7 @@
             <div class="">
                 <div class="spacial-place related-tours">
                     <div class="col-md-12">
-                        <h3 class="mb-20"><a>You may also like</a></h3>
+                        <h3 class="mb-20"><a>More holidays you may like : </a></h3>
                         <div class="small-border"></div>
                     </div>
                     <div class="related_tours col-md-12"> 
