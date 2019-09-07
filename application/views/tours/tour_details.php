@@ -350,8 +350,8 @@
             </div>
 
              <!--related tours started-->  
-            
-        <section class="hotel-offer tour-category" style="display:none;">
+        <?php if(isset($complete_data->RelatedProducts)){?>
+        <section class="hotel-offer tour-category" >
         <div class="container" style="padding-bottom:0;">
             <div class="row">
                 <div class="hottel-grid-offer related-tours" style="justify-content: left;">
@@ -360,7 +360,35 @@
                         <div class="small-border"></div>
                     </div>
                     <div class="related_tours col-md-12"> 
-                       
+                       <div id="tour-carousel" class="tour-carousel owl-carousel owl-theme">
+                        <?php foreach($complete_data->RelatedProducts as $RelatedProducts){ 
+                             $page_name=strtolower(trim($RelatedProducts->ProductTitle));
+                        ?>
+                            <div class="item">
+                                <div class="hover-box">
+                                    <div class="tour-img image">
+                                        <img src="<?php echo base_url().$RelatedProducts->ProductImage ?>" alt="">
+                                        <div class="over-layer">
+                                            <div class="links">
+                                                <h4><a href="#">Classic Europe</a></h4>
+                                                <h6><?php echo $RelatedProducts->Days; ?> Days / <?php echo $RelatedProducts->Nights; ?> Nights</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tour-item">
+                                        <div class="tour-details">
+                                        <!-- <a href="tour-details.html"> -->
+                                            <a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>">
+                                            <p> <?php echo $RelatedProducts->Days; ?>  Days / <?php echo $RelatedProducts->Nights; ?> Nights </p>
+                                            <p class="price"><?php echo $RelatedProducts->ProductTitle; ?></p>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php }?>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -368,7 +396,7 @@
         </div>
     </section>
               <!--related tours ended-->   
-            
+            <?php } ?>
         </div>
     </section>
 
@@ -703,7 +731,7 @@ $(function() {
             var validation = onSubmitNew();
             if(validation != false){
 
-                var submit_url = "http://www.midsupport.com/php/TestResult_attach-mango.php";
+                var submit_url = "https://www.midsupport.com/php/TestResult_attach-mango.php";
 
                 $.ajax({
                     url: submit_url,
