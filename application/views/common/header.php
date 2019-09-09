@@ -24,7 +24,7 @@
     } ?>
     <?php
     $controller = $this->uri->segment(1); // get current controller
-
+    
     if(isset($title)){?>
         <title><?php echo @$title;?></title>
     <?php } else { ?>

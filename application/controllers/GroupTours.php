@@ -79,8 +79,8 @@ $this->load->view('common/header',$head_data);
 		//$data['gt_image'] = 'images/tours/europe/main.jpg';
 
 		$head_data['sector'] = $data['sector_name'];
-$head_data['travel_type'] = 'GIT';
-$this->load->view('common/header',$head_data);
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -92,8 +92,9 @@ $this->load->view('common/header',$head_data);
 		$head_data['title'] = "Japan Group Tour from Mumbai,Pune,India|Mango Holidays";
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/japan/main.jpg';
-
-		$this->load->view('common/header');
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -105,8 +106,9 @@ $this->load->view('common/header',$head_data);
 		$head_data['title'] = "Mauritius Group Tour from Mumbai,Pune,India|Mango Holidays";
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/mauritius/main.jpg';
-
-		$this->load->view('common/header');
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -119,8 +121,9 @@ $this->load->view('common/header',$head_data);
 		$head_data['title'] = "Australia and Newzealand Group Tour from Mumbai,Pune,India|Mango Holidays";
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/australia-and-new-zeeland/main.jpg';
-
-		$this->load->view('common/header');
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -132,8 +135,9 @@ $this->load->view('common/header',$head_data);
 		$head_data['title'] = "Rest of Europe Group Tour from Mumbai,Pune,India|Mango Holidays";
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
-		
-		$this->load->view('common/header');
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -144,8 +148,9 @@ $this->load->view('common/header',$head_data);
 		$head_data['title'] = "Eastern Europe Group Tour from Mumbai,Pune,India|Mango Holidays";
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
-		
-		$this->load->view('common/header');
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -156,8 +161,9 @@ $this->load->view('common/header',$head_data);
 		$head_data['title'] = "Scandinavia Group Tour from Mumbai,Pune,India|Mango Holidays";
 		$data['sector_name']=$sector;
 		//$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
-		
-		$this->load->view('common/header');
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
