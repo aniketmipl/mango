@@ -246,6 +246,35 @@
         }
     });
 
+    $('.tour-carousel-related').owlCarousel({
+        loop: true,
+        ltr: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: false,
+        autoplaySpeed: 2000,
+        animateOut: '',
+        animateIn: 'zoomIn',
+        navText: [
+            '<i class="ion-ios-arrow-left"></i>',
+            '<i class="ion-ios-arrow-right"></i>'
+        ],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            }
+        }
+    });
+
     // owl-carousel for Blog 
     $('#team-slider').owlCarousel({
         loop: false,

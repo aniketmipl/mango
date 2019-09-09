@@ -373,23 +373,71 @@
             </div>
 
              <!--related tours started-->  
-            
-        <section class="hotel-offer tour-category" style="display:none;">
-        <div class="container" style="padding-bottom:0;">
-            <div class="row">
-                <div class="hottel-grid-offer related-tours" style="justify-content: left;">
+        <?php if(isset($complete_data->RelatedProducts)){?>
+        <!-- <section class="hotel-offer tour-category" >
+        <div class="container" style="padding-bottom:0;"> -->
+            <div class="">
+                <div class="spacial-place related-tours">
                     <div class="col-md-12">
-                        <h3 class="mb-20"><a>You may also like</a></h3>
+                        <h3 class="mb-20"><a>More holidays you may like : </a></h3>
                         <div class="small-border"></div>
                     </div>
                     <div class="related_tours col-md-12"> 
-                       
+                       <div id="tour-carousel" class="tour-carousel-related owl-carousel owl-theme">
+                        <?php foreach($complete_data->RelatedProducts as $RelatedProducts){ 
+                            $product_image = $RelatedProducts->ProductImage;
+                            if(file_exists($product_image)){
+                               $ProductImage = base_url().$RelatedProducts->ProductImage;
+                            }else{
+                                $ProductImage = base_url().'assets/images/default-tour.jpg';
+                            }
+                             $page_name=strtolower(trim($RelatedProducts->ProductTitle));
+                        ?>
+                            <div class="item">
+                                <div class="hover-box tour-hotel-box">
+                                    <div class="tour-img image" style="position:relative;">
+                                        <img src="<?php echo $ProductImage; ?>" alt="Tour Image">
+                                        <div class="over-layer">
+                                            <div class="links">
+                                                <ul class="list-inline">
+                                                        <li><a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="rate" style="position:absolute; right:0; top:0; ">
+                                            <p> 
+                                            <?php 
+                                            if(($RelatedProducts->LowestTwinSharingPrice) != ''){ 
+                                            ?>
+                                            <b><?php  echo "INR &nbsp;&nbsp;".$RelatedProducts->LowestTwinSharingPrice; ?> /-</b>
+                                            <?php } 
+                                            ?>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="tour-item hotel-item">
+                                        <div class="tour-details">
+                                        <!-- <a href="tour-details.html"> -->
+                                            <a href="<?php echo base_url()."tours/".str_replace(' ','-', $page_name); ?>">
+                                            <p class="price"><?php echo $RelatedProducts->ProductTitle; ?></p>
+                                            <p>
+                                            <?php echo $RelatedProducts->Days; ?>  Days / <?php echo $RelatedProducts->Nights; ?> Nights 
+                                            </p>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php }?>
+                        </div>
+
                     </div>
                 </div>
             </div>
             
-        </div>
-    </section>
+        <!-- </div>
+    </section> -->
+        <?php } ?>
               <!--related tours ended-->   
             
         </div>
@@ -672,7 +720,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
             <form  method="post" name="EnquiryNew" id="EnquiryNew" enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
-                <input name="recipient" type="hidden" id="recipient" value="hr@mangoholidays.in, customercare@mangoholidays.in, tapasyab@mangoholidays.in, tapasya@mangoholidays.in, info@mangoholidays.in">
+                <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
                     <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website">    
                     <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">
                     <input type="text" name="contact_person" id="contact_person" placeholder="Name">

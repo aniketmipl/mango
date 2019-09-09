@@ -32,6 +32,19 @@
                     </div>
                    <!-- /.item -->
 
+                   <!-- Second slide -->
+                   <div class="item slide-5">
+                        <div class="carousel-caption">
+                            <h4 data-animation="animated fadeInDown" style="font-size:2.3em;"></p>
+                                <br/>
+                            <h3 data-animation="animated fadeInUp">Japan Cherry Blossom</span>
+                        </h3>
+                        <br/>
+                        <a href="<?php echo base_url()?>group-tour-packages/japan"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
+                        </div>
+                    </div>
+                   <!-- /.item -->
+
                     <!-- Second slide -->
                     <div class="item slide-2">
                         <div class="carousel-caption">
