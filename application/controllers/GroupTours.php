@@ -172,7 +172,7 @@ $this->load->view('common/header',$head_data);
 	public function call_api($sector){
 
 		$sector= str_replace ( ' ', '%20', $sector);
-		$api_url ="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName=$sector";
+		$api_url ="https://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName=$sector";
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
 		$password = "mango";
@@ -184,10 +184,12 @@ $this->load->view('common/header',$head_data);
 
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);     
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);     
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  
 		curl_setopt($ch, CURLOPT_TIMEOUT, 86400);
 		curl_setopt($ch, CURLOPT_LOW_SPEED_LIMIT, 10240);
 		curl_setopt($ch, CURLOPT_LOW_SPEED_TIME, 60);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 		$return = curl_exec($ch);
 		curl_close($ch);
 		$decrypt_data = json_decode($return);
