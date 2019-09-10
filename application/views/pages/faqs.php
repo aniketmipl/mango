@@ -2,17 +2,17 @@
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
-          <h2 class="entry-title">FAQ – Frequently Asked Questions  </h2>
+          <h2 class="entry-title">FAQs – Frequently Asked Questions  </h2>
         </div>
         <ul class="breadcrumbs pull-right">
             <li><a href="<?php echo base_url();?>">Home</a></li>
-            <li><a class="active" href="#">FAQ</a></li>
+            <li><a class="active" href="#">FAQs</a></li>
         </ul>
     </div>
 </div>
 <div class="clearfix"></div>
 <div class="page-header-container">
-            <img src="<?php echo base_url();?>assets/images/testimonial-banner.jpg" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url();?>assets/images/faqs-banner.jpg" class="desktop-image" alt="slider_image">
            
 </div>
 
