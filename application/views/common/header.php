@@ -24,12 +24,16 @@
     } ?>
     <?php
     $controller = $this->uri->segment(1); // get current controller
-    
+    if($controller=='customized-holidays'){?>
+        <title>Customized <?php echo $sector ?> Tour from Mumbai,Pune,India| Mango Holidays</title>
+    <?php } 
     if(isset($title)){?>
         <title><?php echo @$title;?></title>
     <?php } else { ?>
         <title>Mango Holidays | Experience of a lifetime</title>
     <?php } ?>
+
+    
     <script type="application/ld+json">
     {
       "@context": "http://schema.org/",
