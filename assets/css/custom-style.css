@@ -1787,6 +1787,23 @@ background: #e8e6e6;
 }
 
 /*video testimonials page*/
+.guest .over-layer .links i{
+    color: #fff;
+    font-size: 35px;
+  
+}
+h4.guest-name{
+    color:#f60;
+    
+}
+h4.guest-name i{
+    color:#048832;
+    padding-right:5px;
+    font-size: 1.4em;
+}
+.guest .hover-box .image .over-layer {
+    background: rgba(255, 102, 0, 0.29);
+}
 .YouTubePopUp-Wrap{
     background-color: rgba(0, 0, 0, 0.62);
 }
@@ -1879,4 +1896,5 @@ background: #e8e6e6;
     font-size: 0.9em;
 }
 /*end FAQs page*/
+
 
