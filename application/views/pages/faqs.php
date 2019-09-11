@@ -12,7 +12,7 @@
 </div>
 <div class="clearfix"></div>
 <div class="page-header-container">
-            <img src="<?php echo base_url();?>assets/images/testimonial-banner.jpg" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url();?>assets/images/faqs-banner.jpg" class="desktop-image" alt="slider_image">
            
 </div>
 
@@ -102,7 +102,7 @@
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                    <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
                         <div class="panel-body">
                         <p>
                         You can book your tour as per your convenience ensuring that you have enough time to apply for the required Visas. However, the earlier you book, the better. Booking early (2 months or more before the departure date) is recommended so that there is adequate time for Visa processing.
@@ -219,7 +219,7 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+                    <div id="collapse10" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading10">
                         <div class="panel-body">
                         <p>
                         You will be given pre-departure information about 1 week prior to the departure date of your tour.
@@ -290,7 +290,7 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+                    <div id="collapse14" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading14">
                         <div class="panel-body">
                         <p>
                         Most of our group tours have a medium to fast pace, as we need to cover maximum sightseeing places in limited time/days.
@@ -352,14 +352,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading18">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse18" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            WHAT TYPE OF TRANSPORTATION IS USED?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        A journey is often judged by the quality of its travel and we assure you a lovely experience. Our coaches are safe and supremely comfortable. These coaches are air conditioned and equipped with a TV, CD & DVD player, reclining chairs, arm rests for your comfort and seat belts for your safety. Our drivers are friendly, well qualified, trained and very well versed with the roads of Europe.
                         </p>
                         </div>
                     </div>
@@ -369,14 +369,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading19">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse19" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            IS SPECIAL ASSISTANCE PROVIDED TO DISABLED OR SENIOR CITIZENS ON A GROUP TOUR?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        As our Tour managers are required to manage the entire group it may not be possible to provide focused attention and care to disabled or senior citizens. Hence, we suggest that such Guests travel with a qualified companion who can take care of him/her throughout the tour.
                         </p>
                         </div>
                     </div>
@@ -386,14 +386,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading20">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse20" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            CAN I CARRY MY OWN WHEELCHAIR ON TOUR?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading20">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Yes you can carry your own wheelchair and move along with the group to the sightseeing locations. But in such cases you must be accompanied by a qualified companion who can move the wheelchair around.
                         </p>
                         </div>
                     </div>
@@ -403,14 +403,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading21">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse21" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            DO I HAVE TO WAKE UP EARLY EVERYDAY WHILE ON TOUR?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        We usually follow 6-7-8 schedule for International Tours ie. Wake up call at 6 am, breakfast at 7 am and departure at 8 am. However, the schedule may change depending on the situation and the Tour manager will instruct the Guests accordingly.
                         </p>
                         </div>
                     </div>
@@ -420,14 +420,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading22">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse22" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            WILL I GET SOME FREE TIME TO BE ON MY OWN WHILE TRAVELLING ON A GROUP TOUR?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading22">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Usually, in group tours, the entire day is spent in visiting the sightseeing places. At some places you may have some time at leisure or for shopping. However for most of the days you will get some time on your own only when you return to the hotel.
                         </p>
                         </div>
                     </div>
@@ -437,14 +437,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading23">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse23" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            CAN I USE MY CREDIT CARD FOR SHOPPING AND PERSONAL EXPENSES WHILE ON AN INTERNATIONAL TOUR?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading23">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Yes, you can use your internationally accepted credit cards for shopping and personal expenses. However, you are requested to check with the bank before making such transactions. We are not responsible in case of any damage, fraud, loss etc. which may occur due to such transactions.
                         </p>
                         </div>
                     </div>
@@ -454,14 +454,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading24">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse24" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            HOW CAN I BE IN TOUCH WITH MY LOVED ONES WHILE ON TOUR?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading24">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        You can purchase an international sim card and use it to keep in touch with your loved ones. Alternately you can also purchase local sim card or calling cards. You will need to carry your own internationally compatible mobile handsets on tour. However, we are not responsible for charges levied by the international / local authorities.
                         </p>
                         </div>
                     </div>
@@ -471,14 +471,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading25">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse25" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            CAN I GET MEDICINES ON A TOUR IF REQUIRED?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading25">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        We advise you to carry all your medicines in sufficient quantities while on tour. Medicines can be made available while on tour but doctor’s prescription is compulsory.
                         </p>
                         </div>
                     </div>
@@ -488,14 +488,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading26">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse26" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            HOW CAN I BE IN TOUCH WITH MY LOVED ONES WHILE ON TOUR?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading26">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        You can purchase an international sim card and use it to keep in touch with your loved ones. Alternately you can also purchase local sim card or calling cards. You will need to carry your own internationally compatible mobile handsets on tour. However, we are not responsible for charges levied by the international / local authorities.
                         </p>
                         </div>
                     </div>
@@ -505,14 +505,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading27">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse27" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            CAN I GET A SPECIFIC SEAT OF MY CHOICE ON THE FLIGHT?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse27" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading27">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        You can request for a seat of your choice at the airport check-in counter. Giving the preferred seat is solely at the discretion of the airline and we cannot influence the seating arrangements in the flight.
                         </p>
                         </div>
                     </div>
@@ -522,14 +522,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading28">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse28" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            DO AIRLINES PROVIDE WHEELCHAIR FACILITY?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse28" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading28">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Airlines do provide wheelchair facility but since it is limited, it is subject to availability. If you require this facility, kindly inform about any such service at the time of booking itself. Some airlines may levy additional charges, which need to be borne by you.
                         </p>
                         </div>
                     </div>
@@ -539,290 +539,215 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div class="panel-heading" role="tab" id="heading29">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse29" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            CAN I UPGRADE THE CLASS OF AIRLINE?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse29" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading29">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Yes, you can upgrade class of travel or airline subject to availability and on payment of an additional cost. If you wish to do so, please inform the sales executive at the time of booking.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading30">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse30" aria-expanded="false" aria-controls="collapseThree3">
+                            CAN I BOOK MY OWN AIR TICKET AND JOIN THE TOUR DIRECTLY AT THE FIRST REPORTING PLACE?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse30" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading30">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Yes, for all group tours you have the choice of joining the group directly at the first destination and leaving at the last destination. You will get reduction for the airfare from your tour cost.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading31">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse31" aria-expanded="false" aria-controls="collapseThree3">
+                            IS A TELEPHONIC OR WEB CHECK IN POSSIBLE ON THE DAY OF DEPARTURE?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse31" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading31">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        For group tours airlines prefer check-in at the airport counter only. Hence web check in or telephonic check in for group tickets are generally not possible.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading32">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse32" aria-expanded="false" aria-controls="collapseThree3">
+                            HOW MUCH BAGGAGE IS ALLOWED?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading32">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        At present, most airlines allow 20-25 kg in Cargo and 5-6 kg as Cabin baggage on each ticket but this varies from airline to airline. For Guest traveling to US, baggage is governed by the Piece Concept. As per the piece concept, passengers are allowed to carry two bags of up to 20 kg on each ticket of economy class. However for internal flights there is no free baggage. 1 check-in baggage cost is paid by Mango Holidays but the expenses of the second check â€“in baggage must be borne by you. Also due to security reasons during internal flight the bags cannot be locked and there will be timely instructions from the Tour managers in this regard. Hand baggage of 5 kg is allowed for both international and internal flights.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <br/>
+                 <br/>   
+                <!------------------------------------------->
+                <h4 style="padding-bottom: 12px;">HOTELS</h4>
+                            <div class="small-border"></div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading33">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse32" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT IS THE HOTEL CATEGORY PROVIDED ON GROUP TOURS?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse33" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading33">
+                        <div class="panel-body">
+                        <p>
+                        We provide minimum 3 star category hotels.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading34">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse34" aria-expanded="false" aria-controls="collapseThree3">
+                            ARE THE HOTELS PROVIDED IN GROUP TOURS LOCATED WITHIN THE CITY?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse34" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading34">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Hotels are fixed as per availability and are generally located within city limits.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading35">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse35" aria-expanded="false" aria-controls="collapseThree3">
+                            I AM A SINGLE TRAVELER. CAN I TRAVEL ON A GROUP TOUR?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse35" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading35">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Yes, you can travel on any of our group tours. You can book a single room or you can share your room with another single traveler, if both travelers agree to the same.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading36">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse36" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT IS THE MEANING OF TWIN SHARING?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse36" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading36">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Twin sharing means two adults sharing one room with two separate beds.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading37">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse37" aria-expanded="false" aria-controls="collapseThree3">
+                            WHAT IS THE MEANING OF TRIPLE SHARING?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse37" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading37">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Triple room is allotted when 3 adults share one room together. The size of the room is same as that of a twin room and the third bed is often a rollaway mattress.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading38">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse38" aria-expanded="false" aria-controls="collapseThree3">
+                            IF WE ARE A FAMILY OF 4, CAN WE SHARE ONE HOTEL ROOM?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse38" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading38">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        4 Guests are not allowed in one hotel room.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading39">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse39" aria-expanded="false" aria-controls="collapseThree3">
+                            DO HOTELS PROVIDE PORTER SERVICES?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse39" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading39">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        Yes, most hotels provide porter service. However, internationally, porterage is very expensive. Hence we recommend you to carry stroller bags with wheels that can be handled with ease and convenience. Porter services if required can be availed by you at additional charge, payable at actual.
                         </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading40">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse40" aria-expanded="false" aria-controls="collapseThree3">
+                            WILL IT BE SAFE TO KEEP BELONGINGS IN THE HOTEL ROOM WHILE I AM OUT SIGHTSEEING?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse40" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading40">
                         <div class="panel-body">
                         <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
+                        We advise you not to carry any valuables while on tour. However, if you must do so, in many hotels, they provide safe deposit lockers. You are required to take care of the locker keys or remember the password of the locker system. Please note that if the key is misplaced or password is forgotten, a fine is levied. We are not responsible for loss of any valuables from the hotel / locker / while travelling.
                         </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
-                        <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
-                        <div class="panel-body">
-                        <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
-                        </p>
-                        </div>
-                    </div>
-                </div>
+                
 
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
-                        <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
-                        <div class="panel-body">
-                        <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
-                        </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
-                        <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
-                        <div class="panel-body">
-                        <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
-                        </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
-                        <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
-                        <div class="panel-body">
-                        <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
-                        </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
-                        <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
-                        <div class="panel-body">
-                        <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
-                        </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
-                        <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
-                            WHAT ARE THE TOUR LEADERS LIKE?
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
-                        <div class="panel-body">
-                        <p>
-                        Our tour leaders who accompany you on group tours are veterans!! They are fluent in English, Hindi and Marathi. They treat our customers like friends, showing visitors both the major highlights and the local treasures. They are knowledgeable, well-informed and well-travelled individuals who know just how to make your holiday informative, enthralling and entertaining!!
-                        </p>
-                        </div>
-                    </div>
-                </div>
+                
                 
             </div>
         </div>
