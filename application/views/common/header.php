@@ -25,7 +25,7 @@
     <?php
     $controller = $this->uri->segment(1); // get current controller
     if($controller=='customized-holidays'){?>
-        <title>Customized <?php echo $sector ?> Tour from Mumbai,Pune,India| Mango Holidays</title>
+        <title>Customized <?php echo $sector ?> Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
     <?php } 
     if(isset($title)){?>
         <title><?php echo @$title;?></title>
