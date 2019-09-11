@@ -553,14 +553,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading30">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse30" aria-expanded="false" aria-controls="collapseThree3">
                             CAN I BOOK MY OWN AIR TICKET AND JOIN THE TOUR DIRECTLY AT THE FIRST REPORTING PLACE?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse30" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading30">
                         <div class="panel-body">
                         <p>
                         Yes, for all group tours you have the choice of joining the group directly at the first destination and leaving at the last destination. You will get reduction for the airfare from your tour cost.
@@ -570,14 +570,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading31">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse31" aria-expanded="false" aria-controls="collapseThree3">
                             IS A TELEPHONIC OR WEB CHECK IN POSSIBLE ON THE DAY OF DEPARTURE?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse31" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading31">
                         <div class="panel-body">
                         <p>
                         For group tours airlines prefer check-in at the airport counter only. Hence web check in or telephonic check in for group tickets are generally not possible.
@@ -587,14 +587,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading32">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse32" aria-expanded="false" aria-controls="collapseThree3">
                             HOW MUCH BAGGAGE IS ALLOWED?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading32">
                         <div class="panel-body">
                         <p>
                         At present, most airlines allow 20-25 kg in Cargo and 5-6 kg as Cabin baggage on each ticket but this varies from airline to airline. For Guest traveling to US, baggage is governed by the Piece Concept. As per the piece concept, passengers are allowed to carry two bags of up to 20 kg on each ticket of economy class. However for internal flights there is no free baggage. 1 check-in baggage cost is paid by Mango Holidays but the expenses of the second check â€“in baggage must be borne by you. Also due to security reasons during internal flight the bags cannot be locked and there will be timely instructions from the Tour managers in this regard. Hand baggage of 5 kg is allowed for both international and internal flights.
@@ -610,14 +610,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                             <div class="small-border"></div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading33">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse32" aria-expanded="false" aria-controls="collapseThree3">
                             WHAT IS THE HOTEL CATEGORY PROVIDED ON GROUP TOURS?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse33" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading33">
                         <div class="panel-body">
                         <p>
                         We provide minimum 3 star category hotels.
@@ -627,14 +627,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading34">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse34" aria-expanded="false" aria-controls="collapseThree3">
                             ARE THE HOTELS PROVIDED IN GROUP TOURS LOCATED WITHIN THE CITY?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse34" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading34">
                         <div class="panel-body">
                         <p>
                         Hotels are fixed as per availability and are generally located within city limits.
@@ -644,14 +644,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading35">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse35" aria-expanded="false" aria-controls="collapseThree3">
                             I AM A SINGLE TRAVELER. CAN I TRAVEL ON A GROUP TOUR?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse35" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading35">
                         <div class="panel-body">
                         <p>
                         Yes, you can travel on any of our group tours. You can book a single room or you can share your room with another single traveler, if both travelers agree to the same.
@@ -661,14 +661,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading36">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse36" aria-expanded="false" aria-controls="collapseThree3">
                             WHAT IS THE MEANING OF TWIN SHARING?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse36" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading36">
                         <div class="panel-body">
                         <p>
                         Twin sharing means two adults sharing one room with two separate beds.
@@ -678,14 +678,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading37">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse37" aria-expanded="false" aria-controls="collapseThree3">
                             WHAT IS THE MEANING OF TRIPLE SHARING?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse37" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading37">
                         <div class="panel-body">
                         <p>
                         Triple room is allotted when 3 adults share one room together. The size of the room is same as that of a twin room and the third bed is often a rollaway mattress.
@@ -695,14 +695,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading38">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse38" aria-expanded="false" aria-controls="collapseThree3">
                             IF WE ARE A FAMILY OF 4, CAN WE SHARE ONE HOTEL ROOM?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse38" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading38">
                         <div class="panel-body">
                         <p>
                         4 Guests are not allowed in one hotel room.
@@ -712,14 +712,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading39">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse39" aria-expanded="false" aria-controls="collapseThree3">
                             DO HOTELS PROVIDE PORTER SERVICES?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse39" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading39">
                         <div class="panel-body">
                         <p>
                         Yes, most hotels provide porter service. However, internationally, porterage is very expensive. Hence we recommend you to carry stroller bags with wheels that can be handled with ease and convenience. Porter services if required can be availed by you at additional charge, payable at actual.
@@ -729,14 +729,14 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 </div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading13">
+                    <div class="panel-heading" role="tab" id="heading40">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse13" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse40" aria-expanded="false" aria-controls="collapseThree3">
                             WILL IT BE SAFE TO KEEP BELONGINGS IN THE HOTEL ROOM WHILE I AM OUT SIGHTSEEING?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div id="collapse40" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading40">
                         <div class="panel-body">
                         <p>
                         We advise you not to carry any valuables while on tour. However, if you must do so, in many hotels, they provide safe deposit lockers. You are required to take care of the locker keys or remember the password of the locker system. Please note that if the key is misplaced or password is forgotten, a fine is levied. We are not responsible for loss of any valuables from the hotel / locker / while travelling.
