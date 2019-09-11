@@ -30,8 +30,8 @@
 <!-- Strat Blog Section -->
 <section class="blog-area guest">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-6">
+        <div class="">
+        <div class="col-md-4 col-sm-6 col-xs-12" style="display:inline-flex; float:none;">
                 <div class="hover-box tour-blog-box blog-item-1">
                     <div class="tour-img image">
                         <a href="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" class="lightbox-image" title="Image Caption Here">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 col-xs-12" style="display:inline-flex; float:none;">
                 <div class="hover-box tour-blog-box blog-item-1">
                     <div class="tour-img image">
                         <a href="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" class="lightbox-image" title="Image Caption Here">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 col-xs-12" style="display:inline-flex; float:none;">
                 <div class="hover-box tour-blog-box blog-item-1">
                     <div class="tour-img image">
                         <a href="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" class="lightbox-image" title="Image Caption Here">
@@ -92,7 +92,47 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 col-xs-12" style="display:inline-flex; float:none;">
+                <div class="hover-box tour-blog-box blog-item-1">
+                    <div class="tour-img image">
+                        <a href="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" class="lightbox-image" title="Image Caption Here">
+                        <img src="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" alt="">
+                        <div class="over-layer">
+                            <div class="links">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="tour-item blog-item">
+                        <div class="blog-details">
+                            <h4 class="guest-name"><i class="ion-person"></i> Mr.Ravindra Deomore</h4>
+                            <p>Mango Holidays Indeed delivered an exotic tour as promised. Right from the booking stage till tour execution, everything was perfectly planned and delivered. We are truly indebted to Mango Holidays for giving us an experience of a lifetime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12" style="display:inline-flex; float:none;">
+                <div class="hover-box tour-blog-box blog-item-1">
+                    <div class="tour-img image">
+                        <a href="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" class="lightbox-image" title="Image Caption Here">
+                        <img src="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" alt="">
+                        <div class="over-layer">
+                            <div class="links">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="tour-item blog-item">
+                        <div class="blog-details">
+                            <h4 class="guest-name"><i class="ion-person"></i> Mr.Ravindra Deomore</h4>
+                            <p>Mango Holidays Indeed delivered an exotic tour as promised. Right from the booking stage till tour execution, everything was perfectly planned and delivered. We are truly indebted to Mango Holidays for giving us an experience of a lifetime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12" style="display:inline-flex; float:none;">
                 <div class="hover-box tour-blog-box blog-item-1">
                     <div class="tour-img image">
                         <a href="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" class="lightbox-image" title="Image Caption Here">

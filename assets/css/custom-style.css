@@ -1804,6 +1804,20 @@ h4.guest-name i{
 .guest .hover-box .image .over-layer {
     background: rgba(255, 102, 0, 0.29);
 }
+.guest .col-md-4{
+    width:32.9%;
+}
+@media only screen and (max-width:991px){
+.guest .col-sm-6{
+    width:49%;
+}
+}
+
+@media only screen and (max-width:500px){
+    .guest .col-xs-12{
+        width:100%;
+    }
+    }
 .YouTubePopUp-Wrap{
     background-color: rgba(0, 0, 0, 0.62);
 }
