@@ -120,6 +120,7 @@ $route['customized-holidays/nepal'] ='CustomizedTours/customized_nepal';
 $route['customized-holidays/russia'] ='CustomizedTours/customized_russia';
 $route['customized-holidays/south-east-asia'] ='CustomizedTours/customized_asia';
 $route['customized-holidays/south-east-asia'] ='CustomizedTours/customized_asia';
+$route['customized-holidays/jordan'] ='CustomizedTours/customized_jordan';
 
 
 
@@ -225,6 +226,9 @@ $route['tours/eastern-europe-express'] = 'tours/eastern_europe_express';
 $route['tours/vietnam-cambodia'] = 'tours/vietnam_cambodia';
 $route['tours/japan---cherry-blossom'] = 'tours/japan';
 $route['tours/japan-cherry-blossom'] = 'tours/japan';
+
+$route['tours/jordan-diamonds']='tours/jordan_diamonds';
+$route['tours/petra-moon-valley']='tours/petra_moon_valley';
 
 //pages
 $route['about-us'] = 'pages/about_us';
