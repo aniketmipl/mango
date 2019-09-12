@@ -1793,8 +1793,14 @@ background: #e8e6e6;
   
 }
 h4.guest-name{
-    color:#f60;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f60;
     
+}
+.guest p{
+    color:#000;
 }
 h4.guest-name i{
     color:#048832;
@@ -1807,6 +1813,14 @@ h4.guest-name i{
 .guest .col-md-4{
     width:32.9%;
 }
+.guest .hover-box.blog-item-1 .blog-details{
+    background: #f7f7f7;
+    margin-bottom:30px;
+}
+.guest .hover-box .image{
+box-shadow: 8px 6px 11px 1px #bbb4b4;
+}
+
 @media only screen and (max-width:991px){
 .guest .col-sm-6{
     width:49%;
