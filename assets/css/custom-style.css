@@ -46,6 +46,15 @@
         text-transform: uppercase;
         letter-spacing: 0.04em;
     }
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:before{
+        font-family: FontAwesome;
+    content: "\f105";
+    display: block;
+    font-size: 10px;
+    position: absolute;
+    left: 0px;
+    font-weight: normal;    
+    }
     .top-link{
         color: #fff;
         float: right;
@@ -958,6 +967,17 @@ nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .content {
 nav.bootsnav .megamenu-content .col-menu {
   
     padding: 0;
+}
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:before{
+ 
+content: "";
+
+ 
+}
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a{
+    border-bottom: solid 1px #e0e0e0;
+    padding: 10px 0;
+    display: block;
 }
 .col-menu h5{
     padding-top:5% !important;

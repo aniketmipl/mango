@@ -290,8 +290,10 @@
                                                         <li><a href="<?php echo base_url()?>customized-holidays/turkey">Turkey</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/spain">Spain</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/russia">Russia</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/jordan">Jordon</a></li>
                                                       </div>
                                                       <div class="col-md-6 col-sm-12">
+                                                        
                                                         <li><a href="<?php echo base_url()?>customized-holidays/japan">Japan</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/mauritius">Mauritius</a></li>
                                                         <!-- <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li> -->
@@ -303,6 +305,7 @@
                                                         <li><a href="<?php echo base_url()?>customized-holidays/greece">Greece</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/canada">Canada</a></li>
                                                       </div>
+                                                      
                                                     </ul>
                                                 </div>
                                             </div>
