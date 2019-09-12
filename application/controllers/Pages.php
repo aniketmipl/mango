@@ -179,4 +179,48 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/faqs');
 		$this->load->view('common/footer');
 	}
+	public function franchisee()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Preferred Sales Agent | Mango Holidays";
+		$head_data['page_description'] = "Franchisee enquiry for Mango Holidays - Be our partner. Lets grow together. Write to us on info@mangoholidays.in for more information";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/franchisee');
+		$this->load->view('common/footer');
+	}
+	public function how_to_book()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "How to book | Mango Holidays";
+		$head_data['page_description'] = "How to book with Mango Holidays - Find here all the necessary information required for booking your tour with Mango Holidays.";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/how_to_book');
+		$this->load->view('common/footer');
+	}
+	public function privacy_policy()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Privacy Policy | Mango Holidays";
+		$head_data['page_description'] = "Find here Privacy Policy - Mango Holidays";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/privacy_policy');
+		$this->load->view('common/footer');
+	}
+	public function terms_and_conditions()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Terms and Conditions | Mango Holidays";
+		$head_data['page_description'] = "Terms and conditions - Please read, understand and accept the below mentioned terms &amp; conditions for your holiday at the time of booking.";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/terms_and_conditions');
+		$this->load->view('common/footer');
+	}
 }

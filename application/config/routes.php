@@ -249,6 +249,11 @@ $route['careers'] = 'pages/careers';
 $route['galleries/photo-gallery'] = 'pages/photo_gallery';
 $route['photo-gallery'] = 'pages/photo_gallery';
 $route['faqs'] = 'pages/faqs';
+$route['franchisee'] = 'pages/franchisee';
+$route['how-to-book'] = 'pages/how_to_book';
+$route['privacy-policy'] = 'pages/privacy_policy';
+$route['terms-and-conditions'] = 'pages/terms_and_conditions';
+
 
 //redirected urls
 $route['tours/southafricatour'] = 'tours/south_african_safari';

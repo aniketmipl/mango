@@ -1946,3 +1946,35 @@ box-shadow: 8px 6px 11px 1px #bbb4b4;
 /*end FAQs page*/
 
 
+.sideber-content ul li{
+    font-size: 1.2em;
+    line-height: 1.6666;
+    margin-bottom: 15px;
+    color: #585858;
+    letter-spacing: 0.2px;
+}
+.sidebar_content ul li{
+    font-size: 1.2em;
+    line-height: 1.6666;
+    margin-bottom: 15px;
+    color: #585858;
+    letter-spacing: 0.2px;
+    list-style-type: disc;
+}
+.sidebar_content ul{
+    padding-left:20px;
+}
+.tandc{
+    width:100%;
+   
+}
+.tandc td{
+    border:1px solid;
+    padding:1%;
+
+}
+.tandc p{
+    font-size:inherit;
+}
+
+
