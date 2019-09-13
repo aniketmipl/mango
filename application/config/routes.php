@@ -230,6 +230,12 @@ $route['tours/japan-cherry-blossom'] = 'tours/japan';
 $route['tours/jordan-diamonds']='tours/jordan_diamonds';
 $route['tours/petra-moon-valley']='tours/petra_moon_valley';
 
+$route['tours/bangkok-chiang-mai'] = 'tours/bangkok_chiang_mai';
+$route['tours/kuala-lumpur-penang'] = 'tours/kuala_lumpur_penang';
+$route['tours/australia-on-budget'] = 'tours/australia_on_budget';
+$route['tours/best-of-australia'] = 'tours/best_of_australia';
+$route['tours/luxury-dubai-abu-dhabi-loaded'] = 'tours/luxury_dubai_abu_dhabi_loaded';
+$route['tours/dubai-abu-dhabi-basic'] ='tours/dubai_abu_dhabi_basic';
 //pages
 $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';

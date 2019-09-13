@@ -1508,7 +1508,7 @@ $this->load->view('common/header',$head_data);
 		$filter_data['slider_mobile_image'] = 'fit/DX2/best-of-dubai.jpg';
 		$filter_data['sector']="Dubai";
 		$filter_data['sector_path']="CustomizedTours/customized_africa";
-		$head_data['title'] = "BEST OF DUBAI Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['title'] = "Best of Dubai Tour Package from Mumbai,Pune,India | Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 			$this->load->view('common/header',$head_data);
@@ -2161,6 +2161,125 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/footer');
 	}
 
+	public function bangkok_chiang_mai(){
+		$product_id ='119';
+		$product_code='TH3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Bangkok Chiang Mai Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function kuala_lumpur_penang(){
+		$product_id ='126';
+		$product_code='MY2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Asia";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Kuala Lumpur Penang Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function australia_on_budget(){
+		$product_id ='121';
+		$product_code='AU2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Australia and New Zealand";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Australia on Budget Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function best_of_australia(){
+		$product_id ='124';
+		$product_code='AU3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Australia and New Zealand";
+		$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function luxury_dubai_abu_dhabi_loaded(){
+		$product_id ='124';
+		$product_code='AU3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Dubai";
+		// $filter_data['sector_path']="CustomizedTours/customized_africa";
+		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function dubai_abu_dhabi_basic(){
+		$product_id ='123';
+		$product_code='DX3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Dubai";
+		// $filter_data['sector_path']="CustomizedTours/customized_africa";
+		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	
 	
 	public function mpdf(){
 		//load mPDF library
