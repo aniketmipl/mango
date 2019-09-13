@@ -30,14 +30,14 @@
     else if($controller == 'group-tour-packages'){ ?>
         <title><?php echo @$sector ?> Group Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
     <?php }
+    else if($controller == 'tours'){?>
+            <title><?php echo ucwords(str_replace('-',' ',$this->uri->segment(2))); ?> Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
+    <?php }
     else if(isset($title)){?>
         <title><?php echo @$title;?></title>
     <?php } else { ?>
         <title>Mango Holidays | Experience of a lifetime</title>
     <?php } ?>
-
-    
-
 
     <script type="application/ld+json">
     {
