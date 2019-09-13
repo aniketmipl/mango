@@ -12,7 +12,7 @@
 </div>
 <div class="clearfix"></div>
 <div class="page-header-container">
-            <img src="<?php echo base_url();?>assets/images/franchisee-banner.jpg" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url();?>assets/images/booking-banner.jpg" class="desktop-image" alt="slider_image">
            
 </div>
 

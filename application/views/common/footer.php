@@ -241,7 +241,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="copyright-col text-center">
-                            <p>Mango Holidays India Private Limited © 2016-18 All Rights Reserved.</p>
+                            <p>Mango Holidays India Private Limited © 2016-19 All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
