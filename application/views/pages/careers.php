@@ -3,7 +3,7 @@
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
-          <h2 class="entry-title">Careers</h2>
+          <h1 class="entry-title">Careers</h1>
         </div>
         <ul class="breadcrumbs pull-right">
             <li><a href="<?php echo base_url();?>">Home</a></li>

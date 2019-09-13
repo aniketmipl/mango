@@ -43,7 +43,7 @@
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
-          <h2 class="entry-title"><?php echo @$complete_data->ProductTitle;?></h2>
+          <h1 class="entry-title"><?php echo @$complete_data->ProductTitle;?></h1>
         </div>
         <ul class="breadcrumbs pull-right">
             <li>
