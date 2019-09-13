@@ -13,7 +13,7 @@ class CustomizedTours extends CI_Controller {
 		$sector ='Africa'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Africa Cutomized Tour| Mango Holidays";
+		//$head_data['title'] = "Africa Cutomized Tour| Mango Holidays";
 		$data['group_images'] = array(  'group1' =>'images/tours/europe/best-of-europe.jpg',
 										'group2' =>'images/tours/europe/classic-europe.jpg',
 										'group3' =>'images/tours/europe/exotic-eurpoe.jpg');
@@ -32,7 +32,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Europe'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Europe Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Europe Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -47,7 +47,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Australia and New Zealand'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Australia and New Zealand Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Australia and New Zealand Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -62,7 +62,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Africa'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized South Africa Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized South Africa Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -76,7 +76,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Andaman'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Andaman Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Andaman Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -91,7 +91,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Asia'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Asia Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Asia Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -105,7 +105,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Madhya Pradesh'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Madhya Pradesh Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Madhya Pradesh Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -119,7 +119,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Mauritius'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Mauritius Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Mauritius Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -135,7 +135,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Dubai'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Dubai Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Dubai Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -149,7 +149,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Japan'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Japan Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Japan Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -163,7 +163,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Scandinavia'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Scandinavia Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Scandinavia Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -177,7 +177,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Maldives'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Maldives Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Maldives Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -192,7 +192,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Gujarat'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Gujarat Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Gujarat Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -206,7 +206,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Hyderabad'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Hyderabad Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Hyderabad Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -220,7 +220,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Kashmir'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Kashmir Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Kashmir Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -234,7 +234,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Kerala'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Kerala Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Kerala Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -248,7 +248,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Nepal'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Nepal Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Nepal Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -262,7 +262,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Sri Lanka'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized Sri Lanka Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized Sri Lanka Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -276,7 +276,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Rajasthan'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Customized $sector Tour from Mumbai,Pune,India| Mango Holidays";
+		//$head_data['title'] = "Customized $sector Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -290,7 +290,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Tamil Nadu'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Tamil Nadu Tour | Mango Holidays";
+		//$head_data['title'] = "Tamil Nadu Tour | Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -304,7 +304,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Goa'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Goa Tour | Mango Holidays";
+		//$head_data['title'] = "Goa Tour | Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -318,7 +318,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='North East'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "North East Tour | Mango Holidays";
+		//$head_data['title'] = "North East Tour | Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -332,7 +332,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='karnataka'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "karnataka Tour | Mango Holidays";
+		//$head_data['title'] = "karnataka Tour | Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -346,7 +346,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Andhra Pradesh'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "North East Tour| Mango Holidays";
+		//$head_data['title'] = "North East Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -361,7 +361,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Bali'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Bali Tour| Mango Holidays";
+		//$head_data['title'] = "Bali Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -375,7 +375,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Egypt'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Egypt Tour| Mango Holidays";
+		//$head_data['title'] = "Egypt Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -389,7 +389,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Himachal'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Himachal Tour| Mango Holidays";
+		//$head_data['title'] = "Himachal Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -404,7 +404,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Orissa'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Orissa Tour| Mango Holidays";
+		//$head_data['title'] = "Orissa Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -418,7 +418,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Turkey'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Turkey Tour| Mango Holidays";
+		//$head_data['title'] = "Turkey Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -432,7 +432,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Azerbaijan'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Azerbaijan Tour| Mango Holidays";
+		//$head_data['title'] = "Azerbaijan Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -446,7 +446,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Spain'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Spain Tour| Mango Holidays";
+		//$head_data['title'] = "Spain Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -460,7 +460,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Russia'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Russia Tour| Mango Holidays";
+		//$head_data['title'] = "Russia Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -474,7 +474,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Greece'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Greece Tour| Mango Holidays";
+		//$head_data['title'] = "Greece Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
@@ -488,7 +488,7 @@ $this->load->view('common/header',$head_data);
 		$sector ='Canada'; //for Api
 
 		$data['api_result']=$this->call_api($sector);
-		$head_data['title'] = "Canada Tour| Mango Holidays";
+		//$head_data['title'] = "Canada Tour| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];

@@ -4,6 +4,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="">
+    <?php
+    $controller = $this->uri->segment(1); // get current controller
+    if($controller=='customized-holidays'){?>
+        <title>Customized <?php echo @$sector ?> Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
+    <?php } 
+    else if($controller == 'group-tour-packages'){ ?>
+        <title><?php echo @$sector ?> Group Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
+    <?php }
+    else if($controller == 'tours'){?>
+            <title><?php echo ucwords(str_replace('-',' ',$this->uri->segment(2))); ?> Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
+    <?php }
+    else if(isset($title)){?>
+        <title><?php echo @$title;?></title>
+    <?php } else { ?>
+        <title>Mango Holidays | Experience of a lifetime</title>
+    <?php } ?>
+
     <?php 
     if(isset($travel_type)){
         if($travel_type =='GIT'){?>
@@ -22,22 +39,7 @@
     <?php }
 
     } ?>
-    <?php
-    $controller = $this->uri->segment(1); // get current controller
-    if($controller=='customized-holidays'){?>
-        <title>Customized <?php echo @$sector ?> Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
-    <?php } 
-    else if($controller == 'group-tour-packages'){ ?>
-        <title><?php echo @$sector ?> Group Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
-    <?php }
-    else if($controller == 'tours'){?>
-            <title><?php echo ucwords(str_replace('-',' ',$this->uri->segment(2))); ?> Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
-    <?php }
-    else if(isset($title)){?>
-        <title><?php echo @$title;?></title>
-    <?php } else { ?>
-        <title>Mango Holidays | Experience of a lifetime</title>
-    <?php } ?>
+    
 
     <script type="application/ld+json">
     {
