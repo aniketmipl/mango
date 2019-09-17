@@ -226,6 +226,7 @@ $route['tours/eastern-europe-express'] = 'tours/eastern_europe_express';
 $route['tours/vietnam-cambodia'] = 'tours/vietnam_cambodia';
 $route['tours/japan---cherry-blossom'] = 'tours/japan';
 $route['tours/japan-cherry-blossom'] = 'tours/japan';
+$route['tours/luxurious-bali']='tours/luxurious_bali';
 
 $route['tours/jordan-diamonds']='tours/jordan_diamonds';
 $route['tours/petra-moon-valley']='tours/petra_moon_valley';
