@@ -2279,7 +2279,24 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
-	
+	public function best_of_southafrica(){
+		$product_id ='17';
+		$product_code='S1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'git/S1/best-of-south-africa-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/S1/best-of-south-africa.jpg"';
+		$filter_data['sector']="Dubai";
+		// $filter_data['sector_path']="CustomizedTours/customized_africa";
+		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
 	
 	public function mpdf(){
 		//load mPDF library
