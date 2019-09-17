@@ -150,6 +150,16 @@
          <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom-style-tour2.css">
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127123545-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127123545-1');
+</script>
+
 </head>
 
     <!-- Start Main Header -->
