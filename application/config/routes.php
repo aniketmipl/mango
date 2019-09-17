@@ -236,6 +236,8 @@ $route['tours/australia-on-budget'] = 'tours/australia_on_budget';
 $route['tours/best-of-australia'] = 'tours/best_of_australia';
 $route['tours/luxury-dubai-abu-dhabi-loaded'] = 'tours/luxury_dubai_abu_dhabi_loaded';
 $route['tours/dubai-abu-dhabi-basic'] ='tours/dubai_abu_dhabi_basic';
+$route['tours/best-of-south-africa'] = 'tours/best_of_southafrica';
+
 //pages
 $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';
