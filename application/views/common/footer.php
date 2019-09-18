@@ -9,7 +9,7 @@
                                 <h4>Quick Links</h4>
                                 <div class="small-border"></div>
                                 <div class="col-md-12 no-padding">
-                                <ul class="widget-list triangle list-unstyled mb-20">
+                                <ul class="widget-list triangle list-unstyled ">
                                     <li><a href="<?php echo base_url();?>"> Home</a></li>
                                     <li><a href="<?php echo base_url()?>about-us"> About Us</a></li>
                                     <li><a href="<?php echo base_url()?>corporate-tours-package"> Corporate Tours</a></li>
@@ -46,9 +46,9 @@
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mb-20 clearfix">
                             <div class="footer-service fo-title mb-20">
                         <div class="widget mb-20">
-                            <h4>USEFUL LINKS</h4>
-                            <div class="small-border"></div>
-                            
+                            <!-- <h4>USEFUL LINKS</h4>
+                            <div class="small-border"></div> -->
+                            <div class="adjustable-margin1"></div>
                             <div class="col-md-12 no-padding">
                             <ul class="widget-list triangle list-unstyled mb-20">
 
@@ -173,8 +173,8 @@
                                                                                         <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                                                                                        Maharashtra 411004.
                                                                                     </li>
+                                                                                    <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039505 / 8380039499 </li> 
                                                                                     <li><span class="fa fa-phone"></span> <b>Phone :</b> + 020 2544 4415</li> 
-                                                                                    <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
                                                                                     <li><span class="fa fa-envelope"></span> <b>Email :</b> <span style="text-transform:none; font-size:inherit; font-family:inherit;">info@mangoholidays.in</span></li>
                                                                                     
                                                                                     
@@ -200,8 +200,8 @@
                                                                                     <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                                                                                     Dadar (W) –400 028, Maharashtra. 
                                                                                 </li>
+                                                                                <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 9049759322 </li> 
                                                                                 <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 22 24335500 / 11 / 22</li> 
-                                                                                <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
                                                                                 <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">info@mangoholidays.in</span></li>
                                                                                 
                                                                                 
@@ -227,8 +227,8 @@
                                                                                     <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                                                                                     Thane (W) – 400 602, Maharashtra.
                                                                                 </li>
+                                                                                <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 </li> 
                                                                                 <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 22- 25450017 / 18 / 19 / 20</li> 
-                                                                                <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
                                                                                 <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">info@mangoholidays.in</span></li>
                                                                                 
                                                                                 
@@ -255,7 +255,7 @@
                                                                                     Nagpur – 440010, Maharashtra.
                                                                                 </li>
                                                                                 <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 712 – 2244557 / 8 / 9</li> 
-                                                                                <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li> 
+                                                                                <!-- <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li>  -->
                                                                                 <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">info@mangoholidays.in</span></li>
                                                                                 
                                                                                 

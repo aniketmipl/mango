@@ -262,14 +262,16 @@ Thane (W) – 400 602, Maharashtra.</p></li>
                                 <li><i class="fa-li fa fa-map-marker"></i> <p>302, 3rd Floor, Pathak House,
 Near VNIT College, Abhyankar Nagar,<br/>
 Nagpur – 440010, Maharashtra.</p></li>
-								<li><i class="fa-li fa fa-mobile"></i>+91 9923244687</li>
+								<!-- <li><i class="fa-li fa fa-mobile"></i>+91 9923244687</li> -->
                                 <li><i class="fa-li fa fa-phone"></i>+91 712-2244557 / 8 / 9</li>
                                 <li><i class="fa-li fa fa-envelope-o"></i>info@mangoholidays.in</li>
                                 
 							</ul>
 							<br/>
 							<br/>
+							
 							<iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+							
                         </div>
                     </div>
 	</div>

@@ -881,8 +881,8 @@
                         <p>Our aim at Mango Holidays is to create for our guests; an Experience of a Lifetime!!<br/>
                         Take a tour of our happy clients.                       
                         </p>
-                        <a href="<?php echo base_url();?>galleries/photo-gallery"><span class="demo"><i class="icon ion-ios-camera-outline"></i></span>
-                        <br/> [ Explore Gallery ] </a>
+                        <a href="<?php echo base_url();?>galleries/photo-gallery"><span class="demo"><i class="icon icon-Play"></i></span>
+                        <!-- <br/> [ Explore Gallery ]--> </a> 
                     </div>
                 </div>
             </div>

@@ -30,7 +30,7 @@
                             <h2>About <b>Mango Holidays</b></h2>
                         </div>
                         <h4 style="line-height: 29px; letter-spacing: 0.5px; text-transform:uppercase;"><b>Our aim at Mango Holidays is to create for our guests; an Experience of a Lifetime!!</b></h4>
-                        <p>The journey of Mango Holidays (India) Private Limited began on January 1st, 2008. Since inception, the growth has been phenomenal. In a short span of time, we have opened offices in prime locations in Mumbai & Pune.<br/><br/>
+                        <p>The journey of Mango Holidays (India) Private Limited began on January 1st, 2008. Since inception, the growth has been phenomenal. In a short span of time, we have opened offices in prime locations in Mumbai, Pune, Thane & Nagpur.<br/><br/>
 
                             We provide every travel related solution. We organize group tours, customized packages, corporate tours (MICE), provide visa assistance & also take care of air tickets, travel insurance & forex needs.<br/><br/>
                             
