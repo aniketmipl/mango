@@ -870,19 +870,6 @@
         
 
     <!-- Strat Portfolio Section -->
-    
-    <script>
-                jQuery(document).ready(function($) {
-$('a[href^="#"]').on('click', function(event) {
-    
-    var target = $( $(this).attr('href') );
-    target.fadeToggle(400);
-    
-
-});
-});
-
-            </script>
     <section class="photo-area parallax" data-parallax-bg-image="images/bg/4.jpg">
         <div class="container">
             <div class="row">
@@ -891,23 +878,10 @@ $('a[href^="#"]').on('click', function(event) {
                         <h2>Photo <b>Gallery</b></h2>
                         <p>Our aim at Mango Holidays is to create for our guests; an Experience of a Lifetime!!
                         </p>
-                        <a href="#expe1" class="demo"><span><i class="icon ion-ios-camera-outline"></i></span></a>
                     </div>
                 </div>
             </div>
-            
-             <!--<div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="video-content text-center">
-                                <h2>Photo <b>Gallery</b></h2>
-                                <p>Our aim at Mango Holidays is to create for our guests; an Experience of a Lifetime!!
-                        </p>
-                                <a href="#expe1" class="demo"><span><i class="icon ion-ios-camera-outline"></i></span></a>
-                            </div>
-                        </div>
-            </div> -->
-      
-            <div class="row" id="expe1">
+            <div class="row">
                 <div class="portfolio-col">
                     <!-- Filter Nav -->
                     <ul class="portfolio-nav" style="display: none;">
