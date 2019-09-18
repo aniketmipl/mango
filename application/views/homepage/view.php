@@ -871,27 +871,18 @@
 
     <!-- Strat Portfolio Section -->
     
-    <script>
-                jQuery(document).ready(function($) {
-$('a[href^="#"]').on('click', function(event) {
-    
-    var target = $( $(this).attr('href') );
-    target.fadeToggle(400);
-    
-
-});
-});
-
-            </script>
-    <section class="photo-area parallax" data-parallax-bg-image="images/bg/4.jpg">
+  
+    <section class="photo-area parallax" data-parallax-bg-image="images/bg/4.jpg" style="background: url(./assets/images/bg/4.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
                     <div class="sec-title text-center">
                         <h2>Photo <b>Gallery</b></h2>
-                        <p>Our aim at Mango Holidays is to create for our guests; an Experience of a Lifetime!!
+                        <p>Our aim at Mango Holidays is to create for our guests; an Experience of a Lifetime!!<br/>
+                        Take a tour of our happy clients.                       
                         </p>
-                        <a href="#expe1" class="demo"><span><i class="icon ion-ios-camera-outline"></i></span></a>
+                        <a href="<?php echo base_url();?>galleries/photo-gallery"><span class="demo"><i class="icon ion-ios-camera-outline"></i></span>
+                        <br/> [ Explore Gallery ] </a>
                     </div>
                 </div>
             </div>
@@ -906,145 +897,6 @@ $('a[href^="#"]').on('click', function(event) {
                             </div>
                         </div>
             </div> -->
-      
-            <div class="row" id="expe1">
-                <div class="portfolio-col">
-                    <!-- Filter Nav -->
-                    <ul class="portfolio-nav" style="display: none;">
-                        <li class="" data-filter="all"> All Projects</li>
-                    </ul>
-                    <!-- Filter Content -->
-                    <div class="filtr-container">
-                        <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1, 3" data-sort="value">
-                            <div class="portfolio-box">
-                                <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/images/gallery/photo1.jpg" alt="">
-
-                                    <div class="overlay"></div>
-                                    <div class="overlay-content">
-                                        <div class="overlay-icon">
-                                            <a href="<?php echo base_url();?>assets/images/gallery/photo1.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="2, 3" data-sort="value">
-                            <div class="portfolio-box">
-                                <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/images/gallery/photo2.jpg" alt="">
-
-                                    <div class="overlay"></div>
-                                    <div class="overlay-content">
-                                        <div class="overlay-icon">
-                                            <a href="<?php echo base_url();?>assets/images/gallery/photo2.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="4, 1" data-sort="value">
-                            <div class="portfolio-box">
-                                <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/images/gallery/photo3.jpg" alt="">
-
-                                    <div class="overlay"></div>
-                                    <div class="overlay-content">
-                                        <div class="overlay-icon">
-                                            <a href="<?php echo base_url();?>assets/images/gallery/photo3.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="3, 2" data-sort="value">
-                            <div class="portfolio-box">
-                                <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/images/gallery/photo4.jpg" alt="">
-
-                                    <div class="overlay"></div>
-                                    <div class="overlay-content">
-                                        <div class="overlay-icon">
-                                            <a href="<?php echo base_url();?>assets/images/gallery/photo4.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Tour Photo"><i class="ion-ios-plus-outline"></i></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1, 3" data-sort="value">
-                            <div class="portfolio-box">
-                                <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/images/gallery/photo5.jpeg" alt="">
-
-                                    <div class="overlay"></div>
-                                    <div class="overlay-content">
-                                        <div class="overlay-icon">
-                                            <a href="<?php echo base_url();?>assets/images/gallery/photo5.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="4, 1" data-sort="value">
-                            <div class="portfolio-box">
-                                <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/images/gallery/photo6.jpeg" alt="">
-
-                                    <div class="overlay"></div>
-                                    <div class="overlay-content">
-                                        <div class="overlay-icon">
-                                            <a href="<?php echo base_url();?>assets/images/gallery/photo6.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1, 3" data-sort="value">
-                            <div class="portfolio-box">
-                                <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/images/gallery/photo7.jpeg" alt="">
-
-                                    <div class="overlay"></div>
-                                    <div class="overlay-content">
-                                        <div class="overlay-icon">
-                                            <a href="<?php echo base_url();?>assets/images/gallery/photo7.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="3, 2" data-sort="value">
-                            <div class="portfolio-box">
-                                <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/images/gallery/photo8.jpeg" alt="">
-
-                                    <div class="overlay"></div>
-                                    <div class="overlay-content">
-                                        <div class="overlay-icon">
-                                            <a href="<?php echo base_url();?>assets/images/gallery/photo8.jpeg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="4, 1" data-sort="value">
-                            <div class="portfolio-box">
-                                <figure class="image">
-                                    <img src="<?php echo base_url();?>assets/images/gallery/photo9-small.jpg" alt="">
-
-                                    <div class="overlay"></div>
-                                    <div class="overlay-content">
-                                        <div class="overlay-icon">
-                                            <a href="<?php echo base_url();?>assets/images/gallery/photo9.jpg" data-fancybox-group="gallery" class="lightbox-image" title="Corporate Tour"><i class="ion-ios-plus-outline"></i></a>
-                                        </div>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary" href="<?php echo base_url()?>galleries/photo-gallery">View More</a>
-                </div>
-            </div>
         </div>
     </section>
     <!-- End Portfolio Section -->
