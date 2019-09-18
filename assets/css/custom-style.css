@@ -449,6 +449,14 @@
         color: #b5b1b1;
     }
     footer .contact-info.team-details ul li{
+        position: relative;
+    }
+    footer .contact-info.team-details ul li span.fa{
+        position: absolute;
+        left: -30px;
+        top: 0;
+    }
+    footer .contact-info.team-details ul li{
         /* color: #b5b1b1;
         font-size: 1.2em;
         line-height: 20px;
@@ -461,7 +469,7 @@
     margin: 0;
     padding: 5px 0px;
     text-transform: uppercase;
-    margin-left: 5%;
+    margin-left: 35px;
     letter-spacing: 0.2px;
     }
     footer .accordion-style-one #accordion .panel-body {
