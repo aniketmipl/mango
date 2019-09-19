@@ -238,6 +238,12 @@ $route['tours/best-of-australia'] = 'tours/best_of_australia';
 $route['tours/luxury-dubai-abu-dhabi-loaded'] = 'tours/luxury_dubai_abu_dhabi_loaded';
 $route['tours/dubai-abu-dhabi-basic'] ='tours/dubai_abu_dhabi_basic';
 $route['tours/best-of-south-africa'] = 'tours/best_of_southafrica';
+$route['tours/best-of-italy'] = 'tours/best_of_italy';
+$route['tours/discover-croatia'] = 'tours/discover_croatia';
+$route['tours/jewels-of-spain'] = 'tours/jewels_of_spain';
+$route['tours/best-of-greece'] = 'tours/best_of_greece';
+$route['tours/japan-with-alpine-route'] = 'tours/japan_with_alpine_route';
+
 
 //pages
 $route['about-us'] = 'pages/about_us';
