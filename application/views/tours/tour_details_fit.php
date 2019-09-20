@@ -69,7 +69,7 @@
      <?php  echo $complete_data->Days; ?> Days  / <?php echo $complete_data->Nights; ?> Night 
 </div>
 <div id='PDFcontent' style="display: none;">
-<div style="border:1px solid #ccc; border-top:0; border-bottom:0; margin-bottom:0; padding-bottom:0;">
+<div style="border:1px solid #ccc; border-top:0; border-bottom:0; margin-bottom:0; padding-bottom:10px;">
     <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $complete_data->ProductTitle;?></h2>
     <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Night </h3>
     
