@@ -80,7 +80,7 @@
 
 
     <?php  if(isset($itenary_bystay)){ ?>
-        <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">CITIES WITH NO OF NIGHTS</h3>
+        <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">CITIES WITH NO. OF NIGHTS</h3>
         <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_bystay);?></p>
     <?php }?>
     
