@@ -15,8 +15,10 @@
             foreach ($itenary_key2->ProductItineraryByDayItem as $itenary_key) {
                 $itenary_program .= "<h3 style='font-size:14px; font-weight:bold'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
-    }}}
-        @$itenary_program .="</div>";
+    }}
+            @$itenary_program .="</div>";
+}
+
 
 
         //Itenary By Stay
@@ -29,8 +31,10 @@
 
                 $itenary_bystay .="<tr><td align='center' style='padding:10px;border:1px solid black; border-bottom:0; border-right:0;'>".$ProductItineraryByStayItem->CityName."</td><td align='center' style='padding:10px;border:1px solid black; border-bottom:0;'>".$ProductItineraryByStayItem->Nights."</td></tr>";
                 // $itenary_bystay .="<p>Nights :".$ProductItineraryByStayItem->Nights."</p>";
-    }}}
-        @$itenary_bystay .="</table></div>";
+    }}
+            @$itenary_bystay .="</table></div>";
+}
+
 
 
         //INCLUSION
@@ -41,8 +45,9 @@
         foreach($complete_data->Inclusions as $itenary_inclusion){
                 $inclusion_program .= "<li>".mb_convert_encoding(@$itenary_inclusion->InclusionItem,'UTF-8')."</li>";
         }
-    }
         @$inclusion_program .="</ul></div>";
+    }
+        
 
 
                 //Excusion Item
@@ -52,8 +57,10 @@
         @$exclusion_program .="<ul>";
         foreach($complete_data->Exclusions as $itenary_exclusion){
                 $exclusion_program .= "<li>".mb_convert_encoding(@$itenary_exclusion->ExclusionItem,'UTF-8')."</li>";
-    }}
-        @$exclusion_program .="</ul></div>";
+    }
+    @$exclusion_program .="</ul></div>";
+}
+        
 ?>
 <div id="tour_heading" style="display: none">
     <?php echo $complete_data->ProductTitle;?>
@@ -62,29 +69,35 @@
      <?php  echo $complete_data->Days; ?> Days  / <?php echo $complete_data->Nights; ?> Night 
 </div>
 <div id='PDFcontent' style="display: none;">
-    <!-- <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $complete_data->ProductTitle;?></h2>
-    <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Night </h3>
-    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">TOUR ITINERARY</h3>
-
-    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p> -->
 <div style="border:1px solid #ccc; border-top:0; border-bottom:0; margin-bottom:0; padding-bottom:0;">
     <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $complete_data->ProductTitle;?></h2>
     <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Night </h3>
-    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0; margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR ITINERARY</h3>
-        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p>
     
-    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">CITIES WITH NO. OF NIGHTS</h3>
-        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_bystay);?></p>
+    <?php  if(isset($itenary_program)){ ?>
+    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR ITINERARY</h3>
+        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p>
+    <?php }?>
 
+
+    <?php  if(isset($itenary_bystay)){ ?>
+        <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">CITIES WITH NO OF NIGHTS</h3>
+        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_bystay);?></p>
+    <?php }?>
+    
+    <?php  if(isset($complete_data->ProductItineraryByStay[0]->ValidFromDateStr)){ ?>
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR VALIDITY</h3>
         <p style="margin-top:0px; padding-top:0;"><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b></div></p>
-    
+    <?php } ?>
+
+    <?php  if(isset($inclusion_program)){ ?>
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">PACKAGE COST INCLUDES</h3>
         <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$inclusion_program);?></p>
-    
+    <?php } ?>
+
+    <?php  if(isset($exclusion_program)){ ?>
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">PACKAGE COST EXCLUDES</h3>
-        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$exclusion_program);?></p>
-    
+    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$exclusion_program);?></p>
+    <?php } ?>
         <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">THANK YOU !</h3>
 </div>
 </div>
