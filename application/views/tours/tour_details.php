@@ -65,7 +65,7 @@ if(isset($complete_data->ProductItineraryByDay)){
     <?php echo $complete_data->ProductTitle;?>
 </div>
 <div id="tour_duration" style="display: none">
-     <?php  echo $complete_data->Days; ?> Days  / <?php echo $complete_data->Nights; ?> Night 
+     <?php  echo $complete_data->Days; ?> Days  / <?php echo $complete_data->Nights; ?> Nights
 </div>
 <div id='PDFcontent' style="display: none">
 <div style="border:1px solid #ccc; border-top:0; border-bottom:0; margin-bottom:0; padding-bottom:10px;">
@@ -85,7 +85,7 @@ if(isset($complete_data->ProductItineraryByDay)){
     
     <?php  if(isset($complete_data->ProductItineraryByStay[0]->ValidFromDateStr)){ ?>
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR VALIDITY</h3>
-        <p style="margin-top:0px; padding-top:0;"><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b></div></p>
+        <p style="margin-top:0px; padding-top:0;"><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b></div><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid Till : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidToDateStr; ?></b></div></p>
     <?php } ?>
 
     <?php  if(isset($inclusion_program)){ ?>
