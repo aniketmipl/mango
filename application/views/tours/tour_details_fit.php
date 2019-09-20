@@ -66,7 +66,7 @@
     <?php echo $complete_data->ProductTitle;?>
 </div>
 <div id="tour_duration" style="display: none">
-     <?php  echo $complete_data->Days; ?> Days  / <?php echo $complete_data->Nights; ?> Night 
+     <?php  echo $complete_data->Days; ?> Days  / <?php echo $complete_data->Nights; ?> Nights 
 </div>
 <div id='PDFcontent' style="display: none;">
 <div style="border:1px solid #ccc; border-top:0; border-bottom:0; margin-bottom:0; padding-bottom:10px;">
