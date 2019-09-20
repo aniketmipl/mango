@@ -12,12 +12,47 @@
         @$itenary_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
         foreach($complete_data->ProductItineraryByDay as $itenary_key2){
             foreach ($itenary_key2->ProductItineraryByDayItem as $itenary_key) {
-               
-
                 $itenary_program .= "<h3 style='font-size:18px; font-weight:600'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
     }}}
         @$itenary_program .="</div>";
+
+
+        //Itenary By Stay
+    if(isset($complete_data->ProductItineraryByStay)){
+        @$itenary_bystay ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
+        @$itenary_bystay .="<table style='border:1px solid black' width='30%'>";
+        @$itenary_bystay .="<thead><th style='padding:10px;border:1px solid black'>City</th><th style='border:1px solid black'>Nights</th>";
+        foreach($complete_data->ProductItineraryByStay as $ProductItineraryByStay){
+            foreach ($ProductItineraryByStay->ProductItineraryByStayItem as $ProductItineraryByStayItem) {
+
+                $itenary_bystay .="<tr><td style='padding:10px;border:1px solid black'>".$ProductItineraryByStayItem->CityName."</td><td align='center' style='padding:10px;border:1px solid black'>".$ProductItineraryByStayItem->Nights."</td></tr>";
+                // $itenary_bystay .="<p>Nights :".$ProductItineraryByStayItem->Nights."</p>";
+    }}}
+        @$itenary_bystay .="</table></div>";
+
+
+        //INCLUSION
+    if(isset($complete_data->Inclusions)){
+        @$inclusion_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
+        @$inclusion_program .="<ul>";
+        
+        foreach($complete_data->Inclusions as $itenary_inclusion){
+                $inclusion_program .= "<li>".mb_convert_encoding(@$itenary_inclusion->InclusionItem,'UTF-8')."</li>";
+        }
+    }
+        @$inclusion_program .="</ul></div>";
+
+
+                //Excusion Item
+
+    if(isset($complete_data->Exclusions)){
+        @$exclusion_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
+        @$exclusion_program .="<ul>";
+        foreach($complete_data->Exclusions as $itenary_exclusion){
+                $exclusion_program .= "<li>".mb_convert_encoding(@$itenary_exclusion->ExclusionItem,'UTF-8')."</li>";
+    }}
+        @$exclusion_program .="</ul></div>";
 ?>
 <div id="tour_heading" style="display: none">
     <?php echo $complete_data->ProductTitle;?>
@@ -29,8 +64,16 @@
     <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $complete_data->ProductTitle;?></h2>
     <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Night </h3>
     <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">TOUR ITINERARY</h3>
-
     <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p>
+    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">Tour Start</h3>
+    <p style="margin-top:0px; padding-top:0;"><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b></div></p>
+    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">Inclusions</h3>
+    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$inclusion_program);?></p>
+    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">Exclusion</h3>
+        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$exclusion_program);?></p>
+    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">Itinerary By Stay</h3>
+    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_bystay);?></p>
+    
 </div>
 
 <div id='ignoreContent' style="display: none">
