@@ -6,14 +6,14 @@
 </style>
 
 
-<meta name="description" content="">
+<!-- <meta name="description" content=""> -->
 <!--1st part - code to print itenary from api for Donload/Print Itenary PDF-->
 <?php 
        if(isset($complete_data->ProductItineraryByDay)){
         @$itenary_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
         foreach($complete_data->ProductItineraryByDay as $itenary_key2){
             foreach ($itenary_key2->ProductItineraryByDayItem as $itenary_key) {
-                $itenary_program .= "<h3 style='font-size:18px; font-weight:600'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
+                $itenary_program .= "<h3 style='font-size:14px; font-weight:bold'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
     }}}
         @$itenary_program .="</div>";
@@ -21,13 +21,13 @@
 
         //Itenary By Stay
     if(isset($complete_data->ProductItineraryByStay)){
-        @$itenary_bystay ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
-        @$itenary_bystay .="<table style='border:1px solid black' width='30%'>";
-        @$itenary_bystay .="<thead><th style='padding:10px;border:1px solid black'>City</th><th style='border:1px solid black'>Nights</th>";
+        @$itenary_bystay ="<div style='margin: 2%; padding: 2%; margin-top:0; padding-top:0;'>";
+        @$itenary_bystay .="<table style='border:0; border-bottom:1px solid #000;' width='100%'>";
+        @$itenary_bystay .="<thead><th style='padding:10px; border:1px solid black; border-bottom:0;border-right:0;'>City</th><th style='padding:10px; border:1px solid black; border-bottom:0;'>Nights</th>";
         foreach($complete_data->ProductItineraryByStay as $ProductItineraryByStay){
             foreach ($ProductItineraryByStay->ProductItineraryByStayItem as $ProductItineraryByStayItem) {
 
-                $itenary_bystay .="<tr><td style='padding:10px;border:1px solid black'>".$ProductItineraryByStayItem->CityName."</td><td align='center' style='padding:10px;border:1px solid black'>".$ProductItineraryByStayItem->Nights."</td></tr>";
+                $itenary_bystay .="<tr><td align='center' style='padding:10px;border:1px solid black; border-bottom:0; border-right:0;'>".$ProductItineraryByStayItem->CityName."</td><td align='center' style='padding:10px;border:1px solid black; border-bottom:0;'>".$ProductItineraryByStayItem->Nights."</td></tr>";
                 // $itenary_bystay .="<p>Nights :".$ProductItineraryByStayItem->Nights."</p>";
     }}}
         @$itenary_bystay .="</table></div>";
@@ -61,7 +61,7 @@
 <div id="tour_duration" style="display: none">
      <?php  echo $complete_data->Days; ?> Days  / <?php echo $complete_data->Nights; ?> Night 
 </div>
-<div id='PDFcontent' style="display: none">
+<div id='PDFcontent' style="display: none; border:1px solid #ccc;   ">
     <!-- <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $complete_data->ProductTitle;?></h2>
     <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Night </h3>
     <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">TOUR ITINERARY</h3>
@@ -70,17 +70,20 @@
 
     <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $complete_data->ProductTitle;?></h2>
     <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Night </h3>
-    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">TOUR ITINERARY</h3>
-    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p>
-    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">Tour Start</h3>
-    <p style="margin-top:0px; padding-top:0;"><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b></div></p>
-    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">Inclusions</h3>
-    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$inclusion_program);?></p>
-    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">Exclusion</h3>
-        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$exclusion_program);?></p>
-    <h3 align="center" style="font-weight: bold; padding-bottom:0; margin-bottom:0;margin-top:15px; padding-top:0;">Itinerary By Stay</h3>
-    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_bystay);?></p>
+    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR ITINERARY</h3>
+        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_program);?></p>
+    
+    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">CITIES WITH NO OF NIGHTS</h3>
+        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_bystay);?></p>
 
+    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR VALIDITY</h3>
+        <p style="margin-top:0px; padding-top:0;"><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b></div></p>
+    
+    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">PACKAGE COST INCLUDES</h3>
+        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$inclusion_program);?></p>
+    
+    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">PACKAGE COST EXCLUDES</h3>
+        <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$exclusion_program);?></p>
 </div>
 
 <div id='ignoreContent' style="display: none">

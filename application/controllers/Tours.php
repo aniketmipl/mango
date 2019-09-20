@@ -2439,6 +2439,7 @@ $this->load->view('common/header',$head_data);
 
 		//actually, you can pass mPDF parameter on this load() function
 		@$pdf = $this->m_pdf->load();
+
 		$header = "<div align='right'><h2 style='display:inline-block; vertical-align:middle; text-align:left; padding-left:30px;'><b style='margin-top:50px'><br/>".$_POST['sector']."</b><img style='display:inline-block; float:right; width:150px;' src='".base_url()."assets/images/Mango-Holidays-logo.png'></h2><hr style='color:#ccc;'/></div>";
 
 		@$pdf->SetHTMLHeader($header); //Add header
