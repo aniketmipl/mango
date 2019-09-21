@@ -83,9 +83,24 @@ if(isset($complete_data->ProductItineraryByDay)){
         <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_bystay);?></p>
     <?php }?>
     
-    <?php  if(isset($complete_data->ProductItineraryByStay[0]->ValidFromDateStr)){ ?>
+    <!-- <?php  if(isset($complete_data->ProductItineraryByStay[0]->ValidFromDateStr)){ ?>
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR VALIDITY</h3>
         <p style="margin-top:0px; padding-top:0;"><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b></div><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid Till : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidToDateStr; ?></b></div></p>
+    <?php } ?> -->
+    
+    <?php  if(isset($complete_data->ProductItineraryByStay[0]->ValidFromDateStr)){ ?>
+    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR PRICE & VALIDITY</h3>
+        <p style="margin-top:0px; padding-top:40px; padding-left: 4%;">
+        Lowest Twin Sharing Price : INR <?php echo $complete_data->LowestTwinSharingPrice; ?>
+        </p>
+       
+        <div style='margin: 0;padding-left: 4%; margin-top:0; padding-top:0; display:inline; float:left; text-align:left; width:46%;'>
+        Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b>
+        </div>
+        <div style='margin: 0;padding-right: 4%; margin-top:0; padding-top:0; display:inline; float:right; text-align:right; width:46%;'>
+        Tour Valid Till : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidToDateStr; ?></b>
+        </div>
+        <p style="padding-bottom:10px;"></p>
     <?php } ?>
 
     <?php  if(isset($inclusion_program)){ ?>
