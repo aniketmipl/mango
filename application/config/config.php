@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost:8081/MangoHolidaysNew/';
-            // $config['base_url'] = 'http://localhost/MangoHolidaysNew';
+             // $config['base_url'] = 'http://localhost/MangoHolidaysNew';
 /*
 |--------------------------------------------------------------------------
 | Index File

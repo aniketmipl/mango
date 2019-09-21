@@ -73,7 +73,7 @@
 <div id='PDFcontent' style="display: none;">
 <div style="border:1px solid #ccc; border-top:0; border-bottom:0; margin-bottom:0; padding-bottom:10px;">
     <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $complete_data->ProductTitle;?></h2>
-    <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Night </h3>
+    <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Nights </h3>
     
     <?php  if(isset($itenary_program)){ ?>
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR ITINERARY</h3>
@@ -87,8 +87,21 @@
     <?php }?>
     
     <?php  if(isset($complete_data->ProductItineraryByStay[0]->ValidFromDateStr)){ ?>
-    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR VALIDITY </h3>
-        <p style="margin-top:0px; padding-top:0;"><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b></div><div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>Tour Valid Till : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidToDateStr; ?></b></div></p>
+
+        <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR PRICE & VALIDITY</h3>
+        <p style="margin-top:0px; padding-top:40px; padding-left: 4%;">
+        Tour Price : <b>INR <?php echo $complete_data->LowestTwinSharingPrice; ?> </b>
+        (Total Estimated Price in INR as on <?php echo date('d/m/Y'); ?>)
+        </p>
+       
+        <div style='margin: 0;padding-left: 4%; margin-top:0; padding-top:0; display:inline; float:left; text-align:left; width:46%;'>
+        Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b>
+        </div>
+        <div style='margin: 0;padding-right: 4%; margin-top:0; padding-top:0; display:inline; float:right; text-align:right; width:46%;'>
+        Tour Valid Till : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidToDateStr; ?></b>
+        </div>
+        <p style="padding-bottom:10px;"></p>
+        
     <?php } ?>
 
     <?php  if(isset($inclusion_program)){ ?>
