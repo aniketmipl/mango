@@ -91,12 +91,11 @@ if(isset($complete_data->ProductItineraryByDay)){
     <?php  if(isset($complete_data->ProductItineraryByStay[0]->ValidFromDateStr)){ ?>
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR PRICE & VALIDITY</h3>
         <p style="margin-top:0px; padding-top:40px; padding-left: 4%;">
-        Tour Price :<b> INR <?php echo $complete_data->LowestTwinSharingPrice; ?></b>
-        (Total Estimated Price in INR as on <?php echo date('d/m/Y'); ?>)
+            Tour Price :<b> INR <?php echo $complete_data->LowestTwinSharingPrice; ?></b>
         </p>
        
         <div style='margin: 0;padding-left: 4%; margin-top:0; padding-top:0; display:inline; float:left; text-align:left; width:46%;'>
-        Tour Starts From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b>
+        Price Valid till : <b><?php echo date('d/m/Y'); ?></b>
         </div>
         <!-- <div style='margin: 0;padding-right: 4%; margin-top:0; padding-top:0; display:inline; float:right; text-align:right; width:46%;'>
         Tour Valid Till : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidToDateStr; ?></b>
