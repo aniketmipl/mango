@@ -67,11 +67,13 @@
 </div>
 <div id="tour_duration" style="display: none">
      <?php  echo $complete_data->Days; ?> Days  / <?php echo $complete_data->Nights; ?> Nights 
+
+     <?php echo $complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->CurrencyCode1 ;?>
 </div>
 <div id='PDFcontent' style="display: none;">
 <div style="border:1px solid #ccc; border-top:0; border-bottom:0; margin-bottom:0; padding-bottom:10px;">
     <h2 align="center" style="font-weight: bold; text-decoration:underline; padding-bottom:0; margin-bottom:0;"><?php echo $complete_data->ProductTitle;?></h2>
-    <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Night </h3>
+    <h3 align="center" style="padding-bottom:0; margin-bottom:0;margin-top:5px; padding-top:0;">  <?php  echo $complete_data->Days; ?> Days / <?php echo $complete_data->Nights; ?> Nights </h3>
     
     <?php  if(isset($itenary_program)){ ?>
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR ITINERARY</h3>
@@ -85,17 +87,25 @@
     <?php }?>
     
     <?php  if(isset($complete_data->ProductItineraryByStay[0]->ValidFromDateStr)){ ?>
+
         <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR PRICE & VALIDITY</h3>
         <p style="margin-top:0px; padding-top:40px; padding-left: 4%;">
+<<<<<<< HEAD
         Lowest Twin Sharing Price : <b>INR <?php echo $complete_data->LowestTwinSharingPrice; ?></b>
+=======
+        Tour Price : <b> <?php echo $complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->CurrencyCode1." ".$complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->Amount1; ?> </b>
+
+>>>>>>> afa288011b0325f966dbd0b305a724fe65ff7314
         </p>
-       
-        <div style='margin: 0;padding-left: 4%; margin-top:0; padding-top:0; display:inline; float:left; text-align:left; width:46%;'>
+         <div style='margin: 0;padding-left: 4%; margin-top:0; padding-top:0; display:inline; float:left; text-align:left; width:46%;'>
+        Price Valid till : <b><?php echo date('d/m/Y'); ?></b>
+        </div>
+        <!-- div style='margin: 0;padding-left: 4%; margin-top:0; padding-top:0; display:inline; float:left; text-align:left; width:46%;'>
         Tour Valid From : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidFromDateStr; ?></b>
         </div>
         <div style='margin: 0;padding-right: 4%; margin-top:0; padding-top:0; display:inline; float:right; text-align:right; width:46%;'>
         Tour Valid Till : <b><?php echo @$complete_data->ProductItineraryByStay[0]->ValidToDateStr; ?></b>
-        </div>
+        </div> -->
         <p style="padding-bottom:10px;"></p>
         
     <?php } ?>
@@ -109,6 +119,7 @@
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">PACKAGE COST EXCLUDES</h3>
     <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$exclusion_program);?></p>
     <?php } ?>
+    <p style="margin-top:0px; padding-top:0;" align="center">For detailed terms & conditions, kindly refer to our website www.mangoholidays.in</p>
         <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">THANK YOU !</h3>
 </div>
 </div>
