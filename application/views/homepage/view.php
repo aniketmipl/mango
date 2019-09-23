@@ -7,7 +7,7 @@
                 <div class="carousel-inner" role="listbox">
 
                     <!-- First slide -->
-                    <div class="item active slide-seminar">
+                    <!-- <div class="item active slide-seminar">
                         <div class="carousel-caption">
                             <h4 data-animation="animated fadeInDown" style=""></p>
                                 <br/>
@@ -18,11 +18,11 @@
                         
                             <a href="<?php echo base_url();?>contact-us"><button class="btns" data-animation="animated zoomIn">Contact Us</button></a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- /.item -->
 
                     <!-- First slide -->
-                    <div class="item slide-1">
+                    <div class="item active slide-1">
                         <div class="carousel-caption">
                             <h4 data-animation="animated fadeInDown" style="">If you haven't traveled to Europe, you have not traveled at all.</p>
                                 <br/>
