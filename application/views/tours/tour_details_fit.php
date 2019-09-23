@@ -90,12 +90,8 @@
 
         <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR PRICE & VALIDITY</h3>
         <p style="margin-top:0px; padding-top:40px; padding-left: 4%;">
-<<<<<<< HEAD
-        Lowest Twin Sharing Price : <b>INR <?php echo $complete_data->LowestTwinSharingPrice; ?></b>
-=======
         Tour Price : <b> <?php echo $complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->CurrencyCode1." ".$complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->Amount1; ?> </b>
 
->>>>>>> afa288011b0325f966dbd0b305a724fe65ff7314
         </p>
          <div style='margin: 0;padding-left: 4%; margin-top:0; padding-top:0; display:inline; float:left; text-align:left; width:46%;'>
         Price Valid till : <b><?php echo date('d/m/Y'); ?></b>
