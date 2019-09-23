@@ -172,9 +172,11 @@
                     <div class="pull-left">
                         <div class="header-topbar-col center767">
                             <ul class="list-inline" style="font-size:1.1em;">
-                                <!-- <li><i class="fa fa-phone"></i> <a href="#">+91 8380039499 / 8380039503 / 8380039505 </a></li> -->
-                                <!-- <li>&nbsp;| &nbsp</li> -->
-                                <li> <i class="fa fa-envelope-o"></i> <a href="<?php echo base_url()?>contact-us">info@mangoholidays.in</a></li>
+                                <!-- <li><i class="fa fa-phone"></i> <a href="#">+91 8380039499 / 8380039503 / 8380039505 </a></li>
+                                <li>&nbsp;| &nbsp</li> -->
+                                <li> <i class="fa fa-envelope-o"></i> &nbsp;Email Us : <a href="<?php echo base_url()?>contact-us">info@mangoholidays.in</a></li>
+                                <li></li>
+                                <li></li>
                             </ul>
                         </div>
                     </div>
