@@ -304,19 +304,19 @@
                                                         <li><a href="<?php echo base_url()?>customized-holidays/dubai">Dubai</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/egypt">Egypt</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/europe">Europe</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/greece">Greece</a></li>
                                                       </div>
                                                       <div class="col-md-6 col-sm-12">
-                                                        <li><a href="<?php echo base_url()?>customized-holidays/greece">Greece</a></li>
-                                                        <li><a href="<?php echo base_url()?>customized-holidays/jordan">Jordan</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/japan">Japan</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/jordan">Jordan</a></li>
                                                         
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/maldives">Maldives</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/mauritius">Mauritius</a></li>
                                                         <!-- <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li> -->
-                                                        <li><a href="<?php echo base_url()?>customized-holidays/maldives">Maldives</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/nepal">Nepal</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/russia">Russia</a></li>
-                                                        <li><a href="<?php echo base_url()?>customized-holidays/sri-lanka">Sri Lanka</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/spain">Spain</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/sri-lanka">Sri Lanka</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/turkey">Turkey</a></li>
                                                       </div>
                                                       

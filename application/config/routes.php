@@ -243,6 +243,7 @@ $route['tours/discover-croatia'] = 'tours/discover_croatia';
 $route['tours/jewels-of-spain'] = 'tours/jewels_of_spain';
 $route['tours/best-of-greece'] = 'tours/best_of_greece';
 $route['tours/japan-with-alpine-route'] = 'tours/japan_with_alpine_route';
+$route['tours/best-of-morocco'] = 'tours/best_of_morocco';
 
 
 //pages
