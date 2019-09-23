@@ -122,6 +122,7 @@ $route['customized-holidays/russia'] ='CustomizedTours/customized_russia';
 $route['customized-holidays/south-east-asia'] ='CustomizedTours/customized_asia';
 $route['customized-holidays/south-east-asia'] ='CustomizedTours/customized_asia';
 $route['customized-holidays/jordan'] ='CustomizedTours/customized_jordan';
+$route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
 
 
 
