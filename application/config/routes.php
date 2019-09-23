@@ -104,6 +104,7 @@ $route['customized-holidays/egypt'] ='CustomizedTours/customized_egypt';
 $route['customized-holidays/azerbaijan'] ='CustomizedTours/customized_azerbaijan';
 $route['customized-holidays/greece'] ='CustomizedTours/customized_greece';
 $route['customized-holidays/canada'] ='CustomizedTours/customized_canada';
+$route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
 
 
 
