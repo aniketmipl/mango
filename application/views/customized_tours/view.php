@@ -1,7 +1,7 @@
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
-            <h1 class="entry-title"><?php echo $sector_name;?> Customized Tour</h1>
+            <h1 class="entry-title">Customized <?php echo $sector_name;?> Tour</h1>
         </div>
         <ul class="breadcrumbs pull-right">
             <li><a href="#">Customized Tour</a></li>
