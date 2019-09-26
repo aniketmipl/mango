@@ -13,7 +13,7 @@
         <title><?php echo @$sector ?> Group Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
     <?php }
     else if($controller == 'tours'){?>
-            <title><?php echo ucwords(str_replace('-',' ',$this->uri->segment(2))); ?> Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
+            <title><?php echo ucwords(str_replace('-',' ',str_replace("tour","",$this->uri->segment(2)))); ?> Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
     <?php }
     else if(isset($title)){?>
         <title><?php echo @$title;?></title>
