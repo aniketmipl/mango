@@ -2,6 +2,35 @@
     body{
         padding:0 !important;
     }
+    #popupModal .close {
+        float: right;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 16px;
+        color: #191818;
+        text-shadow: 0 1px 0 #fff;
+        filter: alpha(opacity=20);
+        opacity: 1;
+        background: #b32e06;
+        position: absolute;
+        right: -8px;
+        top: -10px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    #popupModal button.close {
+        -webkit-appearance: none;
+        padding: 7px;
+        cursor: pointer;
+        background: #ffffff;
+        border: 3px solid #020202;
+    }
+    #popupModal a{
+        font-size:15px;
+    }
+    #popupModal .modal-dialog{
+        margin-top:50px;
+    }
     h1, h2, h3, h4, h4, h6{
         font-family: inherit;
         text-transform: none;

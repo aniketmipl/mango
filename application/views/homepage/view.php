@@ -1,4 +1,6 @@
- <!-- Strat Slider Section -->
+
+
+<!-- Strat Slider Section -->
     <section class="main-slider-area">
         <div class="main-container">
             <div id="carousel-example-generic" class="carousel slide carousel-fade">
@@ -940,3 +942,35 @@
             </div>
         </div>
     </section>-->
+
+ 
+    <div id="popupModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Holiday Bazaar - 29th Sept</h4>
+      </div> -->
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <div class="modal-body text-center">
+      <img src="<?php echo base_url();?>assets/images/square_Pune_2_02.png" alt="">
+       
+      </div>
+      <div class="modal-footer">
+        <!--         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+        <a class="pre-order-btn" href="<?php echo base_url();?>contact-us">Contact Us</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){       
+   $('#popupModal').modal('show');
+    }); 
+
+</script>
+ 
