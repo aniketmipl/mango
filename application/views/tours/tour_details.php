@@ -557,7 +557,7 @@ if(isset($complete_data->ProductItineraryByDay)){
       var tour_code = $(this).attr('data-tourcode');
 
       
-      var url= "https://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/GetTourPricingDetailForWebsite?TourCode="+tour_code;
+      var url= "http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/GetTourPricingDetailForWebsite?TourCode="+tour_code;
 
       $.ajax({
           url:url,
