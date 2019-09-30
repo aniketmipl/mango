@@ -86,12 +86,12 @@
         <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$itenary_bystay);?></p>
     <?php }?>
     
-    <?php  if(isset($complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->CurrencyCode1)){ ?>
+    <?php  if(isset($complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->NETINRValue)){ ?>
 
         <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR PRICE & VALIDITY</h3>
         <p style="margin-top:0px; padding-top:40px; padding-left: 4%;">
 
-        Tour Price : <b> <?php echo @$complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->CurrencyCode1." ".@$complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->Amount1; ?> </b>
+        Tour Price : <b> <?php echo "INR ".@$complete_data->ProductPricingHeader[0]->ProductPricingDetail[0]->NETINRValue."/-"?></b>
         </p>
          <div style='margin: 0;padding-left: 4%; margin-top:0; padding-top:0; display:inline; float:left; text-align:left; width:46%;'>
         Price Valid till : <b><?php echo date('d/m/Y'); ?></b>
@@ -408,10 +408,11 @@
                                                                         <tr>
                                                                             <td><input type="radio" class="tour_cat" name="category" value="<?php echo @$ProductPricingHeader->PriceBand;?>"></td>
                                                                             <td> <?php  echo @$ProductPricingHeader->PriceBand; ?> </td>
-                                                                            <td><?php  echo $ProductPricingHeader->ProductPricingDetail[0]->CurrencyCode1;
+                                                                            <td><?php  echo "INR";
                                                                                echo "<br>";
-                                                                               echo $ProductPricingHeader->ProductPricingDetail[0]->Amount1; ?>
-                                                                            </td>
+                                                                               echo round(@$ProductPricingHeader->ProductPricingDetail[0]->NETINRValue)."/-"; ?>
+                                                                            </td> 
+                                                                            
                                                                             <td><?php  echo @$ProductPricingHeader->TourDateTo; ?></td>
                                                                         </tr>
 
