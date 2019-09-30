@@ -20,7 +20,7 @@ if(isset($complete_data->ProductItineraryByDay)){
 
 
 
-        //Itenary By Stay
+//Itenary By Stay
     if(isset($complete_data->ProductItineraryByStay)){
         @$itenary_bystay ="<div style='margin: 2%; padding: 2%; margin-top:0; padding-top:0;'>";
         @$itenary_bystay .="<table style='border:0; border-bottom:1px solid #000;' width='100%'>";
@@ -36,7 +36,7 @@ if(isset($complete_data->ProductItineraryByDay)){
 
 
 
-        //INCLUSION
+//INCLUSION
     if(isset($complete_data->Inclusions)){
         @$inclusion_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
         @$inclusion_program .="<ul>";
@@ -49,8 +49,7 @@ if(isset($complete_data->ProductItineraryByDay)){
         
 
 
-                //Excusion Item
-
+//Excusion Item
     if(isset($complete_data->Exclusions)){
         @$exclusion_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
         @$exclusion_program .="<ul>";
@@ -557,7 +556,7 @@ if(isset($complete_data->ProductItineraryByDay)){
       var tour_code = $(this).attr('data-tourcode');
 
       
-      var url= "https://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/GetTourPricingDetailForWebsite?TourCode="+tour_code;
+      var url= "http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/GetTourPricingDetailForWebsite?TourCode="+tour_code;
 
       $.ajax({
           url:url,
