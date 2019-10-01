@@ -954,12 +954,12 @@
       </div> -->
       <button type="button" class="close" data-dismiss="modal">&times;</button>
       <div class="modal-body text-center">
-      <img src="<?php echo base_url();?>assets/images/square_Pune_2_02.png" alt="">
+      <img src="<?php echo base_url();?>assets/images/Organic.png" alt="">
        
       </div>
       <div class="modal-footer">
         <!--         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
-        <a class="pre-order-btn" href="<?php echo base_url();?>contact-us">Contact Us</a>
+        <!-- <a class="pre-order-btn" href="<?php echo base_url();?>contact-us">Contact Us</a> -->
       </div>
     </div>
 
