@@ -239,7 +239,7 @@ Dadar (W) –400 028, Maharashtra.</p></li>
                         <div class="address">
 						<h4>Thane</h4>
                             <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-map-marker"></i> <p>3702, 7th Floor, Tulsee Chambers,<br/>
+                                <li><i class="fa-li fa fa-map-marker"></i> <p>702, 7th Floor, Tulsee Chambers,<br/>
 Pachpakhadi, Opp. Teen Petrol Pump,<br/>
 Thane (W) – 400 602, Maharashtra.</p></li>
                                 
