@@ -572,10 +572,80 @@ if(isset($complete_data->ProductItineraryByDay)){
                 var result = JSON.parse(JSON.stringify(res));
                 var main_body = '<h4 style="text-align: center; text-transform: none;">Tour Price & Dates Availablity</h4><h3 style="color:#FF6600;">Tour Code: '+res.TourCode+'</h3>';
                 // console.log(result.TourPricingHeaders[0].TourPricingDetails.length);
+                var amount0 = result.TourPricingHeaders[0].TourPricingDetails[0];
+                var amount1 = result.TourPricingHeaders[0].TourPricingDetails[1];
+                var amount2 = result.TourPricingHeaders[0].TourPricingDetails[2];
+                var amount3 = result.TourPricingHeaders[0].TourPricingDetails[3];
+                var amount4 = result.TourPricingHeaders[0].TourPricingDetails[4];
                 var amount5 = result.TourPricingHeaders[0].TourPricingDetails[5];
-                console.log(amount5);
+                console.log(amount0);
 
-                if(amount5==undefined){
+                if((amount0==undefined) || (amount0=="null")){
+                    amount0 = "-";
+                    var amount0_Amount1="-";
+                    var amount0_Amount2="-";
+                    var amount0_TotalINRValue="-";
+
+                }else{
+                    amount0 = amount0;
+                    if(amount0.Amount1 == null){var amount0_Amount1= "-"} else {var amount0_Amount1=  amount0.Amount1.toFixed(); }
+                    if(amount0.Amount2 == null){var amount0_Amount2= "-"} else {var amount0_Amount2=  amount0.Amount2.toFixed(); }
+                    if(amount0.TotalINRValue == null){var amount0_TotalINRValue= "-"} else {var amount0_TotalINRValue=  amount0.TotalINRValue.toFixed(); }
+                }
+
+                if((amount1==undefined) || (amount1=="null")){
+                    amount1 = "-";
+                    var amount1_Amount1="-";
+                    var amount1_Amount2="-";
+                    var amount1_TotalINRValue="-";
+
+                }else{
+                    amount1 = amount1;
+                    if(amount1.Amount1 == null){var amount1_Amount1= "-"} else {var amount1_Amount1=  amount1.Amount1.toFixed(); }
+                    if(amount1.Amount2 == null){var amount1_Amount2= "-"} else {var amount1_Amount2=  amount1.Amount2.toFixed(); }
+                    if(amount1.TotalINRValue == null){var amount1_TotalINRValue= "-"} else {var amount1_TotalINRValue=  amount1.TotalINRValue.toFixed(); }
+                }
+
+                if((amount2==undefined) || (amount2=="null")){
+                    amount2 = "-";
+                    var amount2_Amount1="-";
+                    var amount2_Amount2="-";
+                    var amount2_TotalINRValue="-";
+
+                }else{
+                    amount2 = amount2;
+                    if(amount2.Amount1 == null){var amount2_Amount1= "-"} else {var amount2_Amount1=  amount2.Amount1.toFixed(); }
+                    if(amount2.Amount2 == null){var amount2_Amount2= "-"} else {var amount2_Amount2=  amount2.Amount2.toFixed(); }
+                    if(amount2.TotalINRValue == null){var amount2_TotalINRValue= "-"} else {var amount2_TotalINRValue=  amount2.TotalINRValue.toFixed(); }
+                }
+
+                if((amount3==undefined) || (amount3=="null")){
+                    amount3 = "-";
+                    var amount3_Amount1="-";
+                    var amount3_Amount2="-";
+                    var amount3_TotalINRValue="-";
+
+                }else{
+                    amount3 = amount3;
+                    if(amount3.Amount1 == null){var amount3_Amount1= "-"} else {var amount3_Amount1=  amount3.Amount1.toFixed(); }
+                    if(amount3.Amount2 == null){var amount3_Amount2= "-"} else {var amount3_Amount2=  amount3.Amount2.toFixed(); }
+                    if(amount3.TotalINRValue == null){var amount3_TotalINRValue= "-"} else {var amount3_TotalINRValue=  amount3.TotalINRValue.toFixed(); }
+                }
+
+                if((amount4==undefined) || (amount4=="null")){
+                    amount4 = "-";
+                    var amount4_Amount1="-";
+                    var amount4_Amount2="-";
+                    var amount4_TotalINRValue="-";
+
+                }else{
+                    amount4 = amount4;
+                    if(amount4.Amount1 == null){var amount4_Amount1= "-"} else {var amount4_Amount1=  amount4.Amount1.toFixed(); }
+                    if(amount4.Amount2 == null){var amount4_Amount2= "-"} else {var amount4_Amount2=  amount4.Amount2.toFixed(); }
+                    if(amount4.TotalINRValue == null){var amount4_TotalINRValue= "-"} else {var amount4_TotalINRValue=  amount4.TotalINRValue.toFixed(); }
+                }
+
+                if((amount5==undefined) || (amount5=="null")){
                     amount5 = "-";
                     var amount5_Amount1="-";
                     var amount5_Amount2="-";
@@ -583,9 +653,9 @@ if(isset($complete_data->ProductItineraryByDay)){
 
                 }else{
                     amount5 = amount5;
-                    var amount5_Amount1=amount5.Amount1.toFixed();
-                    var amount5_Amount2=amount5.Amount2.toFixed();
-                    var amount5_TotalINRValue=amount5.TotalINRValue.toFixed();
+                    if(amount5.Amount1 == null){var amount5_Amount1= "-"} else {var amount5_Amount1=  amount5.Amount1.toFixed(); }
+                    if(amount5.Amount2 == null){var amount5_Amount2= "-"} else {var amount5_Amount2=  amount5.Amount2.toFixed(); }
+                    if(amount5.TotalINRValue == null){var amount5_TotalINRValue= "-"} else {var amount5_TotalINRValue=  amount5.TotalINRValue.toFixed(); }
                 }
 
                 var body_content = '<div class="table-responsive">'+
@@ -614,30 +684,30 @@ if(isset($complete_data->ProductItineraryByDay)){
                 '</tr>'+
                 '<tr>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount1.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount1.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount1.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount1.toFixed()+'</td>'+
+                '<td>'+amount0_Amount1+'</td>'+
+                '<td>'+amount1_Amount1+'</td>'+
+                '<td>'+amount2_Amount1+'</td>'+
+                '<td>'+amount3_Amount1+'</td>'+
                 '<td>'+amount5_Amount1+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount1.toFixed()+'</td>'+
+                '<td>'+amount4_Amount1+'</td>'+
                 '</tr>'+
                 '<tr>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].Amount2.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount2.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount2.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount2.toFixed()+'</td>'+
+                '<td>'+amount0_Amount2+'</td>'+
+                '<td>'+amount1_Amount2+'</td>'+
+                '<td>'+amount2_Amount2+'</td>'+
+                '<td>'+amount3_Amount2+'</td>'+
                 '<td>'+amount5_Amount2+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount2.toFixed()+'</td>'+
+                '<td>'+amount4_Amount2+'</td>'+
                 '</tr>'+
                 '<tr>'+
                 '<td>TOTAL IN INR</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].TotalINRValue.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].TotalINRValue.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].TotalINRValue.toFixed()+'</td>'+
+                '<td>'+amount0_TotalINRValue+'</td>'+
+                '<td>'+amount1_TotalINRValue+'</td>'+
+                '<td>'+amount2_TotalINRValue+'</td>'+
+                '<td>'+amount3_TotalINRValue+'</td>'+
                 '<td>'+amount5_TotalINRValue+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].TotalINRValue.toFixed()+'</td>'+
+                '<td>'+amount4_TotalINRValue+'</td>'+
                 '</tr>'+
                 '</tbody>'+
                 '</table>'+
