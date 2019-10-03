@@ -9,6 +9,7 @@ class Tours extends CI_Controller {
 	}
 
 //GROUP INTERNATIONAL TOURS
+
 	public function exotic_europe()
 	{
 		$product_id ='5';
@@ -24,7 +25,7 @@ class Tours extends CI_Controller {
 		$filter_data['sector']="Europe";
 		//$filter_data['sector_path']="GroupTours/group_europe";
 
-		$head_data['title'] = " Exotic Europe Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['title'] = "Exotic Europe Tour Package from Mumbai,Pune,India | Mango Holidays";
 
 		$head_data['sector'] = $filter_data['sector'];
 $head_data['travel_type'] = $filter_data['complete_data']->TravelType;
@@ -2443,6 +2444,28 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
+	public function all_of_singapore(){
+		$product_id ='130';
+		$product_code='F3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'git/F3/all-of-singapore-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'git/F3/all-of-singapore.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Asia";
+		// //$filter_data['sector_path']="CustomizedTours/customized_africa";
+		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+
 	
 	public function mpdf(){
 		//load mPDF library
