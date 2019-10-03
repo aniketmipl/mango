@@ -572,6 +572,22 @@ if(isset($complete_data->ProductItineraryByDay)){
                 var result = JSON.parse(JSON.stringify(res));
                 var main_body = '<h4 style="text-align: center; text-transform: none;">Tour Price & Dates Availablity</h4><h3 style="color:#FF6600;">Tour Code: '+res.TourCode+'</h3>';
                 // console.log(result.TourPricingHeaders[0].TourPricingDetails.length);
+                var amount5 = result.TourPricingHeaders[0].TourPricingDetails[5];
+                console.log(amount5);
+
+                if(amount5==undefined){
+                    amount5 = "-";
+                    var amount5_Amount1="-";
+                    var amount5_Amount2="-";
+                    var amount5_TotalINRValue="-";
+
+                }else{
+                    amount5 = amount5;
+                    var amount5_Amount1=amount5.Amount1.toFixed();
+                    var amount5_Amount2=amount5.Amount2.toFixed();
+                    var amount5_TotalINRValue=amount5.TotalINRValue.toFixed();
+                }
+
                 var body_content = '<div class="table-responsive">'+
                 '<table class="table table-striped table-bordered">'+
                 '<thead>'+
@@ -602,7 +618,7 @@ if(isset($complete_data->ProductItineraryByDay)){
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount1.toFixed()+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount1.toFixed()+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount1.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount1.toFixed()+'</td>'+
+                '<td>'+amount5_Amount1+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount1.toFixed()+'</td>'+
                 '</tr>'+
                 '<tr>'+
@@ -611,7 +627,7 @@ if(isset($complete_data->ProductItineraryByDay)){
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].Amount2.toFixed()+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].Amount2.toFixed()+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].Amount2.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].Amount2.toFixed()+'</td>'+
+                '<td>'+amount5_Amount2+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].Amount2.toFixed()+'</td>'+
                 '</tr>'+
                 '<tr>'+
@@ -620,7 +636,7 @@ if(isset($complete_data->ProductItineraryByDay)){
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].TotalINRValue.toFixed()+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[2].TotalINRValue.toFixed()+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[3].TotalINRValue.toFixed()+'</td>'+
-                '<td>'+result.TourPricingHeaders[0].TourPricingDetails[5].TotalINRValue.toFixed()+'</td>'+
+                '<td>'+amount5_TotalINRValue+'</td>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[4].TotalINRValue.toFixed()+'</td>'+
                 '</tr>'+
                 '</tbody>'+
