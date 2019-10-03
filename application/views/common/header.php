@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="">
     <?php
+ 
     $controller = $this->uri->segment(1); // get current controller
     if($controller=='customized-holidays'){?>
         <title>Customized <?php echo @$sector ?> Tour Packages from Mumbai,Pune,India| Mango Holidays</title>
