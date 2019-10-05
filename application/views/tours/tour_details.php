@@ -663,12 +663,12 @@ if(isset($complete_data->ProductItineraryByDay)){
                 '<thead>'+
                 '<tr>'+
                 '<th rowspan="1" colspan="1" style="width: 120px;">CURRENCY</th>'+
-                '<th rowspan="1" colspan="1" style="width: 120px;">TWIN SHARING</th>'+
-                '<th rowspan="1" colspan="1" style="width: 120px;">TRIPLE SHARING</th>'+
-                '<th rowspan="1" colspan="1" style="width: 150px;">SINGLE OCCUPANCY</th>'+
-                '<th rowspan="1" colspan="1" style="width: 120px;">CHILD WITH BED</th>'+
-                '<th rowspan="1" colspan="1" style="width: 120px;">CHILD NO BED</th>'+
-                '<th rowspan="1" colspan="1" style="width: 120px;">INFANT</th>'+
+                '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[0].RoomOccupancyCode+"</th>"+
+                '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[1].RoomOccupancyCode+"</th>"+
+                '<th rowspan="1" colspan="1" style="width: 150px;">'+result.TourPricingHeaders[0].TourPricingDetails[2].RoomOccupancyCode+"</th>"+
+                '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[3].RoomOccupancyCode+"</th>"+
+                '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[5].RoomOccupancyCode+"</th>"+
+                '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[4].RoomOccupancyCode+"</th>"+
                 '</tr>'+
                 '</thead>'+
                 '<tbody>'+
