@@ -26,12 +26,15 @@
                     <!-- First slide -->
                     <div class="item active slide-1">
                         <div class="carousel-caption">
+                            <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="">If you haven't traveled to Europe, you have not traveled at all.</p>
                                 <br/>
                             <h3 data-animation="animated fadeInUp">Explore Europe</span>
                         </h3>
                         <br/>
                             <a href="<?php echo base_url()?>group-tour-packages/europe"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
+                            <br/>
+                            </div>
                         </div>
                     </div>
                     <!-- /.item -->
@@ -39,12 +42,15 @@
                     <!-- Second slide -->
                     <div class="item slide-4">
                         <div class="carousel-caption">
+                        <div class="inner-carousel" data-animation="animated fadeInUp" style="">
                             <h4 data-animation="animated fadeInDown" style="font-size:2.3em;"> Hakone Komagatake Ropeway</p>
                                 <br/>
                             <h3 data-animation="animated fadeInUp">Join us for Japan 2020</span>
                         </h3>
                         <br/>
                         <a href="<?php echo base_url()?>group-tour-packages/japan"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
+                        <br/>
+                        </div>
                         </div>
                     </div>
                    <!-- /.item -->
@@ -52,12 +58,15 @@
                    <!-- Second slide -->
                    <div class="item slide-5">
                         <div class="carousel-caption">
+                        <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="font-size:2.3em;"></p>
                                 <br/>
                             <h3 data-animation="animated fadeInUp">Japan Cherry Blossom</span>
                         </h3>
                         <br/>
                         <a href="<?php echo base_url()?>group-tour-packages/japan"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
+                        <br/>
+                        </div>
                         </div>
                     </div>
                    <!-- /.item -->
@@ -65,6 +74,7 @@
                     <!-- Second slide -->
                     <div class="item slide-2">
                         <div class="carousel-caption">
+                        <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="">The gateway to many Asian adventures
                                 </p>
                                 <br/>
@@ -72,6 +82,8 @@
                         </h3>
                         <br/>
                         <a href="<?php echo base_url()?>group-tour-packages/south-east-asia"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
+                        <br/>
+                        </div>
                         </div>
                     </div>
                     <!-- /.item -->
@@ -79,13 +91,16 @@
                     <!-- Third slide -->
                     <div class="item slide-3">
                         <div class="carousel-caption">
+                        <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="">Discover human endeavour staring into vast seas</p>
                                 <br/>
                             <h3 data-animation="animated fadeInUp">Discover Dubai</span>
                         </h3>
                         <br/>
                             <a href="<?php echo base_url()?>group-tour-packages/dubai"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
+                            <br/>
                         </div>
+                    </div>
                     </div>
                     <!-- /.item -->
 
@@ -967,10 +982,11 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<script>
+<!--to enable popup uncomment below code-->
+<!--<script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
 </script>
- 
+-->

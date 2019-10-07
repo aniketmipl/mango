@@ -179,7 +179,7 @@
     .slide-1:before, .slide-2:before, .slide-3:before, .slide-4:before, .slide-5:before, .slide-seminar:before{
             background: rgba(0, 0, 0, 0);
     }
-
+    
     .carousel .item {
         /*height: 650px; // if search box is available*/
         height: 615px;
@@ -858,21 +858,44 @@
 }
 .carousel-caption .btns{
     font-size: 8px;
-    padding: 2px 2px;
-    border-color: rgba(255, 255, 255, 0);
+    /* padding: 2px 2px;
+    border-color: rgba(255, 255, 255, 0); */
+    padding: 2px 8px;
+    border-color: rgba(255, 255, 255, 0.48);
+    letter-spacing: 2px;
+    background: #376547;
 
 }
 .photo-area p{
     font-size: 1.5em;
 }
-    }
+}
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 767px){
 .carousel-caption {
     top: 30%;
+   
 }
-    }
-    @media only screen and (max-width: 479px){
+.carousel-caption .inner-carousel{
+    display: block;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    background: rgba(255, 102, 0, 0.48);
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 10px 2px #03210e; */
+    top: -25px;
+    margin: 0;
+    padding: 3% 1%;
+    animation-delay: 1s;
+}
+.carousel-caption h3 {
+    /* font-size: 16px; */
+    font-size: 2em;
+}
+}
+   
+@media only screen and (max-width: 479px){
 .root {
     width: 30px;
 }
@@ -884,7 +907,7 @@
             height: 300px;
             width: 100%;
         }
-
+        
     }
     @media only screen and (max-width:1160px){
         .navbar-header .navbar-brand img {
@@ -1084,6 +1107,10 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a{
     .carousel .item {
         height: 170px;
         width: 100%;
+    }
+    .carousel-caption h3 {
+       font-size: 16px !important;
+       
     }
     header .pull-right{
         float:left !important;
@@ -1555,6 +1582,10 @@ background: #e8e6e6;
     .yt-tpcon i{
         line-height: 12px;
     }
+    .carousel-caption h3 {
+        font-size: 20px;
+        
+     }
 }
 
 /*Corporate tour styling*/
