@@ -2490,8 +2490,8 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/GR3/classical-greece-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GR3/classical-greece.jpg';
 		$filter_data['sector']="Greece";
 		// //$filter_data['sector_path']="CustomizedTours/customized_africa";
 		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
