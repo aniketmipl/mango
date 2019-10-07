@@ -2225,6 +2225,9 @@ box-shadow: 8px 6px 11px 1px #bbb4b4;
 
 }
 
+.promo-box-style-three.core-value{
+    margin:0;
+}
 .core-value .promo-area-three{
     background: rgba(2, 2, 2, 0.3803921568627);
     border: 1px solid;
