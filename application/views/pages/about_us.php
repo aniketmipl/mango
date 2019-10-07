@@ -42,7 +42,104 @@
         </div>
     </section>
 	<!-- End About Us -->
-	
+	<!-- Our Services Three -->
+    <section class="services-style-three core-value">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="sec-title text-center mb-5">
+                            <h2>Our <b>Core Values</b></h2>
+                            <p>These are the Core Values we live by</p>
+                        </div>
+                       
+                </div>
+            </div>
+        <div class="row mb-5">
+        <div class="col-md-4 col-sm-6">
+            <div class="servicebox">
+                <div class="service-icon">
+                    <span><i class="fa fa-users"></i></span>
+                </div>
+                <h3 class="title">Customer First</h3>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="servicebox">
+                <div class="service-icon">
+                    <span><i class="fa fa-handshake-o"></i></span>
+                </div>
+                 <h3 class="title">Teamwork</h3>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-6">
+            <div class="servicebox">
+                <div class="service-icon">
+                    <span><i class="fa fa-magic"></i></span>
+                </div>
+                 <h3 class="title">Ownership</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-20">
+        <div class="col-md-2 col-sm-6">
+            
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="servicebox">
+                <div class="service-icon">
+                    <span><i class="fa fa fa-street-view"></i></span>
+                </div>
+                 <h3 class="title">Honest & Ethical Interactions</h3>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="servicebox">
+                <div class="service-icon">
+                    <span><i class="fa fa-graduation-cap"></i></span>
+                </div>
+                 <h3 class="title">Pursuit of Excellence</h3>
+            </div>
+        </div>
+        
+    </div>
+    </section>
+    <section class="parallax promo-box-style-three core-value" data-parallax-bg-image="images/bg/4.jpg" style="background: url(./assets/images/bg/4.jpg);">
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+                    <div class="sec-title text-center">
+                        <h2>Our <b>Purpose</b></h2>
+                        <h3>
+                        Our PURPOSE is to make every travel; an Experience of a Lifetime, thereby increasing the happiness quotient of our society.                    
+</h3>
+                        
+                      
+                    </div>
+                </div>
+            </div>
+           
+        </div> -->
+         <!--Promo Box Style Three -->
+    
+        <div class="container">
+            <div class="row"> 
+                <div class="col-sm-12">
+                    <div class="promo-area-three center-767">
+                    <div class="sec-title text-center">
+                        <h2>Our <b>Purpose</b></h2>
+                     
+                        
+                        </div>    
+                        <p>Our PURPOSE is to make every travel; an Experience of a Lifetime, thereby increasing the happiness quotient of our society.</p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Portfolio Section -->
+
 	<!-- Strat Services Section -->
     <section class="service-area section-gray">
         <div class="container">

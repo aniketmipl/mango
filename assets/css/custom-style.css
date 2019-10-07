@@ -195,6 +195,14 @@
     .hover-box .image .over-layer{
         background: rgba(8, 74, 32, 0.81);
     }
+
+    .services-style-three {
+        padding: 0;
+        background: #fff9f9;
+    }
+    .services-features-two i{
+        background: #366547;
+    }
     .tour-video {
         background: url(../images/P1000946-1.jpg);
         display: block;
@@ -2067,3 +2075,165 @@ box-shadow: 8px 6px 11px 1px #bbb4b4;
 }
 
 
+
+/*about core value*/
+.services-style-three.core-value {
+    padding: 0;
+    background: #f9f8f8;
+}
+.core-value p {
+    letter-spacing: .5px;
+    font-size: 1.6em;
+    line-height: 1.6666;
+}
+.core-value .servicebox{
+
+    text-align: center;
+    padding: 20px 0 0;
+   
+}
+
+.core-value .servicebox .service-icon{
+
+    display: inline-block;
+
+    width: 60px;
+    height: 60px;
+
+   
+
+    background-color:#ff6600;
+
+    margin-bottom: 20px;
+
+}
+
+.core-value .servicebox .service-icon i.fa{
+    line-height: 65px;
+
+    color: #ffffff;
+
+    font-size: 35px;
+
+    transition:all 0.3s ease 0s;
+
+}
+
+.core-value .servicebox:hover .service-icon i.fa{
+
+    transform:rotateY(180deg);
+
+}
+
+.core-value .servicebox .title{
+
+    color: #333;
+    border-top: 1px solid #ff6600;
+    display: block;
+    line-height: 30px;
+    margin: 0 auto 20px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: 190px;
+
+}
+
+.core-value .servicebox .title:before,
+
+.core-value .servicebox .title:after{
+
+    background: #ff6600;
+    border-radius: 100%;
+    top: -6px;
+    content: "";
+    height: 10px;
+    margin: 0 -5px 0 0;
+    position: absolute;
+    right: 50%;
+    transition: all 0.4s ease 0s;
+    width: 10px;
+
+}
+
+.core-value .servicebox .title:before{
+
+    left: 50%;
+
+    margin: 0 0 0 -5px;
+
+}
+
+.core-value .servicebox:hover .title:before{
+
+    left: 100%;
+
+}
+
+.core-value .servicebox:hover .title:after{
+
+    right: 100%;
+
+}
+
+.core-value .servicebox .description{
+
+    color:grey;
+
+    padding: 0 15px;
+
+    font: 14px;
+
+    line-height: 27px;
+
+    transition: all 300ms ease 0s;
+
+}
+
+.core-value .serviceBox:before{
+    background: none;
+}
+
+.core-value .serviceBox:after{
+    background: none;
+}
+
+.core-value .serviceBox{
+    height: auto;
+    border: 1px solid #d0d0d0;
+    border-radius: 300px;
+    box-shadow: 9px 10px 6px 0px #ccc;
+}
+
+.core-value .serviceBox:hover {
+    background-color: #fff0;
+}
+
+.core-value .serviceBox {
+    background-color: #fff;
+}
+
+
+@media screen and (max-width:1000px){
+
+    .core-value .servicebox{
+
+        margin-bottom: 30px;
+
+    }
+
+}
+
+.core-value .promo-area-three{
+    background: rgba(2, 2, 2, 0.3803921568627);
+    border: 1px solid;
+    padding: 80px;
+    border-radius: 40px;
+}
+.core-value .promo-area-three h2,
+    .core-value .promo-area-three p{
+    color:#fff;
+}
+
+/*about core value*/
