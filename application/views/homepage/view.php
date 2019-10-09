@@ -109,10 +109,10 @@
                         <div class="carousel-caption">
                         <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style=""></h4>
-                                <br/>
+                                <br class="hd-mobile"/>
                             <h3 data-animation="animated fadeInUp">Helicopter Ride over Niagara
                         </h3>
-                        <br/>
+                        <br class="hd-mobile"/>
                       
                             <a href="<?php echo base_url()?>group-tour-packages/america"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
                             <br/>
