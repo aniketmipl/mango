@@ -25,7 +25,7 @@ class GroupTours extends CI_Controller {
 		if($tour_name !=""){$tour_name = $tour_name;} else{$tour_name=" ";}
 		if($travel_date !=""){$travel_date = $travel_date;} else{$travel_date=" ";}
 		if($travel_budget !=""){$travel_budget = $travel_budget;} else{$travel_budget=" ";}
-		$api_url ="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?Tourname=".$tour_name."&Traveldate=".$travel_date."&Travelbudget=".$travel_budget;
+		$api_url ="https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?Tourname=".$tour_name."&Traveldate=".$travel_date."&Travelbudget=".$travel_budget;
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
 		$password = "mango";

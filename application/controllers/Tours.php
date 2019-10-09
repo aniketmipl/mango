@@ -2562,7 +2562,7 @@ $this->load->view('common/header',$head_data);
 	}
 
 	public function call_api($product_id,$product_code){
-		$api_url ="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductForWebsite?ProductID=".$product_id."&ProductCode=".$product_code;
+		$api_url ="https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/getProductForWebsite?ProductID=".$product_id."&ProductCode=".$product_code;
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
 		$password = "mango";

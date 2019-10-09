@@ -529,7 +529,7 @@ $this->load->view('common/header',$head_data);
 	public function call_api($sector){
 
 		$sector= str_replace ( ' ', '%20', $sector);
-		$api_url ="http://203.112.144.254:8888/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName=$sector";
+		$api_url ="https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/getProductListBySectorForWebsite?SectorName=$sector";
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
 		$password = "mango";
