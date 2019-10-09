@@ -54,7 +54,7 @@
 
                                     <li><a href="<?php echo base_url()?>careers"> Careers</a></li>
                                     <li><a href="<?php echo base_url()?>faqs"> FAQs</a></li>
-                                    <li><a href="<?php echo base_url()?>franchisee">Preferred Sales Agent</a></li>
+                                    <!-- <li><a href="<?php echo base_url()?>franchisee">Preferred Sales Agent</a></li> -->
                                     <li><a href="<?php echo base_url()?>feedback">Guest Feedback Form</a></li>
                                     <li><a href="<?php echo base_url()?>how-to-book">How to book</a></li>
                                     <li><a href="<?php echo base_url()?>privacy-policy">Privacy Policy</a></li>
