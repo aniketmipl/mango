@@ -175,8 +175,17 @@
         background-position: center;
         position: relative;
     }
+    .slide-6{
+        background: url(../images/sliders/helicopter-ride-over-niagara.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
 
-    .slide-1:before, .slide-2:before, .slide-3:before, .slide-4:before, .slide-5:before, .slide-seminar:before{
+    .slide-1:before, .slide-2:before, .slide-3:before, 
+    .slide-4:before, .slide-5:before, .slide-seminar:before,
+    .slide-6:before{
             background: rgba(0, 0, 0, 0);
     }
     

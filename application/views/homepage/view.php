@@ -42,7 +42,7 @@
                     <!-- Second slide -->
                     <div class="item slide-4">
                         <div class="carousel-caption">
-                        <div class="inner-carousel" data-animation="animated fadeInUp" style="">
+                        <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="font-size:2.3em;"> Hakone Komagatake Ropeway</p>
                                 <br/>
                             <h3 data-animation="animated fadeInUp">Join us for Japan 2020</span>
@@ -98,6 +98,23 @@
                         </h3>
                         <br/>
                             <a href="<?php echo base_url()?>group-tour-packages/dubai"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
+                            <br/>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- /.item -->
+
+                    <!-- Third slide -->
+                    <div class="item slide-6">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel" data-animation="animated fadeInUp">
+                            <h4 data-animation="animated fadeInDown" style=""></h4>
+                                <br/>
+                            <h3 data-animation="animated fadeInUp">Helicopter Ride over Niagara
+                        </h3>
+                        <br/>
+                      
+                            <a href="<?php echo base_url()?>group-tour-packages/america"><button class="btns" data-animation="animated zoomIn">Read More</button></a>
                             <br/>
                         </div>
                     </div>
