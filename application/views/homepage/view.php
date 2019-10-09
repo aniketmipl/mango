@@ -451,18 +451,18 @@
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/git/VC/vietnam-cambodia.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/git/VC/enchanting-vietnam-cambodia.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-                                                <li><a href="<?php echo base_url();?>tours/vietnam-cambodia"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>tours/enchanting-vietnam-cambodia"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tour-item hotel-item">
                                     <div class="blog-details">
-                                        <h3><a href="<?php echo base_url();?>tours/vietnam-cambodia">Vietnam Cambodia</a></h3>
+                                        <h3><a href="<?php echo base_url();?>tours/enchanting-vietnam-cambodia">Enchanting Vietnam Cambodia</a></h3>
                                         <!-- <ul class="list-inline">
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
@@ -474,9 +474,9 @@
                                         <small style="font-size: inherit; font-weight: 600; color: inherit;">
                                         8 Nights / 9 Days  
                                         </small>
-                                        <b style="float:right;">INR 135224/- </b> 
+                                        <b style="float:right;">INR 135269/- </b> 
                                         </h4>
-                                        <a class="read-btn" href="<?php echo base_url();?>tours/vietnam-cambodia">Read More </a>
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/enchanting-vietnam-cambodia">Read More </a>
                                     </div>
                                 </div>
                             </div>
@@ -1000,10 +1000,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <!--to enable popup uncomment below code-->
-<!--<script>
+<script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
 </script>
--->

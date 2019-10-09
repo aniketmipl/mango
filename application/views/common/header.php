@@ -189,7 +189,7 @@
                                 <li><a href="https://www.instagram.com/mangoholidays/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                                 <li><a href="https://twitter.com/mangoholidays" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                 <li class="yt-tpcon"><a href="https://www.youtube.com/channel/UCUl_GfhPaCEidqnHeff0njQ" target="_blank"><i class="fa fa-youtube-play fa-lg"></i></a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=+91" target="_blank"><i class="fa fa-whatsapp fa-lg"></i></a></li>
+                                <li class="yt-tpcon"><a href="https://api.whatsapp.com/send?phone=918380039499" target="_blank"><i class="fa fa-whatsapp fa-lg"></i></a></li>
                             </ul>
                         </div>
                     </div>
