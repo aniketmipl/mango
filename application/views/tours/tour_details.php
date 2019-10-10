@@ -583,10 +583,10 @@ if(isset($complete_data->ProductItineraryByDay)){
                 '<table class="table table-striped table-bordered">'+
                 '<thead>'+
                 '<tr>'+
-                '<th rowspan="1" colspan="1" style="width: 120px;">CURRENCY</th>';
+                '<th rowspan="1" colspan="1" style="width: 120px;text-transform:uppercase; vertical-align:middle;">CURRENCY</th>';
                 for(var i=0; i<(count_price); i++){
                     var roomOccupancyCode = res[i].RoomOccupancyCode;
-                    body_content += '<th rowspan="1" colspan="1" style="width: 120px;">'+roomOccupancyCode+"</th>"
+                    body_content += '<th rowspan="1" colspan="1" style="width: 120px; text-transform:uppercase; vertical-align:middle;">'+roomOccupancyCode+"</th>"
                 }
                 // '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[0].RoomOccupancyCode+"</th>"+
                 // '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[1].RoomOccupancyCode+"</th>"+
@@ -654,7 +654,7 @@ if(isset($complete_data->ProductItineraryByDay)){
                     var currencyCode1 = currencyCode1_data;
                     var currencyCode2 = currencyCode2_data;
                 
-                    body_content +='<p>Tour price is calculated at '+CurrencyCode1SellingRate+currencyCode2+'='+currencyCode1+' '+CurrencyCode2SellingRate+'/-.</p>'
+                    body_content +='<p>Tour price is calculated at '+CurrencyCode1SellingRate+' '+currencyCode2+'='+currencyCode1+' '+CurrencyCode2SellingRate+'/-.</p>'
                  }
                 body_content +='<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' to be calculated on the prevailing rate of exchange of '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' -> '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' on the day of actual payment to Mango Holidays.</p>'+
                 '<p>Tour Price Starting From : '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+ result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue.toFixed()+'/- per adult on twin sharing basis!</p>'+
