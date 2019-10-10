@@ -11,12 +11,12 @@ class GroupTours extends CI_Controller {
 	public function search()
 	{		
 		
-		$tour_name = $this->input->post('tour_name');	
-		$travel_date = $this->input->post('tour_date');
-		$travel_budget = $this->input->post('travel_budget');
-		$data['api_result']=$this->call_api($tour_name,$travel_date,$travel_budget);
+		// $tour_name = $this->input->post('tour_name');	
+		// $travel_date = $this->input->post('tour_date');
+		// $travel_budget = $this->input->post('travel_budget');
+		// $data['api_result']=$this->call_api($tour_name,$travel_date,$travel_budget);
 		$this->load->view('common/header');
-		$this->load->view('search_result/view',$data);
+		$this->load->view('search_result/search_view',$data);
 		$this->load->view('common/footer');
 	}
 

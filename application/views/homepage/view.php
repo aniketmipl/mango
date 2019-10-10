@@ -137,7 +137,7 @@
     </section>
     <!-- End Slider Section -->
 
-    <!-- Strat Booking From 
+    <!-- Strat Booking From -->
     <section class="booking-from-area">
             <div class="container p-0">
                 <div class="row">
@@ -150,11 +150,11 @@
                                
                                     <form class="form-inline" submit="" method="post">
                                         <div class="form-group col-md-5 col-sm-6">
-                                            /*<label class="label">Find Holidays Destination  </label>*/
+                                            <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
                                             <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
                                         <div class="form-group col-md-3 col-sm-6">
-                                            /*<label class="label">Date Of Travel (Approx.)</label> */
+                                            <!-- /*<label class="label">Date Of Travel (Approx.)</label> */ -->
                                             <div class="input-group date margin-bottom-30" data-date-format="dd.mm.yyyy" style="width:100%;">
                                                 <input type="text" name="travel_date" class="form-control" placeholder="Select Your Approx Date">
                                                 <div class="input-group-addon">
@@ -163,7 +163,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group col-md-2 col-sm-6">
-                                           /*<label class="label">Budget Per Person:</label>*/
+                                           <!-- /*<label class="label">Budget Per Person:</label>*/ -->
                                             <select class="form-control" name="travel_budget">
                                                 <option value="0" disabled selected>Budget (INR)</option>
                                                 <option value="auto">Less than ₹50,000</option>
@@ -186,7 +186,7 @@
                 </div>
             </div>
         </section>
-         End Booking From -->
+        <!-- End Booking From -->
 
     <!-- Strat Special Places -->
     <section class="spacial-place">
