@@ -274,6 +274,7 @@ $route['franchisee'] = 'pages/franchisee';
 $route['how-to-book'] = 'pages/how_to_book';
 $route['privacy-policy'] = 'pages/privacy_policy';
 $route['terms-and-conditions'] = 'pages/terms_and_conditions';
+$route['search-result'] = 'search_result/search_view';
 
 
 //redirected urls
