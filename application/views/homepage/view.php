@@ -248,14 +248,14 @@
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-                                                <li><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>tours/best-of-south-africa"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tour-item hotel-item">
                                     <div class="blog-details">
-                                        <h3><a href="#">Best Of South Africa</a></h3>
+                                        <h3><a href="<?php echo base_url();?>tours/best-of-south-africa">Best Of South Africa</a></h3>
                                         <!-- <ul class="list-inline">
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
@@ -269,7 +269,7 @@
                                         </small>
                                         <b style="float:right;">INR 167472/- </b> 
                                         </h4>
-                                        <a class="read-btn" href="#">Read More</a>
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/best-of-south-africa">Read More</a>
                                     </div>
                                 </div>
                             </div>
