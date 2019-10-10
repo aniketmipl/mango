@@ -572,6 +572,11 @@ if(isset($complete_data->ProductItineraryByDay)){
                 var result = JSON.parse(JSON.stringify(res));
                 var main_body = '<h4 style="text-align: center; text-transform: none;">Tour Price & Dates Availablity</h4><h3 style="color:#FF6600;">Tour Code: '+res.TourCode+'</h3>';
                 
+                var currencyCode1_data = result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1;
+                var currencyCode2_data = result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2;                
+                var CurrencyCode1SellingRate = result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1SellingRate;
+                var CurrencyCode2SellingRate = result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2SellingRate;
+
                 var res = result.TourPricingHeaders[0].TourPricingDetails;
                 var count_price = res.length;
                 var body_content = '<div class="table-responsive">'+
@@ -631,7 +636,7 @@ if(isset($complete_data->ProductItineraryByDay)){
                     if(totalINRValue == null){
                         body_content += '<td> - </td>'
                     }else{
-                        body_content += '<td>'+totalINRValue+'</td>'
+                        body_content += '<td>'+totalINRValue.toFixed()+'</td>'
                     }
                 }
                 // '<td>'+amount0_TotalINRValue+'</td>'+
@@ -644,9 +649,14 @@ if(isset($complete_data->ProductItineraryByDay)){
                 '</tbody>'+
                 '</table>'+
                 '</div>'+
-                '<br/>'+
-                '<p>Tour price is calculated at '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1SellingRate+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'='+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2SellingRate+'/-.</p>'+
-                '<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' to be calculated on the prevailing rate of exchange of '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' -> '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' on the day of actual payment to Mango Holidays.</p>'+
+                '<br/>';
+                if((currencyCode1_data != null) && (currencyCode2_data != null) && (CurrencyCode1SellingRate != null) && (CurrencyCode2SellingRate != null)){
+                    var currencyCode1 = currencyCode1_data;
+                    var currencyCode2 = currencyCode2_data;
+                
+                    body_content +='<p>Tour price is calculated at '+CurrencyCode1SellingRate+currencyCode2+'='+currencyCode1+' '+CurrencyCode2SellingRate+'/-.</p>'
+                 }
+                body_content +='<p> Tour price variations are expected depending on the prevailing conversion rate. Payment in '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' to be calculated on the prevailing rate of exchange of '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2 +' -> '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' on the day of actual payment to Mango Holidays.</p>'+
                 '<p>Tour Price Starting From : '+ result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode1+' '+ result.TourPricingHeaders[0].TourPricingDetails[0].TotalINRValue.toFixed()+'/- per adult on twin sharing basis!</p>'+
                 '<p><b>**Prices increase as seats get filled.**</b></p>';
                 $(".tour-body").html("");
