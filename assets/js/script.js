@@ -462,7 +462,7 @@
     }
 
     // Date picker
-    $('.input-group.date').datepicker({format: "dd.mm.yyyy"}); 
+    $('.input-group.date').datepicker({format: "dd/mm/yyyy"}); 
 
     // Video popup
     jQuery("a.demo").YouTubePopUp();
