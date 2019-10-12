@@ -24,18 +24,6 @@ class Search extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
-	public function search_test()
-	{	
-		$head_data['travel_type'] = 'pages';
-		$head_data['title'] = "Contact Us | Mango Holidays";
-		$head_data['page_description'] = "";
-		$head_data['page_keyword'] = "";
-
-		$this->load->view('common/header',$head_data);	
-		$this->load->view('search_result/search_view');
-		$this->load->view('common/footer');
-	}
-
 	public function call_api($tour_name,$travel_date,$travel_budget){
 
 		$tour_name= trim(str_replace(' ', '%20', $tour_name));
