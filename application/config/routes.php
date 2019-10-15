@@ -249,6 +249,7 @@ $route['tours/best-of-morocco'] = 'tours/best_of_morocco';
 $route['tours/all-of-singapore'] = 'tours/all_of_singapore';
 $route['tours/spain-and-portugal'] = 'tours/spain_and_portugal';
 $route['tours/classical-greece'] = 'tours/classical_greece';
+$route['tours/swiss-delights'] = 'tours/swiss_delights';
 
 
 //pages
