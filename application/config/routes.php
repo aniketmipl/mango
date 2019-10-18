@@ -250,6 +250,8 @@ $route['tours/all-of-singapore'] = 'tours/all_of_singapore';
 $route['tours/spain-and-portugal'] = 'tours/spain_and_portugal';
 $route['tours/classical-greece'] = 'tours/classical_greece';
 $route['tours/swiss-delights'] = 'tours/swiss_delights';
+$route['tours/greek-golden-age'] = 'tours/greek_golden_age';
+$route['tours/luxury-hong-kong-macau'] = 'tours/luxury_hong_kong_macau';
 
 
 //pages
