@@ -497,19 +497,6 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-	public function customized_hongkong()
-	{
-		$sector ='Hong Kong'; //for Api
-
-		$data['api_result']=$this->call_api($sector);
-		$data['sector_name']=$sector;
-		
-		$head_data['sector'] = $data['sector_name'];
-		$head_data['travel_type'] = 'FIT';
-		$this->load->view('common/header',$head_data);
-		$this->load->view('customized_tours/view',$data);
-		$this->load->view('common/footer');
-	}
 	
 		public function customized_jordan()
 	{
@@ -524,7 +511,20 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
+		public function customized_hong_kong()
+	{
+		$sector ='Hong Kong'; //for Api
 
+		$data['api_result']=$this->call_api($sector);
+		$data['sector_name']=$sector;
+		
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'FIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	
 	
 
 	public function call_api($sector){

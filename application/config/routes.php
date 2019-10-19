@@ -105,6 +105,7 @@ $route['customized-holidays/azerbaijan'] ='CustomizedTours/customized_azerbaijan
 $route['customized-holidays/greece'] ='CustomizedTours/customized_greece';
 $route['customized-holidays/canada'] ='CustomizedTours/customized_canada';
 $route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
+$route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hong_kong';
 
 
 
@@ -229,10 +230,8 @@ $route['tours/enchanting-vietnam-cambodia'] = 'tours/enchanting_vietnam_cambodia
 $route['tours/japan---cherry-blossom'] = 'tours/japan';
 $route['tours/japan-cherry-blossom'] = 'tours/japan';
 $route['tours/luxurious-bali']='tours/luxurious_bali';
-
 $route['tours/jordan-diamonds']='tours/jordan_diamonds';
 $route['tours/petra-moon-valley']='tours/petra_moon_valley';
-
 $route['tours/bangkok-chiang-mai'] = 'tours/bangkok_chiang_mai';
 $route['tours/kuala-lumpur-penang'] = 'tours/kuala_lumpur_penang';
 $route['tours/australia-on-budget'] = 'tours/australia_on_budget';
