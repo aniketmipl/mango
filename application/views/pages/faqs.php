@@ -71,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="panel panel-default">
+                <!-- <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="heading4">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse4" aria-expanded="false" aria-controls="collapseThree3">
@@ -86,7 +86,7 @@
                         </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <br/>
                 <br/>
 
@@ -95,14 +95,14 @@
                             <div class="small-border"></div>
 
                 <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading5">
+                    <div class="panel-heading" role="tab" id="headingThree5">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse5" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
                             How many days in advance should I book?
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
+                    <div id="collapseThree5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree5">
                         <div class="panel-body">
                         <p>
                         You can book your tour as per your convenience ensuring that you have enough time to apply for the required Visas. However, the earlier you book, the better. Booking early (2 months or more before the departure date) is recommended so that there is adequate time for Visa processing.
@@ -114,12 +114,12 @@
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="heading6">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse6" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse6" aria-expanded="false" aria-controls="collapseThree6">
                             Requirements at the time of booking
                             </a>
                         </h4>
                     </div>
-                    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                    <div id="collapseThree6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
                         <div class="panel-body">
                        
                         <ul>
@@ -492,7 +492,7 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     </div>
                 </div>
 
-                <div class="panel panel-default">
+                <!-- <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="heading26">
                         <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse26" aria-expanded="false" aria-controls="collapseThree3">
@@ -507,7 +507,7 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                         </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="heading27">
@@ -620,7 +620,7 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="heading33">
                         <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse32" aria-expanded="false" aria-controls="collapseThree3">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse33" aria-expanded="false" aria-controls="collapseThree3">
                             WHAT IS THE HOTEL CATEGORY PROVIDED ON GROUP TOURS?
                             </a>
                         </h4>

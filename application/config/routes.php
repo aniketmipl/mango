@@ -105,6 +105,7 @@ $route['customized-holidays/azerbaijan'] ='CustomizedTours/customized_azerbaijan
 $route['customized-holidays/greece'] ='CustomizedTours/customized_greece';
 $route['customized-holidays/canada'] ='CustomizedTours/customized_canada';
 $route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
+$route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hong_kong';
 
 
 
@@ -187,13 +188,15 @@ $route['tours/maldives-paradise-island-resort'] = 'tours/maldives_paradise_islan
 $route['tours/maldives-olhuveli'] = 'tours/maldives_olhuveli';
 $route['tours/glimpse-of-rajasthan'] = 'tours/glimpse_of_rajasthan';
 $route['tours/best-of-rajasthan'] = 'tours/best_of_rajasthan';
-$route['tours/gujarat-special-wildlife-and-pilgrimage'] = 'tours/gujarat_special_wildlife_and_pilgrimage';
+$route['tours/gujarat-wildlife-and-pilgrimage'] = 'tours/gujarat_wildlife_and_pilgrimage';
+$route['tours/gujarat-special'] = 'tours/gujarat_special';
+$route['tours/statue-of-unity-tour'] = 'tours/statue_of_unity_tour';
 $route['tours/best-of-turkey'] = 'tours/best_of_turkey';
 $route['tours/turkish-delight'] = 'tours/turkish_delight';
 $route['tours/azerbaijan-baku'] = 'tours/azerbaijan_baku';
 $route['tours/swiss-paris'] = 'tours/swiss_paris';
 $route['tours/greek-voyage'] = 'tours/greek_voyage';
-$route['tours/hong-kong'] = 'tours/hong_kong';
+//$route['tours/hong-kong'] = 'tours/hong_kong';
 $route['tours/dubai-abu-dhabi-luxury'] = 'tours/dubai_abu_dhabi_luxury';
 $route['tours/heaven-on-earth'] = 'tours/heaven_on_earth';
 $route['tours/singapore-fully-loaded'] = 'tours/singapore_fully_loaded';
@@ -209,7 +212,6 @@ $route['tours/best-of-spain'] = 'tours/best_of_spain';
 $route['tours/british-columbia-canada'] = 'tours/british_columbia_canada';
 $route['tours/canadian-rockies'] = 'tours/canadian_rockies';
 $route['tours/eastern-canada'] = 'tours/eastern_canada';
-$route['tours/gujarat-wildlife-and-pilgrimage'] = 'tours/gujarat_special_wildlife_and_pilgrimage';
 $route['tours/hills-and-meadows'] = 'tours/hills_and_meadows';
 $route['tours/kashmir-with-vaishnodevi'] = 'tours/kashmir_with_vaishnodevi';
 $route['tours/mesmerizing-south-karnataka'] = 'tours/mesmerizing_south_karnataka';
@@ -229,10 +231,8 @@ $route['tours/enchanting-vietnam-cambodia'] = 'tours/enchanting_vietnam_cambodia
 $route['tours/japan---cherry-blossom'] = 'tours/japan';
 $route['tours/japan-cherry-blossom'] = 'tours/japan';
 $route['tours/luxurious-bali']='tours/luxurious_bali';
-
 $route['tours/jordan-diamonds']='tours/jordan_diamonds';
 $route['tours/petra-moon-valley']='tours/petra_moon_valley';
-
 $route['tours/bangkok-chiang-mai'] = 'tours/bangkok_chiang_mai';
 $route['tours/kuala-lumpur-penang'] = 'tours/kuala_lumpur_penang';
 $route['tours/australia-on-budget'] = 'tours/australia_on_budget';
@@ -249,6 +249,10 @@ $route['tours/best-of-morocco'] = 'tours/best_of_morocco';
 $route['tours/all-of-singapore'] = 'tours/all_of_singapore';
 $route['tours/spain-and-portugal'] = 'tours/spain_and_portugal';
 $route['tours/classical-greece'] = 'tours/classical_greece';
+$route['tours/swiss-delights'] = 'tours/swiss_delights';
+$route['tours/greek-golden-age'] = 'tours/greek_golden_age';
+$route['tours/luxury-hong-kong-macau'] = 'tours/luxury_hong_kong_macau';
+$route['tours/classic-jordan'] = 'tours/classic_jordan';
 
 
 //pages
@@ -274,7 +278,7 @@ $route['franchisee'] = 'pages/franchisee';
 $route['how-to-book'] = 'pages/how_to_book';
 $route['privacy-policy'] = 'pages/privacy_policy';
 $route['terms-and-conditions'] = 'pages/terms_and_conditions';
-$route['search-result'] = 'search_result/search_view';
+$route['search-result'] = 'search/search_result';
 
 
 //redirected urls

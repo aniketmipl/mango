@@ -588,12 +588,6 @@ if(isset($complete_data->ProductItineraryByDay)){
                     var roomOccupancyCode = res[i].RoomOccupancyCode;
                     body_content += '<th rowspan="1" colspan="1" style="width: 120px; text-transform:uppercase; vertical-align:middle;">'+roomOccupancyCode+"</th>"
                 }
-                // '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[0].RoomOccupancyCode+"</th>"+
-                // '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[1].RoomOccupancyCode+"</th>"+
-                // '<th rowspan="1" colspan="1" style="width: 150px;">'+result.TourPricingHeaders[0].TourPricingDetails[2].RoomOccupancyCode+"</th>"+
-                // '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[3].RoomOccupancyCode+"</th>"+
-                // '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[5].RoomOccupancyCode+"</th>"+
-                // '<th rowspan="1" colspan="1" style="width: 120px;">'+result.TourPricingHeaders[0].TourPricingDetails[4].RoomOccupancyCode+"</th>"+
                 body_content += '</tr>'+
                 '</thead>'+
                 '<tbody>'+
@@ -607,11 +601,6 @@ if(isset($complete_data->ProductItineraryByDay)){
                         body_content += '<td>'+amount1+'</td>'
                     }
                 }
-                // '<td>'+amount1_Amount1+'</td>'+
-                // '<td>'+amount2_Amount1+'</td>'+
-                // '<td>'+amount3_Amount1+'</td>'+
-                // '<td>'+amount5_Amount1+'</td>'+
-                // '<td>'+amount4_Amount1+'</td>'+
                 body_content += '</tr>'+
                 '<tr>'+
                 '<td>'+result.TourPricingHeaders[0].TourPricingDetails[1].CurrencyCode2+'</td>';
@@ -623,11 +612,6 @@ if(isset($complete_data->ProductItineraryByDay)){
                         body_content += '<td>'+amount2+'</td>'
                     }
                 }
-                // '<td>'+amount1_Amount2+'</td>'+
-                // '<td>'+amount2_Amount2+'</td>'+
-                // '<td>'+amount3_Amount2+'</td>'+
-                // '<td>'+amount5_Amount2+'</td>'+
-                // '<td>'+amount4_Amount2+'</td>'+
                 body_content +='</tr>'+
                 '<tr>'+
                 '<td>TOTAL IN INR</td>';
@@ -639,12 +623,6 @@ if(isset($complete_data->ProductItineraryByDay)){
                         body_content += '<td>'+totalINRValue.toFixed()+'</td>'
                     }
                 }
-                // '<td>'+amount0_TotalINRValue+'</td>'+
-                // '<td>'+amount1_TotalINRValue+'</td>'+
-                // '<td>'+amount2_TotalINRValue+'</td>'+
-                // '<td>'+amount3_TotalINRValue+'</td>'+
-                // '<td>'+amount5_TotalINRValue+'</td>'+
-                // '<td>'+amount4_TotalINRValue+'</td>'+
                 body_content +='</tr>'+
                 '</tbody>'+
                 '</table>'+
