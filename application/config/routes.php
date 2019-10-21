@@ -188,13 +188,15 @@ $route['tours/maldives-paradise-island-resort'] = 'tours/maldives_paradise_islan
 $route['tours/maldives-olhuveli'] = 'tours/maldives_olhuveli';
 $route['tours/glimpse-of-rajasthan'] = 'tours/glimpse_of_rajasthan';
 $route['tours/best-of-rajasthan'] = 'tours/best_of_rajasthan';
-$route['tours/gujarat-special-wildlife-and-pilgrimage'] = 'tours/gujarat_special_wildlife_and_pilgrimage';
+$route['tours/gujarat-wildlife-and-pilgrimage'] = 'tours/gujarat_wildlife_and_pilgrimage';
+$route['tours/gujarat-special'] = 'tours/gujarat_special';
+$route['tours/statue-of-unity-tour'] = 'tours/statue_of_unity_tour';
 $route['tours/best-of-turkey'] = 'tours/best_of_turkey';
 $route['tours/turkish-delight'] = 'tours/turkish_delight';
 $route['tours/azerbaijan-baku'] = 'tours/azerbaijan_baku';
 $route['tours/swiss-paris'] = 'tours/swiss_paris';
 $route['tours/greek-voyage'] = 'tours/greek_voyage';
-$route['tours/hong-kong'] = 'tours/hong_kong';
+//$route['tours/hong-kong'] = 'tours/hong_kong';
 $route['tours/dubai-abu-dhabi-luxury'] = 'tours/dubai_abu_dhabi_luxury';
 $route['tours/heaven-on-earth'] = 'tours/heaven_on_earth';
 $route['tours/singapore-fully-loaded'] = 'tours/singapore_fully_loaded';
@@ -210,7 +212,6 @@ $route['tours/best-of-spain'] = 'tours/best_of_spain';
 $route['tours/british-columbia-canada'] = 'tours/british_columbia_canada';
 $route['tours/canadian-rockies'] = 'tours/canadian_rockies';
 $route['tours/eastern-canada'] = 'tours/eastern_canada';
-$route['tours/gujarat-wildlife-and-pilgrimage'] = 'tours/gujarat_special_wildlife_and_pilgrimage';
 $route['tours/hills-and-meadows'] = 'tours/hills_and_meadows';
 $route['tours/kashmir-with-vaishnodevi'] = 'tours/kashmir_with_vaishnodevi';
 $route['tours/mesmerizing-south-karnataka'] = 'tours/mesmerizing_south_karnataka';
@@ -251,6 +252,7 @@ $route['tours/classical-greece'] = 'tours/classical_greece';
 $route['tours/swiss-delights'] = 'tours/swiss_delights';
 $route['tours/greek-golden-age'] = 'tours/greek_golden_age';
 $route['tours/luxury-hong-kong-macau'] = 'tours/luxury_hong_kong_macau';
+$route['tours/classic-jordan'] = 'tours/classic_jordan';
 
 
 //pages

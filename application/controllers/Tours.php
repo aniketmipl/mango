@@ -1246,7 +1246,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/footer');
 	}
 
-	public function gujarat_special_wildlife_and_pilgrimage(){
+	public function gujarat_wildlife_and_pilgrimage(){
 		$product_id ='69';
 		$product_code='GJ1';
 		
@@ -1255,10 +1255,10 @@ $this->load->view('common/header',$head_data);
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/GJ1/gujarat-wildlife-and-pilgrimage-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/GJ1/gujarat-special-wildlife-and-pilgrimage.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GJ1/gujarat-wildlife-and-pilgrimage.jpg';
 		$filter_data['sector']="Gujarat";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
-		$head_data['title'] = "Gujarat Wildlife Tour Package from Mumbai,Pune,India|Mango Holidays";
+		//$head_data['title'] = "Gujarat Wildlife Tour Package from Mumbai,Pune,India|Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);
@@ -2472,8 +2472,6 @@ $this->load->view('common/header',$head_data);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		$filter_data['slider_image'] = 'git/E10/spain-and-portugal-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/E10/spain-and-portugal.jpg';
-		//$filter_data['slider_image'] = 'images/default-banner.jpg';
-		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Europe";
 		// //$filter_data['sector_path']="CustomizedTours/customized_africa";
 		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2509,13 +2507,11 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		$filter_data['sector']="Eastern Europe";
+		$filter_data['slider_image'] = 'git/E10/swiss-delight-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E10/swiss-delights.jpg';
+		$filter_data['sector']="Europe";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
-		$head_data['title'] = "Eastern Europe Express Tour Package from Mumbai,Pune,India|Mango Holidays";
+		//$head_data['title'] = "Eastern Europe Express Tour Package from Mumbai,Pune,India|Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);
@@ -2529,8 +2525,8 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default.jpg';
+		$filter_data['slider_image'] = 'fit/GR4/greek-golden-age-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GR4/greek-golden-age.jpg';
 		$filter_data['sector']="Greece";
 		// //$filter_data['sector_path']="CustomizedTours/customized_africa";
 		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2547,11 +2543,71 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default.jpg';
+		$filter_data['slider_image'] = 'fit/HK2/luxury-hong-kong-macau-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/HK2/luxury-hong-kong-macau.jpg';
 		$filter_data['sector']="Hong Kong";
 		// //$filter_data['sector_path']="CustomizedTours/customized_africa";
 		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function classic_jordan(){
+		$product_id ='114';
+		$product_code='JO4';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/JO4/classic-jordan-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/JO4/classic-jordan-age.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Jordan";
+		// //$filter_data['sector_path']="CustomizedTours/customized_africa";
+		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function gujarat_special(){
+		$product_id ='140';
+		$product_code='GJ3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Gujarat";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Gujarat Wildlife Tour Package from Mumbai,Pune,India|Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function statue_of_unity_tour(){
+		$product_id ='138';
+		$product_code='GJ2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/AN1/statue-of-unity.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/AN1/statue-of-unity-tour.jpg';
+		$filter_data['sector']="Gujarat";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Gujarat Wildlife Tour Package from Mumbai,Pune,India|Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);
