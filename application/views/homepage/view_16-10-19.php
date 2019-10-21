@@ -143,17 +143,19 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="booking-from">
+                            /*Nav tabs */
                            
+                            /*Tab panes */
                             <div class="tab-content">
                                
-                                    <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
+                                    <form class="form-inline" submit="" method="post">
                                         <div class="form-group col-md-5 col-sm-6">
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
                                             <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
                                         <div class="form-group col-md-3 col-sm-6">
                                             <!-- /*<label class="label">Date Of Travel (Approx.)</label> */ -->
-                                            <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
+                                            <div class="input-group date margin-bottom-30" data-date-format="dd.mm.yyyy" style="width:100%;">
                                                 <input type="text" name="travel_date" class="form-control" placeholder="Select Your Approx Date">
                                                 <div class="input-group-addon">
                                                     <span class="glyphicon glyphicon-th"></span>
@@ -162,15 +164,14 @@
                                         </div>
                                         <div class="form-group col-md-2 col-sm-6">
                                            <!-- /*<label class="label">Budget Per Person:</label>*/ -->
-                                           <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
-                                            <!-- <select class="form-control" name="travel_budget">
+                                            <select class="form-control" name="travel_budget">
                                                 <option value="0" disabled selected>Budget (INR)</option>
                                                 <option value="auto">Less than ₹50,000</option>
                                                 <option value="top auto">₹50,000 To ₹ 1 Lac</option>
                                                 <option value="bottom auto">₹ 1 Lac To ₹ 2 Lac</option>
                                                 <option value="auto left">₹ 2 Lac To ₹ 3 Lac</option>
                                                 <option value="top left">More Than ₹ 3 Lac </option>
-                                            </select> -->
+                                            </select>
                                         </div>
                                        
                                        
@@ -178,6 +179,7 @@
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
                                         </div>
                                     </form>
+                                
                             </div>
                         </div>
                     </div>
@@ -974,23 +976,23 @@
     </section>-->
 
  
-   <div id="popupModal" class="modal fade" role="dialog">
+    <div id="popupModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->
     <div class="modal-content">
-      <!--<div class="modal-header">
+      <!-- <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4 class="modal-title">Holiday Bazaar - 29th Sept</h4>
-      </div>-->
+      </div> -->
       <button type="button" class="close" data-dismiss="modal">&times;</button>
-     <div class="modal-body text-center">
+      <div class="modal-body text-center">
       <img src="<?php echo base_url();?>assets/images/Organic.png" alt="">
        
       </div>
       <div class="modal-footer">
         <!--         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
         <!-- <a class="pre-order-btn" href="<?php echo base_url();?>contact-us">Contact Us</a> -->
-    </div>
+      </div>
     </div>
 
   </div>

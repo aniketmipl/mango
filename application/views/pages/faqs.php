@@ -129,7 +129,7 @@
                         </ul>
                         
                         <p>Note: Passport / document requirements may differ for certain Embassies/Consulates and are subject to change.</p>
-                        <p>1,00,001-3,00,00040,000Above 3,00,00160,000</p>
+                        <p></p>
                         <table>
                         <tbody>
                         <tr style="color: black;">
@@ -143,6 +143,14 @@
                         <tr>
                         <td>50,001-1,00,000</td>
                         <td>25,000</td>
+                        </tr>
+                        <tr>
+                        <td>1,00,001-3,00,000</td>
+                        <td>40,000</td>
+                        </tr>
+                        <tr>
+                        <td>Above 3,00,001</td>
+                        <td>60,000</td>
                         </tr>
                         </tbody>
                         </table>

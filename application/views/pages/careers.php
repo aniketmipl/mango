@@ -36,7 +36,7 @@
                             If you wish to make your career &amp; be a part of this exceptional growth story at Mango Holidays, please send in your CV to <strong><a href="mailto:careers@mangoholidays.in">careers@mangoholidays.in.</a></strong></p>
                             <p>We have following opening with us:</p>
 
-                        <div class="accordion-style-one" style="padding:0;">
+                       <!-- <div class="accordion-style-one" style="padding:0;">
                                         <div class="column-margin">
                                             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                                 <div class="panel panel-default">
@@ -84,6 +84,64 @@
                                                             <p><strong>Engagement Type:</strong><br>
                                                             Duration : (June 2019 – May 2020)………16 productive hours assumed per work week.<br>
                                                             <!-- <a style="cursor:pointer;" data-toggle="modal" data-target="#enquiry-form-modal"">Apply Now</a> -->
+                                                            <!--<button style="margin-top: 2%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                        </div> -->
+						
+						
+						
+						<div class="accordion-style-one" style="padding:0;">
+                                        <div class="column-margin">
+                                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingOne">
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                <b>Senior Executive Sales </b>
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                                        <div class="panel-body">
+														<p> Mango Holidays Pvt Ltd are market leaders for International & domestic Tours. Our Strength is our quality & service offered to our esteemed customers.<br/>
+															To strengthen our  operations at Nagpur we are hiring:</p>
+
+
+														<ul>
+															<li>Pitch our Group tours  as per  customer requirements .</li>
+															<li>Stand-alone hotel bookings.</li>
+															<li>Helping our guests plan their vacation by creating  Itineraries as per customer requirement for domestic & International tours.  </li>
+															<li>Coordinating with  other departments for Visas, Air tickets etc.</li>
+														</ul>
+                                                            <br/>
+                                                           
+                                                            <p><b>Responsibilities :</b></p>
+                                                            <p>
+                                                            <ul>
+																<li>Handling walk in clients.</li>
+																<li>Providing excellent customer service experience.</li>
+																<li>Responsible for generating revenue for the Organisation.</li>
+																<li> Lead generation  activities to ensure requisite number of enquiries in hand.</li>
+                                                            </ul>
+                                                            </p>
+                                                            <br/>
+                                                            
+                                                           <p><b>Eligibility  :</b></p>
+														   <p>
+                                                            <ul>
+																<li>Bachelors Degree preferably in travel studies and/or Diploma/equivalent in travel and tourism.</li>
+																<li>2-4 years of experience in a similar profile.</li>
+																<li>Good knowledge of major travel destinations -  Domestic & International.</li>
+																<li>Hands on for  Excel  & MS word .</li>
+                                                            </ul>
+                                                            </p>
+                                                            <br/>
+                                                            <!-- <a style="cursor:pointer;" data-toggle="modal" data-target="#enquiry-form-modal"">Apply Now</a> -->
                                                             <button style="margin-top: 2%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
                                                         </div>
                                                     </div>
@@ -92,7 +150,6 @@
                                         </div>
                                     
                         </div>
-
 						<p>If your CV is shortlisted, you will be called for an interview with a prior appointment.<br/>
 Thank you for your interest in Mango Holidays.</p>
 					
