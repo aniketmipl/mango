@@ -119,7 +119,7 @@
                             </a>
                         </h4>
                     </div>
-                    <div id="collapseThree6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
                         <div class="panel-body">
                        
                         <ul>
@@ -247,7 +247,8 @@ In case you need to cancel the tour, you will need to inform us in writing. The 
                     <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
                         <div class="panel-body">
                         <p>
-                        You will be given pre-departure information about 1 week prior to the departure date of your tour.
+                        <!-- You will be given pre-departure information about 1 week prior to the departure date of your tour. -->
+                        If the tour is cancelled on medical grounds, if supporting medical reports are given, then Insurance company at it’s own discretion may consider the refund (Subject to Cancellation Policy, Terms & Conditions of Mango Holidays India Pvt. Ltd.)
                         </p>
                         </div>
                     </div>
