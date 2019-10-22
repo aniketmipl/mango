@@ -2695,6 +2695,27 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
+	public function hong_kong_macau(){
+
+		$product_id ='144';
+		$product_code='HK3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Bali";
+		//$filter_data['sector_path']="CustomizedTours/group_eurpoe";
+		//$head_data['title'] = "Greece Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+
+	}
 
 
 	

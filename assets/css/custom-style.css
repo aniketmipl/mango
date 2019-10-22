@@ -1540,6 +1540,7 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a{
     height: 40px;
     
 }
+
 .datepicker-days .table-condensed thead .prev,
 .datepicker-days .table-condensed thead .datepicker-switch,
 .datepicker-days .table-condensed thead .next
@@ -1559,6 +1560,12 @@ background: #e8e6e6;
     width:98%;
 }
 
+@media screen and (max-width: 767px){
+.booking-from-area {
+    margin-top: -30px;
+    padding: 0;
+}
+}
 .desktop-image{
     display:block;
 }

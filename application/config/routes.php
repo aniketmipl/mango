@@ -257,6 +257,8 @@ $route['tours/bali-with-gili-island'] = 'tours/bali_with_gili_island';
 $route['tours/spain-with-morocco'] = 'tours/spain_with_morocco';
 $route['tours/greece-turkey'] = 'tours/greece_turkey';
 $route['tours/russian-deights'] = 'tours/russian_deights';
+$route['tours/hong-kong-macau'] = 'tours/hong_kong_macau';
+
 
 
 //pages
