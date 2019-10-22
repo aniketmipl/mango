@@ -2507,8 +2507,8 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'git/E10/swiss-delight-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'git/E10/swiss-delights.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Europe";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Eastern Europe Express Tour Package from Mumbai,Pune,India|Mango Holidays";
@@ -2615,6 +2615,87 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
+	public function bali_with_gili_island(){
+
+		$product_id ='143';
+		$product_code='BA3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Bali";
+		//$filter_data['sector_path']="CustomizedTours/group_eurpoe";
+		//$head_data['title'] = "Greece Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+
+	}
+	public function spain_with_morocco(){
+
+		$product_id ='142';
+		$product_code='SP4';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Bali";
+		//$filter_data['sector_path']="CustomizedTours/group_eurpoe";
+		//$head_data['title'] = "Greece Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+
+	}
+	public function greece_turkey(){
+
+		$product_id ='135';
+		$product_code='E13';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Europe";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Eastern Europe Express Tour Package from Mumbai,Pune,India|Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function russian_deights(){
+
+		$product_id ='141';
+		$product_code='E14';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Europe";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Eastern Europe Express Tour Package from Mumbai,Pune,India|Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
 
 	
 	public function mpdf(){

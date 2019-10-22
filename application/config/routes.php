@@ -253,6 +253,10 @@ $route['tours/swiss-delights'] = 'tours/swiss_delights';
 $route['tours/greek-golden-age'] = 'tours/greek_golden_age';
 $route['tours/luxury-hong-kong-macau'] = 'tours/luxury_hong_kong_macau';
 $route['tours/classic-jordan'] = 'tours/classic_jordan';
+$route['tours/bali-with-gili-island'] = 'tours/bali_with_gili_island';
+$route['tours/spain-with-morocco'] = 'tours/spain_with_morocco';
+$route['tours/greece-turkey'] = 'tours/greece_turkey';
+$route['tours/russian-deights'] = 'tours/russian_deights';
 
 
 //pages

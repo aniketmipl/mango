@@ -34,9 +34,9 @@
                             <p>Our rapid growth demands highly energetic people who have a fire to learn, a passion to excel and an urge to contribute. We provide for an entrepreneurial environment, unlimited growth potential, and strong interpersonal relationships. We provide for a motivating and inspiring atmosphere so that each person’s true potential is brought out into the limelight.</p>
                             <p>If you have the passion towards travel, you have good communication skills, you want to work in an organization where people are treated with equality and dignity &amp; you believe in teamwork then we would be glad to have you on board!<br>
                             If you wish to make your career &amp; be a part of this exceptional growth story at Mango Holidays, please send in your CV to <strong><a href="mailto:careers@mangoholidays.in">careers@mangoholidays.in.</a></strong></p>
-                            <p>We have following opening with us:</p>
-
-                        <div class="accordion-style-one" style="padding:0;">
+                            <!-- <p>We have following opening with us:</p>
+ -->
+                       <!--  <div class="accordion-style-one" style="padding:0;">
                                         <div class="column-margin">
                                             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                                 <div class="panel panel-default">
@@ -83,16 +83,16 @@
                                                             <br/>
                                                             <p><strong>Engagement Type:</strong><br>
                                                             Duration : (June 2019 – May 2020)………16 productive hours assumed per work week.<br>
-                                                            <!-- <a style="cursor:pointer;" data-toggle="modal" data-target="#enquiry-form-modal"">Apply Now</a> -->
-                                                            <button style="margin-top: 2%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
+                                                            <a style="cursor:pointer;" data-toggle="modal" data-target="#enquiry-form-modal"">Apply Now</a>
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     
-                        </div>
-
+                        </div> -->
+                        <button style="margin-top: 2%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button><br/>
 						<p>If your CV is shortlisted, you will be called for an interview with a prior appointment.<br/>
 Thank you for your interest in Mango Holidays.</p>
 					
@@ -113,6 +113,13 @@ Thank you for your interest in Mango Holidays.</p>
 
 function onSubmitNew(){
 	
+    if (document.EnquiryNew.post_applied_for.value  == "")
+    {
+        alert("Please enter Position to apply for.");
+        document.EnquiryNew.post_applied_for.focus()
+        return false;
+    }
+
 	if (document.EnquiryNew.contact_person.value  == "")
 	{
 		alert("Please enter Contact Person Name .");
@@ -165,7 +172,7 @@ function onSubmitNew(){
     }
 
     function validateFileExtension(fld) {
-    if (!/(\.bmp|\.gif|\.jpg|\.jpeg|\.txt|\.doc|\.docx|\.xls|\.xlsx|\.pdf|\.zip|\.rar)$/i.test(fld.value)) 
+    if (!/(\.doc|\.docx|\.pdf)$/i.test(fld.value)) 
 	{
         alert("Invalid file type.");
         //fld.form.reset();
@@ -226,12 +233,13 @@ var randomnumber_tour= <?= $mynumber_tour?>;
             <input name="redirect" type="hidden">
                 <input name="recipient" type="hidden" id="recipient" value="hr@mangoholidays.in, ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
                 <input name="subject" type="hidden" id="subject" value="Career Application From Website">    
-                <b><input name="post-applied-for" id="post-applied-for" value="Virtual CFO Senior Position" readonly></b>    
+                <!-- <b><input name="post-applied-for" id="post-applied-for" value="Virtual CFO Senior Position" readonly></b>     -->
+                  <input type="text" name="post_applied_for" id="post_applied_for" placeholder="Position to apply for">
                   <input type="text" name="contact_person" id="contact_person" placeholder="Name">
                   <input type="email" name="from" id="from" placeholder="Email">
                   <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
                   <textarea name="requirement_details" id="requirement_details" placeholder="Message here.."></textarea>
-                  <label>Attach Your CV :</label>
+                  <label>Attach Your CV (.doc,.docx,.pdf):</label>
 					<input type="file" style="display:inline-block;" name="file" id="file" onChange="return validateFileExtension(this)"  />
                   <?php
                         for($i=0; $i<$ilength; $i++)
