@@ -174,20 +174,20 @@ $this->load->view('common/header',$head_data);
 	{
 		//$product_id ='8';
 		//$product_code='E4';
-		$product_id ='32';
-		$product_code='E41';
+		// $product_id ='32';
+		// $product_code='E41';
+		$product_id ='147';
+		$product_code='BE';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/europe/best-of-europe-banner.jpg';
 		// $filter_data['slider_mobile_image'] = 'images/tours/europe/best-of-europe.jpg';	
-		$filter_data['slider_image'] = 'git/E41/best-of-europe-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'git/E41/best-of-europe.jpg';	
+		$filter_data['slider_image'] = 'git/BE/best-of-europe-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/BE/best-of-europe.jpg';	
 		$filter_data['sector']="Europe";
 		//$filter_data['sector_path']="GroupTours/group_europe";
-		$head_data['title'] = "Best Of Europe Tour Package from Mumbai,Pune,India | Mango Holidays";
-
-
+		//$head_data['title'] = "Best Of Europe Tour Package from Mumbai,Pune,India | Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);
@@ -2432,6 +2432,8 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/MO1/best-of-morocco-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/MO1/best-of-morocco.jpg';
 		$filter_data['slider_image'] = 'fit/MO1/best-of-morocco-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/MO1/best-of-morocco.jpg';
 		$filter_data['sector']="Morocco";
@@ -2507,8 +2509,8 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'git/E10/swiss-delights-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E10/swiss-delights.jpg';
 		$filter_data['sector']="Europe";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Eastern Europe Express Tour Package from Mumbai,Pune,India|Mango Holidays";
@@ -2561,10 +2563,10 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/JO4/classic-jordan-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/JO4/classic-jordan-age.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/JO4/classic-jordan-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/JO4/classic-jordan.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Jordan";
 		// //$filter_data['sector_path']="CustomizedTours/customized_africa";
 		// $head_data['title'] = "Luxury Dubai Loaded Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2576,18 +2578,16 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/footer');
 	}
 	public function gujarat_special(){
-		$product_id ='140';
-		$product_code='GJ3';
+		$product_id ='25';
+		$product_code='GJ';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		// $filter_data['slider_image'] = 'git/GJ/gujarat-special-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'git/GJ/gujarat-special.jpg';
 		$filter_data['slider_image'] = 'images/default-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		$filter_data['sector']="Gujarat";
-		//$filter_data['sector_path']="CustomizedTours/customized_africa";
-		//$head_data['title'] = "Gujarat Wildlife Tour Package from Mumbai,Pune,India|Mango Holidays";
+		$filter_data['sector']="India";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);
@@ -2603,8 +2603,8 @@ $this->load->view('common/header',$head_data);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/AN1/statue-of-unity.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/AN1/statue-of-unity-tour.jpg';
+		$filter_data['slider_image'] = 'fit/AN1/Statue_of_unity_banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/AN1/Statue_of_unity.jpg';
 		$filter_data['sector']="Gujarat";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Gujarat Wildlife Tour Package from Mumbai,Pune,India|Mango Holidays";
@@ -2624,8 +2624,8 @@ $this->load->view('common/header',$head_data);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
 		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/BA3/bali-with-gili-island-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/BA3/bali-with-gili-island.jpg';
 		$filter_data['sector']="Bali";
 		//$filter_data['sector_path']="CustomizedTours/group_eurpoe";
 		//$head_data['title'] = "Greece Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2645,9 +2645,9 @@ $this->load->view('common/header',$head_data);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
 		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		$filter_data['sector']="Bali";
+		$filter_data['slider_image'] = 'fit/SP4/spain-with-morocco-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SP4/spain-with-morocco.jpg';
+		$filter_data['sector']="Spain";
 		//$filter_data['sector_path']="CustomizedTours/group_eurpoe";
 		//$head_data['title'] = "Greece Tour Package from Mumbai,Pune,India | Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
@@ -2655,7 +2655,6 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
-
 	}
 	public function greece_turkey(){
 
@@ -2664,8 +2663,8 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'git/E13/greece-turkey-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E13/greece-turkey.jpg';
 		$filter_data['sector']="Europe";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Eastern Europe Express Tour Package from Mumbai,Pune,India|Mango Holidays";
@@ -2676,15 +2675,15 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
-	public function russian_deights(){
+	public function russian_deight(){
 
 		$product_id ='141';
 		$product_code='E14';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'git/E13/russian-deights-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/E13russian-deights.jpg';
 		$filter_data['sector']="Europe";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Eastern Europe Express Tour Package from Mumbai,Pune,India|Mango Holidays";
@@ -2704,8 +2703,8 @@ $this->load->view('common/header',$head_data);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/asia/south-east-asia-banner.jpg';
 		// $filter_data['slider_mobile_image'] = 'images/tours/asia/south-east-asia.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/HK3/hong-kong-macau-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/HK3/hong-kong-macau.jpg';
 		$filter_data['sector']="Bali";
 		//$filter_data['sector_path']="CustomizedTours/group_eurpoe";
 		//$head_data['title'] = "Greece Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2715,6 +2714,64 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 
+	}
+	public function egypt_culture_and_beach_tour(){
+		$product_id ='145';
+		$product_code='EG4';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'fit/EG4/egypt-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/EG4/egypt-culture-and-beach-tour.jpg';
+		$filter_data['sector']="Egypt";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function all_of_azerbaijan(){
+		$product_id ='146';
+		$product_code='AZ2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+		$filter_data['slider_image'] = 'fit/AZ2/azerbaijan-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/AZ2/all-of-azerbaijan.jpg';
+		$filter_data['sector']="Azerbaijan";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function dubai_basic(){
+		$product_id ='148';
+		$product_code='DX4';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/DX4/dubai-basic-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/DX4/dubai-basic.jpg';
+		$filter_data['sector']="Dubai";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
 	}
 
 

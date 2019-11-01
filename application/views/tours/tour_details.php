@@ -458,7 +458,7 @@ if(isset($complete_data->ProductItineraryByDay)){
                             <div class="item">
                            
                                 <div class="hover-box tour-hotel-box">
-                                    <div class="tour-img image  style="position:relative;">
+                                    <div class="tour-img image"  style="position:relative;">
                                         <img src="<?php echo $ProductImage; ?>" alt="Tour Image">
                                         <div class="over-layer">
                                             <div class="links">

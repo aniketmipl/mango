@@ -66,10 +66,10 @@ $route['group-tour-packages/japan'] = 'GroupTours/group_japan';
 $route['group-tour-packages/south-east-asia'] = 'GroupTours/group_asia';
 $route['group-tour-packages/eastern_europe'] = 'GroupTours/group_eastern_europe';
 $route['group-tour-packages/scandinavia'] = 'GroupTours/group_scandinavia';
-$route['group-tour-packages/india'] = 'GroupTours/group_india';
 
 
                            //customized tours
+
 $route['customized-holidays/india/andaman'] ='/CustomizedTours/customized_andaman';
 $route['customized-holidays/india/gujarat'] ='CustomizedTours/customized_gujarat';
 $route['customized-holidays/india/himachal-pradesh'] ='CustomizedTours/customized_himachal';
@@ -255,12 +255,11 @@ $route['tours/luxury-hong-kong-macau'] = 'tours/luxury_hong_kong_macau';
 $route['tours/classic-jordan'] = 'tours/classic_jordan';
 $route['tours/bali-with-gili-island'] = 'tours/bali_with_gili_island';
 $route['tours/greece-turkey'] = 'tours/greece_turkey';
-$route['tours/russian-deight'] = 'tours/russian_deight';
+$route['tours/russian-deights'] = 'tours/russian_deights';
 $route['tours/hong-kong-macau'] = 'tours/hong_kong_macau';
 $route['tours/egypt-culture-and-beach-tour'] = 'tours/egypt_culture_and_beach_tour';
 $route['tours/all-of-azerbaijan'] = 'tours/all_of_azerbaijan';
 $route['tours/spain-with-morocco'] = 'tours/spain_with_morocco';
-$route['tours/dubai-basic'] = 'tours/dubai_basic';
 
 
 //pages
