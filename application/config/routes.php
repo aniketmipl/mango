@@ -88,6 +88,7 @@ $route['customized-holidays/india/orissa'] ='CustomizedTours/customized_orissa';
        //International customized tours
 $route['customized-holidays/asia'] ='CustomizedTours/customized_asia';
 $route['customized-holidays/africa'] ='CustomizedTours/customized_africa';
+$route['customized-holidays/america'] ='CustomizedTours/customized_america';
 $route['customized-holidays/australia-new-zealand'] ='CustomizedTours/customized_australiaandnewzealand';
 $route['customized-holidays/dubai'] ='CustomizedTours/customized_dubai';
 $route['customized-holidays/europe'] ='CustomizedTours/customized_europe';
@@ -261,6 +262,12 @@ $route['tours/egypt-culture-and-beach-tour'] = 'tours/egypt_culture_and_beach_to
 $route['tours/all-of-azerbaijan'] = 'tours/all_of_azerbaijan';
 $route['tours/spain-with-morocco'] = 'tours/spain_with_morocco';
 $route['tours/dubai-basic'] = 'tours/dubai_basic';
+$route['tours/american-dream'] = 'tours/american_dream';
+$route['tours/east-coast'] = 'tours/east_coast';
+$route['tours/west-coast'] = 'tours/west_coast';
+$route['tours/yellowstone-rushmore'] = 'tours/yellowstone_rushmore';
+$route['tours/spectacular-brazil'] = 'tours/spectacular_brazil';
+$route['tours/highlights-of-argentina'] = 'tours/highlights_of_argentina';
 
 
 //pages

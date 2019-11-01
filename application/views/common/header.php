@@ -300,7 +300,8 @@
                                                     <ul class="menu-col">
                                                       <div class="col-md-6 col-sm-12">
                                                         <li><a href="<?php echo base_url()?>customized-holidays/africa">Africa</a></li>
-                                                        <li><a href="<?php echo base_url()?>customized-holidays/asia">Asia</a></li>
+
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/america">America</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/australia-new-zealand">Australia & New Zealand</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/azerbaijan">Azerbaijan</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/bali">Bali</a></li>

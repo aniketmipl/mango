@@ -2773,6 +2773,126 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
+	public function american_dream(){
+		$product_id ='150';
+		$product_code='US1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'fit/US1/american-dreams-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/US1/american-dreams.jpg';
+		$filter_data['sector']="America";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function east_coast(){
+		$product_id ='151';
+		$product_code='US2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'fit/US2/east-coast-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/US2/east-coast.jpg';
+		$filter_data['sector']="America";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function west_coast(){
+		$product_id ='152';
+		$product_code='US3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'fit/US3/west-coast-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/US3/west-coast.jpg';
+		$filter_data['sector']="America";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function yellowstone_rushmore(){
+		$product_id ='153';
+		$product_code='US4';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'fit/US4/yellowstone-rushmore-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/US4/yellowstone-rushmore.jpg';
+		$filter_data['sector']="America";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function spectacular_brazil(){
+		$product_id ='154';
+		$product_code='US5';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'fit/US5/spectacular-brazil-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/US5/spectacular-brazil.jpg';
+		$filter_data['sector']="America";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function highlights_of_argentina(){
+		$product_id ='155';
+		$product_code='US6';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'fit/US6/highlights-of-argentina-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/US6/highlights-of-argentina.jpg';
+		$filter_data['sector']="America";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
 
 
 	
