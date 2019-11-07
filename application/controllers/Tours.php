@@ -2779,10 +2779,10 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'fit/US1/american-dreams-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/US1/american-dreams.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/US1/american-dreams-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/US1/american-dreams.jpg';
 		$filter_data['sector']="America";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2799,10 +2799,10 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'fit/US2/east-coast-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/US2/east-coast.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/US2/east-coast-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/US2/east-coast.jpg';
 		$filter_data['sector']="America";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2819,10 +2819,10 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'fit/US3/west-coast-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/US3/west-coast.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/US3/west-coast-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/US3/west-coast.jpg';
 		$filter_data['sector']="America";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2839,10 +2839,10 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'fit/US4/yellowstone-rushmore-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/US4/yellowstone-rushmore.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/US4/yellowstone-rushmore-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/US4/yellowstone-rushmore.jpg';
 		$filter_data['sector']="America";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2859,10 +2859,10 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'fit/US5/spectacular-brazil-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/US5/spectacular-brazil.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/US5/spectacular-brazil-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/US5/spectacular-brazil.jpg';
 		$filter_data['sector']="America";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -2879,13 +2879,67 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'fit/US6/highlights-of-argentina-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/US6/highlights-of-argentina.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/US6/highlights-of-argentina-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/US6/highlights-of-argentina.jpg';
 		$filter_data['sector']="America";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		//$head_data['title'] = "Best of Australia Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function all_of_south_america(){
+		$product_id ='156';
+		$product_code='US7';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/US7/all-of-south-america-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/US7/all-of-south-america.jpg';
+		$filter_data['sector']="America";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function golden_triangle(){
+		$product_id ='65';
+		$product_code='DE1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/DE1/golden-triangle-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/DE1/golden-triangle.jpg';
+		$filter_data['sector']="America";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function athens_istanbul(){
+		$product_id ='157';
+		$product_code='GR5';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'fit/GR5/athens-istanbul-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/GR5/athens-istanbul.jpg';
+		$filter_data['sector']="Greece";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);

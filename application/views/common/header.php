@@ -273,21 +273,23 @@
                                                     <ul class="menu-col">
                                                         <div class="col-md-6 col-sm-12">
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/andaman">Andaman</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/delhi">Delhi</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/gujarat">Gujarat</a></li>
                                                             <li><a href="<?php echo base_url()?>CustomizedTours/customized_hyderabad">Hyderabad</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/kashmir">Kashmir</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/kerala">Kerala</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/karnataka-tour-packages">Karnataka</a></li> 
-                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/himachal-pradesh">Himachal</a></li>
+                                                            
 
                                                         </div>
                                                         <div class="col-md-6 col-sm-12">
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/himachal-pradesh">Himachal</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/madhya-pradesh">Madhya Pradesh</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/rajasthan">Rajasthan</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/tamil-nadu">Tamil Nadu</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/goa">Goa</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/north-east">North East</a></li>
-                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/andhra-pradesh">Andhra Pradesh</a></li>
+                                                            <!-- <li><a href="<?php echo base_url()?>customized-holidays/india/andhra-pradesh">Andhra Pradesh</a></li> -->
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/orissa">Orissa</a></li>
                                                         </div>
                                                     </ul>
