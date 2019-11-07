@@ -8,14 +8,17 @@
     </div>
 </div>
 
-
 <section class="hotel-offer tour-category">
         <div class="container">
             <div class="row">
                 <div class="hottel-grid-offer" style="justify-content: left;">
                     <?php 
-                    if(isset($api_result)){
+                    if(isset($api_result)){ 
                     foreach ($api_result as $key => $value) { 
+                        // echo $tour_name;
+                        // $sectorname = $value->SectorName;
+                        // $producttitle = $value->ProductTitle;
+                        // if($tour_name==$sectorname){
                         $page_name=strtolower(trim($value->ProductTitle));
                     ?>
                     <div class="col-md-4 col-sm-6 mb-20">
@@ -56,11 +59,14 @@
                             </div>
                         </div>
                     </div>
-                <?php }} ?>
+                <?php
+                // }
+                //  else if($tour_name==$producttitle){
+                //     echo $producttitle;
+                //  }
+                 }}?>
                 </div>
             </div>
                 <h4 style="text-align:center;">.... End of search result ....</h4>
-            
         </div>
     </section>
-
