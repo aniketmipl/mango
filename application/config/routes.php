@@ -71,6 +71,7 @@ $route['group-tour-packages/india'] = 'GroupTours/group_india';
 
                            //customized tours
 $route['customized-holidays/india/andaman'] ='/CustomizedTours/customized_andaman';
+$route['customized-holidays/india/delhi'] ='/CustomizedTours/customized_delhi';
 $route['customized-holidays/india/gujarat'] ='CustomizedTours/customized_gujarat';
 $route['customized-holidays/india/himachal-pradesh'] ='CustomizedTours/customized_himachal';
 $route['customized-holidays/india/karnataka-tour-packages'] ='CustomizedTours/customized_karnataka';
@@ -82,7 +83,7 @@ $route['customized-holidays/india/rajasthan'] ='CustomizedTours/customized_rajas
 $route['customized-holidays/india/tamil-nadu'] ='CustomizedTours/customized_tamil_nadu';
 $route['customized-holidays/india/goa'] ='CustomizedTours/customized_goa';
 $route['customized-holidays/india/north-east'] ='CustomizedTours/customized_north_east';
-$route['customized-holidays/india/andhra-pradesh'] ='CustomizedTours/customized_andhra_pradesh';
+//$route['customized-holidays/india/andhra-pradesh'] ='CustomizedTours/customized_andhra_pradesh';
 $route['customized-holidays/india/orissa'] ='CustomizedTours/customized_orissa';
 
        //International customized tours
@@ -197,7 +198,6 @@ $route['tours/turkish-delight'] = 'tours/turkish_delight';
 $route['tours/azerbaijan-baku'] = 'tours/azerbaijan_baku';
 $route['tours/swiss-paris'] = 'tours/swiss_paris';
 $route['tours/greek-voyage'] = 'tours/greek_voyage';
-//$route['tours/hong-kong'] = 'tours/hong_kong';
 $route['tours/dubai-abu-dhabi-luxury'] = 'tours/dubai_abu_dhabi_luxury';
 $route['tours/heaven-on-earth'] = 'tours/heaven_on_earth';
 $route['tours/singapore-fully-loaded'] = 'tours/singapore_fully_loaded';
@@ -268,7 +268,9 @@ $route['tours/west-coast'] = 'tours/west_coast';
 $route['tours/yellowstone-rushmore'] = 'tours/yellowstone_rushmore';
 $route['tours/spectacular-brazil'] = 'tours/spectacular_brazil';
 $route['tours/highlights-of-argentina'] = 'tours/highlights_of_argentina';
-
+$route['tours/all-of-south-america'] = 'tours/all_of_south_america';
+$route['tours/golden-triangle'] = 'tours/golden_triangle';
+$route['tours/athens-istanbul'] = 'tours/athens_istanbul';
 
 //pages
 $route['about-us'] = 'pages/about_us';

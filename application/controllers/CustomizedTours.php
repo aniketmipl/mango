@@ -341,20 +341,20 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	} 
-	public function customized_andhra_pradesh()
-	{
-		$sector ='Andhra Pradesh'; //for Api
+// 	public function customized_andhra_pradesh()
+// 	{
+// 		$sector ='Andhra Pradesh'; //for Api
 
-		$data['api_result']=$this->call_api($sector);
-		//$head_data['title'] = "North East Tour| Mango Holidays";
-		$data['sector_name']=$sector;
+// 		$data['api_result']=$this->call_api($sector);
+// 		//$head_data['title'] = "North East Tour| Mango Holidays";
+// 		$data['sector_name']=$sector;
 		
-		$head_data['sector'] = $data['sector_name'];
-$head_data['travel_type'] = 'FIT';
-$this->load->view('common/header',$head_data);
-		$this->load->view('customized_tours/view',$data);
-		$this->load->view('common/footer');
-	}
+// 		$head_data['sector'] = $data['sector_name'];
+// $head_data['travel_type'] = 'FIT';
+// $this->load->view('common/header',$head_data);
+// 		$this->load->view('customized_tours/view',$data);
+// 		$this->load->view('common/footer');
+// 	}
 
 	public function customized_bali()
 	{
@@ -543,6 +543,20 @@ $this->load->view('common/header',$head_data);
 
 		$data['api_result']=$this->call_api($sector);
 		//$head_data['title'] = "Customized Europe Tour from Mumbai,Pune,India| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'FIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function customized_delhi()
+	{
+		$sector ='Delhi'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		//$head_data['title'] = "Customized Gujarat Tour from Mumbai,Pune,India| Mango Holidays";
 		$data['sector_name']=$sector;
 		
 		$head_data['sector'] = $data['sector_name'];
