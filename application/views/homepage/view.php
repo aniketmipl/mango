@@ -974,7 +974,7 @@
       </div>-->
       <button type="button" class="close" data-dismiss="modal">&times;</button>
      <div class="modal-body text-center">
-      <img src="<?php echo base_url();?>assets/images/Organic.png" alt="">
+      <img src="<?php echo base_url();?>assets/images/margdarshan-melava.jpg" alt="">
        
       </div>
       <div class="modal-footer">
@@ -988,9 +988,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <!--to enable popup uncomment below code-->
-<!--<script>
+<script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
-</script>-->
+</script>
