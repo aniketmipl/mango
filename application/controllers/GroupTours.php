@@ -33,8 +33,8 @@ $this->load->view('common/header',$head_data);
 		//$data['gt_image'] = 'images/tours/asia/main.jpg';
 
 		$head_data['sector'] = $data['sector_name'];
-$head_data['travel_type'] = 'GIT';
-$this->load->view('common/header',$head_data);
+		$head_data['travel_type'] = 'GIT';
+        $this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}

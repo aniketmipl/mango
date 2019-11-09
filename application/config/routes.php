@@ -271,6 +271,7 @@ $route['tours/highlights-of-argentina'] = 'tours/highlights_of_argentina';
 $route['tours/all-of-south-america'] = 'tours/all_of_south_america';
 $route['tours/golden-triangle'] = 'tours/golden_triangle';
 $route['tours/athens-istanbul'] = 'tours/athens_istanbul';
+$route['tours/all-of-china'] = 'tours/all_of_china';
 
 //pages
 $route['about-us'] = 'pages/about_us';
