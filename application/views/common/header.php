@@ -247,6 +247,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="<?php echo base_url()?>group-tour-packages/africa">Africa</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/america">America</a></li>
+                                <!-- <li><a href="<?php echo base_url()?>group-tour-packages/asia">Asia</a></li> -->
                                 <li><a href="<?php echo base_url()?>group-tour-packages/australia-new-zealand">Australia & New Zealand</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/dubai">Dubai</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/europe">Europe</a></li>
