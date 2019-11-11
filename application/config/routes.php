@@ -85,6 +85,8 @@ $route['customized-holidays/india/goa'] ='CustomizedTours/customized_goa';
 $route['customized-holidays/india/north-east'] ='CustomizedTours/customized_north_east';
 //$route['customized-holidays/india/andhra-pradesh'] ='CustomizedTours/customized_andhra_pradesh';
 $route['customized-holidays/india/orissa'] ='CustomizedTours/customized_orissa';
+$route['customized-holidays/india/temple-tours'] ='CustomizedTours/customized_temple_tours';
+$route['customized-holidays/india/safari-tours'] ='CustomizedTours/customized_safari_tours';
 
        //International customized tours
 $route['customized-holidays/asia'] ='CustomizedTours/customized_asia';

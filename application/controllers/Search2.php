@@ -34,6 +34,7 @@ class Search extends CI_Controller {
 		$api_url = "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?SectorName=".$tour_name."&ProductCode=&TourDateFrom=".$travel_date."&TourDateTo=&TourPriceFrom=".$travel_budget."&TourPriceTo=";
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
+		
 		$password = "mango";
 		$headers = array(
 		    'Content-Type:application/json',

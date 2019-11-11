@@ -15,9 +15,6 @@
                     <?php
                     if(isset($api_result)){                
                            foreach ($api_result as $key => $value) { 
-                                $sectorname = strtolower($value->SectorName);
-                                $producttitle = strtolower($value->ProductTitle);
-                                if($sectorname == $tour_name){
                                 $page_name=strtolower(trim($value->ProductTitle));
                             ?>
                             <div class="col-md-4 col-sm-6 mb-20">
@@ -59,10 +56,6 @@
                                 </div>
                             </div>
                         <?php
-                        }
-                        else if($tour_name==$producttitle){
-                          echo $producttitle;
-                        }
                      }  
                 }?>
                 </div>

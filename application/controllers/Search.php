@@ -25,7 +25,6 @@ class Search extends CI_Controller {
 	}
 
 	public function call_api($tour_name){
-
 		$tour_name= trim(str_replace(' ', '%20', $tour_name));
 		if($tour_name ==" "){$tour_name =" ";} else{$tour_name=$tour_name;}
 		$api_url = "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?SectorName=".$tour_name;

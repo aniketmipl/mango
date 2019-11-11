@@ -279,7 +279,8 @@
                                                             <li><a href="<?php echo base_url()?>CustomizedTours/customized_hyderabad">Hyderabad</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/kashmir">Kashmir</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/kerala">Kerala</a></li>
-                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/karnataka-tour-packages">Karnataka</a></li> 
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/karnataka-tour-packages">Karnataka</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/temple-tours">Temple Tours</a></li>  
                                                             
 
                                                         </div>
@@ -292,6 +293,7 @@
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/north-east">North East</a></li>
                                                             <!-- <li><a href="<?php echo base_url()?>customized-holidays/india/andhra-pradesh">Andhra Pradesh</a></li> -->
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/orissa">Orissa</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/safari-tours">Safari Tours</a></li>
                                                         </div>
                                                     </ul>
                                                 </div>
