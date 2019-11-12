@@ -110,6 +110,9 @@ $route['customized-holidays/greece'] ='CustomizedTours/customized_greece';
 $route['customized-holidays/canada'] ='CustomizedTours/customized_canada';
 $route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
 $route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hong_kong';
+$route['CustomizedTours/customized_hongkong'] ='CustomizedTours/customized_hong_kong';
+
+
 
 
 

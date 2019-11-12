@@ -178,6 +178,52 @@
             </div>
     </section>
 
+<!-- Strat Blog Section -->
+<section class="corporate-tours blog-area" data-parallax-bg-image="images/bg/ct1.jpg" style="background: url(./assets/images/bg/ct1.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="sec-title text-center mb-5">
+                        <h2>Clients<b> Feedback</b></h2>
+                        <p style="letter-spacing: .5px; font-size: 1.6em; line-height: 1.6666;">
+                        Our Happy Clients From Our Corporate Tours.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="hover-box tour-blog-box">
+                        <div class="tour-img image">
+                            <img src="<?php echo base_url();?>assets/images/cop-tours/BCCL1.jpg" alt="">
+                            <div class="over-layer">
+                                <div class="links">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="ion-paperclip"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-item blog-item">
+                            <div class="blog-details">
+                                <h4><a href="#">BCCL GROUP ( Rajasthan Tour)</a></h4>
+                                
+                                <a class="read-btn" href="#">Read More <i class="ion-ios-arrow-thin-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                    
+            </div>
+        </div>
+    </section>
+    <!-- End Blog Section -->
+
     <section class="corporate-tours">
    
    <div class="container">
