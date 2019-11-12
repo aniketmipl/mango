@@ -225,8 +225,8 @@
         <div class="col-md-6 col-sm-6 col-xs-12 mb-20">
                 <div class="hover-box tour-blog-box blog-item-1">
                     <div class="tour-img image">
-                        <a href="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" class="lightbox-image" title=" Mr.Ravindra Deomore">
-                        <img src="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" alt="">
+                        <a href="<?php echo base_url();?>assets/images/cop-tours/BCCL-CONFERENCE-PHOTO.jpg" class="lightbox-image" title="BCCL">
+                        <img src="<?php echo base_url();?>assets/images/cop-tours/BCCL-CONFERENCE-PHOTO.jpg" alt="">
                         <div class="over-layer">
                             <div class="links">
                                 <i class="fa fa-search-plus"></i>
@@ -240,8 +240,8 @@
             <div class="col-md-6 col-sm-6 col-xs-12 mb-20">
                 <div class="hover-box tour-blog-box blog-item-1">
                     <div class="tour-img image">
-                        <a href="<?php echo base_url();?>assets/images/guest/Mr-Mrs-Hendre.jpg" class="lightbox-image" title="Mr. & Mrs. Hendre">
-                        <img src="<?php echo base_url();?>assets/images/guest/Mr-Mrs-Hendre.jpg" alt="">
+                        <a href="<?php echo base_url();?>assets/images/cop-tours/BCCL-GROUP-PHOTO.jpg" class="lightbox-image" title="BCCL">
+                        <img src="<?php echo base_url();?>assets/images/cop-tours/BCCL-GROUP-PHOTO-small.jpg" alt="">
                         <div class="over-layer">
                             <div class="links">
                                 <i class="fa fa-search-plus"></i>
