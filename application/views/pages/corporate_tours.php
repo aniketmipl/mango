@@ -178,6 +178,98 @@
             </div>
     </section>
 
+<!-- Strat Blog Section -->
+<section class="corporate-tours blog-area" data-parallax-bg-image="images/bg/ct1.jpg" style="background: url(./assets/images/bg/ct1.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="sec-title text-center mb-5">
+                        <h2>Clients Feedback - <b> BCCL Group</b></h2>
+                        <p style="letter-spacing: .5px; font-size: 1.6em; line-height: 1.6666;">
+                        Our Happy Clients From Our Corporate Tours.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-md-3 col-sm-12">
+                    
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="hover-box tour-blog-box blog-item-1">
+                        <div class="tour-img image">
+                            <img src="<?php echo base_url();?>assets/images/cop-tours/BCCL1.jpg" alt="">
+                            <div class="over-layer">
+                                <div class="links">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour-item blog-item">
+                            <div class="blog-details">
+                                <h4><a href="#">BCCL GROUP ( Rajasthan Tour)</a></h4>
+                                
+                                <a class="read-btn" href="#">Read More <i class="ion-ios-arrow-thin-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                    
+            </div>
+        </div>-->
+        <div class="blog-area guest row">
+        <div class="col-md-6 col-sm-6 col-xs-12 mb-20">
+                <div class="hover-box tour-blog-box blog-item-1">
+                    <div class="tour-img image">
+                        <a href="<?php echo base_url();?>assets/images/cop-tours/BCCL-CONFERENCE-PHOTO.jpg" class="lightbox-image" title="BCCL">
+                        <img src="<?php echo base_url();?>assets/images/cop-tours/BCCL-CONFERENCE-PHOTO.jpg" alt="">
+                        <div class="over-layer">
+                            <div class="links">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 mb-20">
+                <div class="hover-box tour-blog-box blog-item-1">
+                    <div class="tour-img image">
+                        <a href="<?php echo base_url();?>assets/images/cop-tours/BCCL-GROUP-PHOTO.jpg" class="lightbox-image" title="BCCL">
+                        <img src="<?php echo base_url();?>assets/images/cop-tours/BCCL-GROUP-PHOTO-small.jpg" alt="">
+                        <div class="over-layer">
+                            <div class="links">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-12 clear">
+            <p style="font-size:1.4em; padding-top:2%;">
+            On behalf of the BCCL Languages team, I’d like to extend our gratitude to you and the entire Mango Holidays team for the excellent service during last week’s tour. Everything from the stays, conferencing, sightseeing arrangements and quality of transfers was spot on.
+            <br/><br/>
+            I’m sure all my colleagues will agree that Ashutosh and Jayashree demonstrated a high level of customer centricity and flexibility at the ground level ensuring every delegate was well cared for and every need was met. Kudos and thanks for a smooth experience which saw everyone return home with fond memories.
+            <br/><br/>
+            Look forward to working with Mango Holidays in the future 😊
+            <br/><br/>
+            <b>
+            Best regards,<br/>
+
+BCCL Team - Times Group</b>
+            <p>
+        </div>
+        </div>
+    </section>
+    <!-- End Blog Section -->
+
     <section class="corporate-tours">
    
    <div class="container">

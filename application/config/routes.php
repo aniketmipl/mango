@@ -111,9 +111,6 @@ $route['customized-holidays/canada'] ='CustomizedTours/customized_canada';
 $route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
 $route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hongkong';
 
-
-
-
 //Menu Links End
 
 
@@ -128,6 +125,8 @@ $route['customized-holidays/south-east-asia'] ='CustomizedTours/customized_asia'
 $route['customized-holidays/south-east-asia'] ='CustomizedTours/customized_asia';
 $route['customized-holidays/jordan'] ='CustomizedTours/customized_jordan';
 //$route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
+$route['customized-holidays/iceland'] ='CustomizedTours/customized_iceland';
+
 
 
 
@@ -277,6 +276,9 @@ $route['tours/all-of-china'] = 'tours/all_of_china';
 $route['tours/classic-turkey'] = 'tours/classic_turkey';
 $route['tours/golden-triangle-of-turkey'] = 'tours/golden_triangle_of_turkey';
 $route['tours/istanbul-cappadocia'] = 'tours/istanbul_cappadocia';
+$route['tours/iconic-iceland'] = 'tours/iconic_iceland';
+$route['tours/irresistible-iceland'] = 'tours/irresistible_iceland';
+$route['tours/all-of-iceland'] = 'tours/all_of_iceland';
 
 
 
