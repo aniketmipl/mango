@@ -184,25 +184,25 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                     <div class="sec-title text-center mb-5">
-                        <h2>Clients<b> Feedback</b></h2>
+                        <h2>Clients Feedback - <b> BCCL Group</b></h2>
                         <p style="letter-spacing: .5px; font-size: 1.6em; line-height: 1.6666;">
                         Our Happy Clients From Our Corporate Tours.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!--<div class="row">
                 <div class="col-md-3 col-sm-12">
                     
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <div class="hover-box tour-blog-box">
+                    <div class="hover-box tour-blog-box blog-item-1">
                         <div class="tour-img image">
                             <img src="<?php echo base_url();?>assets/images/cop-tours/BCCL1.jpg" alt="">
                             <div class="over-layer">
                                 <div class="links">
                                     <ul class="list-inline">
-                                        <li><a href="#"><i class="ion-paperclip"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -220,6 +220,52 @@
             <div class="col-md-3 col-sm-12">
                     
             </div>
+        </div>-->
+        <div class="blog-area guest row">
+        <div class="col-md-6 col-sm-6 col-xs-12 mb-20">
+                <div class="hover-box tour-blog-box blog-item-1">
+                    <div class="tour-img image">
+                        <a href="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" class="lightbox-image" title=" Mr.Ravindra Deomore">
+                        <img src="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" alt="">
+                        <div class="over-layer">
+                            <div class="links">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 mb-20">
+                <div class="hover-box tour-blog-box blog-item-1">
+                    <div class="tour-img image">
+                        <a href="<?php echo base_url();?>assets/images/guest/Mr-Mrs-Hendre.jpg" class="lightbox-image" title="Mr. & Mrs. Hendre">
+                        <img src="<?php echo base_url();?>assets/images/guest/Mr-Mrs-Hendre.jpg" alt="">
+                        <div class="over-layer">
+                            <div class="links">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-12 clear">
+            <p style="font-size:1.4em; padding-top:2%;">
+            On behalf of the BCCL Languages team, I’d like to extend our gratitude to you and the entire Mango Holidays team for the excellent service during last week’s tour. Everything from the stays, conferencing, sightseeing arrangements and quality of transfers was spot on.
+            <br/><br/>
+            I’m sure all my colleagues will agree that Ashutosh and Jayashree demonstrated a high level of customer centricity and flexibility at the ground level ensuring every delegate was well cared for and every need was met. Kudos and thanks for a smooth experience which saw everyone return home with fond memories.
+            <br/><br/>
+            Look forward to working with Mango Holidays in the future 😊
+            <br/><br/>
+            <b>
+            Best regards,<br/>
+
+BCCL Team - Times Group</b>
+            <p>
+        </div>
         </div>
     </section>
     <!-- End Blog Section -->
