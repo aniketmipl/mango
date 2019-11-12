@@ -85,8 +85,8 @@ $route['customized-holidays/india/goa'] ='CustomizedTours/customized_goa';
 $route['customized-holidays/india/north-east'] ='CustomizedTours/customized_north_east';
 //$route['customized-holidays/india/andhra-pradesh'] ='CustomizedTours/customized_andhra_pradesh';
 $route['customized-holidays/india/orissa'] ='CustomizedTours/customized_orissa';
-$route['customized-holidays/india/temple-tours'] ='CustomizedTours/customized_temple_tours';
-$route['customized-holidays/india/safari-tours'] ='CustomizedTours/customized_safari_tours';
+$route['customized-holidays/india/temple-tours'] ='CustomizedTours/customized_templetours';
+$route['customized-holidays/india/safari-tours'] ='CustomizedTours/customized_safaritours';
 
        //International customized tours
 $route['customized-holidays/asia'] ='CustomizedTours/customized_asia';
@@ -109,7 +109,7 @@ $route['customized-holidays/azerbaijan'] ='CustomizedTours/customized_azerbaijan
 $route['customized-holidays/greece'] ='CustomizedTours/customized_greece';
 $route['customized-holidays/canada'] ='CustomizedTours/customized_canada';
 $route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
-$route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hong_kong';
+$route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hongkong';
 
 
 
@@ -274,6 +274,11 @@ $route['tours/all-of-south-america'] = 'tours/all_of_south_america';
 $route['tours/golden-triangle'] = 'tours/golden_triangle';
 $route['tours/athens-istanbul'] = 'tours/athens_istanbul';
 $route['tours/all-of-china'] = 'tours/all_of_china';
+$route['tours/classic-turkey'] = 'tours/classic_turkey';
+$route['tours/golden-triangle-of-turkey'] = 'tours/golden_triangle_of_turkey';
+$route['tours/istanbul-cappadocia'] = 'tours/istanbul_cappadocia';
+
+
 
 //pages
 $route['about-us'] = 'pages/about_us';

@@ -1,8 +1,7 @@
 <style type="text/css">
         .footer_contact{
             line-height: 0.8;
-        }
-       
+        }     
 
 </style>
 
