@@ -186,7 +186,6 @@
                                                   <option value="C#">
                                                   <option value="C++">
                                             </datalist>
-                                           
                                         </div>
                                         <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
