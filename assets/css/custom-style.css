@@ -143,33 +143,39 @@
     position: relative;
     }
     .slide-2{
-        background: url(../images/sliders/southeast-asia-1.jpg);
+        /* background: url(../images/sliders/japan-banner.jpg); */
+        background: url(../images/sliders/japan-cherryblsm-banner-new.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: relative;
     }
     .slide-3{
-        background: url(../images/sliders/dubai1.jpg);
+        /* background: url(../images/sliders/japan-cherryblsm-banner.jpg); */
+        background: url(../images/sliders/southeast-asia-banner-new.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: relative;
     }
     .slide-4{
-        background: url(../images/sliders/japan-banner.jpg);
+        background: url(../images/sliders/southeast-asia-1.jpg);
+        background: url(../images/sliders/incredible-america-banner-new.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: relative;
     }
     .slide-5{
-        background: url(../images/sliders/japan-cherryblsm-banner.jpg);
+        /* background: url(../images/sliders/dubai1.jpg); */
+        background: url(../images/sliders/dubai-banner-new.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: relative;
     }
+    
+    
     .slide-seminar{
         background: url(../images/sliders/seminar-banner.png);
         background-repeat: no-repeat;
