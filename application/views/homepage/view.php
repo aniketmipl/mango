@@ -149,7 +149,27 @@
                                     <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
-                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..." id="tour_name">
+                                            <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..." id="tour_name" onkeyup="myFunction()">
+                                            <input type="hidden" name="product_id" id="product_id" /> -->
+                                            <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
+                                            <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."> -->
+                                            <input type="text" id="default" list="tours" class="form-control" name="tour_name" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York..." onkeyup="myFunction()">
+                                            <datalist class="tours">
+                                                  <!-- <option value=""> -->
+                                                  <!-- <option value="CSS">
+                                                  <option value="1CSS">
+                                                  <option value="JavaScript">
+                                                  <option value="Java">
+                                                  <option value="Ruby">
+                                                  <option value="PHP">
+                                                  <option value="Go">
+                                                  <option value="Erlang">
+                                                  <option value="Python">
+                                                  <option value="C">
+                                                  <option value="C#">
+                                                  <option value="C++"> -->
+                                            </datalist>
+                                           
                                         </div>
                                         <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
@@ -163,6 +183,7 @@
                                            <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
                                         </div>
                                         -->
+                                       
                                         <div class="form-group col-md-2 col-sm-4">
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
                                         </div>
@@ -986,14 +1007,24 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<<<<<<< HEAD
-<!--popup for "Send enquiry" with corresponding Tour name-->
-=======
-<!--to enable popup uncomment below code-->
-<script>
-$(document).ready(function(){       
-   $('#popupModal').modal('show');
-    }); 
 
+<script>
+function myFunction() {
+  var tour_name = $("#default").val();
+  alert(tour_name);
+  var submit_url = "test.php";
+
+  $.ajax({
+    url: submit_url,
+    type: 'post',
+    data: 'tour_name='+tour_name,
+    success: function(data){
+        alert(data);
+        //$("#list").html(data);
+    }
+  });
+
+}
 </script>
->>>>>>> 7ed655316dbce2d93e131017f6db95eb6eae53cb
+
+<!--popup for "Send enquiry" with corresponding Tour name-->
