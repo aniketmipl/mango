@@ -110,6 +110,8 @@ $route['customized-holidays/greece'] ='CustomizedTours/customized_greece';
 $route['customized-holidays/canada'] ='CustomizedTours/customized_canada';
 $route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
 $route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hongkong';
+$route['customized-holidays/bhutan'] ='CustomizedTours/customized_bhutan';
+
 
 //Menu Links End
 
@@ -281,8 +283,8 @@ $route['tours/irresistible-iceland'] = 'tours/irresistible_iceland';
 $route['tours/all-of-iceland'] = 'tours/all_of_iceland';
 $route['tours/athens-santorini'] = 'tours/athens_santorini';
 $route['tours/explore-vietnam'] = 'tours/explore_vietnam';
-
-
+$route['tours/dragon-country-bhutan'] = 'tours/dragon_country_bhutan';
+$route['tours/amazing-bhutan'] = 'tours/amazing_bhutan';
 
 //pages
 $route['about-us'] = 'pages/about_us';
