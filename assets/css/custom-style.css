@@ -135,7 +135,8 @@
         margin-top: 10px;
     }
     .slide-1{
-    background: url(../images/sliders/Europe-banner.jpg);
+    /* background: url(../images/sliders/Europe-banner.jpg); */
+    background: url(../images/sliders/Europe-banner-new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -898,6 +899,10 @@
     margin: 0;
     padding: 3% 1%;
     animation-delay: 1s;
+}
+.carousel-caption .inner-carousel.no-mobile-bg{
+    background: none;
+    border-radius: 0;
 }
 .carousel-caption h3 {
     /* font-size: 16px; */
