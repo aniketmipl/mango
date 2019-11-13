@@ -971,7 +971,7 @@
         </div>
     </section>-->
 
- 
+
    <div id="popupModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->
@@ -995,9 +995,7 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<<<<<<< HEAD
-<!--popup for "Send enquiry" with corresponding Tour name-->
-=======
+
 <!--to enable popup uncomment below code-->
 <script>
 $(document).ready(function(){       
@@ -1005,4 +1003,3 @@ $(document).ready(function(){
     }); 
 
 </script>
->>>>>>> 7ed655316dbce2d93e131017f6db95eb6eae53cb

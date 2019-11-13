@@ -315,9 +315,10 @@
                                                         <li><a href="<?php echo base_url()?>customized-holidays/egypt">Egypt</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/europe">Europe</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/greece">Greece</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/hong-kong">Hong Kong</a></li>
                                                       </div>
                                                       <div class="col-md-6 col-sm-12">
-                                                        <li><a href="<?php echo base_url()?>customized-holidays/hong-kong">Hong Kong</a></li>
+                                                        
                                                         <li><a href="<?php echo base_url()?>customized-holidays/iceland">Iceland</a></li>                                                        
                                                         <li><a href="<?php echo base_url()?>customized-holidays/japan">Japan</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/jordan">Jordan</a></li>
