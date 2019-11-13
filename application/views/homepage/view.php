@@ -8,7 +8,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
 
-                    <!-- First slide -->
+                    <!-- Seminar slide -->
                     <!-- <div class="item active slide-seminar">
                         <div class="carousel-caption">
                             <h4 data-animation="animated fadeInDown" style=""></p>
@@ -24,7 +24,7 @@
                     <!-- /.item -->
 
                     <!-- First slide -->
-                    <div class="item active slide-1">
+                    <!--<div class="item active slide-1">
                         <div class="carousel-caption">
                             <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="">If you haven't traveled to Europe, you have not traveled at all.</p>
@@ -36,6 +36,15 @@
                             <br/>
                             </div>
                         </div>
+                    </div>-->
+                    <div class="item active slide-1">
+                    <a href="<?php echo base_url()?>group-tour-packages/europe">
+                       <div class="carousel-caption">
+                            <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                            
+                            </div>
+                        </div> 
+                        </a>
                     </div>
                     <!-- /.item -->
 
@@ -983,7 +992,7 @@
         </div>
     </section>-->
 
- 
+
    <div id="popupModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->
@@ -1018,13 +1027,12 @@ function myFunction() {
     url: submit_url,
     type: 'post',
     data: 'tour_name='+tour_name,
-    success: function(data){
-        alert(data);
+    success: function(test){
+        alert(test);
+        alert(submit_url);
         //$("#list").html(data);
     }
   });
 
 }
 </script>
-
-<!--popup for "Send enquiry" with corresponding Tour name-->
