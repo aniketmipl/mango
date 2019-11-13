@@ -11,6 +11,8 @@ class Search extends CI_Controller {
 	public function search_result()
 	{		
 		$tour_name = $this->input->post('tour_name');	
+		// $travel_date = $this->input->post('travel_date');
+		// $travel_budget = $this->input->post('travel_budget');
 		$data['api_result']=$this->call_api($tour_name);
 		$data['tour_name']=$tour_name;
 		$head_data['travel_type'] = 'pages';
@@ -25,8 +27,7 @@ class Search extends CI_Controller {
 	public function call_api($tour_name){
 		$tour_name= trim(str_replace(' ', '%20', $tour_name));
 		if($tour_name ==" "){$tour_name =" ";} else{$tour_name=$tour_name;}
-		// $api_url = "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?SectorName=".$tour_name;
-		$api_url = "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/getProductForWebsite?ProductID=".$productid;
+		$api_url = "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?SectorName=".$tour_name;
 		//."ProductList=".$tour_name
 		echo $api_url;
 		$ch = curl_init($api_url);

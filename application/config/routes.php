@@ -279,6 +279,8 @@ $route['tours/istanbul-cappadocia'] = 'tours/istanbul_cappadocia';
 $route['tours/iconic-iceland'] = 'tours/iconic_iceland';
 $route['tours/irresistible-iceland'] = 'tours/irresistible_iceland';
 $route['tours/all-of-iceland'] = 'tours/all_of_iceland';
+$route['tours/athens-santorini'] = 'tours/athens_santorini';
+$route['tours/explore-vietnam'] = 'tours/explore_vietnam';
 
 
 

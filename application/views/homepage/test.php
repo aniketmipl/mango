@@ -1,10 +1,16 @@
-<li name="asia" value="asia">Asia</li>
-<li name="south asia" value="south asia">South Asia</li>
-<li name="east asia" value="east asia">East Asia</li>
-<li name="bali" value="bali">Bali</li>
-<li name="baliwithgili" value="bali with gili">Bali with gili</li>
-<li name="hongkong" value="hong kong">Hong Kong</li>
-<li name="hongkongmacau" value="hong kong macau">Hong Kong Macau</li>
-<li name="europe" value="europe">Europe</li>
-<li name="america" value="america">America</li>
-<li name="kerala" value="kerala">Kerala</li>
+<html>
+<head>
+<title>test</title> 
+</head>
+<body>
+<option name="asia" value="asia">Asia</option>
+<option name="south asia" value="south asia">South Asia</option>
+<option name="east asia" value="east asia">East Asia</option>
+<option name="bali" value="bali">Bali</option>
+<option name="baliwithgili" value="bali with gili">Bali with gili</option>
+<option name="hongkong" value="hong kong">Hong Kong</option>
+<option name="hongkongmacau" value="hong kong macau">Hong Kong Macau</option>
+<option name="europe" value="europe">Europe</option>
+<option name="america" value="america">America</option>
+<option name="kerala" value="kerala">Kerala</option>	
+</body>
