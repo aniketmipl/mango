@@ -3072,8 +3072,8 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'fit/GR5/athens-santorini-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/GR5/athens-santorini.jpg';
+		$filter_data['slider_image'] = 'fit/GR6/athens-santorini-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GR6/athens-santorini.jpg';
 		//$filter_data['slider_image'] = 'images/default-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Greece";
