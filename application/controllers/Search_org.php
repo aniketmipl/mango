@@ -10,15 +10,11 @@ class Search extends CI_Controller {
 
 	public function search_result()
 	{		
-		$tour_name = $this->input->post('tour_name');
-		$product_id = $this->input->post('product_id');	
-		$sector_name = $this->input->post('sector_name');	
-		$tour_type = $this->input->post('tour_type');
-		$data['api_result']=$this->call_api($tour_name,$product_id,$sector_name,$tour_type);
+		$tour_name = $this->input->post('tour_name');	
+		$travel_date = $this->input->post('travel_date');
+		$travel_budget = $this->input->post('travel_budget');
+		$data['api_result']=$this->call_api($tour_name,$travel_date,$travel_budget);
 		$data['tour_name']=$tour_name;
-		$data['product_id']=$product_id;
-		$data['sector_name']=$sector_name;
-		$data['tour_type']=$tour_type;
 		$head_data['travel_type'] = 'pages';
 		$head_data['title'] = "Search Result | Mango Holidays";
 		$head_data['page_description'] = "";
@@ -28,13 +24,19 @@ class Search extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
-	public function call_api($tour_name,$product_id,$sector_name,$tour_type){
-		if($product_id ==" "){$product_id =" ";} else{$product_id=$product_id;}
-		$api_url = "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/getProductForWebsite?ProductID=".$product_id"&TourPriceFrom=".$travel_budget."&TourPriceFrom=".$travel_budget."&TourPriceFrom=".$travel_budget;
-		//."ProductList=".$tour_name
-		echo $api_url;
+	public function call_api($tour_name,$travel_date,$travel_budget){
+
+		$tour_name= trim(str_replace(' ', '%20', $tour_name));
+		$travel_budget= trim($travel_budget);
+		if($tour_name ==" "){$tour_name =" ";} else{$tour_name=$tour_name;}
+		if($travel_date ==" "){$travel_date = " ";} else{$travel_date=$travel_date;}
+		if($travel_budget ==" "){$travel_budget = " ";} else{$travel_budget=$travel_budget;}
+		$api_url = "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/
+
+		GetProductListBySectorForWebsite?SectorName=".$tour_name."&ProductCode=&TourDateFrom=".$travel_date."&TourDateTo=&TourPriceFrom=".$travel_budget."&TourPriceTo=";
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
+		
 		$password = "mango";
 		$headers = array(
 		    'Content-Type:application/json',
@@ -53,5 +55,6 @@ class Search extends CI_Controller {
 		curl_close($ch);
 		$decrypt_data = json_decode($return);
 		return $decrypt_data->ProductList;
+
 	}
 }

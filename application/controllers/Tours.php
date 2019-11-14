@@ -1519,7 +1519,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
-	public function vietnam(){
+	public function vietnam_cambodia(){
 
 		$product_id ='104';
 		$product_code='VI1';
@@ -1528,8 +1528,8 @@ $this->load->view('common/header',$head_data);
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/VI1/vietnam-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/VI1/vietnam.jpg';
+		$filter_data['slider_image'] = 'fit/VI1/vietnam-cambodia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/VI1/vietnam-cambodia.jpg';
 		$filter_data['sector']="Asia";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "VIETNAM Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -3072,8 +3072,8 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/GR5/athens-santorini-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/GR5/athens-santorini.jpg';
+		// $filter_data['slider_image'] = 'fit/GR6/athens-santorini-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/GR6/athens-santorini.jpg';
 		$filter_data['slider_image'] = 'images/default-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Greece";

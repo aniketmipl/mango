@@ -282,7 +282,7 @@ $route['tours/iconic-iceland'] = 'tours/iconic_iceland';
 $route['tours/irresistible-iceland'] = 'tours/irresistible_iceland';
 $route['tours/all-of-iceland'] = 'tours/all_of_iceland';
 $route['tours/athens-santorini'] = 'tours/athens_santorini';
-$route['tours/explore-vietnam'] = 'tours/explore_vietnam';
+$route['tours/vietnam-cambodia'] = 'tours/vietnam_cambodia';
 $route['tours/dragon-country-bhutan'] = 'tours/dragon_country_bhutan';
 $route['tours/amazing-bhutan'] = 'tours/amazing_bhutan';
 

@@ -171,7 +171,7 @@
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
                                             <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."> -->
                                             <input type="text" id="default" list="tours" class="form-control" name="tour_name" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York...">
-                                            <datalist id="tours" name="tours">
+                                            <datalist id="tours">
                                                   <option value="HTML">
                                                   <option value="CSS">
                                                   <option value="1CSS">
@@ -185,11 +185,7 @@
                                                   <option value="C">
                                                   <option value="C#">
                                                   <option value="C++">
-                                                  <input type="hidden" name="sector_name" value="te"/>
-                                                  <input type="hidden" name="tour_type" value="test"/>
-                                                  <input type="hidden" name="product_id" value="10"/>
                                             </datalist>
-                                            
                                         </div>
                                         <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
