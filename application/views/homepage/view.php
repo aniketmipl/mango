@@ -281,9 +281,9 @@
                                                   <option value="C">
                                                   <option value="C#">
                                                   <option value="C++">
-                                                  <!-- <input type="hidden" name="sector_name" value="te"/>
+                                                  <input type="hidden" name="sector_name" value="te"/>
                                                   <input type="hidden" name="tour_type" value="test"/>
-                                                  <input type="hidden" name="product_id" value="10"/> -->
+                                                  <input type="hidden" name="product_id" value="10"/>
                                             </datalist>
                                             
 =======

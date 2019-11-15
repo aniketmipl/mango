@@ -169,9 +169,9 @@
                                                                                         <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                                                                                         Above Tata Motors, Opp. Film Institute,
                                                                                         <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                                                        Law College Road, Pune,  
+                                                                                        Law College Road, Pune - 411004,  
                                                                                         <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                                                       Maharashtra 411004.
+                                                                                       Maharashtra, India.
                                                                                     </li>
                                                                                     <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039505 / 8380039499 </li> 
                                                                                     <li><span class="fa fa-phone"></span> <b>Phone :</b> + 020 2544 4415</li> 
@@ -198,7 +198,7 @@
                                                                                     <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                                                                                     Near Portuguese Church,
                                                                                     <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                                                    Dadar (W) –400 028, Maharashtra. 
+                                                                                    Dadar (W) –400 028, Mumbai, Maharashtra, India. 
                                                                                 </li>
                                                                                 <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 9049759322 </li> 
                                                                                 <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 22 24335500 / 11 / 22</li> 
@@ -225,7 +225,7 @@
                                                                                     <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                                                                                     Pachpakhadi, Opp. Teen Petrol Pump,
                                                                                     <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                                                    Thane (W) – 400 602, Maharashtra.
+                                                                                    Thane (W) – 400 602, Maharashtra, India.
                                                                                 </li>
                                                                                 <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 </li> 
                                                                                 <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 22- 25450017 / 18 / 19 / 20</li> 
@@ -252,7 +252,7 @@
                                                                                     <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
                                                                                     Near VNIT College, Abhyankar Nagar,
                                                                                     <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                                                    Nagpur – 440010, Maharashtra.
+                                                                                    Nagpur – 440010, Maharashtra, India.
                                                                                 </li>
                                                                                 <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 712 – 2244557 / 8 / 9</li> 
                                                                                 <!-- <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li>  -->
