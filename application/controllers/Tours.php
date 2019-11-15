@@ -2577,17 +2577,35 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
-	public function gujarat_special(){
+	/*public function gujarat_special(){
 		$product_id ='25';
 		$product_code='GJ';
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'git/GJ/gujarat-special-banner.jpg';
+		//$filter_data['slider_image'] = 'git/GJ/gujarat-special-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'git/GJ/gujarat-special.jpg';
 		$filter_data['slider_image'] = 'images/default-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="India";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		// $this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}*/
+	public function gujarat_special(){
+		$product_id ='140';
+		$product_code='GJ3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'fit/GJ3/gujarat-special-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GJ3/gujarat-special.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Gujarat";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);
