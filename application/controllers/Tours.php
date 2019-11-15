@@ -2090,7 +2090,7 @@ $this->load->view('common/header',$head_data);
 		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
 		$filter_data['slider_image'] = 'fit/AP1/hyderabad-with-ramoji-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/AP1/hyderabad-with-ramoji.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/AP1/hyderabadwithramoji.jpg';
 		$filter_data['sector']="Andhra Pradesh";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "Hyderabad with Ramoji Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -3072,10 +3072,10 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/GR5/athens-santorini-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/GR5/athens-santorini.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/GR6/athens-santorini-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GR6/athens-santorini.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Greece";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
@@ -3089,10 +3089,44 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/VI2/explore-vietnam-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/VI2/explore-vietnam.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		 $filter_data['slider_image'] = 'fit/VI2/explore-vietnam-banner.jpg';
+		 $filter_data['slider_mobile_image'] = 'fit/VI2/explore-vietnam.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Greece";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function dragon_country_bhutan(){
+		$product_id ='83';
+		$product_code='BH2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'fit/BH2/dragon-country-bhutan-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/BH2/dragon-country-bhutan.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Greece";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function amazing_bhutan(){
+		$product_id ='46';
+		$product_code='BH1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'fit/BH1/Amazing-Bhutan-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/BH1/Amazing-Bhutan.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Greece";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;

@@ -1,25 +1,5 @@
 
-<style>
-    
-#myUL {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  
-}
 
-#myUL li a {
-  border: 1px solid #ddd;
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-  display: block
-}
-
-</style>
 <!-- Strat Slider Section -->
     <section class="main-slider-area">
         <div class="main-container">
@@ -28,7 +8,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
 
-                    <!-- First slide -->
+                    <!-- Seminar slide -->
                     <!-- <div class="item active slide-seminar">
                         <div class="carousel-caption">
                             <h4 data-animation="animated fadeInDown" style=""></p>
@@ -44,7 +24,7 @@
                     <!-- /.item -->
 
                     <!-- First slide -->
-                    <div class="item active slide-1">
+                    <!--<div class="item active slide-1">
                         <div class="carousel-caption">
                             <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="">If you haven't traveled to Europe, you have not traveled at all.</p>
@@ -56,6 +36,15 @@
                             <br/>
                             </div>
                         </div>
+                    </div>-->
+                    <div class="item active slide-1">
+                    <a href="<?php echo base_url()?>group-tour-packages/europe">
+                       <div class="carousel-caption">
+                            <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                            
+                            </div>
+                        </div> 
+                        </a>
                     </div>
                     <!-- /.item -->
 
@@ -169,10 +158,13 @@
                                     <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
+                                            <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..." id="tour_name" onkeyup="myFunction()">
+                                            <input type="hidden" name="product_id" id="product_id" /> -->
+                                            <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
                                             <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."> -->
-                                            <input type="text" id="default" list="tours" class="form-control" name="tour_name" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York...">
-                                            <datalist id="tours">
-                                                  <option value="HTML">
+                                            <input type="text" id="default" list="tours" class="form-control" name="tour_name" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York..." >
+                                            <datalist class="tours">
+                                                  <option value="">
                                                   <option value="CSS">
                                                   <option value="1CSS">
                                                   <option value="JavaScript">
@@ -186,6 +178,7 @@
                                                   <option value="C#">
                                                   <option value="C++">
                                             </datalist>
+                                           
                                         </div>
                                         <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
@@ -199,11 +192,11 @@
                                            <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
                                         </div>
                                         -->
+                                       
                                         <div class="form-group col-md-2 col-sm-4">
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
                                         </div>
                                     </form>
-                                  
                             </div>
                         </div>
                     </div>
@@ -465,7 +458,7 @@
                                         </small>
                                         <b style="float:right;">INR 79805/- </b> 
                                         </h4>
-
+                                       
                                         <a class="read-btn" href="<?php echo base_url();?>tours/dazzling-dubai">Read More </a>
                                     </div>
                                 </div>
@@ -999,7 +992,7 @@
         </div>
     </section>-->
 
- 
+
    <div id="popupModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->
@@ -1023,10 +1016,22 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<!--to enable popup uncomment below code-->
-<script>
-$(document).ready(function(){       
-   $('#popupModal').modal('show');
-    }); 
 
-</script>
+<!-- <script>
+function myFunction() {
+  var tour_name = $("#default").val();
+  alert(tour_name);
+  var submit_url = "test.php";
+
+  $.ajax({
+    url: submit_url,
+    type: 'post',
+    data: 'tour_name='+tour_name,
+    success: function(test){
+        alert(test);
+        //$("#list").html(data);
+    }
+  });
+
+}
+</script> -->
