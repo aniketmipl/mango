@@ -609,10 +609,11 @@
     .notetext{
 	    color: #000 !important;
 		font-family: inherit;
-		text-transform: none;
-		font-size: 1.4em;
+        text-transform: uppercase !important;
+        font-size: 1.2em;
 		line-height: 1.6666;
-		margin-bottom: 5px;
+        margin-bottom: 5px;
+        letter-spacing: 0.5px;
 	}
     .tour-content{
         background-color:#f3f2f2;

@@ -170,7 +170,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-9">
-				    <h2 class="notetext">Exotic Europe trip from Thane, Pune, Nagpur, Mumbai.</h2>
+				    <h2 class="notetext"><?php echo @$complete_data->ProductTitle;?> trip from Thane, Pune, Nagpur, Mumbai.</h2>
 				</div>
                 <div class="col-12 col-md-12 col-lg-9">
                         <div class="post-blog-item tour-info">
