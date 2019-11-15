@@ -184,7 +184,33 @@
         position: relative;
     }
     .slide-6{
-        background: url(../images/sliders/helicopter-ride-over-niagara.jpg);
+        /* background: url(../images/sliders/helicopter-ride-over-niagara.jpg); */
+        background: url(../images/sliders/africa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    
+    .slide-7{
+        /* background: url(../images/sliders/helicopter-ride-over-niagara.jpg); */
+        background: url(../images/sliders/eastern-europe-revised.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .slide-8{
+        /* background: url(../images/sliders/helicopter-ride-over-niagara.jpg); */
+        background: url(../images/sliders/australia-and-new-zealand.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .slide-9{
+        /* background: url(../images/sliders/helicopter-ride-over-niagara.jpg); */
+        background: url(../images/sliders/scandinavia.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -193,7 +219,8 @@
 
     .slide-1:before, .slide-2:before, .slide-3:before, 
     .slide-4:before, .slide-5:before, .slide-seminar:before,
-    .slide-6:before{
+    .slide-6:before, .slide-7:before, .slide-8:before,
+    .slide-9:before, .slide-10:before{
             background: rgba(0, 0, 0, 0);
     }
     

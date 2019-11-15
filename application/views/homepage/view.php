@@ -164,6 +164,53 @@
                         </div>
                     </div>
                     </div> -->
+                    <div class="item slide-6">
+                    <a href="<?php echo base_url()?>group-tour-packages/africa">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
+                    </div>
+                    </a>
+                    </div>
+                    <!--=========== /.item ===========-->
+
+                    
+
+                    <!--=========== 7th slide ===========-->
+                    <div class="item slide-7">
+                    <a href="<?php echo base_url()?>group-tour-packages/eastern_europe">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
+                    </div>
+                    </a>
+                    </div>
+                    <!--=========== /.item ===========-->
+
+                    <!--=========== 8th slide ===========-->
+                    <div class="item slide-8">
+                    <a href="<?php echo base_url()?>group-tour-packages/australia-new-zealand">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
+                    </div>
+                    </a>
+                    </div>
+                    <!--=========== /.item ===========-->
+
+                    <!--=========== 9th slide ===========-->
+                    <div class="item slide-9">
+                    <a href="<?php echo base_url()?>group-tour-packages/scandinavia">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
+                    </div>
+                    </a>
+                    </div>
                     <!--=========== /.item ===========-->
 
                 </div>
@@ -194,27 +241,7 @@
                                     <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
-                                            <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..." id="tour_name" onkeyup="myFunction()">
-                                            <input type="hidden" name="product_id" id="product_id" /> -->
-                                            <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
-                                            <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."> -->
-                                            <input type="text" id="default" list="tours" class="form-control" name="tour_name" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York..." onkeyup="myFunction()">
-                                            <datalist class="tours">
-                                                  <!-- <option value=""> -->
-                                                  <!-- <option value="CSS">
-                                                  <option value="1CSS">
-                                                  <option value="JavaScript">
-                                                  <option value="Java">
-                                                  <option value="Ruby">
-                                                  <option value="PHP">
-                                                  <option value="Go">
-                                                  <option value="Erlang">
-                                                  <option value="Python">
-                                                  <option value="C">
-                                                  <option value="C#">
-                                                  <option value="C++"> -->
-                                            </datalist>
-                                           
+                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
                                         <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
