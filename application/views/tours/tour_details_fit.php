@@ -134,7 +134,7 @@
         </div>
         <ul class="breadcrumbs pull-right">
             <li>
-                <a href="#"><?php if($complete_data->TravelType == 'GIT'){echo "Group Tour";}else{ echo "Customized Tour";}?></a>
+                <a href="#"><?php if($complete_data->TravelType == 'GIT'){echo "Group Tour Packages";}else{ echo "Customized Tour Packages";}?></a>
             </li>
             <li>
                 <a href="<?php if($complete_data->TravelType == 'GIT'){
@@ -169,6 +169,9 @@
       
         <div class="container">
             <div class="row">
+                <div class="col-12 col-md-12 col-lg-9">
+				    <h2 class="notetext">Exotic Europe trip from Thane, Pune, Nagpur, Mumbai.</h2>
+				</div>
                 <div class="col-12 col-md-12 col-lg-9">
                         <div class="post-blog-item tour-info">
                                 <div class="post-blog-content">
