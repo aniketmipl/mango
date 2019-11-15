@@ -6,7 +6,7 @@
 </style>
 
 <!--1st part - code to print itenary from api for Donload/Print Itenary PDF-->
-<?php 
+<?php
 if(isset($complete_data->ProductItineraryByDay)){
         @$itenary_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
         foreach($complete_data->ProductItineraryByDay as $itenary_key2){
@@ -149,13 +149,12 @@ if(isset($complete_data->ProductItineraryByDay)){
 <!-- Start BLog Section -->
 <section class="blog-single-pages portfolio tour-content">
         <div class="page-header-container">
-            <img src="<?php echo base_url().'assets/'.$slider_image; ?>" class="desktop-image" alt="slider_image">
-            <img src="<?php echo base_url().'assets/'.$slider_mobile_image; ?>" class="mobile-image" alt="slider_image">
+            <img src="<?php echo base_url().@$complete_data->ProductImage; ?>" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url().@$complete_data->ProductImage; ?>" class="mobile-image" alt="slider_image">
           <div class="post-blog-item">
-
             <div class="date-mate">
-                    <h6>Days<span><?php echo $complete_data->Days; ?></span></h6>
-                    <h6 class="nights">Nights<span><?php echo $complete_data->Nights; ?></span></h6>
+                <h6>Days<span><?php echo $complete_data->Days; ?></span></h6>
+                <h6 class="nights">Nights<span><?php echo $complete_data->Nights; ?></span></h6>
             </div>
             </div>
         </div>
@@ -383,41 +382,41 @@ if(isset($complete_data->ProductItineraryByDay)){
                                                       
                                                     <div class="tour-table">
                                                        
-                                                            <table class="table table-striped table-dark">
-                                                                    <thead class="thead-dark">
-                                                                        <tr>
-                                                                        <th scope="col">Tour Code &<br>Departure Dates
-                                                                          </th><th scope="col">Prices</th>
-                                                                        </tr>
-                                                                      </thead>
-                                                                   
-                                                                      <tbody>
-                                                                        <?php 
-                                                                            if(isset($complete_data->UpcomingTours)){
-                                                                                foreach ($complete_data->UpcomingTours as $tours){
-                                                                                foreach($tours->UpcomingTourPricingDetails as $pricedetails){
-                                                                                    if(($tours->TourStatus)=='Open'){
-                                                                        ?>
-                                                                            <tr class="tour_info" data-tourcode="<?php echo $tours->TourCode; ?>" style="cursor: pointer;">
-                                                                              <td><?php  echo $tours->TourCode; ?>
-                                                                              <br/>
-                                                                                <span class="hlights">
-                                                                                  <?php  echo $tours->DepartureDate; ?>
-                                                                                </span>
-                                                                                    <br/>
-                                                                                  <?php  echo $pricedetails->StartingLocation; 
-                                                                                ?>  
-                                                                              </td>
-                                                                              <td>
-                                                                                <span class="hlights">
-                                                                                  INR <?php echo round($pricedetails->TotalINRValue); ?>
-                                                                                </span>
-                                                                              </td>
-                                                                            </tr>
-                                                                          <?php }}}} ?>
-                                                                        
-                                                                      </tbody>
-                                                                </table>
+                                                        <table class="table table-striped table-dark">
+                                                            <thead class="thead-dark">
+                                                                <tr>
+                                                                <th scope="col">Tour Code &<br>Departure Dates
+                                                                  </th><th scope="col">Prices</th>
+                                                                </tr>
+                                                              </thead>
+                                                           
+                                                              <tbody>
+                                                                <?php 
+                                                                    if(isset($complete_data->UpcomingTours)){
+                                                                        foreach ($complete_data->UpcomingTours as $tours){
+                                                                        foreach($tours->UpcomingTourPricingDetails as $pricedetails){
+                                                                            if(($tours->TourStatus)=='Open'){
+                                                                ?>
+                                                                    <tr class="tour_info" data-tourcode="<?php echo $tours->TourCode; ?>" style="cursor: pointer;">
+                                                                      <td><?php  echo $tours->TourCode; ?>
+                                                                      <br/>
+                                                                        <span class="hlights">
+                                                                          <?php  echo $tours->DepartureDate; ?>
+                                                                        </span>
+                                                                            <br/>
+                                                                          <?php  echo $pricedetails->StartingLocation; 
+                                                                        ?>  
+                                                                      </td>
+                                                                      <td>
+                                                                        <span class="hlights">
+                                                                          INR <?php echo round($pricedetails->TotalINRValue); ?>
+                                                                        </span>
+                                                                      </td>
+                                                                    </tr>
+                                                                  <?php }}}} ?>
+                                                                
+                                                            </tbody>
+                                                        </table>
                                                 </div>
                                                 </div>
                                             </div>

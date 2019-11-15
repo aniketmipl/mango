@@ -8,8 +8,8 @@
 
 <!-- <meta name="description" content=""> -->
 <!--1st part - code to print itenary from api for Donload/Print Itenary PDF-->
-<?php 
-       if(isset($complete_data->ProductItineraryByDay)){
+<?php
+if(isset($complete_data->ProductItineraryByDay)){
         @$itenary_program ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
         foreach($complete_data->ProductItineraryByDay as $itenary_key2){
             foreach ($itenary_key2->ProductItineraryByDayItem as $itenary_key) {
@@ -154,8 +154,8 @@
 <!-- Start BLog Section -->
 <section class="blog-single-pages portfolio tour-content fit">
         <div class="page-header-container">
-            <img src="<?php echo base_url().'assets/'.$slider_image; ?>" class="desktop-image" alt="slider_image">
-            <img src="<?php echo base_url().'assets/'.$slider_mobile_image; ?>" class="mobile-image" alt="slider_image">
+            <img src="<?php echo base_url().$complete_data->ProductImage; ?>" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url().$complete_data->ProductImage; ?>" class="mobile-image" alt="slider_image">
           <div class="post-blog-item">
 
             <div class="date-mate">

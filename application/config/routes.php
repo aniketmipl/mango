@@ -285,6 +285,7 @@ $route['tours/athens-santorini'] = 'tours/athens_santorini';
 $route['tours/vietnam-cambodia'] = 'tours/vietnam_cambodia';
 $route['tours/dragon-country-bhutan'] = 'tours/dragon_country_bhutan';
 $route['tours/amazing-bhutan'] = 'tours/amazing_bhutan';
+$route['tours/explore-vietnam'] = 'tours/explore_vietnam';
 
 //pages
 $route['about-us'] = 'pages/about_us';
