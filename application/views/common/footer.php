@@ -51,7 +51,7 @@
                             <div class="adjustable-margin1"></div>
                             <div class="col-md-12 no-padding">
                             <ul class="widget-list triangle list-unstyled mb-20">
-
+                            <li><a href="https://www.blog.mangoholidays.in/" target="_new"> Blogs</a></li>
                                     <li><a href="<?php echo base_url()?>careers"> Careers</a></li>
                                     <li><a href="<?php echo base_url()?>faqs"> FAQs</a></li>
                                     <!-- <li><a href="<?php echo base_url()?>franchisee">Preferred Sales Agent</a></li> -->

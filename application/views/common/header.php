@@ -314,10 +314,11 @@
                                                         <li><a href="<?php echo base_url()?>customized-holidays/canada">Canada</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/dubai">Dubai</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/egypt">Egypt</a></li>
-                                                        <li><a href="<?php echo base_url()?>customized-holidays/europe">Europe</a></li>                                                        
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/europe">Europe</a></li>   
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/greece">Greece</a></li>                                                     
                                                       </div>
                                                       <div class="col-md-6 col-sm-12">
-                                                        <li><a href="<?php echo base_url()?>customized-holidays/greece">Greece</a></li>
+                                                        
                                                         <li><a href="<?php echo base_url()?>customized-holidays/hong-kong">Hong Kong</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/iceland">Iceland</a></li>                                                        
                                                         <!-- <li><a href="<?php echo base_url()?>customized-holidays/japan">Japan</a></li> -->
@@ -330,6 +331,7 @@
                                                         <li><a href="<?php echo base_url()?>customized-holidays/nepal">Nepal</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/russia">Russia</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/spain">Spain</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/seychelles">Seychelles</a></li>                                                        
                                                         <li><a href="<?php echo base_url()?>customized-holidays/sri-lanka">Sri Lanka</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/turkey">Turkey</a></li>
                                                       </div>
@@ -358,7 +360,8 @@
                         <li class="dropdown <?php if (($controller =='media')|| ($controller =='destination-videos')){ echo 'active';} ?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="<?php echo base_url()?>media">Blogs / Advertorials</a></li>
+                                <li><a class="dropdown-item" href="https://www.blog.mangoholidays.in/" target="_new">Blogs</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url()?>media">Advertorials</a></li>
                                 <!-- <li><a class="dropdown-item" href="#">Advertorials</a></li> -->
                                 <li><a class="dropdown-item" href="<?php echo base_url()?>destination-videos">Destination Videos</a></li>
                             </ul>
