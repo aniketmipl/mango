@@ -330,6 +330,7 @@
                                                         <li><a href="<?php echo base_url()?>customized-holidays/nepal">Nepal</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/russia">Russia</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/spain">Spain</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/seychelles">Seychelles</a></li>                                                        
                                                         <li><a href="<?php echo base_url()?>customized-holidays/sri-lanka">Sri Lanka</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/turkey">Turkey</a></li>
                                                       </div>

@@ -882,26 +882,26 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/footer');
 	}
 
-	public function seychelles_magic(){
-		$product_id ='59';
-		$product_code='SE1';
+	// public function seychelles_magic(){
+	// 	$product_id ='59';
+	// 	$product_code='SE1';
 		
-		$data['api_result']=$this->call_api($product_id,$product_code);	
-		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
-		//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
-		$filter_data['slider_image'] = 'fit/SE1/Seychelles-Magic-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'fit/SE1/Seychelles-Magic.jpg';
-		$filter_data['sector']="Africa";
-		//$filter_data['sector_path']="CustomizedTours/customized_africa";
-		$head_data['title'] = "Seychelles Magic Tour Package from Mumbai,Pune,India | Mango Holidays";
-		$head_data['sector'] = $filter_data['sector'];
-		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
-		$this->load->view('common/header',$head_data);
-		// $this->load->view('tours/tour_details',$filter_data);
-		$this->load->view('tours/tour_details_fit',$filter_data);
-		$this->load->view('common/footer');
-	}
+	// 	$data['api_result']=$this->call_api($product_id,$product_code);	
+	// 	$filter_data['complete_data'] = $data['api_result']['complete_data'];
+	// 	// $filter_data['slider_image'] = 'images/tours/africa/african-safari-banner.jpg';
+	// 	//$filter_data['slider_mobile_image'] = 'images/tours/africa/african-safari.jpg';
+	// 	$filter_data['slider_image'] = 'fit/SE1/Seychelles-Magic-banner.jpg';
+	// 	$filter_data['slider_mobile_image'] = 'fit/SE1/Seychelles-Magic.jpg';
+	// 	$filter_data['sector']="Africa";
+	// 	//$filter_data['sector_path']="CustomizedTours/customized_africa";
+	// 	$head_data['title'] = "Seychelles Magic Tour Package from Mumbai,Pune,India | Mango Holidays";
+	// 	$head_data['sector'] = $filter_data['sector'];
+	// 	$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+	// 	$this->load->view('common/header',$head_data);
+	// 	// $this->load->view('tours/tour_details',$filter_data);
+	// 	$this->load->view('tours/tour_details_fit',$filter_data);
+	// 	$this->load->view('common/footer');
+	// }
 	public function spectacular_south_africa(){
 		$product_id ='66';
 		$product_code='SA2';
@@ -3150,6 +3150,40 @@ $this->load->view('common/header',$head_data);
 		//$filter_data['slider_image'] = 'images/default-banner.jpg';
 		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Greece";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function seychelles_magic(){
+		$product_id ='168';
+		$product_code='SE3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/SE3/seychelles-magic-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/SE3/seychelles-magic.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Seychelles";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function seychelles_honeymoon(){
+		$product_id ='167';
+		$product_code='SE2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/SE2/seychelles-honeymoon-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/SE2/seychelles-honeymoon.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Seychelles";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);
