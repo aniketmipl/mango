@@ -28,6 +28,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
 
+                    <!--=========== Seminar slide ===========-->
                     <!-- First slide -->
                     <!-- <div class="item active slide-seminar">
                         <div class="carousel-caption">
@@ -41,9 +42,11 @@
                             <a href="<?php echo base_url();?>contact-us"><button class="btns" data-animation="animated zoomIn">Contact Us</button></a>
                         </div>
                     </div> -->
-                    <!-- /.item -->
+                    <!--=========== /.item ===========-->
 
-                    <!-- First slide -->
+                    <!--=========== 1st slide ==========--->
+                    <!--<div class="item active slide-1">
+                   
                     <div class="item active slide-1">
                         <div class="carousel-caption">
                             <div class="inner-carousel" data-animation="animated fadeInUp">
@@ -56,11 +59,20 @@
                             <br/>
                             </div>
                         </div>
+                    </div>-->
+                    <div class="item active slide-1">
+                    <a href="<?php echo base_url()?>group-tour-packages/europe">
+                        <div class="carousel-caption">
+                            <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                            
+                            </div>
+                        </div>
+                    </a>
                     </div>
-                    <!-- /.item -->
+                    <!--=========== /.item ===========-->
 
-                    <!-- Second slide -->
-                    <div class="item slide-4">
+                    <!--=========== 2nd slide ===========-->
+                    <!-- <div class="item slide-4">
                         <div class="carousel-caption">
                         <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="font-size:2.3em;"> Hakone Komagatake Ropeway</p>
@@ -72,11 +84,20 @@
                         <br/>
                         </div>
                         </div>
+                    </div> -->
+                    <div class="item slide-2">
+                    <a href="<?php echo base_url()?>group-tour-packages/japan">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
+                        </div>
+                    </a>
                     </div>
-                   <!-- /.item -->
+                   <!--=========== /.item ===========-->
 
-                   <!-- Second slide -->
-                   <div class="item slide-5">
+                   <!--=========== 3rd slide ===========-->
+                   <!-- <div class="item slide-5">
                         <div class="carousel-caption">
                         <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="font-size:2.3em;"></p>
@@ -88,11 +109,20 @@
                         <br/>
                         </div>
                         </div>
+                    </div> -->
+                    <div class="item slide-3">
+                    <a href="<?php echo base_url()?>group-tour-packages/south-east-asia">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
+                        </div>
+                    </a>
                     </div>
-                   <!-- /.item -->
+                   <!--=========== /.item ===========-->
 
-                    <!-- Second slide -->
-                    <div class="item slide-2">
+                    <!--=========== 4th slide ===========-->
+                    <!-- <div class="item slide-2">
                         <div class="carousel-caption">
                         <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="">The gateway to many Asian adventures
@@ -105,11 +135,20 @@
                         <br/>
                         </div>
                         </div>
+                    </div> -->
+                    <div class="item slide-4">
+                    <a href="<?php echo base_url()?>group-tour-packages/america">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                            
+                        </div>
+                        </div>
+                    </a>
                     </div>
-                    <!-- /.item -->
+                    <!--=========== /.item ===========-->
 
-                    <!-- Third slide -->
-                    <div class="item slide-3">
+                    <!--=========== 5th slide ===========-->
+                    <!-- <div class="item slide-3">
                         <div class="carousel-caption">
                         <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="">Discover human endeavour staring into vast seas</p>
@@ -121,11 +160,20 @@
                             <br/>
                         </div>
                     </div>
+                    </div> -->
+                    <div class="item slide-5">
+                    <a href="<?php echo base_url()?>group-tour-packages/dubai">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
                     </div>
-                    <!-- /.item -->
+                    </a>
+                    </div>
+                    <!--=========== /.item ===========-->
 
-                    <!-- Third slide -->
-                    <div class="item slide-6">
+                    <!--=========== 6th slide ===========-->
+                    <!-- <div class="item slide-6">
                         <div class="carousel-caption">
                         <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style=""></h4>
@@ -138,8 +186,55 @@
                             <br/>
                         </div>
                     </div>
+                    </div> -->
+                    <div class="item slide-6">
+                    <a href="<?php echo base_url()?>group-tour-packages/africa">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
                     </div>
-                    <!-- /.item -->
+                    </a>
+                    </div>
+                    <!--=========== /.item ===========-->
+
+                    
+
+                    <!--=========== 7th slide ===========-->
+                    <div class="item slide-7">
+                    <a href="<?php echo base_url()?>group-tour-packages/eastern_europe">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
+                    </div>
+                    </a>
+                    </div>
+                    <!--=========== /.item ===========-->
+
+                    <!--=========== 8th slide ===========-->
+                    <div class="item slide-8">
+                    <a href="<?php echo base_url()?>group-tour-packages/australia-new-zealand">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
+                    </div>
+                    </a>
+                    </div>
+                    <!--=========== /.item ===========-->
+
+                    <!--=========== 9th slide ===========-->
+                    <div class="item slide-9">
+                    <a href="<?php echo base_url()?>group-tour-packages/scandinavia">
+                        <div class="carousel-caption">
+                        <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
+                           
+                        </div>
+                    </div>
+                    </a>
+                    </div>
+                    <!--=========== /.item ===========-->
 
                 </div>
                 <!-- /.carousel-inner -->
@@ -171,7 +266,7 @@
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
                                             <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."> -->
                                             <input type="text" id="default" list="tours" class="form-control" name="tour_name" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York...">
-                                            <datalist id="tours">
+                                            <datalist id="tours" name="tours">
                                                   <option value="HTML">
                                                   <option value="CSS">
                                                   <option value="1CSS">
@@ -185,7 +280,11 @@
                                                   <option value="C">
                                                   <option value="C#">
                                                   <option value="C++">
+                                                  <input type="hidden" name="sector_name" value="te"/>
+                                                  <input type="hidden" name="tour_type" value="test"/>
+                                                  <input type="hidden" name="product_id" value="10"/>
                                             </datalist>
+                                            
                                         </div>
                                         <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">

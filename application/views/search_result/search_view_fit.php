@@ -291,76 +291,76 @@ if(isset($complete_data->ProductItineraryByDay)){
                                                             </div>
                                                             <div role="tabpanel" class="tab-pane fade" id="tab-item-four">
                                                             <div class="tab-tour-info">
-                                                                            <!-- <h4><b>Tour Information :</b></h4> -->
+                                                                <!-- <h4><b>Tour Information :</b></h4> -->
 
-                                                                            <?php 
-                                                                            if(isset($complete_data->ProductFeatures)){ ?>
-                                                                            <h4><b>Product Features :</b></h4>
-                                                                            <div class="small-border"></div>
-                                                                            <ul>
-                                                                            <?php foreach ($complete_data->ProductFeatures as $ProductFeatures) {?>
-                                                                                <li> <?php echo  $ProductFeatures->FeatureItem?>
-                                                                                    
-                                                                                </li>
-                                                                            <?php }} ?>
-                                                                            </ul>
+                                                                <?php 
+                                                                if(isset($complete_data->ProductFeatures)){ ?>
+                                                                <h4><b>Product Features :</b></h4>
+                                                                <div class="small-border"></div>
+                                                                <ul>
+                                                                <?php foreach ($complete_data->ProductFeatures as $ProductFeatures) {?>
+                                                                    <li> <?php echo  $ProductFeatures->FeatureItem?>
+                                                                        
+                                                                    </li>
+                                                                <?php }} ?>
+                                                                </ul>
 
-                                                                            <?php 
-                                                                            if(isset($complete_data->BookingInstructions)){ ?>
-                                                                            <h4><b>Booking Instructions :</b></h4>
-                                                                            <div class="small-border"></div>
-                                                                            <ul>
-                                                                            <?php foreach ($complete_data->BookingInstructions as $BookingInstructions) {?>
-                                                                                <li> <?php echo  $BookingInstructions->BookingInstructionItem?></li>
-                                                                            <?php }} ?>
-                                                                            </ul>
+                                                                <?php 
+                                                                if(isset($complete_data->BookingInstructions)){ ?>
+                                                                <h4><b>Booking Instructions :</b></h4>
+                                                                <div class="small-border"></div>
+                                                                <ul>
+                                                                <?php foreach ($complete_data->BookingInstructions as $BookingInstructions) {?>
+                                                                    <li> <?php echo  $BookingInstructions->BookingInstructionItem?></li>
+                                                                <?php }} ?>
+                                                                </ul>
 
-                                                                            <?php 
-                                                                            if(isset($complete_data->AirTravelInstructions)){ ?>
-                                                                            <h4><b>Air Travel Instructions :</b></h4>
-                                                                            <div class="small-border"></div>
-                                                                            <ul>
-                                                                            <?php foreach ($complete_data->AirTravelInstructions as $AirTravelInstructions) {?>
-                                                                                <li> <?php echo  $AirTravelInstructions->AirTravelInstructionItem?>
-                                                                                    
-                                                                                </li>
-                                                                            <?php }} ?>
-                                                                            </ul>
+                                                                <?php 
+                                                                if(isset($complete_data->AirTravelInstructions)){ ?>
+                                                                <h4><b>Air Travel Instructions :</b></h4>
+                                                                <div class="small-border"></div>
+                                                                <ul>
+                                                                <?php foreach ($complete_data->AirTravelInstructions as $AirTravelInstructions) {?>
+                                                                    <li> <?php echo  $AirTravelInstructions->AirTravelInstructionItem?>
+                                                                        
+                                                                    </li>
+                                                                <?php }} ?>
+                                                                </ul>
 
-                                                                            <?php 
-                                                                            if(isset($complete_data->VisaInstructions)){ ?>
-                                                                            <h4><b>Visa Instructions :</b></h4>
-                                                                            <div class="small-border"></div>
-                                                                            <ul>
-                                                                            <?php foreach ($complete_data->VisaInstructions as $VisaInstructions) {?>
-                                                                                <li> <?php echo  $VisaInstructions->VisaInstructionItem?>
-                                                                                    
-                                                                                </li>
-                                                                            <?php }} ?>
-                                                                            </ul>
+                                                                <?php 
+                                                                if(isset($complete_data->VisaInstructions)){ ?>
+                                                                <h4><b>Visa Instructions :</b></h4>
+                                                                <div class="small-border"></div>
+                                                                <ul>
+                                                                <?php foreach ($complete_data->VisaInstructions as $VisaInstructions) {?>
+                                                                    <li> <?php echo  $VisaInstructions->VisaInstructionItem?>
+                                                                        
+                                                                    </li>
+                                                                <?php }} ?>
+                                                                </ul>
 
 
-                                                                            
+                                                                
 
-                                                                             <?php 
-                                                                            if(isset($complete_data->Notes)){ ?>
-                                                                            <h4><b>Notes :</b></h4>
-                                                                            <div class="small-border"></div>
-                                                                            <ul>
-                                                                            <?php foreach ($complete_data->Notes as $Notes) {?>
-                                                                                <li> <?php echo  $Notes->NoteItem?></li>
-                                                                            <?php }} ?>
-                                                                            </ul>
+                                                                 <?php 
+                                                                if(isset($complete_data->Notes)){ ?>
+                                                                <h4><b>Notes :</b></h4>
+                                                                <div class="small-border"></div>
+                                                                <ul>
+                                                                <?php foreach ($complete_data->Notes as $Notes) {?>
+                                                                    <li> <?php echo  $Notes->NoteItem?></li>
+                                                                <?php }} ?>
+                                                                </ul>
 
-                                                                            <?php 
-                                                                            if(isset($complete_data->TermsConditions)){ ?>
-                                                                            <h4><b>Terms & Conditions :</b></h4>
-                                                                            <div class="small-border"></div>
-                                                                            <ul>
-                                                                            <?php foreach ($complete_data->TermsConditions as $TermsConditions) {?>
-                                                                                <li> <?php echo  $TermsConditions->TermConditionItem?></li>
-                                                                            <?php }} ?>
-                                                                            </ul>
+                                                                <?php 
+                                                                if(isset($complete_data->TermsConditions)){ ?>
+                                                                <h4><b>Terms & Conditions :</b></h4>
+                                                                <div class="small-border"></div>
+                                                                <ul>
+                                                                <?php foreach ($complete_data->TermsConditions as $TermsConditions) {?>
+                                                                    <li> <?php echo  $TermsConditions->TermConditionItem?></li>
+                                                                <?php }} ?>
+                                                                </ul>
                                                                             
                                                                             
                                                             </div>       
@@ -389,65 +389,65 @@ if(isset($complete_data->ProductItineraryByDay)){
                                                       
                                                     <div class="tour-table">
                                                        
-                                                            <table class="table table-striped table-dark">
-                                                                    <thead class="thead-dark">
-                                                                        <tr>
-                                                                            <th scope="col"></th>
-                                                                            <th scope="col">Category</th>
-                                                                            <th scope="col">Prices</th>
-                                                                            <th scope="col">Valid till</th>
-                                                                        </tr>
-                                                                      </thead>
-                                                                   
-                                                                      <tbody>
+                                                        <table class="table table-striped table-dark">
+                                                            <thead class="thead-dark">
+                                                                <tr>
+                                                                    <th scope="col"></th>
+                                                                    <th scope="col">Category</th>
+                                                                    <th scope="col">Prices</th>
+                                                                    <th scope="col">Valid till</th>
+                                                                </tr>
+                                                              </thead>
+                                                           
+                                                              <tbody>
 
-                                                                        <?php 
-                                                                        if(isset($complete_data->ProductPricingHeader)){ 
-                                                                            foreach ($complete_data->ProductPricingHeader as $ProductPricingHeader) {
-                                                                        ?>
-                                                                        <tr>
-                                                                            <td><input type="radio" class="tour_cat" name="category" value="<?php echo @$ProductPricingHeader->PriceBand;?>"></td>
-                                                                            <td> <?php  echo @$ProductPricingHeader->PriceBand; ?> </td>
-                                                                            <td><?php  echo "INR";
-                                                                               echo "<br>";
-                                                                               echo round(@$ProductPricingHeader->ProductPricingDetail[0]->NETINRValue)."/-"; ?>
-                                                                            </td> 
-                                                                            
-                                                                            <td><?php  echo @$ProductPricingHeader->TourDateTo; ?></td>
-                                                                        </tr>
+                                                                <?php 
+                                                                if(isset($complete_data->ProductPricingHeader)){ 
+                                                                    foreach ($complete_data->ProductPricingHeader as $ProductPricingHeader) {
+                                                                ?>
+                                                                <tr>
+                                                                    <td><input type="radio" class="tour_cat" name="category" value="<?php echo @$ProductPricingHeader->PriceBand;?>"></td>
+                                                                    <td> <?php  echo @$ProductPricingHeader->PriceBand; ?> </td>
+                                                                    <td><?php  echo "INR";
+                                                                       echo "<br>";
+                                                                       echo round(@$ProductPricingHeader->ProductPricingDetail[0]->NETINRValue)."/-"; ?>
+                                                                    </td> 
+                                                                    
+                                                                    <td><?php  echo @$ProductPricingHeader->TourDateTo; ?></td>
+                                                                </tr>
 
-                                                                        <?php }} ?>
-                                                                        <!-- <?php 
-                                                                            if(isset($complete_data->UpcomingTours)){
-                                                                                foreach ($complete_data->UpcomingTours as $tours){
-                                                                                foreach($tours->UpcomingTourPricingDetails as $pricedetails){
-                                                                                    if(($tours->TourStatus)=='Open'){
-                                                                        ?>
-                                                                            <tr class="tour_info" data-tourcode="<?php echo $tours->TourCode; ?>" style="cursor: pointer;">
-                                                                              <td><?php  echo $tours->TourCode; ?>
-                                                                              <br/>
-                                                                                <span class="hlights">
-                                                                                  <?php  echo $tours->DepartureDate; ?>
-                                                                                </span>
-                                                                                    <br/>
-                                                                                  <?php  echo $pricedetails->StartingLocation; 
-                                                                                ?>  
-                                                                              </td>
-                                                                              <td>
-                                                                                <span class="hlights">
-                                                                                  INR <?php echo round($pricedetails->TotalINRValue); ?>
-                                                                                </span>
-                                                                              </td>
-                                                                            </tr>
-                                                                          <?php }}}} ?> -->
-                                                                        
-                                                                      </tbody>
-                                                                </table>
+                                                                <?php }} ?>
+                                                                <!-- <?php 
+                                                                    if(isset($complete_data->UpcomingTours)){
+                                                                        foreach ($complete_data->UpcomingTours as $tours){
+                                                                        foreach($tours->UpcomingTourPricingDetails as $pricedetails){
+                                                                            if(($tours->TourStatus)=='Open'){
+                                                                ?>
+                                                                    <tr class="tour_info" data-tourcode="<?php echo $tours->TourCode; ?>" style="cursor: pointer;">
+                                                                      <td><?php  echo $tours->TourCode; ?>
+                                                                      <br/>
+                                                                        <span class="hlights">
+                                                                          <?php  echo $tours->DepartureDate; ?>
+                                                                        </span>
+                                                                            <br/>
+                                                                          <?php  echo $pricedetails->StartingLocation; 
+                                                                        ?>  
+                                                                      </td>
+                                                                      <td>
+                                                                        <span class="hlights">
+                                                                          INR <?php echo round($pricedetails->TotalINRValue); ?>
+                                                                        </span>
+                                                                      </td>
+                                                                    </tr>
+                                                                  <?php }}}} ?> -->
+                                                                
+                                                              </tbody>
+                                                        </table>
                                                 </div>
                                                 </div>
                                             </div>
-                                                                <!-- <button class="btn"><a style="cursor:pointer;" id="element" class="show-modal"> Send Enquiry</a></button> -->
-                                                                <a class="btn btn-theme my-btn-md show-modal" id="element" style="width:100%; text-align:center; cursor:pointer;"href="#" role="button">SEND ENQUIRY &nbsp;&nbsp;<i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+                                                <!-- <button class="btn"><a style="cursor:pointer;" id="element" class="show-modal"> Send Enquiry</a></button> -->
+                                                <a class="btn btn-theme my-btn-md show-modal" id="element" style="width:100%; text-align:center; cursor:pointer;"href="#" role="button">SEND ENQUIRY &nbsp;&nbsp;<i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
                                                                 
                                         </div>
                     </div>
