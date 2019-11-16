@@ -4,7 +4,7 @@
             <h1 class="entry-title">Customized <?php echo $sector_name;?> Tour</h1>
         </div>
         <ul class="breadcrumbs pull-right">
-            <li><a href="#">Customized Tour</a></li>
+            <li><a href="#">Customized Tour Packages</a></li>
             <li class="active"><?php echo $sector_name;?></li>
         </ul>
     </div>

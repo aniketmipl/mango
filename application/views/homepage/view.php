@@ -169,6 +169,7 @@
                                     <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
+
                                             <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."> -->
                                             <input type="text" id="default" list="tours" class="form-control" name="tour_name" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York...">
                                             <datalist id="tours">
@@ -186,6 +187,7 @@
                                                   <option value="C#">
                                                   <option value="C++">
                                             </datalist>
+                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
                                         <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
@@ -766,7 +768,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                         <div class="sec-title text-center mb-5">
-                            <h2>Recent From<b> Blog</b></h2>
+                            <h2>Recent From<b> Advertorial</b></h2>
                            
                         </div>
                     </div>
