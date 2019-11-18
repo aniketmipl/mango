@@ -313,6 +313,7 @@ $route['franchisee'] = 'pages/franchisee';
 $route['how-to-book'] = 'pages/how_to_book';
 $route['privacy-policy'] = 'pages/privacy_policy';
 $route['terms-and-conditions'] = 'pages/terms_and_conditions';
+$route['guest-feedback/mr-mrs-yadav'] = 'pages/mr_mrs_yadav';
 $route['search-result'] = 'search/search_result';
 
 

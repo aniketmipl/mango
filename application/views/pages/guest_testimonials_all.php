@@ -34,6 +34,27 @@
         <div class="col-md-4 col-sm-6 col-xs-12" style="display:inline-flex; float:none;">
                 <div class="hover-box tour-blog-box blog-item-1">
                     <div class="tour-img image">
+                        <a href="<?php echo base_url();?>assets/images/guest/Mr-Ashok-Mrs-Anita-Yadav3.png" class="lightbox-image" title="Mr. Ashok & Mrs. Anita Yadav">
+                        <img src="<?php echo base_url();?>assets/images/guest/Mr-Ashok-Mrs-Anita-Yadav.jpg" alt="">
+                        <div class="over-layer">
+                            <div class="links">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="tour-item blog-item">
+                        <div class="blog-details">
+                            <h4 class="guest-name"><i class="ion-person"></i> Mr. Ashok & Mrs. Anita Yadav</h4>
+                            <p>On our Classic Europe tour we were very well taken care of. We relished in the history & education provided by the friendly, professional & highly experienced tour manager. Comfortable coach, Spic and span hotels were well chosen.  Which made our tour memorable & enjoyable.</p>
+                            <a class="read-btn" href="<?php echo base_url();?>guest-feedback/mr-mrs-yadav">Read More <i class="ion-ios-arrow-thin-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" style="display:inline-flex; float:none;">
+                <div class="hover-box tour-blog-box blog-item-1">
+                    <div class="tour-img image">
                         <a href="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" class="lightbox-image" title=" Mr.Ravindra Deomore">
                         <img src="<?php echo base_url();?>assets/images/guest/Ravindra-Deomore.jpg" alt="">
                         <div class="over-layer">

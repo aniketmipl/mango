@@ -223,4 +223,15 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/terms_and_conditions');
 		$this->load->view('common/footer');
 	}
+	public function mr_mrs_yadav()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Terms and Conditions | Mango Holidays";
+		$head_data['page_description'] = "Terms and conditions - Please read, understand and accept the below mentioned terms &amp; conditions for your holiday at the time of booking.";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/guest-feedback/mr-mrs-yadav');
+		$this->load->view('common/footer');
+	}
 }
