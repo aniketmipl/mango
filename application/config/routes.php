@@ -291,6 +291,8 @@ $route['tours/explore-vietnam'] = 'tours/explore_vietnam';
 $route['tours/seychelles-honeymoon'] = 'tours/seychelles_honeymoon';
 $route['tours/seychelles-magic'] = 'tours/seychelles_magic';
 $route['tours/explore-scandinavia'] = 'tours/explore_scandinavia';
+$route['tours/flavours-of-scandinavia'] = 'tours/flavours_of_scandinavia';
+$route['tours/norway'] = 'tours/norway';
 
 //pages
 $route['about-us'] = 'pages/about_us';
@@ -325,5 +327,6 @@ $route['tours/southafricatour'] = 'tours/south_african_safari';
 $route['tours/glimpsesofeurope'] = 'tours/glimpses_of_europe';
 $route['tours/australia-new-zealand'] ='tours/Australia_and_New_Zealand';  
 $route['corporate-tours'] ='pages/corporate_tours';
+
 $route['tours/eastcoastamerica'] = 'tours/east_coast_of_america';
 $route['mango-holidays-contact'] = 'pages/contact_us';
