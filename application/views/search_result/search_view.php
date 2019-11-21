@@ -150,7 +150,7 @@ if(isset($complete_data->ProductItineraryByDay)){
 <section class="blog-single-pages portfolio tour-content">
         <div class="page-header-container">
             <img src="<?php echo base_url().$slider_image; ?>" class="desktop-image" alt="slider_image">
-            <img src="<?php echo base_url().$slider_mobile_image; ?>" class="mobile-image" alt="slider_image">
+            <img src="<?php echo base_url().$slider_image; ?>" class="mobile-image" alt="slider_image">
           <div class="post-blog-item">
             <div class="date-mate">
                 <h6>Days<span><?php echo $complete_data->Days; ?></span></h6>

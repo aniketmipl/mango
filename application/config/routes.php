@@ -112,6 +112,7 @@ $route['customized-holidays/morocco'] ='CustomizedTours/customized_morocco';
 $route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hongkong';
 $route['customized-holidays/bhutan'] ='CustomizedTours/customized_bhutan';
 $route['customized-holidays/seychelles'] ='CustomizedTours/customized_seychelles';
+$route['customized-holidays/scandinavia'] ='CustomizedTours/customized_scandinavian';
 
 
 //Menu Links End
@@ -289,6 +290,7 @@ $route['tours/amazing-bhutan'] = 'tours/amazing_bhutan';
 $route['tours/explore-vietnam'] = 'tours/explore_vietnam';
 $route['tours/seychelles-honeymoon'] = 'tours/seychelles_honeymoon';
 $route['tours/seychelles-magic'] = 'tours/seychelles_magic';
+$route['tours/explore-scandinavia'] = 'tours/explore_scandinavia';
 
 //pages
 $route['about-us'] = 'pages/about_us';
