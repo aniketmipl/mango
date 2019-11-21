@@ -208,9 +208,15 @@
                         <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
                            
                         </div>
+<<<<<<< HEAD
                     </div>
                     </a>
                     </div>
+=======
+                    </div>
+                    </a>
+                    </div>
+>>>>>>> 64afc1dbd2630255865feee1d4d79b30cfca690f
                     <!--=========== /.item ===========-->
 
                 </div>
@@ -240,7 +246,10 @@
                                
                                    <!--  <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
+
                                             <label class="label">Find Holidays Destination  </label>
+
+
                                             <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
                                         <div class="form-group col-md-3 col-sm-6">
@@ -255,11 +264,10 @@
                                            <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
                                         </div>
                                        
-                                       
                                         <div class="form-group col-md-2 col-sm-4">
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
                                         </div>
-                                    </form> -->
+                                    </form>-->
                             </div>
                         </div>
                     </div>
@@ -1080,12 +1088,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <!--to enable popup uncomment below code-->
-<script>
-$(document).ready(function(){       
-   $('#popupModal').modal('show');
-    }); 
-
-</script>
 <script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');

@@ -296,6 +296,7 @@ $route['tours/explore-scandinavia'] = 'tours/explore_scandinavia';
 $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';
 $route['corporate-tours-package'] = 'pages/corporate_tours';
+$route['blogs'] = 'pages/blogs';
 $route['media'] = 'pages/media';
 $route['media-page2'] = 'pages/media_page2';//new page
 $route['media-page3'] = 'pages/media_page3';//new page
@@ -315,6 +316,7 @@ $route['franchisee'] = 'pages/franchisee';
 $route['how-to-book'] = 'pages/how_to_book';
 $route['privacy-policy'] = 'pages/privacy_policy';
 $route['terms-and-conditions'] = 'pages/terms_and_conditions';
+$route['guest-feedback/mr-mrs-yadav'] = 'pages/mr_mrs_yadav';
 $route['search-result'] = 'search/search_result';
 
 

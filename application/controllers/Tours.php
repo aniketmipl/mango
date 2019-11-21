@@ -3175,8 +3175,7 @@ $this->load->view('common/header',$head_data);
 	}
 	public function seychelles_honeymoon(){
 		$product_id ='167';
-		$product_code='SE2';
-		
+		$product_code='SE2';		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		$filter_data['slider_image'] = 'fit/SE2/seychelles-honeymoon-banner.jpg';
@@ -3192,8 +3191,7 @@ $this->load->view('common/header',$head_data);
 	}
 	public function explore_scandinavia(){
 		$product_id ='169';
-		$product_code='SC1';
-		
+		$product_code='SC1';		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
 		// $filter_data['slider_image'] = 'fit/SC1/explore-scandinavia-banner.jpg';

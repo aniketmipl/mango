@@ -45,6 +45,17 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/corporate_tours');
 		$this->load->view('common/footer');
 	}
+	public function blogs()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "International Honeymoon Tour Packages From Mumbai, Pune, Thane, India  | Mango Holidays";
+		$head_data['page_description'] = "We @ Mango Holiday To Provide International Honeymoon Tour, International Honeymoon Tour Packages, International Honeymoon Group Tour, International Honeymoon Packages With Flight From Mumbai, Thane, India.";
+		$head_data['page_keyword'] = "international honeymoon packages,international honeymoon tour packages,international honeymoon packages from mumbai,international honeymoon packages from thane,international honeymoon packages from pune,international honeymoon packages from india,international honeymoon tour packages from mumbai,international honeymoon tour packages from pune,international honeymoon tour packages from thane,international honeymoon tour packages from india,international honeymoon packages with flight,international honeymoon packages with flight from mumbai,international honeymoon packages with flight from pune,international honeymoon packages with flight from india.";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/blogs');
+		$this->load->view('common/footer');
+	}
 	public function media()
 	{
 		$head_data['travel_type'] = 'pages';
@@ -221,6 +232,17 @@ class Pages extends CI_Controller {
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('pages/terms_and_conditions');
+		$this->load->view('common/footer');
+	}
+	public function mr_mrs_yadav()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Guest Testimonials | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/guest-feedback/mr-mrs-yadav');
 		$this->load->view('common/footer');
 	}
 }

@@ -2,12 +2,13 @@
 <div class="page-title-container">
     <div class="container-tour-heading">
         <div class="page-title pull-left">
-          <h1 class="entry-title">Our Advertorials</h1>
+          <h1 class="entry-title">Marathi &nbsp;Blogs / Advertorials</h1>
         </div>
         <ul class="breadcrumbs pull-right">
             <li><a href="<?php echo base_url();?>">Home</a></li>
-            <li><a href="<?php echo base_url();?>media">Media</a></li>
-            <li class="active">Advertorials</li>
+            <li><a href="#">Media</a></li>
+            <li><a href="<?php echo base_url();?>blogs">Blogs</a></li>
+            <li class="active">Marathi Blogs</li>
         </ul>
     </div>
 </div>
