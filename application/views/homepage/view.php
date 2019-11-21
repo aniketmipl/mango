@@ -822,7 +822,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                         <div class="sec-title text-center mb-5">
-                            <h2>Our<b> Advertorials</b></h2>
+                            <h2>Our<b> Blogs</b></h2>
                            
                         </div>
                     </div>
@@ -988,7 +988,7 @@
                         </div>
                 </div>
                 <div style="display: block;text-align: center;">
-                    <a class="btn btn-primary" href="<?php echo base_url();?>media">View More</a> 
+                    <a class="btn btn-primary" href="<?php echo base_url();?>blogs">View More</a> 
                 </div>
             </div>
                 
@@ -1079,23 +1079,11 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-
+<!--to enable popup uncomment below code-->
 <script>
-function myFunction() {
-  var tour_name = $("#default").val();
-  alert(tour_name);
-  var submit_url = "test.php";
+$(document).ready(function(){       
+   $('#popupModal').modal('show');
+    }); 
 
-  $.ajax({
-    url: submit_url,
-    type: 'post',
-    data: 'tour_name='+tour_name,
-    success: function(test){
-        alert(test);
-        alert(submit_url);
-        //$("#list").html(data);
-    }
-  });
-
-}
 </script>
+

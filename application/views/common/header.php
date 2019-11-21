@@ -360,8 +360,9 @@
                         <li class="dropdown <?php if (($controller =='media')|| ($controller =='destination-videos')){ echo 'active';} ?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://www.blog.mangoholidays.in/" target="_new">Blogs</a></li>
-                                <li><a class="dropdown-item" href="<?php echo base_url()?>media">Advertorials</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url()?>blogs">Blogs</a></li>
+                                <!-- <li><a class="dropdown-item" href="https://www.blog.mangoholidays.in/" target="_new">Blogs</a></li> -->
+                                <!-- <li><a class="dropdown-item" href="<?php echo base_url()?>media">Advertorials</a></li> -->
                                 <!-- <li><a class="dropdown-item" href="#">Advertorials</a></li> -->
                                 <li><a class="dropdown-item" href="<?php echo base_url()?>destination-videos">Destination Videos</a></li>
                             </ul>

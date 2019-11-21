@@ -294,6 +294,7 @@ $route['tours/seychelles-magic'] = 'tours/seychelles_magic';
 $route['about-us'] = 'pages/about_us';
 $route['contact-us'] = 'pages/contact_us';
 $route['corporate-tours-package'] = 'pages/corporate_tours';
+$route['blogs'] = 'pages/blogs';
 $route['media'] = 'pages/media';
 $route['media-page2'] = 'pages/media_page2';//new page
 $route['media-page3'] = 'pages/media_page3';//new page
