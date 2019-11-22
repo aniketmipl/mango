@@ -1086,12 +1086,12 @@ $(document).ready(function(){
     }); 
 
 </script>
-<script>
+<!-- <script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
-</script>
+</script> -->
 
 <script>
     $(document).ready(function(){
