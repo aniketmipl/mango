@@ -208,15 +208,14 @@
                         <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
                            
                         </div>
-<<<<<<< HEAD
+
                     </div>
                     </a>
                     </div>
-=======
+
                     </div>
                     </a>
-                    </div>
->>>>>>> 64afc1dbd2630255865feee1d4d79b30cfca690f
+                    </div>\
                     <!--=========== /.item ===========-->
 
                 </div>

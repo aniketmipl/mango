@@ -293,6 +293,7 @@ $route['tours/seychelles-magic'] = 'tours/seychelles_magic';
 $route['tours/explore-scandinavia'] = 'tours/explore_scandinavia';
 $route['tours/flavours-of-scandinavia'] = 'tours/flavours_of_scandinavia';
 $route['tours/norway'] = 'tours/norway';
+$route['tours/lapland'] = 'tours/lapland';
 
 //pages
 $route['about-us'] = 'pages/about_us';

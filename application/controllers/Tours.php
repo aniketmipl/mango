@@ -3237,6 +3237,22 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
+	public function lapland(){
+		$product_id ='172';
+		$product_code='SC4';		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/SC4/lapland-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/SC4/lapland.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Scandinavia";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
 
 	
 	public function mpdf(){
