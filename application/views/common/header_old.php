@@ -327,11 +327,10 @@
                                                         <li><a href="<?php echo base_url()?>customized-holidays/maldives">Maldives</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/mauritius">Mauritius</a></li>
                                                         <!-- <li><a href="<?php echo base_url()?>customized-holidays/morocco">Morocco</a></li> -->
-                                                        <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li>
+                                                        <!-- <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li> -->
                                                         <li><a href="<?php echo base_url()?>customized-holidays/nepal">Nepal</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/russia">Russia</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/spain">Spain</a></li>
-                                                        <!-- <li><a href="<?php echo base_url()?>customized-holidays/scandinavia">Scandinavia</a></li> -->
                                                         <li><a href="<?php echo base_url()?>customized-holidays/seychelles">Seychelles</a></li>                                                        
                                                         <li><a href="<?php echo base_url()?>customized-holidays/sri-lanka">Sri Lanka</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/turkey">Turkey</a></li>
@@ -361,9 +360,8 @@
                         <li class="dropdown <?php if (($controller =='media')|| ($controller =='destination-videos')){ echo 'active';} ?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="<?php echo base_url()?>blogs">Blogs</a></li>
-                                <!-- <li><a class="dropdown-item" href="https://www.blog.mangoholidays.in/" target="_new">Blogs</a></li> -->
-                                <!-- <li><a class="dropdown-item" href="<?php echo base_url()?>media">Advertorials</a></li> -->
+                                <li><a class="dropdown-item" href="https://www.blog.mangoholidays.in/" target="_new">Blogs</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url()?>media">Advertorials</a></li>
                                 <!-- <li><a class="dropdown-item" href="#">Advertorials</a></li> -->
                                 <li><a class="dropdown-item" href="<?php echo base_url()?>destination-videos">Destination Videos</a></li>
                             </ul>

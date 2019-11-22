@@ -10,33 +10,75 @@ class Search extends CI_Controller {
 
 	public function search_result()
 	{		
-		$tour_name = $this->input->post('tour_name');	
-		$travel_date = $this->input->post('travel_date');
-		$travel_budget = $this->input->post('travel_budget');
-		$data['api_result']=$this->call_api($tour_name,$travel_date,$travel_budget);
-		$data['tour_name']=$tour_name;
-		$head_data['travel_type'] = 'pages';
+		//$travel_type = "GIT";	
+		//$sector_name= "Dubai";	
+		//$product_id = 11;
+		$product_id = $this->input->post('product_id');	
+		$sector_name = $this->input->post('sector_name');	
+		$travel_type = $this->input->post('travel_type');
+		$product_image = $this->input->post('product_image');
+		$data['api_result']=$this->call_api($product_id,$travel_type);		
+		$data['sector_name']=$sector_name;
+		$data['travel_type']=$travel_type;
+		$data['product_image']=$product_image;		
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['sector']=$data['sector_name'];
+		$filter_data['travel_type']=$data['travel_type'];
+		$filter_data['slider_image'] = $data['product_image'];
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = $data['travel_type'];
 		$head_data['title'] = "Search Result | Mango Holidays";
-		$head_data['page_description'] = "";
-		$head_data['page_keyword'] = "";
 		$this->load->view('common/header',$head_data);
-		$this->load->view('search_result/search_view',$data);
+		if($travel_type == "GIT"){
+			$this->load->view('search_result/search_view',$filter_data);
+		}
+		else if($travel_type == "FIT"){
+			$this->load->view('search_result/search_view_fit',$filter_data);
+		}	
 		$this->load->view('common/footer');
 	}
 
-	public function call_api($tour_name,$travel_date,$travel_budget){
+	public function mpdf(){
+		//load mPDF library
+		@$this->load->library('m_pdf');
+		//load mPDF library
+		// $this->data['description']=$this->official_copies;
+		 //now pass the data //
+		// $html=$this->load->view('pdf_output',$this->data, true); //load the pdf_output.php by passing our data and get all data in $html varriable.
+ 	 
+		//this the the PDF filename that user will get to download
+		$pdfFilePath ="download/MangoHolidays-".date('d-m-Y')."-".time().".pdf";
 
-		$tour_name= trim(str_replace(' ', '%20', $tour_name));
-		$travel_budget= trim($travel_budget);
-		if($tour_name ==" "){$tour_name =" ";} else{$tour_name=$tour_name;}
-		if($travel_date ==" "){$travel_date = " ";} else{$travel_date=$travel_date;}
-		if($travel_budget ==" "){$travel_budget = " ";} else{$travel_budget=$travel_budget;}
-		$api_url = "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/
+		//actually, you can pass mPDF parameter on this load() function
+		@$pdf = $this->m_pdf->load();
 
-		GetProductListBySectorForWebsite?SectorName=".$tour_name."&ProductCode=&TourDateFrom=".$travel_date."&TourDateTo=&TourPriceFrom=".$travel_budget."&TourPriceTo=";
+		$header = "<div style='display:block; width :100%; padding-top:22px; margin-top:20px;'><div style='border:1px solid #ccc; border-bottom:0;'><div align='right'><h2 style='display:inline-block; vertical-align:middle; text-align:left; padding-left:30px;'><b style='margin-top:50px'><br/>".$_POST['sector']."</b><img style='display:inline-block; float:right; width:150px;' src='".base_url()."assets/images/Mango-Holidays-logo.png'></h2></div></div></div>";
+
+		@$pdf->SetHTMLHeader($header); //Add header
+		@$pdf->SetHTMLFooter('<div style="display:block; width :100%; padding-bottom:20px; margin-bottom:20px;"><div style="border:1px solid #ccc; border-top:0;"><hr style="color:#ccc; padding-top:0px; margin-top:0;"/><p align="center" style="padding-bottom:3%; color:#969494;">Experience of a Lifetime!</p></div></div>');
+		 $pdf->AddPage('P', // L - landscape, P - portrait 
+        '', '', '', '',
+        5, // margin_left
+        5, // margin right
+       35, // margin top
+       25, // margin bottom
+        0, // margin header
+        0); // margin footer
+		
+		//generate the PDF!
+
+		@$pdf->WriteHTML($_POST['data'],2);
+		//offer it to user via browser download! (The PDF won't be saved on your server HDD)
+		@$pdf->Output($pdfFilePath, "F");
+		
+		echo  $pdfFilePath;
+	}
+
+	public function call_api($product_id,$travel_type){		
+		$api_url = "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/getProductForWebsite?ProductId=".$product_id."&TravelType=".$travel_type;		
+		// echo $api_url;
 		$ch = curl_init($api_url);
 		$username = "mhwebsite";
-		
 		$password = "mango";
 		$headers = array(
 		    'Content-Type:application/json',
@@ -45,16 +87,18 @@ class Search extends CI_Controller {
 		);
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);     
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);  
 		curl_setopt($ch, CURLOPT_TIMEOUT, 86400);
 		curl_setopt($ch, CURLOPT_LOW_SPEED_LIMIT, 10240);
 		curl_setopt($ch, CURLOPT_LOW_SPEED_TIME, 60);
+		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60);
+		curl_setopt ($ch, CURLOPT_FOLLOWLOCATION, true);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+
 		$return = curl_exec($ch);
 		curl_close($ch);
 		$decrypt_data = json_decode($return);
-		return $decrypt_data->ProductList;
-
+		$result['complete_data'] = $decrypt_data;
+		return $result;
 	}
 }
