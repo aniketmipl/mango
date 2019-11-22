@@ -3194,10 +3194,10 @@ $this->load->view('common/header',$head_data);
 		$product_code='SC1';		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/SC1/explore-scandinavia-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/SC1/explore-scandinavia.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/SC1/explore-scandinavia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SC1/explore-scandinavia.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Scandinavia";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
@@ -3210,10 +3210,10 @@ $this->load->view('common/header',$head_data);
 		$product_code='SC2';		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/SC2/flavours-of-scandinavia-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/SC2/flavours-of-scandinavia.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/SC2/flavours-of-scandinavia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SC2/flavours-of-scandinavia.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Scandinavia";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
@@ -3226,10 +3226,10 @@ $this->load->view('common/header',$head_data);
 		$product_code='SC3';		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/SC3/Norway-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/SC3/Norway.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/SC3/Norway-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SC3/Norway.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Scandinavia";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
@@ -3242,10 +3242,10 @@ $this->load->view('common/header',$head_data);
 		$product_code='SC4';		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/SC4/lapland-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/SC4/lapland.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/SC4/lapland-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SC4/lapland.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Scandinavia";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
@@ -3253,6 +3253,71 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
+	public function all_of_scotland(){
+		$product_id ='173';
+		$product_code='EU2';		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/EU2/all-of-scotland-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/EU2/all-of-scotland.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Europe";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function spain_portugal(){
+		$product_id ='174';
+		$product_code='EU3';		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/EU3/SPAIN-PORTUGAL-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/EU3/SPAIN-PORTUGAL.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Europe";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function spain(){
+		$product_id ='175';
+		$product_code='EU4';		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/EU4/spain-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/EU4/spain.jpg;
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Europe";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function prague_vienna_budapest(){
+		$product_id ='176';
+		$product_code='EU5';		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/EU5/prague-vienna-budapest-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/EU5/prague-vienna-budapest.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Europe";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	
 
 	
 	public function mpdf(){
