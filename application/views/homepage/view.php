@@ -208,14 +208,9 @@
                         <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
                            
                         </div>
-
                     </div>
                     </a>
                     </div>
-
-                    </div>
-                    </a>
-                    </div>\
                     <!--=========== /.item ===========-->
 
                 </div>
@@ -241,17 +236,14 @@
                     <div class="col-md-12">
                         <div class="booking-from">
                            
-                            <div class="tab-content tour-body">
+                            <div class="tab-content">
                                
-                                   <!--  <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
+                                    <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
-
-                                            <label class="label">Find Holidays Destination  </label>
-
-
+                                            <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
                                             <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
-                                        <div class="form-group col-md-3 col-sm-6">
+                                        <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
                                                 <input type="text" name="travel_date" class="form-control" placeholder="Select Your Approx Date">
                                                 <div class="input-group-addon">
@@ -262,11 +254,12 @@
                                         <div class="form-group col-md-2 col-sm-6">
                                            <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
                                         </div>
+                                        -->
                                        
                                         <div class="form-group col-md-2 col-sm-4">
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
                                         </div>
-                                    </form>-->
+                                    </form>
                             </div>
                         </div>
                     </div>
@@ -1093,3 +1086,4 @@ $(document).ready(function(){
     }); 
 
 </script>
+
