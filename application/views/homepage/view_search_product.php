@@ -1009,7 +1009,6 @@ $(document).ready(function(){
     }); 
 
 </script>
-
 <script>
     $(document).ready(function(){
         var url= "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?";
@@ -1029,9 +1028,9 @@ $(document).ready(function(){
                 //var result = JSON.parse(JSON.stringify(res));
                 var abc = res.ProductList;
                 var count = abc.length;
-                var detail_content ='<form class="form-inline"><div class="form-group col-md-10 col-sm-8"><input type="text" id="default" list="tours" class="form-control" name="tour_name1" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York..."><datalist id="tours" name="tour_name1">';
+                var detail_content ='<form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post"><div class="form-group col-md-10 col-sm-8"><input type="text" id="default" list="tours" class="form-control" name="tour_name1" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York..."><datalist id="tours" name="tour_name1">';
                 for(var i=0; i<count; i++){                   
-                    detail_content += '<option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'">'+res.ProductList[i].ProductTitle+'</option>';
+                    detail_content += '<option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'" id="tour_list">'+res.ProductList[i].ProductTitle+'</option>';
                 }
                 detail_content += '</datalist></div><div class="form-group col-md-2 col-sm-4"><button type="text" class="btn btn-theme" id="submit"><i class="fa fa-search" aria-hidden="true"></i> Search</button></div></form>';
                  // alert(detail_content);
@@ -1040,23 +1039,15 @@ $(document).ready(function(){
             } 
         });
 
-        $(function() {
-
-            $(option).change(function() {
-                // var val = $('#tours').val();
-                // var xyz = $('#tours option').filter(function() {
-                //     return this.value == val;
-                // }).data('id');
-                // var msg = 'id=' + xyz ;
-                // alert(msg);
-                var id = $(this).find(':datalist').attr('data-id');
-                // var tour = $(this).find(':datalist').attr('data-id');
-                var sector = $(this).find(':datalist').attr('data-sector');
-                var travel = $(this).find(':datalist').attr('data-travel');
-                var image = $(this).find(':datalist').attr('data-image');
-                alert(id);             
-            });
-
+        $("#tours").change(function() {
+            var tour = $(this).val();
+            alert(tour);
+            var id = $(this).find(':datalist').attr('data-id');
+            // var tour = $(this).find(':datalist').attr('data-id');
+            var sector = $(this).find(':datalist').attr('data-sector');
+            var travel = $(this).find(':datalist').attr('data-travel');
+            var image = $(this).find(':datalist').attr('data-image');
+            alert(id);             
         });
     });
 </script>

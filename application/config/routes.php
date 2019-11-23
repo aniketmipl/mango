@@ -294,6 +294,10 @@ $route['tours/explore-scandinavia'] = 'tours/explore_scandinavia';
 $route['tours/flavours-of-scandinavia'] = 'tours/flavours_of_scandinavia';
 $route['tours/norway'] = 'tours/norway';
 $route['tours/lapland'] = 'tours/lapland';
+$route['tours/all-of-scotland'] = 'tours/all_of_scotland';
+$route['tours/spain-portugal'] = 'tours/spain_portugal';
+$route['tours/spain'] = 'tours/spain';
+$route['tours/prague-vienna-budapest'] = 'tours/prague_vienna_budapest';
 
 //pages
 $route['about-us'] = 'pages/about_us';
