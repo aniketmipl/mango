@@ -149,7 +149,7 @@ if(isset($complete_data->ProductItineraryByDay)){
 <!-- Start BLog Section -->
 <section class="blog-single-pages portfolio tour-content">
         <div class="page-header-container">
-            <img src="<?php echo base_url().$slider_image; ?>" class="desktop-image" alt="slider_image">
+            <img src="<?php echo base_url().$slider_image_banner; ?>" class="desktop-image" alt="slider_image">
             <img src="<?php echo base_url().$slider_image; ?>" class="mobile-image" alt="slider_image">
           <div class="post-blog-item">
             <div class="date-mate">

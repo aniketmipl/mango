@@ -1089,8 +1089,7 @@ $(document).ready(function(){
 <!-- <script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
-    }); 
-
+}); 
 </script> -->
 
 <script>
