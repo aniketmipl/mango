@@ -298,6 +298,7 @@ $route['tours/all-of-scotland'] = 'tours/all_of_scotland';
 $route['tours/spain-portugal'] = 'tours/spain_portugal';
 $route['tours/spain'] = 'tours/spain';
 $route['tours/prague-vienna-budapest'] = 'tours/prague_vienna_budapest';
+$route['tours/top-of-switzerland'] = 'tours/top_of_switzerland';
 
 //pages
 $route['about-us'] = 'pages/about_us';
