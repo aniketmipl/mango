@@ -3324,10 +3324,27 @@ $this->load->view('common/header',$head_data);
 		$product_code='TOS';		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/TOS/TOPSOFPARIS-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/TOS/TOPSOFPARIS.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/TOS/TOPSOFPARIS-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/TOS/TOPSOFPARIS.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Europe";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function swiss_paris_delight(){
+		$product_id ='178';
+		$product_code='SPD';		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'fit/SPD/swiss-paris-delight-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/SPD/swiss-paris-delight.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Europe";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
