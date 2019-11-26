@@ -230,7 +230,7 @@
     <!-- End Slider Section -->
 
     <!-- Strat Booking From -->
-    <section id="search" class="booking-from-area">
+    <section class="booking-from-area">
             <div class="container p-0">
                 <div class="row">
                     <div class="col-md-12">
@@ -241,72 +241,7 @@
                                     <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
-                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."  onkeypress="searchFunction()" autocomplete="off">
-                                            <style>
-.booking-from input{
-    position:relative;
-}
-#search-list{
-    display:none;
-    position:relative;
-    top: 0px;
-    background-color: #fff;
-    padding: 2%;
-    height: 200px;
-    overflow: auto;
-    width: 100%;
-    z-index: 1;
-    border: 1px solid #ccc;
-}
-.booking-from .tab-content{
-    overflow:visible;
-    padding: 19px 10px 62px;
-}
-@media only screen and (max-width: 767px){
-    .booking-from-area .container{
-        overflow-x: visible !important;
-    }
-
-}
-</style>
-
-<div class="search-list" id="search-list">
-<h4>Tour</h4>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<h4>Tour</h4>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-</div>
-
-<script>
-function searchFunction() {
-    var x = document.getElementById("search-list");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } 
-  //var elmnt = document.getElementById("search");
-  //elmnt.scrollIntoView();
-  if (screen.width >= 600) {
-  window.scrollTo(0, 400);
-  }
-}
-document.onclick = noserach;
-function noserach(e){
-    var x = document.getElementById("search-list");
-    x.style.display = "none";
-}
-
-</script>
-
+                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
                                         <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
@@ -325,7 +260,6 @@ function noserach(e){
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
                                         </div>
                                     </form>
-
                             </div>
                         </div>
                     </div>
@@ -1152,3 +1086,4 @@ $(document).ready(function(){
     }); 
 
 </script>-->
+
