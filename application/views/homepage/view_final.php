@@ -1105,8 +1105,17 @@ $(document).ready(function(){
                 var product = res.ProductList;
                 var count = product.length;
                 var detail_content ='<form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post"><div class="form-group col-md-10 col-sm-8 search_form"><input type="text" id="default" list="tours" class="form-control" name="tour_name1" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York..."><input type="hidden" name="sector_name" id="sector_name"/><input type="hidden" name="travel_type" id="travel_type"/><input type="hidden" name="product_id" id="product_id"/><input type="hidden" name="product_image" id="product_image"/><datalist id="tours" name="tour_name1">';
-                for(var i=0; i<count; i++){                   
-                    detail_content += '<option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'">'+res.ProductList[i].ProductTitle+'</option>';
+                detail_content += '<option value="GROUP TOURS" disabled="disabled"></option>';
+                for(var i=0; i<count; i++){ 
+                    if(res.ProductList[i].TravelType == "GIT"){
+                        detail_content += '<option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option>';
+                    }
+                }
+                detail_content += '<option value="CUSTOMIZED TOURS" style="font-size:30px;"></option>';
+                for(var i=0; i<count; i++){ 
+                    if(res.ProductList[i].TravelType == "FIT"){
+                        detail_content += '<option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option>';
+                    }
                 }
                 detail_content += '</datalist></div><div class="form-group col-md-2 col-sm-4"><button type="text" class="btn btn-theme" id="submit" disabled="disabled"><i class="fa fa-search" aria-hidden="true"></i> Search</button></div></form>';
                 $(".tour-body").html("");
