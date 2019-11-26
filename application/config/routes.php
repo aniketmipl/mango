@@ -303,6 +303,7 @@ $route['tours/swiss-paris-delight'] = 'tours/swiss_paris_delight';
 $route['tours/wonders-of-london-and-paris'] = 'tours/wonders_of_london_and_paris';
 $route['tours/italy'] = 'tours/italy';
 $route['tours/amsterdam-brussels-paris'] = 'tours/amsterdam_brussels_paris';
+$route['tours/game-of-thrones'] = 'tours/game_of_thrones';
 
 //pages
 $route['about-us'] = 'pages/about_us';
