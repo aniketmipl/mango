@@ -256,6 +256,7 @@
                                 <li><a href="<?php echo base_url()?>group-tour-packages/south-east-asia">South East Asia</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/eastern_europe">Eastern Europe</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/scandinavia">Scandinavia</a></li>
+                                <li><a href="<?php echo base_url()?>group-tour-packages/sri-lanka">Sri Lanka</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/india">India</a></li>
                             </ul>
                         </li>    

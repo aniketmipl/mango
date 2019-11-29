@@ -67,6 +67,7 @@ $route['group-tour-packages/south-east-asia'] = 'GroupTours/group_asia';
 $route['group-tour-packages/eastern_europe'] = 'GroupTours/group_eastern_europe';
 $route['group-tour-packages/scandinavia'] = 'GroupTours/group_scandinavia';
 $route['group-tour-packages/india'] = 'GroupTours/group_india';
+$route['group-tour-packages/sri-lanka'] = 'GroupTours/group_srilanka';
 
 
                            //customized tours
@@ -113,6 +114,7 @@ $route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hongkong';
 $route['customized-holidays/bhutan'] ='CustomizedTours/customized_bhutan';
 $route['customized-holidays/seychelles'] ='CustomizedTours/customized_seychelles';
 $route['customized-holidays/scandinavia'] ='CustomizedTours/customized_scandinavian';
+
 
 
 //Menu Links End

@@ -1,5 +1,4 @@
-
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.css">
 <!-- Strat Slider Section -->
     <section class="main-slider-area">
         <div class="main-container">
@@ -230,85 +229,19 @@
     <!-- End Slider Section -->
 
     <!-- Strat Booking From -->
-    <section id="search" class="booking-from-area">
+    <section class="booking-from-area">
             <div class="container p-0">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="booking-from">
                            
-                            <div class="tab-content">
+                            <div class="tab-content tour-body">
                                
-                                    <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
+                                    <!-- <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
-                                            <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
-                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."  onkeypress="searchFunction()" autocomplete="off">
-                                            <style>
-.booking-from input{
-    position:relative;
-}
-#search-list{
-    display:none;
-    position:relative;
-    top: 0px;
-    background-color: #fff;
-    padding: 2%;
-    height: 200px;
-    overflow: auto;
-    width: 100%;
-    z-index: 1;
-    border: 1px solid #ccc;
-}
-.booking-from .tab-content{
-    overflow:visible;
-    padding: 19px 10px 62px;
-}
-@media only screen and (max-width: 767px){
-    .booking-from-area .container{
-        overflow-x: visible !important;
-    }
-
-}
-</style>
-
-<div class="search-list" id="search-list">
-<h4>Tour</h4>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<h4>Tour</h4>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-<p><a href="#">XYZ</a></p>
-</div>
-
-<script>
-function searchFunction() {
-    var x = document.getElementById("search-list");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } 
-  //var elmnt = document.getElementById("search");
-  //elmnt.scrollIntoView();
-  if (screen.width >= 600) {
-  window.scrollTo(0, 400);
-  }
-}
-document.onclick = noserach;
-function noserach(e){
-    var x = document.getElementById("search-list");
-    x.style.display = "none";
-}
-
-</script>
-
+                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
-                                        <!-- <div class="form-group col-md-3 col-sm-6">
+                                        <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
                                                 <input type="text" name="travel_date" class="form-control" placeholder="Select Your Approx Date">
                                                 <div class="input-group-addon">
@@ -319,13 +252,29 @@ function noserach(e){
                                         <div class="form-group col-md-2 col-sm-6">
                                            <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
                                         </div>
-                                        -->
+                                       
                                        
                                         <div class="form-group col-md-2 col-sm-4">
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
                                         </div>
+                                    </form> -->
+                                    <form>
+                                        <div class="typeahead__container">
+                                            <div class="typeahead__field">
+                                                <div class="typeahead__query">
+                                                    <input class="js-typeahead"
+                                                           name="q"
+                                                           autofocus
+                                                           autocomplete="off">
+                                                </div>
+                                                <div class="typeahead__button">
+                                                    <button type="submit">
+                                                        <span class="typeahead__search-icon"></span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </form>
-
                             </div>
                         </div>
                     </div>
@@ -1144,11 +1093,131 @@ function noserach(e){
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.js"></script>
 
 <!--to enable popup uncomment below code-->
-<!--<script>
+<script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
-</script>-->
+</script>
+
+<script>
+    $(document).ready(function(){         
+        var url= "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?";
+        $.ajax({
+            url:url,
+            type:'GET',
+            headers:
+            {
+                'UserName':'mhwebsite',
+                'Password':'mango'
+            },
+            username:'mhwebsite',
+            password:'mango',
+            dataType: "json",
+            success:function(res){
+                var product = res.ProductList;
+            
+                    alert(123);
+                     typeof $.typeahead === 'function' && $.typeahead({
+                        input: ".js-typeahead",
+                        minLength: 1,
+                        order: "asc",
+                        group: true,
+                        maxItemPerGroup: 3,
+                        groupOrder: function (node, query, result, resultCount, resultCountPerGroup) {
+
+                            var scope = this,
+                                sortGroup = [];
+
+                            for (var i in result) {
+                                sortGroup.push({
+                                    group: i,
+                                    length: result[i].length
+                                });
+                            }
+
+                            sortGroup.sort(
+                                scope.helper.sort(
+                                    ["length"],
+                                    false, // false = desc, the most results on top
+                                    function (a) {
+                                        return a.toString().toUpperCase()
+                                    }
+                                )
+                            );
+
+                            return $.map(sortGroup, function (val, i) {
+                                return val.group
+                            });
+                        },
+                        hint: true,
+                        dropdownFilter: "All",
+                        // href: "https://en.wikipedia.org/?title={{display}}",
+                        template: "{{display}}, <small><em>{{group}}</em></small>",
+                        emptyTemplate: "no result for {{query}}",
+                        source: {
+
+                            GroupTours: {
+                                data: 'product'
+                                // for(var i=0; i<count; i++){ 
+                                //     if(res.ProductList[i].TravelType == "GIT"){
+                                //         detail_content += '<b>"'+res.ProductList[i].ProductTitle+'"</b>';
+                                //     }
+                                // }
+                            },
+                            CustomizedTours: {
+                                data: 'productdetail'
+                            }
+                        },
+                        callback: {
+                            onClickAfter: function (node, a, item, event) {
+                                event.preventDefault();
+
+                                var r = confirm("You will be redirected to:\n" + item.href + "\n\nContinue?");
+                                if (r == true) {
+                                    window.open(item.href);
+                                }
+
+                                $('.js-result-container').text('');
+
+                            },
+                            onResult: function (node, query, obj, objCount) {
+
+                                console.log(objCount)
+
+                                var text = "";
+                                if (query !== "") {
+                                    text = objCount + ' elements matching "' + query + '"';
+                                }
+                                $('.js-result-container').text(text);
+
+                            }
+                        },
+                        debug: true
+                    });
+                } 
+        });          
+    });
+    $(document).on('change',"#default", function() {
+        var userText = $(this).val();
+        $('#submit').removeAttr("disabled");  
+        $('#submit').attr("disabled", "disabled");  
+        $("#tours").find("option").each(function() {
+            if ($(this).val() == userText) {
+                var tour_id = $(this).data('id');
+                var sector = $(this).data('sector');
+                var travel = $(this).data('travel');
+                var image = $(this).data('image');
+                $("#product_id").val(tour_id);
+                $("#sector_name").val(sector);
+                $("#travel_type").val(travel);
+                $("#product_image").val(image);  
+                $('#submit').removeAttr("disabled");              
+            }
+        });                     
+    });   
+</script>
+<!-- <option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option><option style="font-weight: 400;" value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option> -->
