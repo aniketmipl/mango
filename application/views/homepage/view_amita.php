@@ -1,4 +1,88 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.css">
+
+<style>
+.booking-from input{
+    position:relative;
+}
+#search-list{
+    display:none;
+    position:absolute;
+    top: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+    /* padding: 2%; */
+    height: 250px;
+    overflow: auto;
+    width: 100%;
+    z-index: 2;
+    border: 1px solid #ccc;
+}
+.booking-from .tab-content{
+    overflow:visible;
+    padding: 19px 10px 62px;
+}
+    
+.booking-from .tab-content form{
+    width: 90%;
+    margin: 0 auto;
+}
+.booking-from .btn-theme {
+    padding: 10px 0px;
+    width:100%;
+    background-color: #f60;
+}
+.search-widget .wiget-title h4{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #f60;
+    margin-bottom:5px;
+    letter-spacing: 0.2px;
+    padding: 10px 14px 1px;
+}
+.search-widget ul{
+    padding-bottom:5px;
+   
+}
+.search-widget li{
+    padding: 1.2px 20px;
+}
+.search-widget li:hover{
+    background: #ededed;
+}
+.search-widget li a{
+    font-size: 1.15em;
+    line-height: 1.6666;
+    display:block;
+    color: #585858;
+    letter-spacing: 0.2px;
+   
+}
+.search-widget li a:hover{
+    color:#000;
+}
+.search-widget li a i{
+    padding-right:10px;
+}
+.search-widget li:hover>a>i{
+    color:#f60;
+}
+.search-widget hr{
+    margin-top:2px;
+    margin-bottom:2px;
+    border-top: 1px solid #dcdbdb;
+}
+
+@media only screen and (max-width: 767px){
+    .booking-from-area .container{
+        overflow-x: visible !important;
+    }
+    .booking-from .tab-content form{
+    width: 100%;
+    
+}
+
+
+}
+</style>
+
 <!-- Strat Slider Section -->
     <section class="main-slider-area">
         <div class="main-container">
@@ -229,19 +313,49 @@
     <!-- End Slider Section -->
 
     <!-- Strat Booking From -->
-    <section class="booking-from-area">
+    <section id="search" class="booking-from-area">
             <div class="container p-0">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="booking-from">
                            
-                            <div class="tab-content tour-body">
+                            <div class="tab-content">
                                
-                                    <!-- <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
-                                        <div class="form-group col-md-10 col-sm-8">
-                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
+                                    <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post" name="Search_Enquiry" onSubmit="return onSearchSubmit()">
+                                        <div class="form-group col-md-11 col-sm-11 col-xs-11 no-padding">
+                                            <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
+                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."  onkeypress="searchFunction()" autocomplete="off">
+                                            
+
+<div class="search-list" id="search-list">
+<div class="widget search-widget">
+    <div class="wiget-title">
+        <h4><i class="fa fa-anchor" aria-hidden="true"></i> &nbsp;Group Tour</h4>
+    </div>
+    <ul class="widget-list list-unstyled">
+        <li><a href="<?php echo base_url()?>group-tour-packages/eastern_europe" title=""><i class="fa fa-map-marker"></i>Europe</a></li>
+        <li><a href="<?php echo base_url()?>group-tour-packages/eastern_europe" title=""><i class="fa fa-map-marker"></i>America</a></li>
+        <li><a href="<?php echo base_url()?>group-tour-packages/eastern_europe" title=""><i class="fa fa-map-marker"></i>Africa</a></li>
+        <li><a href="<?php echo base_url()?>group-tour-packages/eastern_europe" title=""><i class="fa fa-map-marker"></i>Dubai</a></li>
+    </ul>
+  
+    <div class="wiget-title">
+        <h4><i class="fa fa-anchor" aria-hidden="true"></i> &nbsp;Customized Tour</h4>
+    </div>
+    <ul class="widget-list list-unstyled">
+        <li><a href="<?php echo base_url()?>customized-holidays/europe" title=""><i class="fa fa-map-marker"></i>Europe</a></li>
+        <li><a href="<?php echo base_url()?>customized-holidays/europe" title=""><i class="fa fa-map-marker"></i>America</a></li>
+        <li><a href="<?php echo base_url()?>customized-holidays/europe" title=""><i class="fa fa-map-marker"></i>Africa</a></li>
+        <li><a href="<?php echo base_url()?>customized-holidays/europe" title=""><i class="fa fa-map-marker"></i>Dubai</a></li>
+    </ul>
+    <br/>
+</div>
+
+</div>
+
+
                                         </div>
-                                        <div class="form-group col-md-3 col-sm-6">
+                                        <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
                                                 <input type="text" name="travel_date" class="form-control" placeholder="Select Your Approx Date">
                                                 <div class="input-group-addon">
@@ -252,29 +366,13 @@
                                         <div class="form-group col-md-2 col-sm-6">
                                            <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
                                         </div>
+                                        -->
                                        
-                                       
-                                        <div class="form-group col-md-2 col-sm-4">
-                                            <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
-                                        </div>
-                                    </form> -->
-                                    <form>
-                                        <div class="typeahead__container">
-                                            <div class="typeahead__field">
-                                                <div class="typeahead__query">
-                                                    <input class="js-typeahead"
-                                                           name="q"
-                                                           autofocus
-                                                           autocomplete="off">
-                                                </div>
-                                                <div class="typeahead__button">
-                                                    <button type="submit">
-                                                        <span class="typeahead__search-icon"></span>
-                                                    </button>
-                                                </div>
-                                            </div>
+                                        <div class="form-group col-md-1 col-sm-1 col-xs-1 no-padding">
+                                            <button type="submit" class="btn btn-theme"><i class="fa fa-search" style="font-size:20px; text-align:center;" aria-hidden="true"></i></button>
                                         </div>
                                     </form>
+
                             </div>
                         </div>
                     </div>
@@ -1093,53 +1191,44 @@
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.js"></script>
 
 <!--to enable popup uncomment below code-->
-<script>
+<!--<script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
+</script>-->
+
+<SCRIPT type=text/javascript>
+
+function onSearchSubmit(){
+    if (document.Search_Enquiry.tour_name.value  == "")
+	{
+		alert("Please Enter Your Holidays Destination.");
+		document.Search_Enquiry.tour_name.focus()
+		return false;
+	}
+    return true;
+}
 </script>
 
 <script>
-    $(document).ready(function(){         
-        var url= "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?";
-        $.ajax({
-            url:url,
-            type:'GET',
-            headers:
-            {
-                'UserName':'mhwebsite',
-                'Password':'mango'
-            },
-            username:'mhwebsite',
-            password:'mango',
-            dataType: "json",
-            success:function(res){
-                var product = res.ProductList;           
-                    
-            } 
-        });          
-    });
-    $(document).on('change',"#default", function() {
-        var userText = $(this).val();
-        $('#submit').removeAttr("disabled");  
-        $('#submit').attr("disabled", "disabled");  
-        $("#tours").find("option").each(function() {
-            if ($(this).val() == userText) {
-                var tour_id = $(this).data('id');
-                var sector = $(this).data('sector');
-                var travel = $(this).data('travel');
-                var image = $(this).data('image');
-                $("#product_id").val(tour_id);
-                $("#sector_name").val(sector);
-                $("#travel_type").val(travel);
-                $("#product_image").val(image);  
-                $('#submit').removeAttr("disabled");              
-            }
-        });                     
-    });   
+function searchFunction() {
+    var x = document.getElementById("search-list");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } 
+  //var elmnt = document.getElementById("search");
+  //elmnt.scrollIntoView();
+  if (screen.width >= 600) {
+  window.scrollTo(0, 400);
+  }
+}
+document.onclick = noserach;
+function noserach(e){
+    var x = document.getElementById("search-list");
+    x.style.display = "none";
+}
+
 </script>
-<!-- <option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option><option style="font-weight: 400;" value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option> -->
