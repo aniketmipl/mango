@@ -3881,7 +3881,7 @@
         }
     };
     _debug.log({
-        message: "WARNING - You are using the DEBUG version. Use /dist/jquery.typeahead.min.js in production."
+        message: "WARNING - You are using the DEBUG version. Use /asset/js/jquery.typeahead.min.js in production."
     });
 
     _debug.print();
