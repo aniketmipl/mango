@@ -22,14 +22,14 @@
                         </div>
                     </div>
                 </form>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.css">
+        
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.js"></script>
-        <!--script src="../dist/jquery.typeahead.min.js"></script-->
-        <!-- <script src="jquery.typeahead.js"></script> -->
+        <script src="<?php echo base_url();?>assets/js/jquery.typeahead.js"></script>
             <script>
                 $(document).ready(function(){         
                     var url= "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?";
+                    var git = [];
+                    var fit = [];
                     $.ajax({
                         url:url,
                         type:'GET',
@@ -44,98 +44,92 @@
                         success:function(res){
                             var product = res.ProductList;
                             var count = product.length;
-                            var arr = [];
-                            for(i = 1; i <= count; i++){
-                                var obj = {};
-                                //obj.name = $("#author" + i).val();
-                                obj.books = [];
-                                $(res.ProductList.SectorName[i]).each(function(){
-                                    var data = $(this).val();
-                                    obj.books.push(data);
-                                });
-
-                                //sql = ("INSERT INTO table (author, book) VALUES ('obj.name', 'obj.books')");
-                                //mysqli_query(sql);
-                                arr.push(obj);
+                            var i;
+                            for(var i=0; i<count; i++){
+                                if(product[i].TravelType == "GIT"){
+                                    git.push('"'+ product[i].ProductTitle +'"');
+                                }
+                                if(product[i].TravelType == "FIT"){
+                                    fit.push('"'+ product[i].ProductTitle +'"');
+                                }
                             }
+                            
                             var data = {
-                                // countries: [product.SectorName],
-                                // capitals: [product.ProductList]
-                                countries: ['Europe','Asia'],
-                                capitals: ['East America','Bali']
+                                GroupTour: [git],
+                                CustomizedTour: [fit]
                             }
 
-                            // typeof $.typeahead === 'function' && $.typeahead({
-                            //     input: ".js-typeahead",
-                            //     minLength: 1,
-                            //     order: "asc",
-                            //     group: true,
-                            //     maxItemPerGroup: 3,
-                            //     groupOrder: function (node, query, result, resultCount, resultCountPerGroup) {
+                            typeof $.typeahead === 'function' && $.typeahead({
 
-                            //         var scope = this,
-                            //             sortGroup = [];
+                                input: ".js-typeahead",
+                                minLength: 1,
+                                order: "asc",
+                                group: true,
+                                maxItemPerGroup: 3,
+                                groupOrder: function (node, query, result, resultCount, resultCountPerGroup) {                          
+                                    var scope = this,
+                                        sortGroup = [];
 
-                            //         for (var i in result) {
-                            //             sortGroup.push({
-                            //                 group: i,
-                            //                 length: result[i].length
-                            //             });
-                            //         }
+                                    for (var i in result) {
+                                        sortGroup.push({
+                                            group: i,
+                                            length: result[i].length
+                                        });
+                                    }
 
-                            //         sortGroup.sort(
-                            //             scope.helper.sort(
-                            //                 ["length"],
-                            //                 false, // false = desc, the most results on top
-                            //                 function (a) {
-                            //                     return a.toString().toUpperCase()
-                            //                 }
-                            //             )
-                            //         );
+                                    sortGroup.sort(
+                                        scope.helper.sort(
+                                            ["length"],
+                                            false, // false = desc, the most results on top
+                                            function (a) {
+                                                return a.toString().toUpperCase()
+                                            }
+                                        )
+                                    );
 
-                            //         return $.map(sortGroup, function (val, i) {
-                            //             return val.group
-                            //         });
-                            //     },
-                            //     hint: true,
-                            //     dropdownFilter: "All",
-                            //     href: "https://en.wikipedia.org/?title={{display}}",
-                            //     template: "{{display}}, <small><em>{{group}}</em></small>",
-                            //     emptyTemplate: "no result for {{query}}",
-                            //     source: {
-                            //         country: {
-                            //             data: data.countries
-                            //         },
-                            //         capital: {
-                            //             data: data.capitals
-                            //         }
-                            //     },
-                            //     callback: {
-                            //         onClickAfter: function (node, a, item, event) {
-                            //             event.preventDefault();
+                                    return $.map(sortGroup, function (val, i) {
+                                        return val.group
+                                    });
+                                },
+                                hint: true,
+                                dropdownFilter: "All",
+                                href: "https://en.wikipedia.org/?title={{display}}",
+                                template: "{{display}}, <small><em>{{group}}</em></small>",
+                                emptyTemplate: "no result for {{query}}",
+                                source: {
+                                    GroupTour: {
+                                        data: data.GroupTour
+                                    },
+                                    CustomizedTour: {
+                                        data: data.CustomizedTour
+                                    }
+                                },
+                                callback: {
+                                    onClickAfter: function (node, a, item, event) {
+                                        event.preventDefault();
 
-                            //             var r = confirm("You will be redirected to:\n" + item.href + "\n\nContinue?");
-                            //             if (r == true) {
-                            //                 window.open(item.href);
-                            //             }
+                                        var r = confirm("You will be redirected to:\n" + item.href + "\n\nContinue?");
+                                        if (r == true) {
+                                            window.open(item.href);
+                                        }
 
-                            //             $('.js-result-container').text('');
+                                        $('.js-result-container').text('');
 
-                            //         },
-                            //         onResult: function (node, query, obj, objCount) {
+                                    },
+                                    onResult: function (node, query, obj, objCount) {
 
-                            //             console.log(objCount)
+                                        console.log(objCount)
 
-                            //             var text = "";
-                            //             if (query !== "") {
-                            //                 text = objCount + ' elements matching "' + query + '"';
-                            //             }
-                            //             $('.js-result-container').text(text);
+                                        var text = "";
+                                        if (query !== "") {
+                                            text = objCount + ' elements matching "' + query + '"';
+                                        }
+                                        $('.js-result-container').text(text);
 
-                            //         }
-                            //     },
-                            //     debug: true
-                            // });
+                                    }
+                                },
+                                debug: true
+                            });
                         } 
                      });           
                 });

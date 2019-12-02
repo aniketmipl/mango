@@ -307,6 +307,8 @@ $route['tours/italy'] = 'tours/italy';
 $route['tours/amsterdam-brussels-paris'] = 'tours/amsterdam_brussels_paris';
 $route['tours/game-of-thrones'] = 'tours/game_of_thrones';
 $route['tours/ramayana-trail'] = 'tours/ramayana_trail';
+$route['tours/best-of-vietnam'] = 'tours/best_of_vietnam';
+
 
 //pages
 $route['about-us'] = 'pages/about_us';
