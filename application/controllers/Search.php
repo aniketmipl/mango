@@ -10,10 +10,10 @@ class Search extends CI_Controller {
 
 	public function search_result()
 	{		
-		$product_id = $this->input->get('product_id');	
-		$sector_name = $this->input->get('sector_name');	
-		$travel_type = $this->input->get('travel_type');
-		$product_image = $this->input->get('product_image');
+		$product_id = $this->input->post('product_id');	
+		$sector_name = $this->input->post('sector_name');	
+		$travel_type = $this->input->post('travel_type');
+		$product_image = $this->input->post('product_image');
 		$append = "-banner";
 		function append_filename($product_image, $append) {
 		    preg_match ("#^(.*)\.(.+?)$#", $product_image , $matches);

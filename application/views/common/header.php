@@ -149,8 +149,8 @@
      <!-- custome stylesheet  -->
          <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom-style.css">
          <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/custom-style-tour2.css">
+         <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/jquery.typeahead.css">
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127123545-1"></script>
 <script>
