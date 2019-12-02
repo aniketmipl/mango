@@ -1,25 +1,4 @@
 
-<style>
-    
-#myUL {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  
-}
-
-#myUL li a {
-  border: 1px solid #ddd;
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-  display: block
-}
-
-</style>
 <!-- Strat Slider Section -->
     <section class="main-slider-area">
         <div class="main-container">
@@ -29,7 +8,6 @@
                 <div class="carousel-inner" role="listbox">
 
                     <!--=========== Seminar slide ===========-->
-                    <!-- First slide -->
                     <!-- <div class="item active slide-seminar">
                         <div class="carousel-caption">
                             <h4 data-animation="animated fadeInDown" style=""></p>
@@ -46,8 +24,6 @@
 
                     <!--=========== 1st slide ==========--->
                     <!--<div class="item active slide-1">
-                   
-                    <div class="item active slide-1">
                         <div class="carousel-caption">
                             <div class="inner-carousel" data-animation="animated fadeInUp">
                             <h4 data-animation="animated fadeInDown" style="">If you haven't traveled to Europe, you have not traveled at all.</p>
@@ -62,12 +38,12 @@
                     </div>-->
                     <div class="item active slide-1">
                     <a href="<?php echo base_url()?>group-tour-packages/europe">
-                        <div class="carousel-caption">
+                       <div class="carousel-caption">
                             <div class="inner-carousel no-mobile-bg" data-animation="animated fadeInUp">
                             
                             </div>
-                        </div>
-                    </a>
+                        </div> 
+                        </a>
                     </div>
                     <!--=========== /.item ===========-->
 
@@ -259,30 +235,12 @@
                     <div class="col-md-12">
                         <div class="booking-from">
                            
-                            <div class="tab-content">
+                            <div class="tab-content tour-body">
                                
                                     <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
-                                            <!-- <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York..."> -->
-                                            <input type="text" id="default" list="tours" class="form-control" name="tour_name" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York...">
-                                            <datalist id="tours" name="tours">
-                                                  <option value="HTML">
-                                                  <option value="CSS">
-                                                  <option value="1CSS">
-                                                  <option value="JavaScript">
-                                                  <option value="Java">
-                                                  <option value="Ruby">
-                                                  <option value="PHP">
-                                                  <option value="Go">
-                                                  <option value="Erlang">
-                                                  <option value="Python">
-                                                  <option value="C">
-                                                  <option value="C#">
-                                                  <option value="C++">
-                                                  
-                                            </datalist>
-                                            
+                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
                                         <!-- <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
@@ -296,11 +254,11 @@
                                            <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
                                         </div>
                                         -->
+                                       
                                         <div class="form-group col-md-2 col-sm-4">
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
                                         </div>
                                     </form>
-                                  
                             </div>
                         </div>
                     </div>
@@ -562,7 +520,7 @@
                                         </small>
                                         <b style="float:right;">INR 79805/- </b> 
                                         </h4>
-
+                                       
                                         <a class="read-btn" href="<?php echo base_url();?>tours/dazzling-dubai">Read More </a>
                                     </div>
                                 </div>
@@ -863,7 +821,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                         <div class="sec-title text-center mb-5">
-                            <h2>Recent From<b> Blog</b></h2>
+                            <h2>Our<b> Blogs</b></h2>
                            
                         </div>
                     </div>
@@ -1029,7 +987,7 @@
                         </div>
                 </div>
                 <div style="display: block;text-align: center;">
-                    <a class="btn btn-primary" href="<?php echo base_url();?>media">View More</a> 
+                    <a class="btn btn-primary" href="<?php echo base_url();?>blogs">View More</a> 
                 </div>
             </div>
                 
@@ -1096,7 +1054,7 @@
         </div>
     </section>-->
 
- 
+
    <div id="popupModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->
@@ -1127,3 +1085,59 @@ $(document).ready(function(){
     }); 
 
 </script>
+
+<script>
+    $(document).ready(function(){         
+        var url= "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?";
+        $.ajax({
+            url:url,
+            type:'GET',
+            headers:
+            {
+                'UserName':'mhwebsite',
+                'Password':'mango'
+            },
+            username:'mhwebsite',
+            password:'mango',
+            dataType: "json",
+            success:function(res){
+                var product = res.ProductList;
+                var count = product.length;
+                var detail_content ='<form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post"><div class="form-group col-md-10 col-sm-8 search_form"><input type="text" id="default" list="tours" class="form-control" name="tour_name1" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York..."><input type="hidden" name="sector_name" id="sector_name"/><input type="hidden" name="travel_type" id="travel_type"/><input type="hidden" name="product_id" id="product_id"/><input type="hidden" name="product_image" id="product_image"/><datalist id="tours" name="tour_name1">';
+                for(var i=0; i<count; i++){ 
+                    if(res.ProductList[i].TravelType == "GIT"){
+                        detail_content += '<option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'">'+res.ProductList[i].ProductTitle+'</option>';
+                    }
+                }
+                detail_content += '<option>Customized Tours</option>';
+                for(var i=0; i<count; i++){ 
+                    if(res.ProductList[i].TravelType == "FIT"){
+                        detail_content += '<option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'">'+res.ProductList[i].ProductTitle+'</option>';
+                    }
+                }
+                detail_content += '</datalist><button type="text" class="btn btn-theme" id="submit" disabled="disabled"><i class="fa fa-search" aria-hidden="true"></i> Search</button></div></form>';
+                $(".tour-body").html("");
+                $(".tour-body").html(detail_content); 
+            } 
+        });           
+    });
+    $(document).on('change',"#default", function() {
+        var userText = $(this).val();
+        $('#submit').removeAttr("disabled");  
+        $('#submit').attr("disabled", "disabled");  
+        $("#tours").find("option").each(function() {
+            if ($(this).val() == userText) {
+                var tour_id = $(this).data('id');
+                var sector = $(this).data('sector');
+                var travel = $(this).data('travel');
+                var image = $(this).data('image');
+                $("#product_id").val(tour_id);
+                $("#sector_name").val(sector);
+                $("#travel_type").val(travel);
+                $("#product_image").val(image);  
+                $('#submit').removeAttr("disabled");              
+            }
+        });                     
+    });   
+</script>
+<!-- <option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option><option style="font-weight: 400;" value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option> -->

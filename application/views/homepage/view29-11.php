@@ -1,5 +1,4 @@
-
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.css">
 <!-- Strat Slider Section -->
     <section class="main-slider-area">
         <div class="main-container">
@@ -238,12 +237,11 @@
                            
                             <div class="tab-content tour-body">
                                
-                                    <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
+                                    <!-- <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
                                         <div class="form-group col-md-10 col-sm-8">
-                                            <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
                                             <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
                                         </div>
-                                        <!-- <div class="form-group col-md-3 col-sm-6">
+                                        <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
                                                 <input type="text" name="travel_date" class="form-control" placeholder="Select Your Approx Date">
                                                 <div class="input-group-addon">
@@ -254,10 +252,27 @@
                                         <div class="form-group col-md-2 col-sm-6">
                                            <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
                                         </div>
-                                        -->
+                                       
                                        
                                         <div class="form-group col-md-2 col-sm-4">
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" aria-hidden="true"></i> Search</button>
+                                        </div>
+                                    </form> -->
+                                    <form>
+                                        <div class="typeahead__container">
+                                            <div class="typeahead__field">
+                                                <div class="typeahead__query">
+                                                    <input class="js-typeahead"
+                                                           name="q"
+                                                           autofocus
+                                                           autocomplete="off">
+                                                </div>
+                                                <div class="typeahead__button">
+                                                    <button type="submit">
+                                                        <span class="typeahead__search-icon"></span>
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </form>
                             </div>
@@ -1078,6 +1093,7 @@
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.js"></script>
 
 <!--to enable popup uncomment below code-->
 <script>
@@ -1102,26 +1118,10 @@ $(document).ready(function(){
             password:'mango',
             dataType: "json",
             success:function(res){
-                var product = res.ProductList;
-                var count = product.length;
-                var detail_content ='<form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post"><div class="form-group col-md-10 col-sm-8 search_form"><input type="text" id="default" list="tours" class="form-control" name="tour_name1" autocomplete="off" placeholder="Holidays Destination: Rome, Paris, New York..."><input type="hidden" name="sector_name" id="sector_name"/><input type="hidden" name="travel_type" id="travel_type"/><input type="hidden" name="product_id" id="product_id"/><input type="hidden" name="product_image" id="product_image"/><datalist id="tours" name="tour_name1">';
-                detail_content += '<option value="GROUP TOURS" disabled="disabled"></option>';
-                for(var i=0; i<count; i++){ 
-                    if(res.ProductList[i].TravelType == "GIT"){
-                        detail_content += '<option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option>';
-                    }
-                }
-                detail_content += '<option value="CUSTOMIZED TOURS" style="font-size:30px;"></option>';
-                for(var i=0; i<count; i++){ 
-                    if(res.ProductList[i].TravelType == "FIT"){
-                        detail_content += '<option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option>';
-                    }
-                }
-                detail_content += '</datalist></div><div class="form-group col-md-2 col-sm-4"><button type="text" class="btn btn-theme" id="submit" disabled="disabled"><i class="fa fa-search" aria-hidden="true"></i> Search</button></div></form>';
-                $(".tour-body").html("");
-                $(".tour-body").html(detail_content); 
+                var product = res.ProductList;           
+                    
             } 
-        });           
+        });          
     });
     $(document).on('change',"#default", function() {
         var userText = $(this).val();
@@ -1142,3 +1142,4 @@ $(document).ready(function(){
         });                     
     });   
 </script>
+<!-- <option value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option><option style="font-weight: 400;" value="'+res.ProductList[i].ProductTitle+'" name="tour_name" class="tours" data-sector="'+res.ProductList[i].SectorName+'" data-travel="'+res.ProductList[i].TravelType+'" data-id="'+res.ProductList[i].ProductID+'" data-image="'+res.ProductList[i].ProductImage+'"></option> -->

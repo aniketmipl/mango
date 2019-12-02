@@ -41,7 +41,7 @@
         </div>
     </form>
 
-    <script>
+    <script><script>
     $(document).ready(function(){         
         var url= "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?";
         $.ajax({

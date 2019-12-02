@@ -18,8 +18,8 @@ class GroupTours extends CI_Controller {
 		// $data['gt_image'] = 'images/tours/africa/main.jpg';
 		
 		$head_data['sector'] = $data['sector_name'];
-$head_data['travel_type'] = 'GIT';
-$this->load->view('common/header',$head_data);
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
@@ -170,6 +170,19 @@ $this->load->view('common/header',$head_data);
 	public function group_india()
 	{
 		$sector ='India';
+		$data['api_result']=$this->call_api($sector);
+		//$head_data['title'] = "Scandinavia Group Tour from Mumbai,Pune,India|Mango Holidays";
+		$data['sector_name']=$sector;
+		//$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function group_srilanka()
+	{
+		$sector ='Sri Lanka';
 		$data['api_result']=$this->call_api($sector);
 		//$head_data['title'] = "Scandinavia Group Tour from Mumbai,Pune,India|Mango Holidays";
 		$data['sector_name']=$sector;
