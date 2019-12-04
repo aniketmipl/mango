@@ -234,6 +234,28 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/terms_and_conditions');
 		$this->load->view('common/footer');
 	}
+	public function payment_sucess()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Payment Sucessful";
+		$head_data['page_description'] = "Payment Sucessful";
+		$head_data['page_keyword'] = "";
+
+		// $this->load->view('common/header',$head_data);
+		$this->load->view('pages/payment_sucess');
+		// $this->load->view('common/footer');
+	}
+	public function payment_failure()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Payment Failure";
+		$head_data['page_description'] = "Payment Failure";
+		$head_data['page_keyword'] = "";
+
+		// $this->load->view('common/header',$head_data);
+		$this->load->view('pages/payment_failure');
+		// $this->load->view('common/footer');
+	}
 	public function mr_mrs_yadav()
 	{
 		$head_data['travel_type'] = 'pages';
