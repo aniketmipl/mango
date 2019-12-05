@@ -336,7 +336,7 @@ $route['privacy-policy'] = 'pages/privacy_policy';
 $route['terms-and-conditions'] = 'pages/terms_and_conditions';
 $route['guest-feedback/mr-mrs-yadav'] = 'pages/mr_mrs_yadav';
 $route['search-result'] = 'search/search_result';
-$route['payment-sucess'] = 'pages/payment_sucess';
+$route['payment-success'] = 'pages/payment_success';
 $route['payment-failure'] = 'pages/payment_failure';
 
 
