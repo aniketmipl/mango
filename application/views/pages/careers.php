@@ -34,15 +34,9 @@
                             <p>Our rapid growth demands highly energetic people who have a fire to learn, a passion to excel and an urge to contribute. We provide for an entrepreneurial environment, unlimited growth potential, and strong interpersonal relationships. We provide for a motivating and inspiring atmosphere so that each person’s true potential is brought out into the limelight.</p>
                             <p>If you have the passion towards travel, you have good communication skills, you want to work in an organization where people are treated with equality and dignity &amp; you believe in teamwork then we would be glad to have you on board!<br>
                             If you wish to make your career &amp; be a part of this exceptional growth story at Mango Holidays, please send in your CV to <strong><a href="mailto:careers@mangoholidays.in">careers@mangoholidays.in.</a></strong></p>
-<<<<<<< HEAD
-                            <!-- <p>We have following opening with us:</p>
- -->
-                       <!--  <div class="accordion-style-one" style="padding:0;">
-=======
                             <p>We have following opening with us:</p>
-
+ 
                        <!-- <div class="accordion-style-one" style="padding:0;">
->>>>>>> 5e2d267b53ce2211f67ab1f433664bada4c88a2b
                                         <div class="column-margin">
                                             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                                 <div class="panel panel-default">
@@ -88,13 +82,10 @@
                                                             </ul>
                                                             <br/>
                                                             <p><strong>Engagement Type:</strong><br>
-                                                            Duration : (June 2019 – May 2020)………16 productive hours assumed per work week.<br>
-<<<<<<< HEAD
-                                                            <a style="cursor:pointer;" data-toggle="modal" data-target="#enquiry-form-modal"">Apply Now</a>
+                                                            Duration : (June 2019 – May 2020)………16 productive hours assumed per work week.</p>
                                                             
-=======
-                                                            <!-- <a style="cursor:pointer;" data-toggle="modal" data-target="#enquiry-form-modal"">Apply Now</a> -->
-                                                            <!--<button style="margin-top: 2%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
+                                                            
+                                                            <button style="margin-top: 2%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -105,7 +96,7 @@
 						
 						
 						
-						<div class="accordion-style-one" style="padding:0;">
+						<!-- <div class="accordion-style-one" style="padding:0;">
                                         <div class="column-margin">
                                             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                                 <div class="panel panel-default">
@@ -151,22 +142,93 @@
                                                             </ul>
                                                             </p>
                                                             <br/>
-                                                            <!-- <a style="cursor:pointer;" data-toggle="modal" data-target="#enquiry-form-modal"">Apply Now</a> -->
+                                                            
                                                             <button style="margin-top: 2%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
->>>>>>> 5e2d267b53ce2211f67ab1f433664bada4c88a2b
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     
-<<<<<<< HEAD
-                        </div> -->
-                        <button style="margin-top: 2%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button><br/>
-=======
+                        </div>  -->
+
+                        <!-- <a style="cursor:pointer;" data-toggle="modal" data-target="#enquiry-form-modal"">Apply Now</a> -->
+                        <!-- <button style="margin-top: 2%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button><br/> -->
+					
+                    <div class="awo-faq">
+                    <div class="faq-col">
+                    <div class="panel-group" id="accordion3">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                            <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3"
+                                       href="#collapsesTwo">
+                                       
+                                        <b>SALES EXECUTIVE - NANDED OFFICE </b>
+                                        
+                                    </a>
+                            </h4>    
+                            </div>
+                            <div id="collapsesTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                
+                                    <p><b>Position : Sales Executive</b></p>
+                                    <p><b>Location : Nanded Office</b></p>
+                                    <p><b>Experience  :</b></p>
+                                    <ul>
+										<li>3 years experience in frontline sales for International & Domestic tours.</li>
+										<li>Will be on payroll of Franchisee.</li>
+										<li>Has knowledge of Nanded & surrounding areas.</li>
+									</ul>
+                                    <button style="margin-top: 2%; margin-bottom:1.5%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
+                                </div>
+                            </div>
                         </div>
->>>>>>> 5e2d267b53ce2211f67ab1f433664bada4c88a2b
-						<p>If your CV is shortlisted, you will be called for an interview with a prior appointment.<br/>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapsesThree">
+                                        <b>PRODUCTS & OPERATIONS - PUNE OFFICE</b>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapsesThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                               
+                                    <p><b>Position : Products & Operations</b></p>
+                                    <p><b>Location : Pune Office</b></p>
+                                    <p><b>Experience  :</b> Must have 4 to 5 years in product & operations with a reputed tour operator.</p>
+                                    <p><b>Requirement  :</b> Immediately.</p>
+                                    <button style="margin-top: 2%; margin-bottom:1.5%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapsesFour">
+                                        <b>SALES EXECUTIVE - PUNE OFFICE</b>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapsesFour" class="panel-collapse collapse">
+                                <div class="panel-body">
+                               
+                                <p><b>Position : Sales Executive</b></p>
+                                    <p><b>Location : Pune Office</b></p>
+                                    <p><b>Experience  :</b> Must have 4 to 5 years in Domestic Sales with a reputed tour operator.</p>
+                                    <p><b>Requirement  :</b> Immediately.</p>
+                                    <button style="margin-top: 2%; margin-bottom:1.5%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <p>If your CV is shortlisted, you will be called for an interview with a prior appointment.<br/>
 Thank you for your interest in Mango Holidays.</p>
 					
                     </div>
@@ -275,6 +337,8 @@ return true;
 }
 
 </SCRIPT>
+
+
 <?php
 $mynumber_tour= rand(673,62389);
 //echo $mynumber."<br><br>";
@@ -286,6 +350,7 @@ for($i=0; $i<$ilength; $i++)
 //print substr($mynumber, $i, 1).", ";
 }
 ?>
+
 <script type="text/javascript">
 //defining variable and storinging in script
 var randomnumber_tour= <?= $mynumber_tour?>;
@@ -293,13 +358,15 @@ var randomnumber_tour= <?= $mynumber_tour?>;
 </script>
 <!--end of "Send Enquiry" form validation script & form code-->
 
+
+
 <!--popup for "Send enquiry" with corresponding Tour name-->
 <div id="enquiry-form-modal" class="modal fade career">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header" style="background: #404241;">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Submit Your Application </h4>
+                <h4 class="modal-title">Submit Your Application</h4>
             </div>
             <form action="https://www.midsupport.com/php/TestResult_attach.php" onSubmit="return onSubmitNew()" method="post" name="EnquiryNew" id="EnquiryNew" enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
@@ -337,3 +404,5 @@ var randomnumber_tour= <?= $mynumber_tour?>;
         </div>
     </div>
 </div>
+
+
