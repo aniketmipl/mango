@@ -308,7 +308,14 @@ $route['tours/amsterdam-brussels-paris'] = 'tours/amsterdam_brussels_paris';
 $route['tours/game-of-thrones'] = 'tours/game_of_thrones';
 $route['tours/ramayana-trail'] = 'tours/ramayana_trail';
 $route['tours/best-of-vietnam'] = 'tours/best_of_vietnam';
-
+$route['tours/temples-of-nepal'] = 'tours/temples_of_nepal';
+$route['tours/trivendrum-rameshwar-madurai'] = 'tours/trivendrum_rameshwar_madurai';
+$route['tours/dwarka-somnath'] = 'tours/dwarka_somnath';
+$route['tours/haridwar-rishikesh'] = 'tours/haridwar_rishikesh';
+$route['tours/safar-of-sawai-madhopur'] = 'tours/safar_of_sawai_madhopur';
+$route['tours/tadoba-jungle-safari'] = 'tours/tadoba_jungle_safari';
+$route['tours/vaishnodevi-tour'] = 'tours/vaishnodevi_tour';
+$route['tours/amazing-alaska'] = 'tours/amazing_alaska';
 
 //pages
 $route['about-us'] = 'pages/about_us';
