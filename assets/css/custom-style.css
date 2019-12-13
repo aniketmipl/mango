@@ -2113,6 +2113,20 @@ box-shadow: 8px 6px 11px 1px #bbb4b4;
     color:#fff;
 }
 
+.career .awo-faq ul li{
+   
+    list-style-type: disc !important;
+    font-size: 1.2em;
+    line-height: 1.6666;
+    color: #585858;
+    letter-spacing: 0.2px;
+}
+.career .awo-faq ul{
+    padding-left:2%;
+   
+}
+
+
 /*end career page*/
 
 /*FAQs page*/

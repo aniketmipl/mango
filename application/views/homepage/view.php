@@ -80,6 +80,7 @@
 }
 
 
+
 }
 </style>
 
@@ -87,6 +88,7 @@
     <section class="main-slider-area">
         <div class="main-container">
             <div id="carousel-example-generic" class="carousel slide carousel-fade">
+
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
@@ -321,6 +323,7 @@
                            
                             <div class="tab-content">
                                
+
                                     <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post" name="Search_Enquiry" onSubmit="return onSearchSubmit()">
                                         <div class="form-group col-md-11 col-sm-11 col-xs-11 no-padding">
                                             <!-- /*<label class="label">Find Holidays Destination  </label>*/ -->
@@ -354,8 +357,13 @@
 </div>
 
 
+=======
+                                    <!-- <form class="form-inline" action="<?php echo base_url()?>Search/search_result" method="post">
+                                        <div class="form-group col-md-10 col-sm-8">
+                                            <input type="text" class="form-control" name="tour_name" placeholder="Holidays Destination: Rome, Paris, New York...">
+>>>>>>> 5cbe6a3305e1d17f05c948fac52bb4f49467b1ec
                                         </div>
-                                        <!-- <div class="form-group col-md-3 col-sm-6">
+                                        <div class="form-group col-md-3 col-sm-6">
                                             <div class="input-group date margin-bottom-30" data-date-format="dd/mm/yyyy" style="width:100%;">
                                                 <input type="text" name="travel_date" class="form-control" placeholder="Select Your Approx Date">
                                                 <div class="input-group-addon">
@@ -366,12 +374,16 @@
                                         <div class="form-group col-md-2 col-sm-6">
                                            <input type="text" class="form-control" name="travel_budget" placeholder="Budget (INR)" maxlength="7">
                                         </div>
-                                        -->
+                                       
                                        
                                         <div class="form-group col-md-1 col-sm-1 col-xs-1 no-padding">
                                             <button type="submit" class="btn btn-theme"><i class="fa fa-search" style="font-size:20px; text-align:center;" aria-hidden="true"></i></button>
                                         </div>
+<<<<<<< HEAD
                                     </form>
+
+=======
+                                    </form> -->
 
                             </div>
                         </div>
@@ -1179,7 +1191,11 @@
       </div>-->
       <button type="button" class="close" data-dismiss="modal">&times;</button>
      <div class="modal-body text-center">
+<<<<<<< HEAD
       <img src="<?php echo base_url();?>assets/images/margdarshan-melava.jpg" alt="">
+=======
+      <img src="<?php echo base_url();?>assets/images/popup/margdarshan-melava.jpg" alt="">
+>>>>>>> 5cbe6a3305e1d17f05c948fac52bb4f49467b1ec
        
       </div>
       <div class="modal-footer">
@@ -1188,6 +1204,7 @@
     </div>
     </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
                         <div class="item">
@@ -1828,7 +1845,7 @@
             </div> -->
         </div>
     </section>
->>>>>>> ce345ddfe5abbe40a0464bc4ff118fb745fe5492
+
     <!-- End Portfolio Section -->
 
       <!--Promo Box Style One -->
@@ -1879,6 +1896,8 @@
     </div>
 
 >>>>>>> 42ed9eaf023b18384632068e0b34a7ccd4848458
+=======
+>>>>>>> 5cbe6a3305e1d17f05c948fac52bb4f49467b1ec
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -1889,9 +1908,10 @@ $(document).ready(function(){
    $('#popupModal').modal('show');
     }); 
 
+<<<<<<< HEAD
 </script>-->
 
-<<<<<<< HEAD
+
 <SCRIPT type=text/javascript>
 
 function onSearchSubmit(){
@@ -1903,9 +1923,8 @@ function onSearchSubmit(){
 	}
     return true;
 }
-=======
 
-
+</script>
 
 <script>
     $(document).ready(function(){         
@@ -1960,8 +1979,9 @@ function onSearchSubmit(){
             }
         });                     
     });   
->>>>>>> 42ed9eaf023b18384632068e0b34a7ccd4848458
+
 </script>
+
 
 <script>
 function searchFunction() {
