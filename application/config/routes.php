@@ -316,6 +316,8 @@ $route['tours/safar-of-sawai-madhopur'] = 'tours/safar_of_sawai_madhopur';
 $route['tours/tadoba-jungle-safari'] = 'tours/tadoba_jungle_safari';
 $route['tours/vaishnodevi-tour'] = 'tours/vaishnodevi_tour';
 $route['tours/amazing-alaska'] = 'tours/amazing_alaska';
+$route['tours/dubai-abu-dhabi'] = 'tours/dubai_abu_dhabi';
+$route['tours/all-of-dubai'] = 'tours/all_of_dubai';
 
 //pages
 $route['about-us'] = 'pages/about_us';

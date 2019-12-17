@@ -3575,6 +3575,39 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
+	public function dubai_abu_dhabi(){
+		$product_id ='195';
+		$product_code='D2';		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'git/D2/dubai-abu-dhabi-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'git/D2/dubai-abu-dhabi.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Dubai";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function all_of_dubai(){
+		$product_id ='196';
+		$product_code='D3';		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'git/D3/best-of-dubai-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'git/D3/best-of-dubai.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Dubai";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+
 	
 	public function mpdf(){
 		//load mPDF library
