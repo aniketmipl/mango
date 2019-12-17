@@ -263,7 +263,7 @@ $route['tours/luxury-hong-kong-macau'] = 'tours/luxury_hong_kong_macau';
 $route['tours/classic-jordan'] = 'tours/classic_jordan';
 $route['tours/bali-with-gili-island'] = 'tours/bali_with_gili_island';
 $route['tours/greece-turkey'] = 'tours/greece_turkey';
-$route['tours/russian-deight'] = 'tours/russian_deight';
+$route['tours/russian-delights'] = 'tours/russian_delights';
 $route['tours/hong-kong-macau'] = 'tours/hong_kong_macau';
 $route['tours/egypt-culture-and-beach-tour'] = 'tours/egypt_culture_and_beach_tour';
 $route['tours/all-of-azerbaijan'] = 'tours/all_of_azerbaijan';
@@ -316,6 +316,8 @@ $route['tours/safar-of-sawai-madhopur'] = 'tours/safar_of_sawai_madhopur';
 $route['tours/tadoba-jungle-safari'] = 'tours/tadoba_jungle_safari';
 $route['tours/vaishnodevi-tour'] = 'tours/vaishnodevi_tour';
 $route['tours/amazing-alaska'] = 'tours/amazing_alaska';
+$route['tours/dubai-abu-dhabi'] = 'tours/dubai_abu_dhabi';
+$route['tours/all-of-dubai'] = 'tours/all_of_dubai';
 
 //pages
 $route['about-us'] = 'pages/about_us';
