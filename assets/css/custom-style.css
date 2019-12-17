@@ -607,12 +607,12 @@
     }
 
     .notetext{
-	    color: #000 !important;
+	    color: #131313 !important;
 		font-family: inherit;
         text-transform: uppercase !important;
-        font-size: 1.2em;
+        font-size: 1.1em;
 		line-height: 1.6666;
-        margin-bottom: 5px;
+        margin-bottom: 30px;
         letter-spacing: 0.5px;
 	}
     .tour-content{
@@ -621,6 +621,7 @@
 
     .tour-content .post-blog-item{
         background-color:#fff;
+        margin-bottom: 6px;
        
     }
 

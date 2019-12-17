@@ -377,6 +377,7 @@
                                 </section>
                                 </div> 
                                 </div>  
+                                <h2 class="notetext"><?php echo @$complete_data->ProductTitle;?> trip from Thane, Pune, Nagpur, Mumbai.</h2>       
                 </div>
                 <div class="col-md-3 sidber clearfix">
                     <div class="widget bdr-pry-color">
