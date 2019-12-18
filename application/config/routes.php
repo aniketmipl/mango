@@ -318,6 +318,8 @@ $route['tours/vaishnodevi-tour'] = 'tours/vaishnodevi_tour';
 $route['tours/amazing-alaska'] = 'tours/amazing_alaska';
 $route['tours/dubai-abu-dhabi'] = 'tours/dubai_abu_dhabi';
 $route['tours/all-of-dubai'] = 'tours/all_of_dubai';
+$route['tours/best-of-japan'] = 'tours/best_of_japan';
+
 
 //pages
 $route['about-us'] = 'pages/about_us';
