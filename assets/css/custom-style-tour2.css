@@ -43,7 +43,8 @@
     width: 100%;
 }
 .tour-table{
-height: 400px;
+/*height: 400px;*/
+ min-height: 400px;
     overflow: hidden;
     overflow-y: scroll;
     border: 1px solid #ccc;
@@ -124,9 +125,9 @@ letter-spacing: 0.3px;
 
 .verticle-tab .tab-content{
    
-height: 530px;
+/*height: 530px;
 overflow: hidden;
-overflow-y: scroll;
+overflow-y: scroll;*/
 border:0;
 border-left:1px solid #ddd;
 
@@ -225,9 +226,17 @@ color: #000;
     }
     .verticle-tab .nav-tabs>li>a{
         border:1px solid;
+        height:auto;
     }
     .verticle-tab .tab-content{
         height: 800px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .tour-content .sidber .widget{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -246,6 +255,10 @@ color: #000;
 .verticle-tab .tab-content>.active {
     padding: 5px;
 }
+.tour-table td{
+    padding: 5px !important;
+  }
+
 }
 
 /*for scrollbar*/
@@ -278,7 +291,6 @@ color: #000;
   }
 
   /*end for scrollbar*/
-
 
 /*styling for fit tour*/  
 .fit .tour-table td{

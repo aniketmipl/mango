@@ -168,7 +168,7 @@
     }
     .slide-5{
         /* background: url(../images/sliders/dubai1.jpg); */
-        background: url(../images/sliders/dubai-banner-new.jpg);
+        background: url(../images/sliders/dubai-banner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -609,8 +609,8 @@
     .notetext{
 	    color: #131313 !important;
 		font-family: inherit;
-        text-transform: uppercase !important;
-        font-size: 1.1em;
+        /*text-transform: uppercase !important;*/
+        font-size: 1em;
 		line-height: 1.6666;
         margin-bottom: 30px;
         letter-spacing: 0.5px;

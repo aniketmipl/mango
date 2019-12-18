@@ -378,10 +378,13 @@ if(isset($complete_data->ProductItineraryByDay)){
                 <div class="col-md-3 sidber clearfix">
                     <div class="widget bdr-pry-color">
                             <div class="wiget-title" style="margin-bottom:0;">
-                                   
+                            <div class="row"> 
+                                    <div class="col-md-12"> 
                                     <h4>Tour Dates & Availability</h4>
                                     <p style="color: #f60;letter-spacing: 0.5px;">(Click on tour to view details)</p>
-                                </div>
+                                    </div>
+                               </div>
+                            </div>
                                 <div class="table-style-three" style="padding-bottom: 0;">
                                             <div class="row"> 
                                                 <div class="col-md-12"> 

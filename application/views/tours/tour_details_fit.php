@@ -382,10 +382,14 @@
                 <div class="col-md-3 sidber clearfix">
                     <div class="widget bdr-pry-color">
                             <div class="wiget-title" style="margin-bottom:0;">
+                            <div class="row"> 
+                                    <div class="col-md-12"> 
                                     <h4>Tour Availability</h4>
                                     <p style="color: #f60;letter-spacing: 0.5px;">(Select Tour Category)</p>
                                     <!-- <h4>Tour Dates & Availability</h4> -->
                                     <!-- <p style="color: #f60;letter-spacing: 0.5px;">(Click on tour to view details)</p> -->
+                                    </div>
+                                    </div>
                                 </div>
                                 <div class="table-style-three" style="padding-bottom: 0;">
                                             <div class="row"> 
@@ -447,15 +451,15 @@
                                                                         
                                                                       </tbody>
                                                                 </table>
-                                                </div>
-                                                </div>
-                                            </div>
-                                                                <!-- <button class="btn"><a style="cursor:pointer;" id="element" class="show-modal"> Send Enquiry</a></button> -->
-                                                                <a class="btn btn-theme my-btn-md show-modal" id="element" style="width:100%; text-align:center; cursor:pointer;"href="#" role="button">SEND ENQUIRY &nbsp;&nbsp;<i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+                                                </div><!--end tour table-->
+                                                <!-- <button class="btn"><a style="cursor:pointer;" id="element" class="show-modal"> Send Enquiry</a></button> -->
+                                                <a class="btn btn-theme my-btn-md show-modal" id="element" style="width:100%; text-align:center; cursor:pointer;"href="#" role="button">SEND ENQUIRY &nbsp;&nbsp;<i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+                                                </div><!--end col-md-12-->
+                                            </div><!--end row-->
                                                                 
-                                        </div>
-                    </div>
-                    <!-- // End Widget -->
+                                                                
+                                        </div><!--end table-style-three-->
+                    </div><!-- // End Widget -->
                 </div>
                
 
