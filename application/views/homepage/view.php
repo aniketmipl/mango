@@ -460,18 +460,18 @@
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/git/E62/eastern-europe.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/git/E6/central-eastern-europe.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-                                                <li><a href="<?php echo base_url();?>tours/eastern-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>tours/central-eastern-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tour-item hotel-item">
                                     <div class="blog-details">
-                                        <h3><a href="<?php echo base_url();?>tours/eastern-europe">Eastern Europe</a></h3>
+                                        <h3><a href="<?php echo base_url();?>tours/central-eastern-europe">Central Eastern Europe</a></h3>
                                         <!-- <ul class="list-inline">
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
@@ -481,11 +481,11 @@
                                         </ul> -->
                                         <h4>
                                         <small style="font-size: inherit; font-weight: 600; color: inherit;">
-                                        14 Nights / 15 Days  
+                                        15 Nights / 16 Days  
                                         </small>
-                                        <b style="float:right;">INR 216430/- </b> 
+                                        <b style="float:right;">INR 223714/- </b> 
                                         </h4>
-                                        <a class="read-btn" href="<?php echo base_url();?>tours/eastern-europe">Read More </a>
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/central-eastern-europe">Read More </a>
                                     </div>
                                 </div>
                             </div>
@@ -494,18 +494,18 @@
                         <div class="item">
                             <div class="hover-box tour-hotel-box">
                                 <div class="tour-img image">
-                                    <img src="<?php echo base_url();?>assets/git/D1/dazzling-dubai.jpg" alt="">
+                                    <img src="<?php echo base_url();?>assets/git/D3/all-of-dubai.jpg" alt="">
                                     <div class="over-layer">
                                         <div class="links">
                                             <ul class="list-inline">
-                                                <li><a href="<?php echo base_url();?>tours/dazzling-dubai"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                                <li><a href="<?php echo base_url();?>tours/all-of-dubai"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tour-item hotel-item">
                                     <div class="blog-details">
-                                        <h3><a href="<?php echo base_url();?>tours/dazzling-dubai">Dazzling Dubai</a></h3>
+                                        <h3><a href="<?php echo base_url();?>tours/all-of-dubai">All Of Dubai</a></h3>
                                         <!-- <ul class="list-inline">
                                             <li><i class="ion-ios-star"></i></li>
                                             <li><i class="ion-ios-star"></i></li>
@@ -516,12 +516,12 @@
                                         <!-- <h4><b>INR 3,47,205 /</b>  <small> 13 NIGHTS / 14 DAYS</small></h4> -->
                                         <h4>
                                         <small style="font-size: inherit; font-weight: 600; color: inherit;">
-                                        5 Nights / 6 Days  
+                                        3 Nights / 4 Days  
                                         </small>
-                                        <b style="float:right;">INR 79805/- </b> 
+                                        <b style="float:right;">INR 63181/- </b> 
                                         </h4>
                                        
-                                        <a class="read-btn" href="<?php echo base_url();?>tours/dazzling-dubai">Read More </a>
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/all-of-dubai">Read More </a>
                                     </div>
                                 </div>
                             </div>
@@ -591,6 +591,74 @@
                                         <b style="float:right;">INR 164000/- </b> 
                                         </h4>
                                         <a class="read-btn" href="<?php echo base_url();?>tours/japan-cherry-blossom">Read More </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="hover-box tour-hotel-box">
+                                <div class="tour-img image">
+                                    <img src="<?php echo base_url();?>assets/git/A1/new-zealand-australia.jpg" alt="">
+                                    <div class="over-layer">
+                                        <div class="links">
+                                            <ul class="list-inline">
+                                                <li><a href="<?php echo base_url();?>tours/new-zealand-australia"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour-item hotel-item">
+                                    <div class="blog-details">
+                                        <h3><a href="<?php echo base_url();?>tours/new-zealand-australia">Australia New Zealand</a></h3>
+                                        <!-- <ul class="list-inline">
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                        </ul> -->
+                                        <h4>
+                                        <small style="font-size: inherit; font-weight: 600; color: inherit;">
+                                        14 Nights / 15 Days  
+                                        </small>
+                                        <b style="float:right;">INR 359949/- </b> 
+                                        </h4>
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/new-zealand-australia">Read More </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="hover-box tour-hotel-box">
+                                <div class="tour-img image">
+                                    <img src="<?php echo base_url();?>assets/git/E31/glimpses-of-europe.jpg" alt="">
+                                    <div class="over-layer">
+                                        <div class="links">
+                                            <ul class="list-inline">
+                                                <li><a href="<?php echo base_url();?>tours/glimpses-of-europe"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour-item hotel-item">
+                                    <div class="blog-details">
+                                        <h3><a href="<?php echo base_url();?>tours/glimpses-of-europe">Glimpses Of Europe</a></h3>
+                                        <!-- <ul class="list-inline">
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                        </ul> -->
+                                        <h4>
+                                        <small style="font-size: inherit; font-weight: 600; color: inherit;">
+                                        12 Nights / 13 Days  
+                                        </small>
+                                        <b style="float:right;">INR 218126/- </b> 
+                                        </h4>
+                                        <a class="read-btn" href="<?php echo base_url();?>tours/glimpses-of-europe">Read More </a>
                                     </div>
                                 </div>
                             </div>
