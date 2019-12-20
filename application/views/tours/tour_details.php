@@ -736,6 +736,7 @@ function onSubmitNew(){
         document.EnquiryNew.telNo.focus()
         return false;
     }
+
     if (document.EnquiryNew.telNo.value!="")
     {
         var tel= parseInt(document.EnquiryNew.telNo.value); 
@@ -746,7 +747,13 @@ function onSubmitNew(){
                 return false
                 } 
     }
-        
+
+    // if (document.EnquiryNew.location.value  == "")
+    // {
+    //     alert("Please enter your city");
+    //     document.EnquiryNew.telNo.focus()
+    //     return false;
+    // }      
 
     if (document.EnquiryNew.requirement_details.value  == "")
     {
@@ -800,14 +807,30 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                 <h4 class="modal-title">Send Enquiry for <?php echo @$complete_data->ProductTitle;?> </h4>
             </div>
             <form  method="post" name="EnquiryNew" id="EnquiryNew" enctype ="multipart/form-data">
+                <?php
+                $ip_address=$_SERVER['REMOTE_ADDR'];
+
+                /*Get user ip address details with geoplugin.net*/
+                $geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
+                $addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
+
+                /*Get City name by return array*/
+                $city = $addrDetailsArr['geoplugin_city']; 
+                ?>
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
+
+                 <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
+                <!-- <input name="recipient" type="hidden" id="recipient" value="antara.patil@mipl.co.in, amita.manchekar@mipl.co.in"> -->
+                  <input name="subject" type="hidden" id="subject" value="<?php echo "Tour Enquiry From Website (".$city.")"; ?>">     
+
                 <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
-                  <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website">    
+                  <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website for <?php echo @$complete_data->ProductTitle;?>">
                   <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">    
                 <input type="text" name="contact_person" id="contact_person" placeholder="Name">
                   <input type="email" name="from" id="from" placeholder="Email">
                   <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
+                  <!-- <input type="text" name="location" id="location" placeholder="Your City">                   -->
                   <textarea name="requirement_details" id="requirement_details" placeholder="Message here.."></textarea>
                   <?php
                         for($i=0; $i<$ilength; $i++)

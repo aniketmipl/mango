@@ -759,6 +759,13 @@ function onSubmitNew(){
                 return false
                 } 
     }
+
+    // if (document.EnquiryNew.location.value  == "")
+    // {
+    //     alert("Please enter Your City");
+    //     document.EnquiryNew.location.focus()
+    //     return false;
+    // }
         
 
     if (document.EnquiryNew.requirement_details.value  == "")
@@ -816,13 +823,29 @@ var randomnumber_tour= <?= $mynumber_tour?>;
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
                 <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
-                    <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website">    
+
+                <!-- <input name="recipient" type="hidden" id="recipient" value="antara.patil@mipl.co.in, amita.manchekar@mipl.co.in"> -->
+                <?php
+                $ip_address=$_SERVER['REMOTE_ADDR'];
+
+                /*Get user ip address details with geoplugin.net*/
+                $geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
+                $addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
+
+                /*Get City name by return array*/
+                $city = $addrDetailsArr['geoplugin_city']; 
+                ?>
+                    <input name="subject" type="hidden" id="subject" value="<?php echo 'Tour Enquiry From Website ('.$city.')'; ?>">    
+
+                    <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website <?php echo @$complete_data->ProductTitle;?>">    
+
                     <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">
                     <input type="text" name="contact_person" id="contact_person" placeholder="Name">
                     <input type="hidden" name="tour_category" id="tour_category" >
                     <input type="text" name="adult" id="adult" placeholder="No. of Adults">
                     <input type="email" name="from" id="from" placeholder="Email">
                     <input type="text" name="telNo" id="telNo" placeholder="Phone Number">
+                    <!-- <input type="text" name="location" id="location" placeholder="Location">   -->
                     <div class="input-group date margin-bottom-30" data-date-format="dd-mm-yyyy" style="width:100%;">
                         <input type="text" name="travel_date" class="form-control" placeholder="Select Your Travel Date">
                             <div class="input-group-addon" style="">
@@ -886,7 +909,7 @@ $(function() {
             var validation = onSubmitNew();
             if(validation != false){
 
-                var submit_url = "http://www.midsupport.com/php/TestResult_attach-mango.php";
+                var submit_url = "https://www.midsupport.com/php/TestResult_attach-mango.php";
 
                 $.ajax({
                     url: submit_url,
