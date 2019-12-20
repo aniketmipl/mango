@@ -816,7 +816,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
                 <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
-                    <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website">    
+                    <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website <?php echo @$complete_data->ProductTitle;?>">    
                     <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">
                     <input type="text" name="contact_person" id="contact_person" placeholder="Name">
                     <input type="hidden" name="tour_category" id="tour_category" >
