@@ -485,9 +485,20 @@ var randomnumber= <?= $mynumber?>;
                 <h4>Send Enquiry</h4>
                 <div class="scroll">
                 <form action="https://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry" onSubmit="return onSubmit()"  enctype ="multipart/form-data">
+                    <?php
+                $ip_address=$_SERVER['REMOTE_ADDR'];
+
+                /*Get user ip address details with geoplugin.net*/
+                $geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
+                $addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
+
+                /*Get City name by return array*/
+                $city = $addrDetailsArr['geoplugin_city']; 
+                ?>
                   <input name="redirect" type="hidden">
-              						<input name="recipient" type="hidden" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
-              						<input name="subject" type="hidden" value="Quick Enquiry From Website">
+                                    <input name="recipient" type="hidden" value="antara.patil@mipl.co.in">
+              						<!-- <input name="recipient" type="hidden" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in"> -->
+              						<input name="subject" type="hidden" value="<?php echo "Quick Enquiry From Website (".$city.")"; ?>">
                   <input type="text" name="contact_person" placeholder="Name">
                   <input type="email" name="from" placeholder="Email">
                   <input type="rel" name="telNo" placeholder="Phone Number">
