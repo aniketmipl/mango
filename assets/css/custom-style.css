@@ -621,7 +621,8 @@
 
     .tour-content .post-blog-item{
         background-color:#fff;
-        margin-bottom: 6px;
+        /*margin-bottom: 6px;*/
+        margin-bottom: 30px;
        
     }
 
