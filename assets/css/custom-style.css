@@ -1376,6 +1376,15 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a{
     opacity:0;
     
 }
+.testimonials .video-content .video-title{
+    font-weight: 500;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.testimonials .video-content{
+    background: #f7f7f7;
+}
 
 .panel-heading-mango {
     position: absolute;

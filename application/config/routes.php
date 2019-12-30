@@ -349,6 +349,7 @@ $route['guest-feedback/mr-mrs-yadav'] = 'pages/mr_mrs_yadav';
 $route['search-result'] = 'search/search_result';
 $route['payment-success'] = 'pages/payment_success';
 $route['payment-failure'] = 'pages/payment_failure';
+$route['tour-talks'] = 'pages/tour_talks';
 
 
 //redirected urls

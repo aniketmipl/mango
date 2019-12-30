@@ -267,4 +267,15 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/guest-feedback/mr-mrs-yadav');
 		$this->load->view('common/footer');
 	}
+	public function tour_talks()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Tour Talks | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/tour_talks');
+		$this->load->view('common/footer');
+	}
 }
