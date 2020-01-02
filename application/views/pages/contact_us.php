@@ -154,10 +154,20 @@ var randomnumber= <?= $mynumber?>;
 							<div class="small-border"></div>
 						
 						<form action="https://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry2" onSubmit="return onSubmit2()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
-						
+							<?php
+				                $ip_address=$_SERVER['REMOTE_ADDR'];
+
+				                /*Get user ip address details with geoplugin.net*/
+				                $geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
+				                $addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
+
+				                /*Get City name by return array*/
+				                $city = $addrDetailsArr['geoplugin_city']; 
+				            ?>
                                     <input name="redirect" type="hidden">
               						<input name="recipient" type="hidden" value="ranjan@mangoholidays.in, info@mangoholidays.in">
-              						<input name="subject" type="hidden" value="Enquiry From Website">
+              						<!-- <input name="recipient" type="hidden" value="antara.patil@mipl.co.in"> -->
+              						<input name="subject" type="hidden" value="<?php echo "Enquiry From Website (".$city.")"; ?>">
                             <div class="input-field col-sm-4">
                                 <input class="set-input validate" name="contact_person" placeholder="Your Name *" id="contact_person" type="text">
                             </div>

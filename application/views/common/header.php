@@ -496,8 +496,8 @@ var randomnumber= <?= $mynumber?>;
                 $city = $addrDetailsArr['geoplugin_city']; 
                 ?>
                   <input name="redirect" type="hidden">
-                                    <input name="recipient" type="hidden" value="antara.patil@mipl.co.in">
-              						<!-- <input name="recipient" type="hidden" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in"> -->
+                                    <!-- <input name="recipient" type="hidden" value="antara.patil@mipl.co.in"> -->
+              						<input name="recipient" type="hidden" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
               						<input name="subject" type="hidden" value="<?php echo "Quick Enquiry From Website (".$city.")"; ?>">
                   <input type="text" name="contact_person" placeholder="Name">
                   <input type="email" name="from" placeholder="Email">

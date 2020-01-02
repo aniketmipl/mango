@@ -410,9 +410,9 @@
                                                                       <tbody>
 
                                                                         <?php 
-                                                                        if(isset($complete_data->ProductPricingHeader)){ 
+                                                                         if(isset($complete_data->ProductPricingHeader)){ 
                                                                             foreach ($complete_data->ProductPricingHeader as $ProductPricingHeader) {
-                                                                        ?>
+                                                                         ?>
                                                                         <tr>
                                                                             <td><input type="radio" class="tour_cat" name="category" value="<?php echo @$ProductPricingHeader->PriceBand;?>"></td>
                                                                             <td> <?php  echo @$ProductPricingHeader->PriceBand; ?> </td>
