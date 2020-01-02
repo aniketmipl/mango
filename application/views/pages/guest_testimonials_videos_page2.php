@@ -61,7 +61,39 @@
                         </a>
                     </div>  
                 </div>
-                </div> 
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 column-margin">
+                    <div class="video-content text-center">
+                        <a href="https://youtu.be/uU2flPSSfJE" class="demo" id="play-button">
+                        <span>
+                        <i class="icon icon-Play"></i>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/uU2flPSSfJE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </span>
+                        </a>
+                    </div>
+                </div>  
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 column-margin">
+                    <div class="video-content text-center">
+                        <a href="https://youtu.be/YqZylR07XBU" class="demo" id="play-button">
+                        <span>
+                        <i class="icon icon-Play"></i>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/YqZylR07XBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </span>
+                        </a>
+                    </div> 
+                </div>  
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 column-margin">
+                    <div class="video-content text-center">
+                        <a href="https://youtu.be/dyh4tL9xWdg" class="demo" id="play-button">
+                        <span>
+                        <i class="icon icon-Play"></i>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/dyh4tL9xWdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </span>
+                        </a>
+                    </div>  
+                </div>
+            </div> 
         </div> 
             
         

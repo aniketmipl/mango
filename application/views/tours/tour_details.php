@@ -388,9 +388,7 @@ if(isset($complete_data->ProductItineraryByDay)){
                                 <div class="table-style-three" style="padding-bottom: 0;">
                                             <div class="row"> 
                                                 <div class="col-md-12"> 
-                                                      
                                                     <div class="tour-table">
-                                                       
                                                             <table class="table table-striped table-dark">
                                                                     <thead class="thead-dark">
                                                                         <tr>

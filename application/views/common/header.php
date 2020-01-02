@@ -367,6 +367,7 @@
                                 <!-- <li><a class="dropdown-item" href="<?php echo base_url()?>media">Advertorials</a></li> -->
                                 <!-- <li><a class="dropdown-item" href="#">Advertorials</a></li> -->
                                 <li><a class="dropdown-item" href="<?php echo base_url()?>destination-videos">Destination Videos</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url()?>tour-talks">Tour Talks</a></li>
                             </ul>
                         </li>
                         <li class="dropdown <?php if (($controller =='guest-testimonials-videos')|| ($controller =='guest-testimonials-all')|| ($controller =='feedback')){ echo 'active';} ?>">
