@@ -834,8 +834,8 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                 <!-- <input name="recipient" type="hidden" id="recipient" value="antara.patil@mipl.co.in, amita.manchekar@mipl.co.in"> -->
                   <input name="subject" type="hidden" id="subject" value="<?php echo "Tour Enquiry From Website (".$city.")"; ?>">     
 
-                <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
-                  <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website for <?php echo @$complete_data->ProductTitle;?>">
+                <!-- <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, info@mangoholidays.in"> -->
+                  <!-- <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website for <?php echo @$complete_data->ProductTitle;?>"> -->
                   <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">    
                 <input type="text" name="contact_person" id="contact_person" placeholder="Name">
                   <input type="email" name="from" id="from" placeholder="Email">
