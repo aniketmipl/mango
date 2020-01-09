@@ -410,9 +410,9 @@
                                                                       <tbody>
 
                                                                         <?php 
-                                                                        if(isset($complete_data->ProductPricingHeader)){ 
+                                                                         if(isset($complete_data->ProductPricingHeader)){ 
                                                                             foreach ($complete_data->ProductPricingHeader as $ProductPricingHeader) {
-                                                                        ?>
+                                                                         ?>
                                                                         <tr>
                                                                             <td><input type="radio" class="tour_cat" name="category" value="<?php echo @$ProductPricingHeader->PriceBand;?>"></td>
                                                                             <td> <?php  echo @$ProductPricingHeader->PriceBand; ?> </td>
@@ -822,7 +822,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
             <form  method="post" name="EnquiryNew" id="EnquiryNew" enctype ="multipart/form-data">
             <div class="modal-body-enquiry-form">
             <input name="redirect" type="hidden">
-                <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
+                <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, info@mangoholidays.in">
 
                 <!-- <input name="recipient" type="hidden" id="recipient" value="antara.patil@mipl.co.in, amita.manchekar@mipl.co.in"> -->
                 <?php
@@ -837,7 +837,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                 ?>
                     <input name="subject" type="hidden" id="subject" value="<?php echo 'Tour Enquiry From Website ('.$city.')'; ?>">    
 
-                    <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website <?php echo @$complete_data->ProductTitle;?>">    
+                    <!-- <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website <?php echo @$complete_data->ProductTitle;?>">     -->
 
                     <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">
                     <input type="text" name="contact_person" id="contact_person" placeholder="Name">

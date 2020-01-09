@@ -398,12 +398,12 @@ if(isset($complete_data->ProductItineraryByDay)){
                                                                       </thead>
                                                                    
                                                                       <tbody>
-                                                                        <?php 
+                                                                          <?php 
                                                                             if(isset($complete_data->UpcomingTours)){
                                                                                 foreach ($complete_data->UpcomingTours as $tours){
                                                                                 foreach($tours->UpcomingTourPricingDetails as $pricedetails){
                                                                                     if(($tours->TourStatus)=='Open'){
-                                                                        ?>
+                                                                          ?>
                                                                             <tr class="tour_info" data-tourcode="<?php echo $tours->TourCode; ?>" style="cursor: pointer;">
                                                                               <td><?php  echo $tours->TourCode; ?>
                                                                               <br/>
@@ -420,9 +420,26 @@ if(isset($complete_data->ProductItineraryByDay)){
                                                                                 </span>
                                                                               </td>
                                                                             </tr>
-                                                                          <?php }}}} ?>
-                                                                        
-                                                                      </tbody>
+                                                                          <?php }
+                                                                                else if(($tours->TourStatus)=='Full'){ ?>
+                                                                                      <tr class="tour_info_full" data-tourcode="<?php echo $tours->TourCode; ?>" style="cursor: pointer;">
+                                                                                      <td><?php  echo $tours->TourCode; ?>
+                                                                                      <br/>
+                                                                                        <span class="hlights">
+                                                                                          <?php  echo $tours->DepartureDate; ?>
+                                                                                        </span>
+                                                                                            <br/>
+                                                                                          <?php  echo $pricedetails->StartingLocation; 
+                                                                                        ?>  
+                                                                                      </td>
+                                                                                      <td>
+                                                                                        <span class="hlights">
+                                                                                          INR <?php echo round($pricedetails->TotalINRValue); ?>
+                                                                                        </span>
+                                                                                      </td>
+                                                                                    </tr>
+                                                                               <?php }}}} ?>
+                                                                        </tbody>
                                                                 </table>
                                                 </div>
                                                 </div>
@@ -547,14 +564,9 @@ if(isset($complete_data->ProductItineraryByDay)){
   //function for Related Tour section 
   $(function(){
 
- // related_tour();
-
-
-
-    // function related_tour(){
-   
-    // }
-//end of function for Related Tour section
+    $(".tour_info_full").click(function(){
+        alert("THIS DEPARTURE IS SOLD OUT");
+    });
    
 //function for popup display with prices on click of tour code & fectching data from API    
     $(".tour_info").click(function(){
@@ -822,8 +834,8 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                 <!-- <input name="recipient" type="hidden" id="recipient" value="antara.patil@mipl.co.in, amita.manchekar@mipl.co.in"> -->
                   <input name="subject" type="hidden" id="subject" value="<?php echo "Tour Enquiry From Website (".$city.")"; ?>">     
 
-                <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
-                  <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website for <?php echo @$complete_data->ProductTitle;?>">
+                <!-- <input name="recipient" type="hidden" id="recipient" value="ranjan@mangoholidays.in, info@mangoholidays.in"> -->
+                  <!-- <input name="subject" type="hidden" id="subject" value="Tour Enquiry From Website for <?php echo @$complete_data->ProductTitle;?>"> -->
                   <input name="tour-name" type="hidden" id="tour-name" value="<?php echo @$complete_data->ProductTitle;?>">    
                 <input type="text" name="contact_person" id="contact_person" placeholder="Name">
                   <input type="email" name="from" id="from" placeholder="Email">
