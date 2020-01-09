@@ -286,50 +286,56 @@ Nagpur – 440010, Maharashtra.</p></li>
                         </div>
                     </div>
 	</div>
-
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+		<br/>
+			<h3 style="padding-bottom: 12px;">Our Franchisee Offices </h3>
+			<div class="small-border"></div>
+		</div>
 	<div class="col-sm-6 col-md-4">
-                    <div class="contact-address">
-                        <div class="address">
-						<h4>Nanded </h4>
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-map-marker"></i> <p>Shop No.54, First Floor,
-Sanman Prestige, Near Zilla Parishad, Station Road,<br/>
-Nanded – 431601, Maharashtra, India</p></li>
-								<!-- <li><i class="fa-li fa fa-mobile"></i>+91 9923244687</li> -->
-                                <li><i class="fa-li fa fa-mobile"></i>+91 99229 75299</li>
-                                <li><i class="fa-li fa fa-envelope-o"></i>jitendra.patni@mangoholidays.in</li>
-                                
-							</ul>
-							<br/>
-							<br/>
-							
-							<!-- <iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe> -->
-							
-                        </div>
-                    </div>
+        <div class="contact-address">
+            <div class="address">
+			<h4>Nanded </h4>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-map-marker"></i> <p>Shop No.54, First Floor,<br/>
+					Sanman Prestige, Near Zilla Parishad, <br/>
+					Station Road, Nanded – 431601, <br/>
+					Maharashtra, India</p></li><br/>
+					<!-- <li><i class="fa-li fa fa-mobile"></i>+91 9923244687</li> -->
+                    <li><i class="fa-li fa fa-mobile"></i>+91 99229 75299</li>
+                    <li><i class="fa-li fa fa-envelope-o"></i>jitendra.patni@mangoholidays.in</li>
+                    
+				</ul>
+				
+				<br/>
+				
+				<!-- <iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe> -->
+				
+            </div>
+        </div>
 	</div>
 
 	<div class="col-sm-6 col-md-4">
-                    <div class="contact-address">
-                        <div class="address">
-						<h4>Chinchwad </h4>
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-map-marker"></i> <p>Office no. 305, 3rd floor, Greens Centre,
-                                	Opposite Pudumjee Paper Mill, Thergaon,<br/>
-									Chinchwad, Pune - 411 033, Maharashtra, India.</p></li>
-								<!-- <li><i class="fa-li fa fa-mobile"></i>+91 9923244687</li> -->
-								<li><i class="fa-li fa fa-mobile"></i>+91 738-707-6123</li>
-                                <li><i class="fa-li fa fa-phone"></i>020 29529712</li>                                
-                                <li><i class="fa-li fa fa-envelope-o"></i>sunil.patil@mangoholidays.in</li>
-                                
-							</ul>
-							<br/>
-							<br/>
-							
-							<!-- <iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe> -->
-							
-                        </div>
-                    </div>
+        <div class="contact-address">
+            <div class="address">
+			<h4>Chinchwad </h4>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-map-marker"></i> <p>Office no. 305, 3rd floor, Greens Centre,
+                    	Opposite Pudumjee Paper Mill, Thergaon,<br/>
+						Chinchwad, Pune - 411 033,<br/> Maharashtra, India.</p></li>
+					<!-- <li><i class="fa-li fa fa-mobile"></i>+91 9923244687</li> -->
+					<li><i class="fa-li fa fa-mobile"></i>+91 738-707-6123</li>
+                    <li><i class="fa-li fa fa-phone"></i>020 29529712</li>                                
+                    <li><i class="fa-li fa fa-envelope-o"></i>sunil.patil@mangoholidays.in</li>
+                    
+				</ul>
+				
+								
+				<!-- <iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe> -->
+				
+            </div>
+        </div>
 	</div>
 		
 	</div>

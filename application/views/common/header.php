@@ -201,7 +201,8 @@
                     <a class="top-link" href="#">Careers</a>  -->
                     <span class="top-link">
                     <!-- <a href="#">Careers </a> &nbsp;|&nbsp; -->
-                    <a href="<?php echo base_url()?>assets/Document/E-brochure.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> &nbsp;E-Brochure </a> 
+                    <!-- <a href="<?php echo base_url()?>assets/Document/E-brochure.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> &nbsp;E-Brochure </a>  -->
+                    <a href="<?php echo base_url()?>franchisee"><i class="fa fa-street-view" aria-hidden="true"></i> &nbsp;Become Franchisee </a> 
                     </span>
                 </div>
             </div>
