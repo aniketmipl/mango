@@ -59,7 +59,6 @@
                                     <li><a href="<?php echo base_url()?>how-to-book">How to book</a></li>
                                     <li><a href="<?php echo base_url()?>privacy-policy">Privacy Policy</a></li>
                                     <li><a href="<?php echo base_url()?>terms-and-conditions"> Terms & Conditions</a></li>
-									 <li><a href="<?php echo base_url()?>franchisee">Mango Holidays Franchisee</a></li>
                                 </ul>
                             </div>
                            
@@ -142,8 +141,6 @@
                                     </div>
                     </div> -->
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 clearfix">
-					
-							
                             <div class="footer-service fo-title">
                                     <div class="widget">
                                         <h4>Find Us</h4>
@@ -158,8 +155,6 @@
                                                             <li role="presentation"><a href="#two-item" aria-controls="two-item" role="tab" data-toggle="tab">DADAR</a></li>
                                                             <li role="presentation"><a href="#three-item" aria-controls="three-item" role="tab" data-toggle="tab">THANE</a></li>
                                                             <li role="presentation"><a href="#four-item" aria-controls="four-item" role="tab" data-toggle="tab">NAGPUR</a></li>
-                                                           <!-- <li role="presentation"><a href="#five-item" aria-controls="five-item" role="tab" data-toggle="tab">NANDED</a></li>
-                                                            <li role="presentation"><a href="#six-item" aria-controls="six-item" role="tab" data-toggle="tab">CHINCHWAD</a></li>-->
                                                         </ul>
                                                     <!-- Tab panes -->
                                                        <div class="tab-content">
@@ -273,134 +268,11 @@
                                                                             </div>
                                                                  </div>       
                                                             </div>
-                                                            <div role="tabpanel" class="tab-pane fade" id="five-item">
-                                                                    <div class="contact-info team-details">
-                                                                    <h4>Nanded Office</h4>
-                                                                    <div class="row">
-                                                                            <div class="col-md-6 col-sm-6">
-                                                                    <address>
-                                                                            <ul class="list-unstyled mar-tp-10">
-                                                                                <li><span class="fa fa-map-marker"></span><b>Address :</b>    Shop No.54, First Floor, 
-                                                                                    <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                                                     Sanman Prestige, Near Zilla Parishad, Station Road,
-                                                                                    <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                                                    Nanded – 431601, Maharashtra, India.
-                                                                                </li>
-                                                                                <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 99229 75299</li> 
-                                                                                <!-- <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li>  -->
-                                                                                <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">jitendra.patni@mangoholidays.in</span></li>
-                                                                                
-                                                                                
-                                                                            </ul>
-                                                                        </address>
-                                                                        </div>
-                                                                           <!--  <div class="col-md-6 col-sm-6">
-                                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                                                                            </div> -->
-                                                                            </div>
-                                                                 </div>       
-                                                            </div>
-                                                            <div role="tabpanel" class="tab-pane fade" id="six-item">
-                                                                    <div class="contact-info team-details">
-                                                                    <h4>Chinchwad Office</h4>
-                                                                    <div class="row">
-                                                                            <div class="col-md-6 col-sm-6">
-                                                                    <address>
-                                                                            <ul class="list-unstyled mar-tp-10">
-                                                                                <li><span class="fa fa-map-marker"></span><b>Address :</b>    Office no. 305, 3rd floor, Greens Centre,
-                                                                                    <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                                                    Opposite Pudumjee Paper Mill, Thergaon,
-                                                                                    <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                                                    Chinchwad, Pune - 411 033, Maharashtra, India.
-                                                                                </li>
-                                                                                <li><span class="fa fa-phone"></span> <b>Landline :</b> 020 29529712</li> 
-                                                                                <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 738-707-6123</li> 
-                                                                                <!-- <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li>  -->
-                                                                                <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">sunil.patil@mangoholidays.in</span></li>
-                                                                                
-                                                                                
-                                                                            </ul>
-                                                                        </address>
-                                                                        </div>
-                                                                            <!-- <div class="col-md-6 col-sm-6">
-                                                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                                                                            </div> -->
-                                                                            </div>
-                                                                 </div>       
-                                                            </div>
                                                        </div>
                                                     </div>
                                                 
                                                
                                     </div>
-									
-									
-								 <div class="footer-service fo-title">
-                                    <div class="widget">
-                                        <h4>Franchisee Offices</h4>
-                                        <div class="small-border"></div>
-                                    </div>
-                            </div>
-							
-							<div class="row">
-								<div class="col-md-6 col-sm-6 col-xs-12">
-									<div class="contact-info team-details">
-                                                                    <h4>Nanded Office</h4>
-									<address>
-                                         <ul class="list-unstyled mar-tp-10">
-                                             <li><span class="fa fa-map-marker"></span><b>Address :</b>    Shop No.54, First Floor, 
-                                                 <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                  Sanman Prestige, Near Zilla Parishad, Station Road,
-                                                 <!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                                                 Nanded – 431601, Maharashtra, India.
-                                             </li>
-                                             <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 99229 75299</li> 
-                                             <!-- <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li>  -->
-                                             <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">jitendra.patni@mangoholidays.in</span></li>
-                                             
-                                                                                
-                                                </ul>
-                                       </address>
-									   </div>
-								</div>
-								
-								<div class="col-md-6 col-sm-6 col-xs-12">
-									<div class="contact-info team-details">
-                                                                    <h4>Chinchwad</h4>
-								
-								
-											<address>
-												<ul class="list-unstyled mar-tp-10">
-													<li><span class="fa fa-map-marker"></span><b>Address :</b>    Office no. 305, 3rd floor, Greens Centre,
-														<!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-														Opposite Pudumjee Paper Mill, Thergaon,
-														<!-- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-														Chinchwad, Pune - 411 033, Maharashtra, India.
-													</li>
-													<li><span class="fa fa-phone"></span> <b>Landline :</b> 020 29529712</li> 
-													<li><span class="fa fa-phone"></span> <b>Phone :</b> +91 738-707-6123</li> 
-													<!-- <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li>  -->
-													<li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">sunil.patil@mangoholidays.in</span></li>
-													
-													
-												</ul>
-											</address>
-									</div>		
-								</div>
-								
-							</div>
-								
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
                     
                 </div>
             </div>
