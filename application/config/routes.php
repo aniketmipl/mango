@@ -88,6 +88,7 @@ $route['customized-holidays/india/north-east'] ='CustomizedTours/customized_nort
 $route['customized-holidays/india/orissa'] ='CustomizedTours/customized_orissa';
 $route['customized-holidays/india/temple-tours'] ='CustomizedTours/customized_templetours';
 $route['customized-holidays/india/safari-tours'] ='CustomizedTours/customized_safaritours';
+$route['customized-holidays/india/ladakh'] ='CustomizedTours/customized_ladakh';
 
        //International customized tours
 $route['customized-holidays/asia'] ='CustomizedTours/customized_asia';
@@ -114,6 +115,7 @@ $route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hongkong';
 $route['customized-holidays/bhutan'] ='CustomizedTours/customized_bhutan';
 $route['customized-holidays/seychelles'] ='CustomizedTours/customized_seychelles';
 $route['customized-holidays/scandinavia'] ='CustomizedTours/customized_scandinavian';
+$route['customized-holidays/new-zealand'] ='CustomizedTours/customized_newzealand';
 
 
 
@@ -319,6 +321,20 @@ $route['tours/amazing-alaska'] = 'tours/amazing_alaska';
 $route['tours/dubai-abu-dhabi'] = 'tours/dubai_abu_dhabi';
 $route['tours/all-of-dubai'] = 'tours/all_of_dubai';
 $route['tours/best-of-japan'] = 'tours/best_of_japan';
+$route['tours/gangtok'] = 'tours/gangtok';
+$route['tours/gangtok-lachung-darjeeling'] = 'tours/gangtok_lachung_darjeeling';
+$route['tours/assam-meghalaya'] = 'tours/assam_meghalaya';
+$route['tours/guwahati-shillong-cherrapunji'] = 'tours/guwahati_shillong_cherrapunji';
+$route['tours/best-of-north-east'] = 'tours/best_of_north_east';
+$route['tours/darjeeling'] = 'tours/darjeeling';
+$route['tours/imphal-kohima'] = 'tours/imphal_kohima';
+$route['tours/colourful-rajasthan'] = 'tours/colourful_rajasthan';
+$route['tours/all-of-rajasthan'] = 'tours/all_of_rajasthan';
+$route['tours/magical-ladakh'] = 'tours/magical_ladakh';
+$route['tours/exotic-ladakh'] = 'tours/exotic_ladakh';
+$route['tours/himalayan-caravans'] = 'tours/himalayan_caravans';
+$route['tours/best-of-ladakh'] = 'tours/best_of_ladakh';
+$route['tours/amazing-ladakh'] = 'tours/amazing_ladakh';
 
 
 //pages

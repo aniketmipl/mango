@@ -288,6 +288,7 @@
                                                         </div>
                                                         <div class="col-md-6 col-sm-12">
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/himachal-pradesh">Himachal</a></li>
+                                                            <li><a href="<?php echo base_url()?>customized-holidays/india/ladakh">Ladakh</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/madhya-pradesh">Madhya Pradesh</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/rajasthan">Rajasthan</a></li>
                                                             <li><a href="<?php echo base_url()?>customized-holidays/india/tamil-nadu">Tamil Nadu</a></li>
@@ -330,6 +331,7 @@
                                                         <li><a href="<?php echo base_url()?>customized-holidays/mauritius">Mauritius</a></li>
                                                         <!-- <li><a href="<?php echo base_url()?>customized-holidays/morocco">Morocco</a></li> -->
                                                         <li><a href="<?php echo base_url()?>customized-holidays/nepal">Nepal</a></li>
+                                                        <li><a href="<?php echo base_url()?>customized-holidays/new-zealand">New Zealand</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/russia">Russia</a></li>
                                                          <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/spain">Spain</a></li>
