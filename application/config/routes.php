@@ -115,6 +115,7 @@ $route['customized-holidays/hong-kong'] ='CustomizedTours/customized_hongkong';
 $route['customized-holidays/bhutan'] ='CustomizedTours/customized_bhutan';
 $route['customized-holidays/seychelles'] ='CustomizedTours/customized_seychelles';
 $route['customized-holidays/scandinavia'] ='CustomizedTours/customized_scandinavian';
+$route['customized-holidays/new-zealand'] ='CustomizedTours/customized_newzealand';
 
 
 
