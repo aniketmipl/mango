@@ -17,6 +17,7 @@
                         <li><a href="<?php echo base_url()?>contact-us"> Enquiry</a></li>
                         <li><a href="<?php echo base_url()?>media"> Media</a></li>
                         <li><a href="<?php echo base_url()?>galleries/photo-gallery"> Photo Gallery</a></li>
+                        <li><a href="<?php echo base_url()?>franchisee">Franchisee</a></li>
                      </ul>
                   </div>
                   <!-- <div class="col-md-12 no-padding">
@@ -54,7 +55,7 @@
                         <li><a href="<?php echo base_url()?>how-to-book">How to book</a></li>
                         <li><a href="<?php echo base_url()?>privacy-policy">Privacy Policy</a></li>
                         <li><a href="<?php echo base_url()?>terms-and-conditions"> Terms & Conditions</a></li>
-                        <li><a href="<?php echo base_url()?>franchisee">Mango Holidays Franchisee</a></li>
+                        
                      </ul>
                   </div>
                </div>
@@ -349,7 +350,7 @@
                </div>
                <div class="col-md-6 col-sm-6 col-xs-12">
                   <div class="contact-info team-details">
-                     <h4>Chinchwad</h4>
+                     <h4>Chinchwad Office</h4>
                      <address>
                         <ul class="list-unstyled mar-tp-10">
                            <li>
