@@ -241,26 +241,73 @@
                             <a href="<?php echo base_url();?>">Home</a>
                         </li>
                        
-                        <li class="dropdown group_tour <?php if (($controller =='GroupTours')||($controller =='group-tour-packages')){
+                        <!-- <li class="dropdown group_tour <?php if (($controller =='GroupTours')||($controller =='group-tour-packages')){
                             echo 'active';
                         } ?>">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Group Tours </a>
                             <ul class="dropdown-menu">
                                 <li><a href="<?php echo base_url()?>group-tour-packages/africa">Africa</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/america">America</a></li>
-                                <!-- <li><a href="<?php echo base_url()?>group-tour-packages/asia">Asia</a></li> -->
+                                // <li><a href="<?php echo base_url()?>group-tour-packages/asia">Asia</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/australia-new-zealand">Australia & New Zealand</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/dubai">Dubai</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/europe">Europe</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/japan">Japan</a></li>
-                                <!-- <li><a href="<?php echo base_url()?>GroupTours/group_mauritius">Mauritius</a></li> -->
+                                // <li><a href="<?php echo base_url()?>GroupTours/group_mauritius">Mauritius</a></li> 
                                 <li><a href="<?php echo base_url()?>group-tour-packages/south-east-asia">South East Asia</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/eastern_europe">Eastern Europe</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/scandinavia">Scandinavia</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/sri-lanka">Sri Lanka</a></li>
                                 <li><a href="<?php echo base_url()?>group-tour-packages/india">India</a></li>
                             </ul>
-                        </li>    
+                        </li>     -->
+                        <!--remove medium-width class for normal megameu-->
+                        <li class="dropdown megamenu-fw medium-width group_tour <?php if (($controller =='GroupTours')||($controller =='group-tour-packages')){
+                            echo 'active';
+                        } ?>">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Group Tours </a>
+                            <ul class="dropdown-menu megamenu-content" role="menu">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-menu col-md-6 col-sm-12">
+                                                <h5><b>India</b></h5>
+                                                <div class="content">
+                                                    <ul class="menu-col">
+                                                        <div class="col-md-12 col-sm-12">
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/ladakh">Ladakh</a></li>
+                                                        </div>
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- end col-6 -->
+                                            <div class="col-menu col-md-6 col-sm-12">
+                                                <h5><b>International</b></h5>
+                                                <div class="content">
+                                                    <ul class="menu-col">
+                                                      <div class="col-md-12 col-sm-12">
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/africa">Africa</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/america">America</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/australia-new-zealand">Australia & New Zealand</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/dubai">Dubai</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/europe">Europe</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/japan">Japan</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/south-east-asia">South East Asia</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/eastern_europe">Eastern Europe</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/scandinavia">Scandinavia</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/sri-lanka">Sri Lanka</a></li>
+                                                      </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- end col-6 -->
+                                          
+                                           
+                                        </div>
+                                        <!-- end row -->
+                                    </li>
+                                </ul>
+                        </li>
                         <li class="dropdown megamenu-fw customized_tour <?php if (($controller =='CustomizedTours')||($controller =='customized-holidays')){
                             echo 'active';
                         } ?>">

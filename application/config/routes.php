@@ -66,8 +66,9 @@ $route['group-tour-packages/japan'] = 'GroupTours/group_japan';
 $route['group-tour-packages/south-east-asia'] = 'GroupTours/group_asia';
 $route['group-tour-packages/eastern_europe'] = 'GroupTours/group_eastern_europe';
 $route['group-tour-packages/scandinavia'] = 'GroupTours/group_scandinavia';
-$route['group-tour-packages/india'] = 'GroupTours/group_india';
+/*$route['group-tour-packages/india'] = 'GroupTours/group_india';*/
 $route['group-tour-packages/sri-lanka'] = 'GroupTours/group_srilanka';
+$route['group-tour-packages/india/ladakh'] = 'GroupTours/group_ladakh';
 
 
                            //customized tours
@@ -83,7 +84,7 @@ $route['customized-holidays/india/kerala'] ='CustomizedTours/customized_kerala';
 $route['customized-holidays/india/rajasthan'] ='CustomizedTours/customized_rajasthan';
 $route['customized-holidays/india/tamil-nadu'] ='CustomizedTours/customized_tamil_nadu';
 $route['customized-holidays/india/goa'] ='CustomizedTours/customized_goa';
-$route['customized-holidays/india/north-east'] ='CustomizedTours/customized_north_east';
+$route['customized-holidays/india/north-east'] ='CustomizedTours/customized_northeast';
 //$route['customized-holidays/india/andhra-pradesh'] ='CustomizedTours/customized_andhra_pradesh';
 $route['customized-holidays/india/orissa'] ='CustomizedTours/customized_orissa';
 $route['customized-holidays/india/temple-tours'] ='CustomizedTours/customized_templetours';
@@ -335,6 +336,10 @@ $route['tours/exotic-ladakh'] = 'tours/exotic_ladakh';
 $route['tours/himalayan-caravans'] = 'tours/himalayan_caravans';
 $route['tours/best-of-ladakh'] = 'tours/best_of_ladakh';
 $route['tours/amazing-ladakh'] = 'tours/amazing_ladakh';
+$route['tours/must-do-in-nz'] = 'tours/must_do_in_nz';
+$route['tours/beauty-of-new-zealand'] = 'tours/beauty_of_new_zealand';
+$route['tours/colours-of-new-zealand'] = 'tours/colours_of_new_zealand';
+$route['tours/ladakh'] = 'tours/ladakh';
 
 
 //pages
