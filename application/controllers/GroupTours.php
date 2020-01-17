@@ -205,7 +205,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}	 
-	 public function group_sikkim_darjeeling()
+	 public function group_sikkimdarjeeling()
 	{
 		$sector ='Sikkim Darjeeling';
 		$data['api_result']=$this->call_api($sector);
