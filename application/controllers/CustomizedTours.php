@@ -313,7 +313,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-	public function customized_north_east()
+	public function customized_northeast()
 	{
 		$sector ='North East'; //for Api
 

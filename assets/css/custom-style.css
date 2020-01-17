@@ -1111,15 +1111,20 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu {
 nav.bootsnav .megamenu-content{
     width:80% !important;
 }
+nav.bootsnav .medium-width .megamenu-content{
+    width:45% !important;
+}
 nav.bootsnav .dropdown.megamenu-fw .dropdown-menu{
     left:10%;
+}
+nav.bootsnav .dropdown.megamenu-fw.medium-width .dropdown-menu{
+    left:20%;
 }
 
 nav.navbar.bootsnav ul.nav > li > a {
     padding: 38px 15px;
     
 }
-
 
 
 }

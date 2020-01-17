@@ -167,19 +167,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-	public function group_india()
-	{
-		$sector ='India';
-		$data['api_result']=$this->call_api($sector);
-		//$head_data['title'] = "Scandinavia Group Tour from Mumbai,Pune,India|Mango Holidays";
-		$data['sector_name']=$sector;
-		//$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
-		$head_data['sector'] = $data['sector_name'];
-		$head_data['travel_type'] = 'GIT';
-		$this->load->view('common/header',$head_data);
-		$this->load->view('group_tours/view',$data);
-		$this->load->view('common/footer');
-	}
+	
 	public function group_srilanka()
 	{
 		$sector ='Sri Lanka';
@@ -193,7 +181,54 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-	 
+	/*public function group_india()
+	{
+		$sector ='India';
+		$data['api_result']=$this->call_api($sector);
+		//$head_data['title'] = "Scandinavia Group Tour from Mumbai,Pune,India|Mango Holidays";
+		$data['sector_name']=$sector;
+		//$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}*/
+	public function group_ladakh()
+	{
+		$sector ='Ladakh';
+		$data['api_result']=$this->call_api($sector);
+		$data['sector_name']=$sector;
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}	 
+	 public function group_sikkim_darjeeling()
+	{
+		$sector ='Sikkim Darjeeling';
+		$data['api_result']=$this->call_api($sector);
+		$data['sector_name']=$sector;
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function group_nepal()
+	{
+		$sector ='Nepal';
+		$data['api_result']=$this->call_api($sector);
+		//$head_data['title'] = "Scandinavia Group Tour from Mumbai,Pune,India|Mango Holidays";
+		$data['sector_name']=$sector;
+		//$data['gt_image'] = 'images/tours/rest-of-europe/main.jpg';
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}
 
 	public function call_api($sector){
 
