@@ -3936,10 +3936,10 @@ $this->load->view('common/header',$head_data);
 
 		$data['api_result']=$this->call_api($product_id,$product_code);		
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'git/SK/sikkim-darjeeling-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'git/SK/sikkim-darjeeling.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'git/SK/sikkim-darjeeling-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/SK/sikkim-darjeeling.jpg';
 
 		$filter_data['sector']="Ladakh";
 		$head_data['title'] = "Ladakh Tour Package from Mumbai,Pune,India | Mango Holidays";
@@ -3956,10 +3956,10 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'git/NP/NEPAL-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'git/NP/NEPAL.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'git/NP/NEPAL-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/NP/NEPAL.jpg';
 		$filter_data['sector']="Nepal";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		
