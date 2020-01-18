@@ -3977,10 +3977,10 @@ $this->load->view('common/header',$head_data);
 
 		$data['api_result']=$this->call_api($product_id,$product_code);		
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'git/CD/chardham-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'git/CD/chardham.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'git/CD/chardham-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/CD/chardham.jpg';
 
 		$filter_data['sector']="Chardham";
 		$head_data['title'] = "Chardham Tour Package from Mumbai,Pune,India | Mango Holidays";
