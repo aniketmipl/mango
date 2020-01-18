@@ -268,7 +268,7 @@
         <!-- End Booking From -->
 
     <!-- Strat Special Places -->
-    <section class="spacial-place">
+    <section class="spacial-place" id="upcoming-tour">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
