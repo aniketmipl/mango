@@ -274,7 +274,9 @@
                                                 <div class="content">
                                                     <ul class="menu-col">
                                                         <div class="col-md-12 col-sm-12">                                                           
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/bhutan">Bhutan</a></li>
                                                             <li><a href="<?php echo base_url()?>group-tour-packages/india/chardham">Chardham</a></li>
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/nepal">Nepal</a></li>
                                                             <li><a href="<?php echo base_url()?>group-tour-packages/india/ladakh">Ladakh</a></li>
                                                             <li><a href="<?php echo base_url()?>group-tour-packages/india/sikkim-darjeeling">Sikkim Darjeeling</a></li>
                                                         </div>
@@ -291,6 +293,7 @@
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/africa">Africa</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/america">America</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/australia-new-zealand">Australia & New Zealand</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/bhutan">Bhutan</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/dubai">Dubai</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/europe">Europe</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/japan">Japan</a></li>
