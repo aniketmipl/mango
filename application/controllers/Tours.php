@@ -3941,8 +3941,8 @@ $this->load->view('common/header',$head_data);
 		$filter_data['slider_image'] = 'git/SK/sikkim-darjeeling-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/SK/sikkim-darjeeling.jpg';
 
-		$filter_data['sector']="Ladakh";
-		$head_data['title'] = "Ladakh Tour Package from Mumbai,Pune,India | Mango Holidays";
+		$filter_data['sector']="Sikkim Darjeeling";
+		$head_data['title'] = "Sikkim Darjeeling Tour Package from Mumbai,Pune,India | Mango Holidays";
 
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
@@ -3968,6 +3968,27 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function chardham()
+	{
+		$product_id ='219';
+		$product_code='CD';
+
+		$data['api_result']=$this->call_api($product_id,$product_code);		
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'git/CD/chardham-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'git/CD/chardham.jpg';
+
+		$filter_data['sector']="Chardham";
+		$head_data['title'] = "Chardham Tour Package from Mumbai,Pune,India | Mango Holidays";
+
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_git_india',$filter_data);
 		$this->load->view('common/footer');
 	}
 

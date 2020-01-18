@@ -273,7 +273,8 @@
                                                 <h5><b>India</b></h5>
                                                 <div class="content">
                                                     <ul class="menu-col">
-                                                        <div class="col-md-12 col-sm-12">
+                                                        <div class="col-md-12 col-sm-12">                                                           
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/chardham">Chardham</a></li>
                                                             <li><a href="<?php echo base_url()?>group-tour-packages/india/ladakh">Ladakh</a></li>
                                                             <li><a href="<?php echo base_url()?>group-tour-packages/india/sikkim-darjeeling">Sikkim Darjeeling</a></li>
                                                         </div>
