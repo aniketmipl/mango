@@ -57,6 +57,72 @@ if(isset($complete_data->ProductItineraryByDay)){
     }
     @$exclusion_program .="</ul></div>";
 }
+
+
+//Tour Information
+    if(isset($complete_data->AirTravelInstructions)){
+        @$airtravelinstruction ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
+        @$airtravelinstruction .="<ul>";
+        
+        foreach($complete_data->AirTravelInstructions as $airtravelinstructions){
+                $airtravelinstruction .= "<li>".$airtravelinstructions->AirTravelInstructionItem."</li>";
+        }
+        @$airtravelinstruction .="</ul></div>";
+    }
+
+    if(isset($complete_data->VisaInstructions)){
+        @$visainstruction ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
+        @$visainstruction .="<ul>";
+        
+        foreach($complete_data->VisaInstructions as $visainstructions){
+                $visainstruction .= "<li>".$visainstructions->VisaInstructionItem."</li>";
+        }
+        @$visainstruction .="</ul></div>";
+    }
+
+    if(isset($complete_data->BookingInstructions)){
+        @$bookinginstruction ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
+        @$bookinginstruction .="<ul>";
+        
+        foreach($complete_data->BookingInstructions as $bookinginstructions){
+                $bookinginstruction .= "<li>".$bookinginstructions->BookingInstructionItem."</li>";
+        }
+        @$bookinginstruction .="</ul></div>";
+    }
+
+    if(isset($complete_data->ProductFeatures)){
+        @$productfeature ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
+        @$productfeature .="<ul>";
+        
+        foreach($complete_data->ProductFeatures as $productfeatures){
+                $productfeature .= "<li>".$productfeatures->FeatureItem."</li>";
+        }
+        @$productfeature .="</ul></div>";
+    }
+
+    if(isset($complete_data->Notes)){
+        @$note ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
+        @$note .="<ul>";
+        
+        foreach($complete_data->Notes as $notes){
+                $note .= "<li>".$notes->NoteItem."</li>";
+        }
+        @$note .="</ul></div>";
+    
+    }
+
+    if(isset($complete_data->TermsConditions)){
+        @$terms_condition ="<div style='margin: 2%;padding: 2%; margin-top:0; padding-top:0;'>";
+        @$terms_condition .="<ul>";
+        
+        foreach($complete_data->TermsConditions as $terms_conditions){
+                $terms_condition .= "<li>".$terms_conditions->TermConditionItem."</li>";
+        }
+        @$terms_condition .="</ul></div>";
+    }
+
+    
+
         
 ?>
 <div id="tour_heading" style="display: none">
@@ -109,8 +175,36 @@ if(isset($complete_data->ProductItineraryByDay)){
     <?php  if(isset($exclusion_program)){ ?>
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">PACKAGE COST EXCLUDES</h3>
     <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$exclusion_program);?></p>
-    <?php } ?>
-    <p style="margin-top:0px; padding-top:0;" align="center">For detailed terms & conditions, kindly refer to our website www.mangoholidays.in</p>
+    <?php }  ?>
+
+
+    <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR INFORMATION</h3>
+    <?php if(isset($productfeatures)){ ?>    
+    <h4 align="left" style="margin-bottom:0px; padding-bottom:0; margin-top:0px; padding-top:0; font-weight: bold;margin-left:15px;"> Product Features :</h4>
+    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$productfeature);?></p>
+    <?php }  ?>
+    <?php if(isset($bookinginstructions)){ ?>    
+    <h4 align="left" style="margin-bottom:0px; padding-bottom:0; margin-top:0px; padding-top:0; font-weight: bold;margin-left:15px;"> Booking Instructions :</h4>
+    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$bookinginstruction);?></p>
+    <?php }  ?>
+    <?php if(isset($airtravelinstructions)){ ?>    
+    <h4 align="left" style="margin-bottom:0px; padding-bottom:0; margin-top:0px; padding-top:0; font-weight: bold;margin-left:15px;"> Air Travel Instructions :</h4>
+    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$airtravelinstruction);?></p>
+    <?php }  ?>
+    <?php if(isset($visainstructions)){ ?>    
+    <h4 align="left" style="margin-bottom:0px; padding-bottom:0; margin-top:0px; padding-top:0; font-weight: bold;margin-left:15px;"> Visa Instructions :</h4>
+    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$visainstruction);?></p>
+    <?php }  ?>
+    <?php if(isset($notes)){ ?>    
+    <h4 align="left" style="margin-bottom:0px; padding-bottom:0; margin-top:0px; padding-top:0; font-weight: bold;margin-left:15px;">Notes :</h4>
+    <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$note);?></p>
+    <?php }  ?>
+    <?php if(isset($terms_condition)){ ?>
+    <h4 align="left" style="margin-bottom:0px; padding-bottom:0; margin-top:0px; padding-top:0; font-weight: bold;margin-left:15px;">Terms Conditions :</h4>
+    <p style="margin-top:10px; padding-top:0;"><?php echo str_replace('"'," ",$terms_condition);?></p>
+    <?php }  ?>
+
+
     <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">THANK YOU !</h3>
 </div>
     </div>
