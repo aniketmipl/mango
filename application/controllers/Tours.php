@@ -3997,8 +3997,8 @@ $this->load->view('common/header',$head_data);
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'images/default-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['slider_image'] = 'git/BH/best-of-bhutan-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/BH/best-of-bhutan.jpg';
 		$filter_data['sector']="Nepal";
@@ -4009,6 +4009,27 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function shimla_manali()
+	{
+		$product_id ='221';
+		$product_code='HP';
+
+		$data['api_result']=$this->call_api($product_id,$product_code);		
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		// $filter_data['slider_image'] = 'git/HP/shimla-manali-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'git/HP/shimla-manali.jpg';
+
+		$filter_data['sector']="Himachal";
+		$head_data['title'] = "Himachal Tour Package from Mumbai,Pune,India | Mango Holidays";
+
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_git_india',$filter_data);
 		$this->load->view('common/footer');
 	}
 
