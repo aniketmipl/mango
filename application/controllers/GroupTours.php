@@ -229,7 +229,18 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-	 public function group_chardham()
+	public function group_india_nepal()
+	{
+		$sector ='Nepal';
+		$data['api_result']=$this->call_api($sector);
+		$data['sector_name']=$sector;
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function group_chardham()
 	{
 		$sector ='Chardham';
 		$data['api_result']=$this->call_api($sector);
@@ -253,18 +264,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-	 public function group_india_nepal()
-	{
-		$sector ='Nepal';
-		$data['api_result']=$this->call_api($sector);
-		$data['sector_name']=$sector;
-		$head_data['sector'] = $data['sector_name'];
-		$head_data['travel_type'] = 'GIT';
-		$this->load->view('common/header',$head_data);
-		$this->load->view('group_tours/view',$data);
-		$this->load->view('common/footer');
-	}
-	 public function group_india_bhutan()
+	public function group_india_bhutan()
 	{
 		$sector ='Bhutan';
 		$data['api_result']=$this->call_api($sector);
@@ -275,6 +275,8 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
+	
+	
 	public function group_india_himachal()
 	{
 		$sector ='Himachal';

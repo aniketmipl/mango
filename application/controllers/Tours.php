@@ -4018,10 +4018,10 @@ $this->load->view('common/header',$head_data);
 
 		$data['api_result']=$this->call_api($product_id,$product_code);		
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		// $filter_data['slider_image'] = 'git/HP/shimla-manali-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'git/HP/shimla-manali.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'git/HP/shimla-manali-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/HP/shimla-manali.jpg';
 
 		$filter_data['sector']="Himachal";
 		$head_data['title'] = "Himachal Tour Package from Mumbai,Pune,India | Mango Holidays";
