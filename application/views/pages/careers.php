@@ -161,8 +161,77 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapsesFive" style="display:block;">
+                                       
+                                        <b>STORE MANAGER - NASHIK OFFICE </b>
+                                        
+                                    </a>
+                            </h4>    
+                            </div>
+                            <div id="collapsesFive" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p><b>Position : Store Manager</b></p>
+                                    <p><b>Location : Nashik Office</b></p>
+                                    <p><b>Vacancy  :</b> 1</p>
+                                    <p><b>Experience  :</b> Must have 4 to 5 years in relevant field.</p>
+                                    <p><b>Requirement  :</b> Immediately.</p>
+                                    <button style="margin-top: 2%; margin-bottom:1.5%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                            <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapsesSix" style="display:block;">
+                                       
+                                        <b>COUNTER STAFF / SALES - NASHIK OFFICE </b>
+                                        
+                                    </a>
+                            </h4>    
+                            </div>
+                            <div id="collapsesSix" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                
+                                    <p><b>Position : Counter Staff / Sales</b></p>
+                                    <p><b>Location : Nashik Office</b></p>
+                                    <p><b>Vacancy  :</b> 1</p>
+                                    <p><b>Experience  :</b> Must have 3 to 4 years in relevant field.</p>
+                                    <p><b>Requirement  :</b> Immediately.</p>
+                                    <button style="margin-top: 2%; margin-bottom:1.5%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                            <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapses7" style="display:block;">
+                                       
+                                        <b> STORE MANAGER - PIMPRI CHINCHWAD OFFICE </b>
+                                        
+                                    </a>
+                            </h4>    
+                            </div>
+                            <div id="collapses7" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                
+                                    <p><b>Position : Store Manager</b></p>
+                                    <p><b>Location :  Pimpri Chinchwad Office</b></p>
+                                    <p><b>Vacancy  :</b> 1</p>
+                                    <p><b>Experience  :</b> Must have 4 to 5 years in relevant field.</p>
+                                    <p><b>Requirement  :</b> Immediately.</p>
+                                    <button style="margin-top: 2%; margin-bottom:1.5%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                            <h4 class="panel-title">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3"
-                                       href="#collapsesTwo">
+                                       href="#collapsesTwo" style="display:block;">
                                        
                                         <b>SALES EXECUTIVE - NANDED OFFICE </b>
                                         
@@ -188,7 +257,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                       href="#collapsesThree">
+                                       href="#collapsesThree" style="display:block;">
                                         <b>PRODUCTS & OPERATIONS - PUNE OFFICE</b>
                                     </a>
                                 </h4>
@@ -208,7 +277,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
-                                       href="#collapsesFour">
+                                       href="#collapsesFour" style="display:block;">
                                         <b>SALES EXECUTIVE - PUNE OFFICE</b>
                                     </a>
                                 </h4>
@@ -224,6 +293,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>

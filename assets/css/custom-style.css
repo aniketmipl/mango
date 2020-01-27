@@ -2140,6 +2140,9 @@ box-shadow: 8px 6px 11px 1px #bbb4b4;
     padding-left:2%;
    
 }
+.career .panel-title{
+    text-transform: uppercase;
+}
 
 
 /*end career page*/
