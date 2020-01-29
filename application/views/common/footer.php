@@ -329,7 +329,7 @@
                </div>
             </div>
             <div class="">
-               <div class="col-md-6 col-sm-6 col-xs-12">
+               <div class="col-md-4 col-sm-4 col-xs-12">
                   <div class="contact-info team-details">
                      <h4>Nanded Office</h4>
                      <address>
@@ -348,7 +348,7 @@
                      </address>
                   </div>
                </div>
-               <div class="col-md-6 col-sm-6 col-xs-12">
+               <div class="col-md-4 col-sm-4 col-xs-12">
                   <div class="contact-info team-details">
                      <h4>Chinchwad Office</h4>
                      <address>
@@ -364,6 +364,21 @@
                            <li><span class="fa fa-phone"></span> <b>Phone :</b> +91 738-707-6123</li>
                            <!-- <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 8380039503 / 4 / 5 / 7 </li>  -->
                            <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">sunil.patil@mangoholidays.in</span></li>
+                        </ul>
+                     </address>
+                  </div>
+               </div>
+               <div class="col-md-4 col-sm-4 col-xs-12">
+                  <div class="contact-info team-details">
+                     <h4>Nashik Office</h4>
+                     <address>
+                        <ul class="list-unstyled mar-tp-10">
+                           <li>
+                              <span class="fa fa-map-marker"></span><b>Address :</b>    Shop No. 1, Choudhari's Genesis Commercial Complex,Opp.Tupsakhare Lawns, Holkar Kute Link Road,Behind SSK Solitaire Hotel,Nashik-422001
+                              
+                           </li>
+                           <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 9822058370 / 9423176170 </li> 
+                           <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">shantanu.kharde@mangoholidays.in</span></li>
                         </ul>
                      </address>
                   </div>

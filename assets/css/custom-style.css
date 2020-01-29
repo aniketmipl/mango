@@ -239,6 +239,25 @@
     .hover-box .image .over-layer{
         background: rgba(8, 74, 32, 0.81);
     }
+    .home-footerlink{
+        padding-bottom: 4%;
+    }
+    .home-footerlink a{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+   
+    padding: 3px 0;
+    text-transform: uppercase;
+   
+    border-bottom: 1px solid #a5a2a0;
+    
+    margin: 10px 19px;
+    display: inline-block;
+   
+    }
 
     .services-style-three {
         padding: 0;
