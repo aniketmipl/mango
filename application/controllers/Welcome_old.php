@@ -25,13 +25,13 @@ class Welcome extends CI_Controller {
 
 		$this->load->view('common/header',$head_data);
 		$this->load->view('homepage/view');
-		$this->load->view('common/footer-homepage');
+		$this->load->view('common/footer');
 	}
 	public function theme()
 	{
 		// $this->load->view('welcome_message');
 		$this->load->view('common/header');
 		$this->load->view('homepage/view');
-		$this->load->view('common/footer-homepage');
+		$this->load->view('common/footer');
 	}
 }
