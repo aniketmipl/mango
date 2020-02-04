@@ -377,7 +377,10 @@
                               <span class="fa fa-map-marker"></span><b>Address :</b>    Shop No. 1, Choudhari's Genesis Commercial Complex,Opp.Tupsakhare Lawns, Holkar Kute Link Road,Behind SSK Solitaire Hotel,Nashik-422001
                               
                            </li>
+
                            <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 9822058370 / 98223 81302 </li> 
+
+                           <li><span class="fa fa-mobile"></span> <b>Mobile :</b> +91 9822058370 / 9423176170 </li> 
                            <li><span class="fa fa-envelope"></span> <b>Email :</b>  <span style="text-transform:none; font-size:inherit; font-family:inherit;">shantanu.kharde@mangoholidays.in</span></li>
                         </ul>
                      </address>

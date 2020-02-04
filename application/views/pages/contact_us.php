@@ -146,65 +146,9 @@ var randomnumber= <?= $mynumber?>;
 <section class="about-us">
 
 <div class="container" style="padding-top:30px;">
-	<div class="row">
-	<div class="col-md-12">
-                    <div class="contact-from">
-						
-							<h4 style="padding-bottom: 12px;">Send Your Enquiry / Requirement </h4>
-							<div class="small-border"></div>
-						
-						<form action="https://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry2" onSubmit="return onSubmit2()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
-							<?php
-				                $ip_address=$_SERVER['REMOTE_ADDR'];
-
-				                /*Get user ip address details with geoplugin.net*/
-				                $geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
-				                $addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
-
-				                /*Get City name by return array*/
-				                $city = $addrDetailsArr['geoplugin_city']; 
-				            ?>
-                                    <input name="redirect" type="hidden">
-              						<input name="recipient" type="hidden" value="ranjan@mangoholidays.in, info@mangoholidays.in">
-              						<!-- <input name="recipient" type="hidden" value="antara.patil@mipl.co.in"> -->
-              						<input name="subject" type="hidden" value="<?php echo "Enquiry From Website (".$city.")"; ?>">
-                            <div class="input-field col-sm-4">
-                                <input class="set-input validate" name="contact_person" placeholder="Your Name *" id="contact_person" type="text">
-                            </div>
-                            <div class="input-field col-sm-4">
-                                <input class="set-input validate" name="telNo" placeholder="Phone *" id="telNo" type="text">
-                            </div>
-                            <div class="input-field col-sm-4">
-                                <input class="set-input validate" name="from" placeholder="Email *" id="from" type="text">
-                            </div>
-                            <div class="input-field col-sm-4">
-                                <textarea class="set-input-textarea" id="requirement_details" name="requirement_details" placeholder="Write Your Message *" rows="3"></textarea>
-							</div>
-							<div class="input-field col-sm-4">
-							<?php
-                        for($i=0; $i<$ilength; $i++)
-                        {
-                        $ipic= substr($mynumber, $i, 1);
-                        $sFilePath = "";
-                        //if (file_exists(".$ipic.".gif"))
-                        $sFilePath = $ipic.".gif";
-                        ?>
-                        <img style="width:20px;" src="https://mipl.co.in/nb/<?=$sFilePath ?>" />
-                        <?php 
-                        }
-                        ?>
-                        <input class="set-input validate" type="text" placeholder="Enter verifcation code *" name="q">
-							</div>
-							<div class="input-field col-sm-4">
-                                <button style="margin-top: 6%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" id="send">Send Message</button>
-							</div>
-					
-                        </form>
-                    </div>
-                </div>
-	</div>	
-	<br/>
-	<br/>
+		
+	<!-- <br/>
+	<br/> -->
     <div class="row">
 	<div class="col-sm-6 col-md-4">
                     <div class="contact-address">
@@ -287,6 +231,8 @@ Nagpur – 440010, Maharashtra.</p></li>
                     </div>
 	</div>
 	</div>
+
+
 	<div class="row">
 		<div class="col-sm-12">
 		<br/>
@@ -337,7 +283,88 @@ Nagpur – 440010, Maharashtra.</p></li>
             </div>
         </div>
 	</div>
+
+	<div class="col-sm-6 col-md-4">
+        <div class="contact-address">
+            <div class="address">
+			<h4>Nashik </h4>
+                <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-map-marker"></i> <p>Shop No. 1, Choudhari's Genesis Commercial Complex,
+					Opp.Tupsakhare Lawns, <br/> Holkar Kute Link Road,
+					Behind SSK Solitaire Hotel, Nashik-422001.<br/> Maharashtra, India.</p></li>
+					<!-- <li><i class="fa-li fa fa-mobile"></i>+91 9923244687</li> -->
+					<li><i class="fa-li fa fa-mobile"></i>+91 9822058370 / 9423176170</li>
+                    <!-- <li><i class="fa-li fa fa-phone"></i>020 29529712</li>                                 -->
+                    <li><i class="fa-li fa fa-envelope-o"></i>shantanu.kharde@mangoholidays.in</li>
+                   
+				</ul>
+				
+								
+				<!-- <iframe style="border: 0; margin-bottom: 4%;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7443.352698220215!2d79.05598628147585!3d21.12546571845012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x490b691a72e99296!2sMango+Holidays+Nagpur+Office+-+Best+Tour+and+Travel+Agency+in+Nagpur%2C+World+Tour+Packages!5e0!3m2!1sen!2sin!4v1529663015249" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe> -->
+				
+            </div>
+        </div>
+	</div>
 		
+	</div>
+	<br/>
+	<br/>
+	<div class="row">
+	<div class="col-md-12">
+                    <div class="contact-from">
+						
+							<h4 style="padding-bottom: 12px;">Send Your Enquiry / Requirement </h4>
+							<div class="small-border"></div>
+						
+						<form action="https://www.midsupport.com/php/TestResult_attach.php" method="post" name="Enquiry2" onSubmit="return onSubmit2()"  enctype ="multipart/form-data"  class="contact-form form contact-validation-active row">
+							<?php
+				                $ip_address=$_SERVER['REMOTE_ADDR'];
+
+				                /*Get user ip address details with geoplugin.net*/
+				                $geopluginURL='http://www.geoplugin.net/php.gp?ip='.$ip_address;
+				                $addrDetailsArr = unserialize(file_get_contents($geopluginURL)); 
+
+				                /*Get City name by return array*/
+				                $city = $addrDetailsArr['geoplugin_city']; 
+				            ?>
+                                    <input name="redirect" type="hidden">
+              						<input name="recipient" type="hidden" value="ranjan@mangoholidays.in, info@mangoholidays.in">
+              						<!-- <input name="recipient" type="hidden" value="antara.patil@mipl.co.in"> -->
+              						<input name="subject" type="hidden" value="<?php echo "Enquiry From Website (".$city.")"; ?>">
+                            <div class="input-field col-sm-4">
+                                <input class="set-input validate" name="contact_person" placeholder="Your Name *" id="contact_person" type="text">
+                            </div>
+                            <div class="input-field col-sm-4">
+                                <input class="set-input validate" name="telNo" placeholder="Phone *" id="telNo" type="text">
+                            </div>
+                            <div class="input-field col-sm-4">
+                                <input class="set-input validate" name="from" placeholder="Email *" id="from" type="text">
+                            </div>
+                            <div class="input-field col-sm-4">
+                                <textarea class="set-input-textarea" id="requirement_details" name="requirement_details" placeholder="Write Your Message *" rows="3"></textarea>
+							</div>
+							<div class="input-field col-sm-4">
+							<?php
+                        for($i=0; $i<$ilength; $i++)
+                        {
+                        $ipic= substr($mynumber, $i, 1);
+                        $sFilePath = "";
+                        //if (file_exists(".$ipic.".gif"))
+                        $sFilePath = $ipic.".gif";
+                        ?>
+                        <img style="width:20px;" src="https://mipl.co.in/nb/<?=$sFilePath ?>" />
+                        <?php 
+                        }
+                        ?>
+                        <input class="set-input validate" type="text" placeholder="Enter verifcation code *" name="q">
+							</div>
+							<div class="input-field col-sm-4">
+                                <button style="margin-top: 6%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" id="send">Send Message</button>
+							</div>
+					
+                        </form>
+                    </div>
+                </div>
 	</div>
 </div>
 </section>

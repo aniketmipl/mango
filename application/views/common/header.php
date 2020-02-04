@@ -297,6 +297,7 @@
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/bhutan">Bhutan</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/dubai">Dubai</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/europe">Europe</a></li>
+                                                      <li><a href="<?php echo base_url()?>group-tour-packages/egypt">Egypt</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/japan">Japan</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/nepal">Nepal</a></li>
                                                       <li><a href="<?php echo base_url()?>group-tour-packages/south-east-asia">South East Asia</a></li>
