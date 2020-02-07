@@ -180,7 +180,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
+                        <!-- <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
@@ -202,7 +202,7 @@
                                     <button style="margin-top: 2%; margin-bottom:1.5%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title">
@@ -227,7 +227,7 @@
                             </div>
                         </div>
                         
-                        <div class="panel panel-default">
+                        <!-- <div class="panel panel-default">
                             <div class="panel-heading">
                             <h4 class="panel-title">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3"
@@ -252,8 +252,8 @@
                                     <button style="margin-top: 2%; margin-bottom:1.5%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="panel panel-default">
+                        </div> -->
+                        <!-- <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
@@ -272,7 +272,7 @@
                                     <button style="margin-top: 2%; margin-bottom:1.5%; padding-top:10px;padding-bottom:10px;" class="btn btn-theme" data-toggle="modal" data-target="#enquiry-form-modal">Apply Now</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
