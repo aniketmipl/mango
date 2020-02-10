@@ -3848,7 +3848,6 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
-
 	public function must_do_in_nz(){
 		$product_id ='212';
 		$product_code='NZ3';
@@ -4050,24 +4049,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
-	}
-	public function best_of_egypt(){
-		$product_id ='224';
-		$product_code='EG';
-		
-		$data['api_result']=$this->call_api($product_id,$product_code);	
-		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		//$filter_data['slider_image'] = 'images/default-banner.jpg';
-		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
-		$filter_data['slider_image'] = 'git/EG/best-of-egypt-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'git/EG/best-of-egypt.jpg';
-		$filter_data['sector']="Egypt";		
-		$head_data['sector'] = $filter_data['sector'];
-		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
-		$this->load->view('common/header',$head_data);
-		$this->load->view('tours/tour_details',$filter_data);
-		$this->load->view('common/footer');
-	}
+	}	
 	public function mysteries_of_south_america()
 	{
 		$product_id ='223';
@@ -4087,6 +4069,41 @@ $this->load->view('common/header',$head_data);
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function best_of_egypt(){
+		$product_id ='224';
+		$product_code='EG';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'git/EG/best-of-egypt-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'git/EG/best-of-egypt.jpg';
+		$filter_data['sector']="Egypt";		
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function explore_kenya(){
+		$product_id ='225';
+		$product_code='KE';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/KE/explore-kenya-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/KE/explore-kenya.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Africa";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
 	
