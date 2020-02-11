@@ -278,4 +278,100 @@ class Pages extends CI_Controller {
 		$this->load->view('pages/tour_talks');
 		$this->load->view('common/footer');
 	}
+
+	public function cruise()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Cruise | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/cruise');
+		$this->load->view('common/footer');
+	}
+
+	public function melaka_phuket_4N_cruise()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Melaka-Phuket 4 Nights Cruise | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/cruise/melaka-phuket-4N-cruise');
+		$this->load->view('common/footer');
+	}
+
+	public function penang_phuket_3N_cruise()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Penang-Phuket 3 Nights Cruise | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/cruise/penang-phuket-3N-cruise');
+		$this->load->view('common/footer');
+	}
+
+	public function penang_langkawi_3N_cruise()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Penang-Langkawi 3 Nights Cruise | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/cruise/penang-langkawi-3N-cruise');
+		$this->load->view('common/footer');
+	}
+
+	public function langkawi_phuket_3N_cruise()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Langkawi-Phuket 3 Nights Cruise | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/cruise/langkawi-phuket-3N-cruise');
+		$this->load->view('common/footer');
+	}
+
+	public function port_klang_2N_cruise()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Port Klang 2 Nights Cruise | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/cruise/port-klang-2N-cruise');
+		$this->load->view('common/footer');
+	}
+
+	public function melaka_2N_cruise()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Melaka 2 Nights Cruise | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/cruise/melaka-2N-cruise');
+		$this->load->view('common/footer');
+	}
+
+	public function bintan_2N_cruise()
+	{
+		$head_data['travel_type'] = 'pages';
+		$head_data['title'] = "Bintan 2 Nights Cruise | Mango Holidays";
+		$head_data['page_description'] = "";
+		$head_data['page_keyword'] = "";
+
+		$this->load->view('common/header',$head_data);
+		$this->load->view('pages/cruise/bintan-2N-cruise');
+		$this->load->view('common/footer');
+	}
 }
