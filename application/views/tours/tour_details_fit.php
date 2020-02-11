@@ -323,9 +323,7 @@
                                                                                                     <h5>Lunch</h5>
                                                                                             <?php } if($key->IsDinner == "true"){ ?>
                                                                                                     <h5>Dinner</h5>
-                                                                                            <?php } ?>
-                                                                                          
-                                                                                            ?>
+                                                                                            <?php } ?>                                                                                     
                                                                                                 
                                                                                             </p>
                                                                                     </div>
