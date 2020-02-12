@@ -314,17 +314,19 @@
                                                                                     <div class='content'>
                                                                                         <h5><?php echo $key->DayTitle;?></h5>
                                                                                         <p>
-                                                                                            <?php echo $key->DayProgram;
-
-                                                                                            if($key->IsBreakfast == "true"){
-                                                                                                    ?>
-                                                                                                    <h5>Breakfast</h5>
+                                                                                            <?php echo $key->DayProgram; ?>
+                                                                                        </p>
+                                                                                        <p style="font-size: 13px; font-weight: 600; text-align: right; color: #2d3e52;">
+                                                                                            <?php if($key->IsBreakfast == "true"){?>
+                                                                                                     <img src="<?php echo base_url()?>assets/images/icons/breakfast.png" style="width:35px; padding-left:5px; padding-right:5px;">  
+                                                                                                    <span style="padding-right:5px;">Breakfast</span> |
                                                                                               <?php }  if($key->IsLunch == "true"){ ?>
-                                                                                                    <h5>Lunch</h5>
+                                                                                               <img src="<?php echo base_url()?>assets/images/icons/lunch.png" style="width:35px; padding-left:5px; padding-right:5px;">
+                                                                                              <span style="padding-right:5px; ">Lunch</span> |
                                                                                             <?php } if($key->IsDinner == "true"){ ?>
-                                                                                                    <h5>Dinner</h5>
-                                                                                            <?php } ?>                                                                                     
-                                                                                                
+                                                                                                    <img src="<?php echo base_url()?>assets/images/icons/dinner.png" style="width:35px; padding-left:5px; padding-right:5px;">
+                                                                                                    <span style="padding-right:5px;">Dinner</span> |
+                                                                                            <?php } ?>  
                                                                                             </p>
                                                                                     </div>
                                                                                 </li>
