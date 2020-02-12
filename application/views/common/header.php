@@ -422,6 +422,9 @@
                         <li class="<?php echo ($controller =='corporate-tours-package')?'active':''?>">
                             <a href="<?php echo base_url()?>corporate-tours-package">Corporate Tours</a>
                         </li>
+                        <li class="<?php echo ($controller =='cruise')?'active':''?>">
+                            <a href="<?php echo base_url()?>cruise">Cruise</a>
+                        </li>
                         <li class="<?php echo ($controller =='about-us')?'active':''?>">
                             <a href="<?php echo base_url()?>about-us">About Us</a>
                         </li>

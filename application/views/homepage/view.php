@@ -1146,13 +1146,14 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<!--to enable popup uncomment below code-->
+<!--to enable popup uncomment below code
 <script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
 </script>
+-->
 <script>
     $(document).ready(function(){         
         var url= "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?";

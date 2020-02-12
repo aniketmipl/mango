@@ -312,3 +312,66 @@ color: #000;
 }
 
 /*end styling for fit tour*/  
+
+/*for cruise*/
+/* width */
+.cruise-table::-webkit-scrollbar{
+    width: 6px;
+   
+  }
+ /* Track */
+
+
+ .cruise-table::-webkit-scrollbar-track{
+   box-shadow: inset 0 0 5px #ccc; 
+   border-radius: 0px;
+   background-color:rgba(0,0,0,0); 
+ }
+  
+ /* Handle */
+ .cruise-table::-webkit-scrollbar-thumb{
+   background: #ccc;; 
+   border-radius: 10px;
+ }
+ 
+ /* Handle on hover */
+ .cruise-table::-webkit-scrollbar-thumb:hover{
+   background: #c1c0bc; 
+ }
+
+ /*end for scrollbar*/
+
+.cruise-table-heading{
+    background:#3e3d3d;
+} 
+.cruise-table-heading th{
+    text-align:center; text-transform:uppercase; color:#fff;
+}
+
+.empty-cell{
+    background:#f3f2f2;
+}
+.cruise-content .cruise-anchor{
+    margin-bottom:10px;
+}
+
+@media only screen and (min-width: 768px){
+.cruise-content .verticle-tab .tab-content{
+    width:100%;
+}
+}
+
+@media only screen and (max-width: 767px){
+.cruise-content .verticle-tab .tab-content {
+    height: auto;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.cruise-table{
+    height: auto;
+    overflow: hidden;
+    overflow-x: scroll;
+ }
+}
+
+/*end for cruise*/
