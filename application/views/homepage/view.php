@@ -1133,8 +1133,8 @@
       </div>-->
       <button type="button" class="close" data-dismiss="modal">&times;</button>
      <div class="modal-body text-center">
-      <img src="<?php echo base_url();?>assets/images/popup/melava.png" alt="melava">
-       
+      <img src="<?php echo base_url();?>assets/images/popup/melava.jpg" alt="melava">
+      
       </div>
       <div class="modal-footer">
         <!--         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
@@ -1146,14 +1146,14 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<!--to enable popup uncomment below code
+<!--to enable popup uncomment below code-->
 <script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
 </script>
--->
+
 <script>
     $(document).ready(function(){         
         var url= "https://mantra.mangoholidays.in/Services/WebsiteData/WebsiteDataService.svc/GetProductListBySectorForWebsite?";
