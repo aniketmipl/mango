@@ -13,15 +13,17 @@ if(isset($complete_data->ProductItineraryByDay)){
             foreach ($itenary_key2->ProductItineraryByDayItem as $itenary_key) {
                 $itenary_program .= "<h3 style='font-size:14px; font-weight:bold'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
+                $itenary_program .= "<p style='text-align:right; font-size:13px; border-bottom:1px solid #e8e8e8; padding-bottom:10px; margin-bottom:5px;'>";
                 if(@$itenary_key->IsBreakfast == "true"){ 
-                    $itenary_program .= "<img src='".base_url()."assets/images/icons/breakfast.png' style='width:17px; padding-left:5px; padding-right:5px;'><span style='padding-right:5px;'>Breakfast</span> |";
+                    $itenary_program .= "<img src='".base_url()."assets/images/icons/breakfast.png' style='width:17px; padding-left:5px; padding-right:5px; vertical-align:middle;'><span style='padding-right:5px;'>Breakfast</span> |";
                 }
                 if(@$itenary_key->IsLunch == "true"){ 
-                    $itenary_program .= "<img src='".base_url()."assets/images/icons/lunch.png' style='width:17px; padding-left:5px; padding-right:5px;'><span style='padding-right:5px;'>Lunch</span> |";
+                    $itenary_program .= "<img src='".base_url()."assets/images/icons/lunch.png' style='width:17px; padding-left:5px; padding-right:5px; vertical-align:middle;'><span style='padding-right:5px;'>Lunch</span> |";
                 }
                 if(@$itenary_key->IsDinner == "true"){ 
-                    $itenary_program .= "<img src='".base_url()."assets/images/icons/dinner.png' style='width:17px; padding-left:5px; padding-right:5px;'><span style='padding-right:5px;'>Dinner</span> |";
+                    $itenary_program .= "<img src='".base_url()."assets/images/icons/dinner.png' style='width:17px; padding-left:5px; padding-right:5px; vertical-align:middle;'><span style='padding-right:5px;'>Dinner</span> |";
                 }
+                $itenary_program .= "</p>";
     }}
             @$itenary_program .="</div>";
 }
@@ -182,7 +184,7 @@ if(isset($complete_data->ProductItineraryByDay)){
     <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$exclusion_program);?></p>
     <?php } ?>
 
-        <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:0;margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR INFORMATION</h3>
+        <h3 align="center" style="font-weight: bold; padding-bottom:10px; margin-bottom:20px; margin-top:15px; padding-top:10px; background-color:#f2dbdb;">TOUR INFORMATION</h3>
     <?php if(isset($productfeatures)){ ?>    
     <h4 align="left" style="margin-bottom:0px; padding-bottom:0; margin-top:0px; padding-top:0; font-weight: bold;margin-left:15px;"> Product Features :</h4>
     <p style="margin-top:0px; padding-top:0;"><?php echo str_replace('"'," ",$productfeature);?></p>
