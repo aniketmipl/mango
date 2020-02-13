@@ -13,6 +13,16 @@ if(isset($complete_data->ProductItineraryByDay)){
             foreach ($itenary_key2->ProductItineraryByDayItem as $itenary_key) {
                 $itenary_program .= "<h3 style='font-size:14px; font-weight:bold'> Day  ".@$itenary_key->DayNo." : ".@$itenary_key->DayTitle."</h3>";
                 $itenary_program .= "<p>".mb_convert_encoding(@$itenary_key->DayProgram,'UTF-8')."</p>";
+                "<p style='font-size: 13px; font-weight: 600; text-align: right; color: #2d3e52;'>";
+                if(@$itenary_key->IsBreakfast == "true"){ 
+                    $itenary_program .= "<img src='".base_url()."assets/images/icons/breakfast.png' style='width:17px; padding-left:5px; padding-right:5px;'><span style='padding-right:5px;'>Breakfast</span> |";
+                }
+                if(@$itenary_key->IsLunch == "true"){ 
+                    $itenary_program .= "<img src='".base_url()."assets/images/icons/lunch.png' style='width:17px; padding-left:5px; padding-right:5px;'><span style='padding-right:5px;'>Lunch</span> |";
+                }
+                if(@$itenary_key->IsDinner == "true"){ 
+                    $itenary_program .= "<img src='".base_url()."assets/images/icons/dinner.png' style='width:17px; padding-left:5px; padding-right:5px;'><span style='padding-right:5px;'>Dinner</span> |";
+                }
     }}
             @$itenary_program .="</div>";
 }
