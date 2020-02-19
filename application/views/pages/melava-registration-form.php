@@ -142,7 +142,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                                     <input name="redirect" type="hidden">
                                       <input name="recipient" type="hidden" id="recipient" value="hr@mangoholidays.in, ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
                                       <input name="subject" type="hidden" id="subject" value="Melava Registration From Website">    
-                                      <input type="hidden" name="melava_date" id="melava_date" value="16th February, 2020">
+                                      <input type="hidden" name="melava_date" id="melava_date" value="South America - Margdarshan Melava on 25th Feb 2020">
                                       <input type="text" name="contact_person" id="contact_person" placeholder="Your Name">
                                       <input type="email" name="from" id="from" placeholder="Email">
                                       <input type="text" name="telNo" id="telNo" placeholder="Phone Number">

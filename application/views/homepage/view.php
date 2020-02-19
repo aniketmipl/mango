@@ -1127,19 +1127,21 @@
   <div class="modal-dialog">
     <!-- Modal content-->
     <div class="modal-content">
-      <!--<div class="modal-header">
+      <!-- <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Holiday Bazaar - 29th Sept</h4>
-      </div>-->
+                <h4 class="modal-title">Margdarshan Melava </h4>
+      </div> -->
       <button type="button" class="close" data-dismiss="modal">&times;</button>
      <div class="modal-body text-center">
+     <form>
      <a href="<?php echo base_url();?>melava-registration-form">
-      <img src="<?php echo base_url();?>assets/images/popup/melava.jpg" alt="melava">
+      <img src="<?php echo base_url();?>assets/images/popup/melava.jpg" alt="South America - Margdarshan Melava on 25th Feb 2020">
       </a>
+      </form>
       </div>
       <div class="modal-footer">
         <!--         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
-        <!-- <a class="pre-order-btn" href="<?php echo base_url();?>contact-us">Contact Us</a> -->
+        <a class="pre-order-btn" href="<?php echo base_url();?>melava-registration-form">Click For Registration</a>
     </div>
     </div>
 
@@ -1147,14 +1149,14 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<!--to enable popup uncomment below code
+<!--to enable popup uncomment below code-->
 <script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
 </script>
--->
+
 
 <script>
     $(document).ready(function(){         
