@@ -1133,8 +1133,9 @@
       </div>-->
       <button type="button" class="close" data-dismiss="modal">&times;</button>
      <div class="modal-body text-center">
+     <a href="<?php echo base_url();?>melava-registration-form">
       <img src="<?php echo base_url();?>assets/images/popup/melava.jpg" alt="melava">
-      
+      </a>
       </div>
       <div class="modal-footer">
         <!--         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
@@ -1146,13 +1147,14 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<!--to enable popup uncomment below code-->
+<!--to enable popup uncomment below code
 <script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
 </script>
+-->
 
 <script>
     $(document).ready(function(){         
