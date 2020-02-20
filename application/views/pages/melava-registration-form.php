@@ -133,7 +133,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                     <!--popup for "Send enquiry" with corresponding Tour name-->
                     <div id="enquiry-form-modal" class="career">
                         <div class="">
-                            <div class="modal-content" style="box-shadow: 1px 2px 20px 20px rgba(255, 255, 255, 0.72);">
+                            <div class="modal-content" style="box-shadow: 1px 2px 20px 20px rgba(255, 255, 255, 0.72); background-color: rgba(255, 255, 255, 0.91);">
                                 <div class="modal-header" style="background: #f37435;">
                                     <h3 class="modal-title" style="text-align:center;">Registration Form</h3>
                                 </div>
@@ -142,7 +142,7 @@ var randomnumber_tour= <?= $mynumber_tour?>;
                                     <input name="redirect" type="hidden">
                                       <input name="recipient" type="hidden" id="recipient" value="hr@mangoholidays.in, ranjan@mangoholidays.in, customercare@mangoholidays.in, info@mangoholidays.in">
                                       <input name="subject" type="hidden" id="subject" value="Melava Registration From Website">    
-                                      <input type="hidden" name="melava_date" id="melava_date" value="South America - Margdarshan Melava on 25th Feb 2020">
+                                      <!-- <input type="hidden" name="melava_date" id="melava_date" value="South America - Margdarshan Melava on 25th Feb 2020"> -->
                                       <input type="text" name="contact_person" id="contact_person" placeholder="Your Name">
                                       <input type="email" name="from" id="from" placeholder="Email">
                                       <input type="text" name="telNo" id="telNo" placeholder="Phone Number">

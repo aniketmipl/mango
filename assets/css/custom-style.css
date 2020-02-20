@@ -2387,3 +2387,47 @@ box-shadow: 8px 6px 11px 1px #bbb4b4;
 }
 
 /*about core value*/
+
+.popup-carousel.owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+}
+.popup-carousel.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+}
+.popup-carousel.owl-theme .owl-nav [class*='owl-']{
+   background: #869791;
+    font-size: 29px;
+    
+}
+
+@media (min-width: 768px){
+.popup-carousel{
+    width:568px;
+    display: block;
+    z-index:0;
+}
+}
+@media (max-width:767px) and (min-width: 500px){
+    .popup-carousel{
+        width:450px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:500px) and (min-width: 320px){
+    .popup-carousel{
+        width:300px;
+        margin: 0 auto;
+    
+    }
+}
+@media (max-width:500px){
+    .popup-carousel{
+        width:250px;
+        margin: 0 auto;
+    }
+}
+
