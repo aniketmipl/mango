@@ -37,6 +37,7 @@
                             Our mission at Mango Holidays is to focus on values over volumes and quality over quantity with absolutely honest and ethical interactions at each stage.</p>
                         <!-- <a class="btn btn-primary" href="#">Read More</a> -->
                     </div>
+                    
                 </div>
             </div>
         </div>
