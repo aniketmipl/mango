@@ -8,7 +8,7 @@ class Tours extends CI_Controller {
 		$this->load->view('welcome_message');
 	}
 
-//GROUP INTERNATIONAL TOURS
+	//GROUP INTERNATIONAL TOURS
 
 	public function exotic_europe()
 	{
@@ -26,7 +26,6 @@ class Tours extends CI_Controller {
 		//$filter_data['sector_path']="GroupTours/group_europe";
 
 		$head_data['title'] = "Exotic Europe Tour Package from Mumbai,Pune,India | Mango Holidays";
-
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);
@@ -49,9 +48,9 @@ class Tours extends CI_Controller {
 		//$filter_data['sector_path']="GroupTours/group_europe";
 		$head_data['title'] = "Classical Europe Tour Package from Mumbai,Pune,India | Mango Holidays";
 
-$head_data['sector'] = $filter_data['sector'];
-$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
-$this->load->view('common/header',$head_data);
+	$head_data['sector'] = $filter_data['sector'];
+	$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+	$this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('common/footer');
 	}
@@ -494,7 +493,7 @@ $this->load->view('common/header',$head_data);
 
 
 
-//CUSTOMIZED INTERNATIONAL TOURS	
+	//CUSTOMIZED INTERNATIONAL TOURS	
 	public function greece1(){
 
 		$product_id ='30';
@@ -566,7 +565,7 @@ $this->load->view('common/header',$head_data);
 	}
 
 
-///CUSTOMIZED INDIA TOURS
+	///CUSTOMIZED INDIA TOURS
 	public function beautiful_andaman(){
 		$product_id ='38';
 		$product_code='AN1';
@@ -1362,8 +1361,8 @@ $this->load->view('common/header',$head_data);
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "Swiss Paris Tour Package from Mumbai,Pune,India | Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
-$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
-$this->load->view('common/header',$head_data);
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -1383,8 +1382,8 @@ $this->load->view('common/header',$head_data);
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "Best of Italy Tour Package from Mumbai,Pune,India | Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
-$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
-$this->load->view('common/header',$head_data);
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -1404,8 +1403,8 @@ $this->load->view('common/header',$head_data);
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "Discover Croatia Tour Package from Mumbai,Pune,India | Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
-$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
-$this->load->view('common/header',$head_data);
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -1792,8 +1791,8 @@ $this->load->view('common/header',$head_data);
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['title'] = "BRITISH COLUMBIA Tour Package from Mumbai,Pune,India | Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
-$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
-$this->load->view('common/header',$head_data);
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
 		// $this->load->view('tours/tour_details',$filter_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
@@ -4106,7 +4105,204 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('tours/tour_details_fit',$filter_data);
 		$this->load->view('common/footer');
 	}
-	
+	public function discover_azerbaijan(){
+		$product_id ='226';
+		$product_code='AZ3';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/AZ3/discover-azerbaijan-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/AZ3/discover-azerbaijan.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Azerbaijan";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function baku(){
+		$product_id ='231';
+		$product_code='AZ4';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/AZ4/BAKU-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/AZ4/BAKU.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Azerbaijan";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function best_of_azerbaijan(){
+		$product_id ='232';
+		$product_code='AZ5';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/AZ5/best-of-azerbaijan-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/AZ5/best-of-azerbaijan.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Azerbaijan";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function bishkek(){
+		$product_id ='230';
+		$product_code='KY1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/KY1/bishkek-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/KY1/bishkek.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Kyrgyzstan";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function almaty(){
+		$product_id ='229';
+		$product_code='KZ1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/KZ1/almaty-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/KZ1/almaty.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Kazakhstan";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function kiev_minsk(){
+		$product_id ='228';
+		$product_code='KM';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/KM/kiev-minsk-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/KM/kiev-minsk.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Ukraine";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function georgia(){
+		$product_id ='233';
+		$product_code='GA1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/GA1/georgia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/GA1/georgia.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Europe";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function tashkent(){
+		$product_id ='227';
+		$product_code='UZ1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/UZ1/tashkent-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/UZ1/tashkent.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Uzbekistan";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function armenia(){
+		$product_id ='234';
+		$product_code='AR1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/AR1/armenia-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/AR1/armenia.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="ARMENIA";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function kenya_5n(){
+		$product_id ='235';
+		$product_code='KY2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/KY2/KENYA-5N-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/KY2/KENYA-5N.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Africa";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+	public function kenya_tanzania(){
+		$product_id ='236';
+		$product_code='KT';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		// $filter_data['slider_image'] = 'fit/KT/kenya-tanzania-banner.jpg';
+		// $filter_data['slider_mobile_image'] = 'fit/KT/kenya-tanzania.jpg';
+		$filter_data['slider_image'] = 'images/default-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Africa";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
 
 	
 	public function mpdf(){

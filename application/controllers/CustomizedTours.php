@@ -677,6 +677,76 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('customized_tours/view',$data);
 		$this->load->view('common/footer');
 	}
+	public function customized_kyrgyzstan()
+	{
+		$sector ='Kyrgyzstan'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		//$head_data['title'] = "Customized Gujarat Tour from Mumbai,Pune,India| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'FIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function customized_kazakhstan()
+	{
+		$sector ='Kazakhstan'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		//$head_data['title'] = "Customized Gujarat Tour from Mumbai,Pune,India| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'FIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function customized_ukraine()
+	{
+		$sector ='Ukraine'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		//$head_data['title'] = "Customized Gujarat Tour from Mumbai,Pune,India| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'FIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function customized_uzbekistan()
+	{
+		$sector ='Uzbekistan'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		//$head_data['title'] = "Customized Gujarat Tour from Mumbai,Pune,India| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'FIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	public function customized_armenia()
+	{
+		$sector ='ARMENIA'; //for Api
+
+		$data['api_result']=$this->call_api($sector);
+		//$head_data['title'] = "Customized Gujarat Tour from Mumbai,Pune,India| Mango Holidays";
+		$data['sector_name']=$sector;
+		
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'FIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('customized_tours/view',$data);
+		$this->load->view('common/footer');
+	}
 	
 
 	public function call_api($sector){
