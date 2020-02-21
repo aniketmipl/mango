@@ -4129,10 +4129,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/AZ4/BAKU-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/AZ4/BAKU.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/AZ4/BAKU-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/AZ4/BAKU.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Azerbaijan";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4147,10 +4147,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/AZ5/best-of-azerbaijan-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/AZ5/best-of-azerbaijan.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/AZ5/best-of-azerbaijan-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/AZ5/best-of-azerbaijan.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Azerbaijan";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4165,10 +4165,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/KY1/bishkek-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/KY1/bishkek.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/KY1/bishkek-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/KY1/bishkek.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Kyrgyzstan";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4183,10 +4183,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/KZ1/almaty-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/KZ1/almaty.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/KZ1/almaty-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/KZ1/almaty.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Kazakhstan";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4201,10 +4201,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/KM/kiev-minsk-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/KM/kiev-minsk.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/KM/kiev-minsk-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/KM/kiev-minsk.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Ukraine";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4219,10 +4219,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/GA1/georgia-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/GA1/georgia.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/GA1/georgia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/GA1/georgia.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Europe";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4237,10 +4237,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/UZ1/tashkent-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/UZ1/tashkent.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/UZ1/tashkent-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/UZ1/tashkent.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Uzbekistan";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4255,10 +4255,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/AR1/armenia-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/AR1/armenia.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/AR1/armenia-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/AR1/armenia.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="ARMENIA";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4273,10 +4273,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/KY2/KENYA-5N-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/KY2/KENYA-5N.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/KY2/KENYA-5N-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/KY2/KENYA-5N.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Africa";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4291,10 +4291,10 @@ class Tours extends CI_Controller {
 		
 		$data['api_result']=$this->call_api($product_id,$product_code);	
 		$filter_data['complete_data'] = $data['api_result']['complete_data'];
-		// $filter_data['slider_image'] = 'fit/KT/kenya-tanzania-banner.jpg';
-		// $filter_data['slider_mobile_image'] = 'fit/KT/kenya-tanzania.jpg';
-		$filter_data['slider_image'] = 'images/default-banner.jpg';
-		$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['slider_image'] = 'fit/KT/kenya-tanzania-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/KT/kenya-tanzania.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['sector']="Africa";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		$head_data['sector'] = $filter_data['sector'];
@@ -4304,6 +4304,43 @@ class Tours extends CI_Controller {
 		$this->load->view('common/footer');
 	}
 
+public function highlights_of_oman(){
+		$product_id ='237';
+		$product_code='OM1';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'fit/OM1/highlights-of-oman-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/OM1/highlights-of-oman.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Oman";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
+
+	public function all_of_oman(){
+		$product_id ='238';
+		$product_code='OM2';
+		
+		$data['api_result']=$this->call_api($product_id,$product_code);	
+		$filter_data['complete_data'] = $data['api_result']['complete_data'];
+		$filter_data['slider_image'] = 'fit/OM2/all-of-oman-banner.jpg';
+		$filter_data['slider_mobile_image'] = 'fit/OM2/all-of-oman.jpg';
+		//$filter_data['slider_image'] = 'images/default-banner.jpg';
+		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
+		$filter_data['sector']="Oman";
+		//$filter_data['sector_path']="CustomizedTours/customized_africa";
+		$head_data['sector'] = $filter_data['sector'];
+		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
+		$this->load->view('common/header',$head_data);
+		$this->load->view('tours/tour_details_fit',$filter_data);
+		$this->load->view('common/footer');
+	}
 	
 	public function mpdf(){
 		//load mPDF library

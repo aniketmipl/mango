@@ -1137,18 +1137,20 @@
                
                 <div class="popup-carousel">
                     <div class="item" >
-                        <a href="<?php echo base_url();?>melava-registration-form">
+                    <!--for localhost change https://mangoholidays.in/ to http://localhost/MangoHolidaysNew/ -->
+                        <a href="https://mangoholidays.in/form_melava.php?melava=Margdarshan Melava on 23th Feb 2020">
                             <img src="<?php echo base_url();?>assets/images/popup/23feb-melava.jpg" alt="Margdarshan Melava on 23th Feb 2020"/>
                             
                         </a>
                     </div>
 
                     <div class="item">
-                        <a href="<?php echo base_url();?>melava-registration-form">
+                    <!--for localhost change https://mangoholidays.in/ to http://localhost/MangoHolidaysNew/ -->
+                        <a href="https://mangoholidays.in/form_melava.php?melava=South America - Margdarshan Melava on 25th Feb 2020">
                             <img src="<?php echo base_url();?>assets/images/popup/melava.jpg" alt="South America - Margdarshan Melava on 25th Feb 2020"/>
                         </a>
                     </div>
-                    </div>
+                </div>
                 
         </form>
     </div>
