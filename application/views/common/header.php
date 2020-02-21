@@ -401,6 +401,7 @@
                                                         <!-- <li><a href="<?php echo base_url()?>customized-holidays/morocco">Morocco</a></li> -->
                                                         <li><a href="<?php echo base_url()?>customized-holidays/nepal">Nepal</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/new-zealand">New Zealand</a></li>
+                                                         <li><a href="<?php echo base_url()?>customized-holidays/oman">Oman</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/russia">Russia</a></li>
                                                          <li><a href="<?php echo base_url()?>CustomizedTours/customized_scandinavia">Scandinavia</a></li>
                                                         <li><a href="<?php echo base_url()?>customized-holidays/spain">Spain</a></li>

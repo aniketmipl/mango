@@ -435,6 +435,41 @@
             }
         });
 
+        $('.popup-carousel').owlCarousel({
+            loop:true,
+            nav:true,
+            dots:true,
+            margin: 10,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:false,
+            autoplaySpeed:1000,
+            navText: [
+                '<i class="ion-ios-arrow-left" aria-hidden="true"></i>',
+                '<i class="ion-ios-arrow-right" aria-hidden="true"></i>'
+            ],
+            responsive: {
+                0: {
+                    margin: 10,
+                    items: 1
+                },
+                480: {
+                    margin: 10,
+                    items: 1
+                },
+                600:{
+                    margin: 10,
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                },
+                1400: {
+                    items: 1
+                }
+            }
+        });    
+
     //Setup Filterizr
     var filtrContainer = $('.filtr-container');
     if(filtrContainer.length){
