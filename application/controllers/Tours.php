@@ -3948,7 +3948,8 @@ class Tours extends CI_Controller {
 		$this->load->view('tours/tour_details_git_india',$filter_data);
 		$this->load->view('common/footer');
 	}
-	public function nepal(){
+	public function nepal()
+	{
 		$product_id ='217';
 		$product_code='NP';
 		
@@ -3980,7 +3981,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_image'] = 'git/CD/chardham-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/CD/chardham.jpg';
 
-		$filter_data['sector']="Chardham";
+		$filter_data['sector'] = "Chardham";
 		$head_data['title'] = "Chardham Tour Package from Mumbai,Pune,India | Mango Holidays";
 
 		$head_data['sector'] = $filter_data['sector'];
@@ -3989,7 +3990,8 @@ class Tours extends CI_Controller {
 		$this->load->view('tours/tour_details_git_india',$filter_data);
 		$this->load->view('common/footer');
 	}
-	public function best_of_bhutan(){
+	public function best_of_bhutan()
+	{
 		$product_id ='220';
 		$product_code='BH';
 		
@@ -3999,7 +4001,7 @@ class Tours extends CI_Controller {
 		// $filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['slider_image'] = 'git/BH/best-of-bhutan-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/BH/best-of-bhutan.jpg';
-		$filter_data['sector']="Nepal";
+		$filter_data['sector'] = "Nepal";
 		//$filter_data['sector_path']="CustomizedTours/customized_africa";
 		
 		$head_data['sector'] = $filter_data['sector'];
@@ -4021,7 +4023,7 @@ class Tours extends CI_Controller {
 		$filter_data['slider_image'] = 'git/HP/shimla-manali-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/HP/shimla-manali.jpg';
 
-		$filter_data['sector']="Himachal";
+		$filter_data['sector'] = "Himachal";
 		$head_data['title'] = "Himachal Tour Package from Mumbai,Pune,India | Mango Holidays";
 
 		$head_data['sector'] = $filter_data['sector'];
@@ -4030,7 +4032,8 @@ class Tours extends CI_Controller {
 		$this->load->view('tours/tour_details_git_india',$filter_data);
 		$this->load->view('common/footer');
 	}
-	public function amarnath_yatra(){
+	public function amarnath_yatra()
+	{
 
 		$product_id ='222';
 		$product_code='AY';
@@ -4041,7 +4044,7 @@ class Tours extends CI_Controller {
 		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['slider_image'] = 'fit/AY/amarnath-yatra-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'fit/AY/amarnath-yatra.jpg';
-		$filter_data['sector']="Kashmir";
+		$filter_data['sector'] = "Kashmir";
 		$head_data['title'] = "Amarnath Yatra Tour Package from Mumbai,Pune,India | Mango Holidays";
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
@@ -4060,7 +4063,7 @@ class Tours extends CI_Controller {
 		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['slider_image'] = 'git/SAM/mysteries-of-south-america-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/SAM/mysteries-of-south-america.jpg';
-		$filter_data['sector']="America";
+		$filter_data['sector'] = "America";
 		//$filter_data['sector_path']="GroupTours/group_america";
 		$head_data['title'] = "Mysteries Of South America with Orlando Tour Package from Mumbai,Pune,India | Mango Holidays";
 
@@ -4080,7 +4083,7 @@ class Tours extends CI_Controller {
 		//$filter_data['slider_mobile_image'] = 'images/default-tour.jpg';
 		$filter_data['slider_image'] = 'git/EG/best-of-egypt-banner.jpg';
 		$filter_data['slider_mobile_image'] = 'git/EG/best-of-egypt.jpg';
-		$filter_data['sector']="Egypt";		
+		$filter_data['sector'] = "Egypt";		
 		$head_data['sector'] = $filter_data['sector'];
 		$head_data['travel_type'] = $filter_data['complete_data']->TravelType;
 		$this->load->view('common/header',$head_data);

@@ -285,12 +285,12 @@
                                                 <div class="content">
                                                     <ul class="menu-col">
                                                         <div class="col-md-12 col-sm-12">                                                           
-                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/bhutan">Bhutan</a></li>
-                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/chardham">Chardham</a></li>
-                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/himachal">Himachal</a></li>
-                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/nepal">Nepal</a></li>
-                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/ladakh">Ladakh</a></li>
-                                                            <li><a href="<?php echo base_url()?>group-tour-packages/india/sikkim-darjeeling">Sikkim Darjeeling</a></li>
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/bhutan">Bhutan</a></li>
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/chardham">Chardham</a></li>
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/himachal">Himachal</a></li>
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/nepal">Nepal</a></li>
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/ladakh">Ladakh</a></li>
+                                                            <li><a href="<?php echo base_url()?>group-tour-packages/sikkim-darjeeling">Sikkim Darjeeling</a></li>
                                                         </div>
                                                         
                                                     </ul>

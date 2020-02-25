@@ -204,8 +204,31 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
-	}	 
-	 public function group_sikkimdarjeeling()
+	}
+	public function group_india_ladakh()
+	{
+		$sector ='Ladakh';
+		$data['api_result']=$this->call_api($sector);
+		$data['sector_name']=$sector;
+		$head_data['sector'] = $data['sector_name'];
+		$head_data['travel_type'] = 'GIT';
+		$this->load->view('common/header',$head_data);
+		$this->load->view('group_tours/view',$data);
+		$this->load->view('common/footer');
+	}
+	 
+	//  public function group_sikkimdarjeeling()
+	// {
+	// 	$sector ='Sikkim Darjeeling';
+	// 	$data['api_result']=$this->call_api($sector);
+	// 	$data['sector_name']=$sector;
+	// 	$head_data['sector'] = $data['sector_name'];
+	// 	$head_data['travel_type'] = 'GIT';
+	// 	$this->load->view('common/header',$head_data);
+	// 	$this->load->view('group_tours/view',$data);
+	// 	$this->load->view('common/footer');
+	// }
+	public function group_india_sikkimdarjeeling()
 	{
 		$sector ='Sikkim Darjeeling';
 		$data['api_result']=$this->call_api($sector);
@@ -215,7 +238,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
-	}
+	}	
 	public function group_nepal()
 	{
 		$sector ='Nepal';
@@ -240,7 +263,7 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
 	}
-	public function group_chardham()
+	public function group_india_chardham()
 	{
 		$sector ='Chardham';
 		$data['api_result']=$this->call_api($sector);
