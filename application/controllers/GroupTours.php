@@ -297,10 +297,9 @@ $this->load->view('common/header',$head_data);
 		$this->load->view('common/header',$head_data);
 		$this->load->view('group_tours/view',$data);
 		$this->load->view('common/footer');
-	}
-	
-	
-	public function group_india_himachal()
+	}	
+
+	public function group_himachal()
 	{
 		$sector ='Himachal';
 		$data['api_result']=$this->call_api($sector);
