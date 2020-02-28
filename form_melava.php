@@ -1,5 +1,6 @@
 <?php
-$connect = mysqli_connect("localhost","root","","mangoholiday")or die("database connection failed");
+$connect = mysqli_connect("localhost","mangoholid_chat","Gi7DbG9A","mangoholid_livechat")or die("database connection failed");
+//$connect = mysqli_connect("localhost","root","","mangoholiday")or die("database connection failed");
 
 date_default_timezone_set('Asia/Calcutta'); 
 $date = date("Y-m-d"); // time in India
@@ -11,6 +12,7 @@ $melava_data = mysqli_query($connect,$select_melava);
 
 if(mysqli_num_rows($melava_data) > 0){
 	$row = mysqli_fetch_assoc($melava_data);
+	$melava_name = $row['melava_name'];
 	$counter = $row['counter'];
 	$date1 = $row['date'];
 	$counter = $counter + 1;

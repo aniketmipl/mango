@@ -1134,8 +1134,8 @@
       <button type="button" class="close" data-dismiss="modal">&times;</button>
      <div class="modal-body text-center">
         <form>
-                <a href="https://mangoholidays.in/form_melava.php?melava=South America - Margdarshan Melava on 25th Feb 2020">
-                    <img src="<?php echo base_url();?>assets/images/popup/melava.jpg" alt="South America - Margdarshan Melava on 25th Feb 2020"/>
+                <a href="https://mangoholidays.in/form_melava.php?melava=Nashik-Melawa-1-Mar-2020">
+                    <img src="<?php echo base_url();?>assets/images/popup/Nashik-Melawa-1-Mar-2020.jpg" alt="Nashik-Melawa-1-Mar-2020"/>
                 </a>
                 <!--for popup slider-->
                 <!-- <div class="popup-carousel">
