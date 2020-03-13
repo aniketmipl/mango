@@ -1127,16 +1127,26 @@
   <div class="modal-dialog">
     <!-- Modal content-->
     <div class="modal-content">
-      <!-- <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Margdarshan Melava </h4>
-      </div> -->
+      <div class="modal-header">
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+        <!-- <h4 class="modal-title" style="color:#fff;">Melava</h4> -->
+                <h2 class="modal-title" style="color:#fff; padding-left:4%;">पर्यटन विश्वाला लागलेली घरघर........</h2>
+      </div>
       <button type="button" class="close" data-dismiss="modal">&times;</button>
      <div class="modal-body text-center">
         <form>
-                <a href="https://mangoholidays.in/form_melava.php?melava=Nashik-Melawa-1-Mar-2020">
+                <p class="text">
+                सिझन च्या ऐन तोंडावर, करोनाच्या ह्या धक्यातून पर्यटन विश्व, पर्यटक आणि पर्यटन संस्था सावरण्याची शक्यता फारच कमी आहे. एक अनिश्चितता आणि भीती च्या विळख्यात सापडलेली ही अभूतपूर्व परिस्थिती आहे जिला पर्यटक किंवा पर्यटन संस्था दोघेही जबाबदार नाहीत. 
+                </p>
+                <p class="text">
+                पर्यटकांच्या दृष्टीने जर विचार केला तर.........करोना च्या भीतीपोटी सर्व पर्यटकांना आत्ता टूर करायची भीती वाटणे हे अगदी साहजिक आहे. अशा दडपणाखाली टूर करण्यापेक्षा, त्यांना पुढच्या वर्षी ट्रॅव्हल करण्याचा पर्याय योग्य वाटतो आणि पैसे कमवायला अख्खा आयुष्य पडलेलं आहे, युरोप सुद्धा तिथेच आहे मग जिवापेक्षा काही महत्वाचं असण्याची गरज आहे का ? 
+                </p>
+                <!--for single slider-->
+                <!-- <a href="https://mangoholidays.in/form_melava.php?melava=Nashik-Melawa-1-Mar-2020">
                     <img src="<?php echo base_url();?>assets/images/popup/Nashik-Melawa-1-Mar-2020.jpg" alt="Nashik-Melawa-1-Mar-2020"/>
-                </a>
+                </a> -->
+                <!--end of single slider-->
+
                 <!--for popup slider-->
                 <!-- <div class="popup-carousel">
                     <div class="item" >
@@ -1155,9 +1165,11 @@
                 
         </form>
     </div>
-        <div class="modal-footer">
+        <div class="modal-footer" style="padding:20px;">
         <!--         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
         <!-- <a class="pre-order-btn" href="<?php echo base_url();?>melava-registration-form">Click For Registration</a> -->
+        <a class="pre-order-btn" style="font-size:20px; text-align:left !important;" target="_blank" href="<?php echo base_url();?>assets/images/popup/Mango-Holiday-पर्यटन-विश्वाला-लागलेली-घरघर.pdf">Click Here To Read More</a>
+        <br/>
         </div>
     </div>
 

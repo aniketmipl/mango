@@ -1285,11 +1285,18 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a{
 }
 
 /*modal css*/
+.modal-body{
+        background: url(../images/bg/ct1.jpg);
+        background-position: center right;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
 .modal-header {
     padding: 15px;
     border-bottom: 1px solid #e5e5e5;
     background: #FF6600;
     color:#fff;
+    
 }
 .modal-body table {
     font-size: inherit;
@@ -1302,6 +1309,13 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a{
 .modal p{
     font-size: 1.1em;
     letter-spacing: 0.3px;
+}
+.modal p.text{
+    font-size:1.5em;
+    text-align: left;
+    padding: 2% 5%;
+    line-height: 2;
+    font-weight: 600;
 }
 .modal-header .close{
  color:#fff;
@@ -1346,6 +1360,9 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a{
 @media only screen and (max-width:768px){
     .modal-body h3{
         text-align:center;
+    }
+    .modal p.text{
+        font-size:1.1em;
     }
 }
 
