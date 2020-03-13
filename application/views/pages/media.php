@@ -34,6 +34,32 @@
             <div class="col-md-4 col-sm-6 mb-40">
                 <div class="hover-box tour-blog-box blog-item-1">
                     <div class="tour-img image">
+                        <img src="<?php echo base_url();?>assets/images/blog/ParyatanVishwala...Gharghar-03-20.jpg" alt="BLOG">
+                        <div class="over-layer">
+                            <div class="links">
+                                <ul class="list-inline">
+                                    <li><a href="<?php echo base_url();?>assets/images/blog/D-421-MGHD-Sakal-Article-ParyatanVishwala...Gharghar-03-20.pdf" target="_blank"><i class="ion-ios-search-strong"></i></a></li>
+                                    <li><a href="<?php echo base_url();?>assets/images/blog/D-421-MGHD-Sakal-Article-ParyatanVishwala...Gharghar-03-20.pdf" download><i class="fa fa-download"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tour-item blog-item">
+                        <div class="blog-details">
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="ion-person"></i> मिलिंद बाबर</a></li>
+                                <li><a href="#"><i class="ion-ios-calendar"></i> मार्च २०२०  </a></li>
+                                <li><a href="#"><i class="ion-chatbubble-working"></i> सकाळ </a></li>
+                            </ul>
+                            <h4><a href="#">पर्यटन विश्वाला लागलेली घरघर........</a></h4>
+                            <a class="read-btn" href="<?php echo base_url();?>assets/images/blog/D-421-MGHD-Sakal-Article-ParyatanVishwala...Gharghar-03-20.pdf" target="_blank">Download / View <i class="ion-ios-arrow-thin-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-40">
+                <div class="hover-box tour-blog-box blog-item-1">
+                    <div class="tour-img image">
                         <img src="<?php echo base_url();?>assets/images/blog/lokrang-9-12-18.jpg" alt="">
                         <div class="over-layer">
                             <div class="links">
@@ -239,32 +265,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mb-40">
-                <div class="hover-box tour-blog-box blog-item-1">
-                    <div class="tour-img image">
-                        <img src="<?php echo base_url();?>assets/images/blog/discount-kiti-khare-kiti-khote-2-sep-2018.jpg" alt="">
-                        <div class="over-layer">
-                            <div class="links">
-                                <ul class="list-inline">
-                                    <li><a href="<?php echo base_url();?>assets/images/blog/discount-kiti-khare-kiti-khote-2-sep-2018.pdf" target="_blank"><i class="ion-ios-search-strong"></i></a></li>
-                                    <li><a href="<?php echo base_url();?>assets/images/blog/discount-kiti-khare-kiti-khote-2-sep-2018.pdf" download><i class="fa fa-download"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tour-item blog-item">
-                        <div class="blog-details">
-                            <ul class="list-inline">
-                                <li><a href="#"><i class="ion-person"></i> मिलिंद बाबर</a></li>
-                                <li><a href="#"><i class="ion-ios-calendar"></i> 2 सप्टेंबर २०१८ </a></li>
-                                <li><a href="#"><i class="ion-chatbubble-working"></i>  दिव्य मराठी</a></li>
-                            </ul>
-                            <h4><a href="#">डिस्काउंट ….. किती खरे?? किती खोटे??</a></h4>
-                            <a class="read-btn" href="<?php echo base_url();?>assets/images/blog/discount-kiti-khare-kiti-khote-2-sep-2018.pdf" target="_blank">Download / View <i class="ion-ios-arrow-thin-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
         <div class="row">
             <div class="col-sm-12">

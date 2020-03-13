@@ -896,7 +896,33 @@
                 </div>
                 <div class="row">
                 <div class="col-md-12">
-                    <div id="tour-carousel" class="tour-carousel-ltr owl-carousel owl-theme">
+                    <div id="tour-carousel" class="tour-carousel-ltr-no-autoplay owl-carousel owl-theme">
+                        <div class="item">
+                        <div class="hover-box tour-blog-box blog-item-1">
+                            <div class="tour-img image">
+                                <img src="<?php echo base_url();?>assets/images/blog/ParyatanVishwala...Gharghar-03-20.jpg" alt="BLOG">
+                                <div class="over-layer">
+                                    <div class="links">
+                                        <ul class="list-inline">
+                                            <li><a href="<?php echo base_url();?>assets/images/blog/D-421-MGHD-Sakal-Article-ParyatanVishwala...Gharghar-03-20.pdf" target="_blank"><i class="ion-ios-search-strong"></i></a></li>
+                                            <li><a href="<?php echo base_url();?>assets/images/blog/D-421-MGHD-Sakal-Article-ParyatanVishwala...Gharghar-03-20.pdf" download><i class="fa fa-download"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tour-item blog-item">
+                                <div class="blog-details">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="ion-person"></i> मिलिंद बाबर</a></li>
+                                        <li><a href="#"><i class="ion-ios-calendar"></i> मार्च २०२०  </a></li>
+                                        <li><a href="#"><i class="ion-chatbubble-working"></i> सकाळ </a></li>
+                                    </ul>
+                                    <h4><a href="#">पर्यटन विश्वाला लागलेली घरघर........</a></h4>
+                                    <a class="read-btn" href="<?php echo base_url();?>assets/images/blog/D-421-MGHD-Sakal-Article-ParyatanVishwala...Gharghar-03-20.pdf" target="_blank">Download / View <i class="ion-ios-arrow-thin-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                         <div class="item">
                         <div class="hover-box tour-blog-box blog-item-1">
                             <div class="tour-img image">
@@ -1178,12 +1204,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <!--to enable popup uncomment below code-->
-<script>
+<!-- <script>
 $(document).ready(function(){       
    $('#popupModal').modal('show');
     }); 
 
-</script>
+</script> -->
 
 
 <script>

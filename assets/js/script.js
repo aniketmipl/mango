@@ -216,6 +216,35 @@
             }
         }
     });
+
+    $('.tour-carousel-ltr-no-autoplay').owlCarousel({
+        loop: true,
+        ltr: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        autoplay: false,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: false,
+        autoplaySpeed: 2000,
+        animateOut: '',
+        animateIn: 'zoomIn',
+        navText: [
+            '<i class="ion-ios-arrow-left"></i>',
+            '<i class="ion-ios-arrow-right"></i>'
+        ],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
 	
 	$('.tour-carousel').owlCarousel({
         loop: true,
